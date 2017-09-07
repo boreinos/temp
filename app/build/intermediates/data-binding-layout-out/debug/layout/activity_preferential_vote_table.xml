@@ -1,0 +1,404 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".PreferentialVoteActivity" >
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/abort_btn"
+            android:layout_width="154dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textSize="@dimen/buttonsTextSize"
+            android:text="Descartar\nRestantes" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/mismatch_tv"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:textColor="@color/red"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/ballot_tv"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:padding="2dp"
+                    android:textColor="@color/blue"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/bandera_tv"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="2dp"
+                    android:textColor="@color/blue"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/party_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="70dp"
+                        android:padding="2dp"
+                        android:text="Votos"
+                        android:textColor="@color/blue"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="right"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:id="@+id/colOne"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:textColor="@color/blue"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:id="@+id/colTwo"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:textColor="@color/blue"
+                            android:textSize="22sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/colThree"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:textColor="@color/blue"
+                            android:textSize="22sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/marcas_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_gravity="left"
+                android:text="Candidatos Con Marcas: "
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/title_layout"
+        android:background="#FF0000" />
+
+    <RelativeLayout
+        android:id="@+id/linearlayoutview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view01"
+        android:layout_marginLeft="24dp" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_cbsb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dip" >
+
+            <CheckBox
+                android:id="@+id/item_check_one_b"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_checkbox_selector"
+                android:focusableInTouchMode="true"
+                android:clickable="true" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/partido_et_one"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:focusableInTouchMode="false"
+                android:textSize="@dimen/buttonsTextSize"
+                android:maxLength="3"
+                android:visibility="gone"/>
+
+            <CheckBox
+                android:id="@+id/item_check_two_b"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_checkbox_selector"
+                android:focusableInTouchMode="true"
+                android:clickable="true" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/partido_et_two"
+                android:maxLength="3"
+                android:textSize="@dimen/buttonsTextSize"
+                android:focusableInTouchMode="false"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_icon_b"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/linear_layout_cbsb"
+            android:contentDescription="@string/candidatepicture"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/txt_name_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/image_icon_b"
+            android:textColor="@color/DarkBlue"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/party_marks_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="360dp"
+            android:layout_toLeftOf="@id/txt_name_b"
+            android:text="Marcas"
+            android:textColor="@color/DarkBlue"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/party_votes_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="260dp"
+            android:layout_toLeftOf="@id/party_marks_txt"
+            android:text="0"
+            android:textColor="@color/DarkBlue"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/party_votes_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="142dp"
+            android:layout_toLeftOf="@id/party_votes_txt"
+            android:text="0"
+            android:textColor="@color/DarkBlue"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/party_votes_txt_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="0"
+            android:textColor="@color/DarkBlue"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view02"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/linearlayoutview01"
+        android:background="#FF0000" />
+
+    <ScrollView
+        android:id="@+id/preferential_votes_table_sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view02"
+        android:layout_marginBottom="95dp"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/preferential_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="3" >
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/linear_layout_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:padding="2dip" >
+
+            <Button
+                android:id="@+id/ingreso_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/buttonsTextSize"
+                android:padding="10dp"
+                android:text="Ingresar" />
+
+            <Button
+                android:id="@+id/reingreso_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/buttonsTextSize"
+                android:padding="10dp"
+                android:text="Re-Ingresar" />
+
+            <Button
+                android:id="@+id/verificacion_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/buttonsTextSize"
+                android:padding="10dp"
+                android:text="Verificar" />
+
+            <Button
+                android:id="@+id/bandera_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:textSize="@dimen/buttonsTextSize"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Bandera" />
+
+            <Button
+                android:id="@+id/todos_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:textSize="@dimen/buttonsTextSize"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Todos" />
+
+            <Button
+                android:id="@+id/reninitate_boleta_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:textSize="@dimen/buttonsTextSize"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Reiniciar\nBoleta" />
+
+            <Button
+                android:id="@+id/aceptar_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:textSize="@dimen/buttonsTextSize"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Aceptar" />
+
+            <Button
+                android:id="@+id/nextballot_btn"
+                android:layout_width="0dp"
+                android:layout_height="85dp"
+                android:layout_margin="2dp"
+                android:textSize="@dimen/buttonsTextSize"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Proxima\nPapeleta" />
+        </LinearLayout>
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

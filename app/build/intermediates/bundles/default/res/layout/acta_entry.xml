@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="420dp"
+        android:background="@color/transparent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totalVotes"
+        android:background="@color/transparent"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totalMarks"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/planchavotes"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/planchaMarks"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/parcialvotes"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/parcialMarks"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/cruzadovotes"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/cruzadoMarks"
+        android:background="@color/transparent"
+        android:textAlignment="center"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"/>
+
+</LinearLayout>

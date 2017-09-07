@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActaActivity" >
+
+    <TextView
+        android:id="@+id/vote_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vote_center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp" >
+
+            <TextView android:id="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="20dp"
+                android:text="Municipio:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:text="Departamento:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp" >
+
+            <TextView android:id="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_marginLeft="20dp"
+                android:text="Codigo de Barra:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:text="@string/receptora"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView25"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/tableLayout1"
+        android:background="#FF0000" />
+    <LinearLayout
+        android:id="@+id/previewHolder"
+        android:layout_width="1024dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        <android.view.SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.view.SurfaceView>
+
+        <!--android:layout_marginBottom="110dp"-->
+        <!--android:layout_marginTop="110dp"-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imagePreview"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="1024dp"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_below="@id/previewHolder"
+        android:text="Por Favor Mantenga La Hoja Fija Mientras Se Toma La Fotografía"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:id="@+id/warningMessage"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textboxleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view01"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/previewHolder"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_rightBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="210dp"
+        android:layout_toRightOf="@id/previewHolder"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/descartar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:text="DESCARTAR \nPROXIMA" />
+                
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="FINALIZAR" />
+
+
+        <Button
+            android:id="@+id/acta_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="IMAGEN" />
+
+        <Button
+            android:id="@+id/reject_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="RECHAZAR" />
+
+        <Button
+            android:id="@+id/aceptar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="ACEPTAR" />
+
+        <Button
+            android:id="@+id/addMore_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:text="AÑADIR \nIMAGEN" />
+    </LinearLayout>
+
+</RelativeLayout>

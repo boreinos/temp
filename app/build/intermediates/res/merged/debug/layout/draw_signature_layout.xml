@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/patient_video_dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/prompt_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <!--<EditText-->
+        <!--android:id="@+id/dui_text"-->
+        <!--android:layout_width="280dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:maxLength="@string/duiLength"-->
+        <!--android:inputType="phone"-->
+        <!--android:password="true"-->
+        <!--android:digits="0123456789-"-->
+        <!--android:padding="20dp"-->
+        <!--android:focusable="true"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="25sp" />-->
+
+        <com.afilon.mayor.v11.signaturepad.views.SignaturePad
+            android:id="@+id/signature_pad"
+            android:backgroundTint="@color/white"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:focusable="true" />
+
+        <LinearLayout
+            android:id="@+id/patient_video_dialog_layout_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="220dp"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/continue_btn"
+                android:layout_width="220dp"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\tenhexkbd.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\src\\main\\res\\xml\\tenhexkbd.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\tenhexkbd.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\src\\main\\res\\xml\\tenhexkbd.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\debug\\xml\\tenhexkbd.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\xml\\tenhexkbd.xml"
+    }
+]

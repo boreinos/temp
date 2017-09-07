@@ -1,0 +1,187 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.afilon.hondurasmayor">
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MSplash"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.afilon.mayor.v11.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.afilon.mayor.v11.activities.RollCall"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnchanged">
+        </activity>
+        <activity
+            android:name="com.afilon.mayor.v11.activities.LoginActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.JrvActivity"
+            android:label="@string/title_activity_tse_main"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.LastActivity"
+            android:label="@string/title_activity_tse_main"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.PapeletasActivity"
+            android:label="@string/title_activity_tse_main"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.ReclamosActivity"
+            android:label="@string/title_activity_third"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.ReclamosActivity1"
+            android:label="@string/title_activity_third"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.CheckListActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.CameraActaActivity"
+            android:label="@string/title_activity_fouth"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.EmptyTableActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.PuestaCeroTableActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.FinalTableActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.SummaryActivity"
+            android:label="SummaryActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnchanged" />
+
+        <activity
+            android:name="com.afilon.mayor.v11.activities.FinalTableLazyLoadingActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.ParlacenCandidateListActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.ParlacenVoteTableActivity"
+            android:label="@string/title_activity_fifth"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.WebViewJrvActivity"
+            android:label="@string/title_activity_web_view" />
+        <activity
+            android:name=".activities.NotUsedVerticalConceptoTableActivity"
+            android:label="@string/title_activity_horizontal_concepto"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.VerticalConceptoTableActivity"
+            android:label="@string/title_activity_horizontal_concepto"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+
+            />
+        <activity
+            android:name="com.afilon.mayor.v11.activities.VerticalVoteTableActivity"
+            android:label="@string/title_activity_horizontal_concepto"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name="com.afilon.mayor.v11.activities.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.afilon.mayor.v11.activities.CrossedVoteActivity"
+            android:label="@string/title_activity_horizontal_concepto"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppCompatTheme"
+            android:windowSoftInputMode="stateHidden">
+            >
+        </activity>
+        <!--
+        ATTENTION: This was auto-generated to add Google Play services to your project for
+        App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.afilon.mayor.v11.activities.CrossVoteSummaryActivity"
+            android:screenOrientation="landscape">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.afilon.mayor.v11.activities.ExitActivity"
+            android:screenOrientation="landscape"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+include ':app', ':wheel', ':asamblea', ':mayor', ':presidente', ':hondurasmayor', ':hondurasasamblea', ':hondurasasamblea', ':honduraspresidente', ':mermanager', ':asamblea2'

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/papeletasParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="false"
+    tools:context=".activities.PapeletasActivity">
+    <!--android:filterTouchesWhenObscured="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:filterTouchesWhenObscured="true"-->
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout001"
+        android:focusable="false"
+        android:layout_marginTop="0dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/textView21"
+                android:text="Municipio:" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:text="Departamento:" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView31"
+                android:text="Codigo de Barra:" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:text="@string/JRVLabelc" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_span="2"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:text="Centro de Votacion:" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_span="5" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/lineView1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:focusable="false"
+        android:layout_below="@id/tableLayout1"
+        android:background="#FF0000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineView1"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="HORA DE CONCLUSION:" />
+
+        <TextView
+            android:id="@+id/textViewHour"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_corners"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:hint="INGRESAR"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/textViewMin"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:hint="REINGRESAR"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/button414"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout4"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="PAPELETA INICIAL:" />
+
+        <EditText
+            android:id="@+id/textView112"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="NÚMERO"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textIsSelectable="false"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/textView113"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:layout_marginRight="5dp"
+            android:hint="REINGRESAR"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/button114"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="PAPELETA FINAL:" />
+
+        <EditText
+            android:id="@+id/textView122"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="NÚMERO"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textIsSelectable="false"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/textView123"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textIsSelectable="false"
+            android:hint="REINGRESAR"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/button124"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView121Last"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="CANTIDAD PAPELETAS:" />
+
+        <EditText
+            android:id="@+id/textView122Last"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="CANTIDAD"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textIsSelectable="false"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/textView123Last"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textIsSelectable="false"
+            android:hint="REINGRESAR"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/buttonLast"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutLast"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="TOTAL DE PAPELETAS:" />
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_corners"
+            android:hint="CALCULADO"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_corners"
+            android:hint="INGRESAR"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/procedo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:focusable="false"
+        android:layout_marginRight="10dp"
+        android:padding="30dp"
+        android:text="CONTINUAR" />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="205dp"
+        android:layout_marginRight="10dp"
+        android:padding="30dp"
+        android:text="Re-iniciar"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

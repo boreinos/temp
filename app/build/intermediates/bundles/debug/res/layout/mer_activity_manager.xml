@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RollCall">
+    <!--android:padding="20dp"-->
+    <TextView
+        android:id="@+id/screenHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Unknown Title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screenHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/escudo_small_176" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/afion_name"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tse_elections" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/tribunal_supremo_electoral" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout001"
+        android:layout_marginTop="0dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:text="Municipio:" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:text="Departamento:" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:text="Codigo de Barra:" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:text="@string/JRVLabel" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_span="2"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView61"
+                android:text="Centro de Votacion:" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_span="5" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/lineView1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:layout_below="@id/tableLayout1"
+        android:background="#FF0000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineView1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/Aqua"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Aqua"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewHour"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:gravity="center"
+            android:hint="INGRESAR"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewMin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:gravity="center"
+            android:hint="REINGRESAR"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textView415"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/Aqua"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/textView41HF"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewHourHF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:gravity="center"
+            android:hint="INGRESAR"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewMinHF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:gravity="center"
+            android:hint="REINGRESAR"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textView415HF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tableHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutHF"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="PROPRIETARIOS"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableHeader"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewh"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/OfficialsHeader"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingLeft="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="        "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewh2"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rollCallPhrase"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <!--margin left changed to 10 dp from 25 dp-->
+        <TextView
+            android:id="@+id/textViewh3"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:text="NOMBRES Y APELLIDOS"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cambioView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="PARTY"
+            android:textSize="16sp"/>
+        <!--android:visibility="gone" removed from below-->
+        <!--<TextView-->
+            <!--android:id="@+id/cambioView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:text="MODIFICAR"-->
+            <!--android:textSize="16sp"-->
+             <!--/>-->
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/memMiembros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutheader"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/parentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical"
+            android:splitMotionEvents="true"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_rightBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <!--buttons were width 190dp-->
+        <!--width changed to 210 from 230-->
+        <Button
+            android:id="@+id/supplentesBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="5dp"
+            android:text="PROPRIETARIOS"/>
+
+        <Button
+            android:id="@+id/shiftBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:text="PROMOVER"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/sustituirBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:text="SUSTITUIR"/>
+
+        <Button
+            android:id="@+id/modificar_btn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:text="INGRESAR">
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:text="LIMPIAR" />
+
+        <Button
+            android:id="@+id/aceptar_btn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="5dp"
+            android:nextFocusDown="@+id/aceptar_btn"
+            android:nextFocusForward="@+id/aceptar_btn"
+            android:nextFocusLeft="@+id/aceptar_btn"
+            android:nextFocusRight="@+id/aceptar_btn"
+            android:nextFocusUp="@+id/aceptar_btn"
+            android:text="ACEPTAR" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="#00ffffff"
+        android:focusable="false"
+        android:indeterminateDrawable="@drawable/my_progress_indeterminate"
+        android:visibility="gone" />
+
+</RelativeLayout>

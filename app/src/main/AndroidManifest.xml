@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afilon.mayor.v11"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="23" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- <application -->
+    <!-- android:allowBackup="true" -->
+    <!-- android:icon="@drawable/ic_launcher" -->
+    <!-- android:label="@string/app_name" -->
+    <!-- android:theme="@style/AppTheme"> -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.SplashActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/app_name"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape">&ndash;&gt; -->
+    <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity android:name=".activities.RollCall"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged">&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.LoginActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.JrvActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_tse_main"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.LastActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_tse_main"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.PapeletasActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_tse_main"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.ReclamosActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_third"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.CheckListActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.CameraActaActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fouth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:theme="@style/Theme.Transparent"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.EmptyTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.PuestaCeroTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name=".activities.FinalTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.SummaryActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="SummaryActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.sumtest"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="SummaryActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.FinalTableLazyLoadingActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateUnchanged" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.ParlacenCandidateListActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.ParlacenVoteTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_fifth"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.WebViewJrvActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_web_view" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name=".activities.NotUsedVerticalConceptoTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_horizontal_concepto"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.VerticalConceptoTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_horizontal_concepto"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="adjustResize"&ndash;&gt; -->
+    <!-- &lt;!&ndash;/>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name=".activities.VerticalVoteTableActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_horizontal_concepto"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity android:name=".activities.CaptureActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:configChanges="orientation|keyboardHidden"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:theme="@android:style/Theme.NoTitleBar.Fullscreen"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateAlwaysHidden"&ndash;&gt; -->
+    <!-- &lt;!&ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<action android:name="com.google.zxing.client.android.SCAN" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.google.zxing.client.android.CaptureActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:configChanges="orientation|keyboardHidden"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:theme="@android:style/Theme.NoTitleBar.Fullscreen"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateAlwaysHidden">&ndash;&gt; -->
+    <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<action android:name="com.google.zxing.client.android.SCAN" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.CrossedVoteActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:label="@string/title_activity_horizontal_concepto"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:theme="@style/AppCompatTheme"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:windowSoftInputMode="stateHidden">&ndash;&gt; -->
+    <!-- &lt;!&ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;&lt;!&ndash;&ndash;&gt; -->
+    <!-- &lt;!&ndash;ATTENTION: This was auto-generated to add Google Play services to your project for&ndash;&gt; -->
+    <!-- &lt;!&ndash;App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.&ndash;&gt; -->
+    <!-- &lt;!&ndash;&ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;<meta-data&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.google.android.gms.version"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:value="@integer/google_play_services_version" />&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:name="com.afilon.mayor.v11.activities.CrossVoteSummaryActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape">&ndash;&gt; -->
+    <!-- &lt;!&ndash;&lt;!&ndash; <intent-filter> &ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;&lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;&lt;!&ndash; </intent-filter> &ndash;&gt;&ndash;&gt; -->
+    <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+    <!-- &lt;!&ndash;<activity android:name="com.afilon.mayor.v11.activities.ExitActivity"&ndash;&gt; -->
+    <!-- &lt;!&ndash;android:screenOrientation="landscape"></activity>&ndash;&gt; -->
+    <!-- </application> -->
+    <application>
+        <activity android:name=".activities.DirectVoteCounter" />
+        <activity android:name=".activities.VoteCounterActivity"></activity>
+    </application>
+
+</manifest>

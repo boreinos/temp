@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp">
+
+    <CheckBox
+        android:id="@+id/first_cb"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:button="@drawable/btn_cb_cntr_selector"/>
+    <CheckBox
+        android:id="@+id/second_cb"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/btn_cb_cntr_selector"/>
+    <ImageView
+        android:id="@+id/party_flag"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="3dp"
+        android:contentDescription="party"/>
+    <TextView
+        android:id="@+id/party_name"
+        android:ellipsize="marquee"
+        android:textStyle="bold|italic"
+        android:textColor="@color/DarkBlue"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vote_tv"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/acc_tv"
+        android:paddingLeft="20dp"
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/new_acc_tv"
+        android:paddingLeft="20dp"
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

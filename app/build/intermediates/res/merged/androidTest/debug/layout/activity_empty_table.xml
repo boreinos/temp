@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/empty_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".EmptyTableActivity"
+    android:nextFocusUp="@+id/aceptar_btn"
+    android:nextFocusDown="@+id/aceptar_btn"
+    android:nextFocusRight="@+id/aceptar_btn"
+    android:nextFocusLeft="@+id/aceptar_btn"
+    android:nextFocusForward="@+id/aceptar_btn">
+
+    <TextView
+        android:id="@+id/vote_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:nextFocusUp="@+id/aceptar_btn"
+        android:nextFocusDown="@+id/aceptar_btn"
+        android:nextFocusRight="@+id/aceptar_btn"
+        android:nextFocusLeft="@+id/aceptar_btn"
+        android:nextFocusForward="@+id/aceptar_btn"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vote_center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp" >
+
+            <TextView android:id="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="20dp"
+                android:text="Municipio:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:text="Departamento:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:nextFocusUp="@+id/aceptar_btn"
+            android:nextFocusDown="@+id/aceptar_btn"
+            android:nextFocusRight="@+id/aceptar_btn"
+            android:nextFocusLeft="@+id/aceptar_btn"
+            android:nextFocusForward="@+id/aceptar_btn">
+
+            <TextView android:id="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_marginLeft="20dp"
+                android:text="Codigo de Barra:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:text="@string/receptora"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/tableLayout1"
+        android:background="#FF0000"
+        android:nextFocusUp="@+id/aceptar_btn"
+        android:nextFocusDown="@+id/aceptar_btn"
+        android:nextFocusRight="@+id/aceptar_btn"
+        android:nextFocusLeft="@+id/aceptar_btn"
+        android:nextFocusForward="@+id/aceptar_btn"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view01"
+        android:layout_marginRight="200dp"
+        android:scrollbars="none"
+        android:focusable="false"
+        android:nextFocusUp="@+id/aceptar_btn"
+        android:nextFocusDown="@+id/aceptar_btn"
+        android:nextFocusRight="@+id/aceptar_btn"
+        android:nextFocusLeft="@+id/aceptar_btn"
+        android:nextFocusForward="@+id/aceptar_btn">
+    </ListView>
+
+    <com.afilon.mayor.v11.fragments.CustomTextView
+        android:id="@+id/puestacera_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="250dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="PUESTA CERO"
+        android:textColor="@color/Gray"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_rightBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:nextFocusUp="@+id/aceptar_btn"
+        android:nextFocusDown="@+id/aceptar_btn"
+        android:nextFocusRight="@+id/aceptar_btn"
+        android:nextFocusLeft="@+id/aceptar_btn"
+        android:nextFocusForward="@+id/aceptar_btn"
+        >
+
+
+        <Button
+            android:id="@+id/aceptar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="CONTINUAR"
+            android:nextFocusUp="@+id/aceptar_btn"
+            android:nextFocusDown="@+id/aceptar_btn"
+            android:nextFocusRight="@+id/aceptar_btn"
+            android:nextFocusLeft="@+id/aceptar_btn"
+            android:nextFocusForward="@+id/aceptar_btn"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <RadioGroup
+        android:id="@+id/radiobuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radioBtn"
+            android:layout_width="70dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:button="@drawable/disabled_cb"
+            android:clickable="true"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/concepto_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:text="30sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/concepto_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:background="#00000000"
+        android:selectAllOnFocus="true"
+        android:layout_weight="1"
+        android:gravity="right">
+    </EditText>
+
+</LinearLayout>

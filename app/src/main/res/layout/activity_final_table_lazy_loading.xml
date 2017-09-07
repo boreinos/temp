@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Big Title on top for Voting Center -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/vote_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="300dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- take away auto focus -->
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <!-- 1st ROW -->
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp" >
+
+            <TextView android:id="@+id/textView11" />
+
+            <!-- Municipio Label -->
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="20dp"
+                android:text="Municipio:"
+                android:textStyle="bold" />
+
+            <!-- Municipio Value -->
+
+            <TextView
+                android:id="@+id/textView13"
+                android:text="" />
+
+            <!-- Departamento Label -->
+
+            <TextView
+                android:id="@+id/textView14"
+                android:text="Departamento:"
+                android:textStyle="bold" />
+
+            <!-- Departamento Value -->
+
+            <TextView
+                android:id="@+id/textView15"
+                android:text="" />
+        </TableRow>
+
+        <!-- 2nd ROW -->
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp" >
+
+            <TextView android:id="@+id/textView21" />
+
+            <!-- Codigo de Barra Label -->
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_marginLeft="20dp"
+                android:text="Codigo de Barra:"
+                android:textStyle="bold" />
+
+            <!-- Codigo de barra Value -->
+
+            <TextView
+                android:id="@+id/textView23"
+                android:text="" />
+
+            <!-- JRV Label -->
+
+            <TextView
+                android:id="@+id/textView24"
+                android:text="@string/JRVc"
+                android:textStyle="bold" />
+
+            <!-- JRV Value -->
+
+            <TextView
+                android:id="@+id/textView25"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="137dp"
+        android:background="#FF0000" >
+    </View>
+
+    <ScrollView
+        android:id="@+id/concepts_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="260dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/list_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="3" >
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 3 Buttons below -->
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/modificar_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:filterTouchesWhenObscured="true"
+            android:textSize="@dimen/buttonsTextSize"
+            android:text="MODIFICAR" >
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/aceptar_cambios_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:filterTouchesWhenObscured="true"
+            android:textSize="@dimen/buttonsTextSize"
+            android:text="ACEPTAR CAMBIOS" >
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/rechezar_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:filterTouchesWhenObscured="true"
+            android:textSize="@dimen/buttonsTextSize"
+            android:text="RECHAZAR" />
+
+        <Button
+            android:id="@+id/aceptar_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:filterTouchesWhenObscured="false"
+            android:textSize="@dimen/buttonsTextSize"
+            android:layout_marginRight="5dp"
+            android:text="ACEPTAR"
+            android:drawableLeft="@drawable/error"/>
+
+        <Button
+            android:id="@+id/continuar_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:filterTouchesWhenObscured="true"
+            android:textSize="@dimen/buttonsTextSize"
+            android:layout_marginRight="5dp"
+            android:text="CONTINUAR"
+            android:drawableLeft="@drawable/error"
+            android:visibility="gone">
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+    <!-- Custom Keyboard -->
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:filterTouchesWhenObscured = "false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    <!--<android.inputmethodservice.KeyboardView-->
+        <!--android:id="@+id/keyboardview2"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:filterTouchesWhenObscured = "false"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:focusableInTouchMode="true"-->
+        <!--android:visibility="gone" />-->
+
+</FrameLayout>
