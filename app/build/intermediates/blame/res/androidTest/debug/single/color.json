@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
         "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_search_url_text.xml"
     },
@@ -32,12 +36,16 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\color\\common_signin_btn_text_light.xml"
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\color\\common_signin_btn_text_light.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
@@ -56,8 +64,20 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\d4fbc85209e66e1a3f8145ab4ab1684604c914ed\\output\\res\\color\\common_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
@@ -66,6 +86,10 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\d4fbc85209e66e1a3f8145ab4ab1684604c914ed\\output\\res\\color\\common_signin_btn_text_light.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
@@ -92,6 +116,10 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
@@ -100,12 +128,24 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_dark.xml",
@@ -122,6 +162,10 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",

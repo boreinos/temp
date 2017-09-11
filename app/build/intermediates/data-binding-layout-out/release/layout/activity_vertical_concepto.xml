@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/conceptsParent"
+    tools:context=".HorizontalVoteTableActivity" >
+
+        <TextView
+            android:id="@+id/vote_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <!-- Button to fill-out the TextViews -->
+
+        <Button
+            android:id="@+id/fillout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/fill_out_64"
+            android:onClick="onClick_FillOut"
+            android:focusable="false"
+            android:text=""
+            android:visibility="gone" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vote_center"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_marginLeft="20dp"
+                    android:text="Municipio:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_span="2"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:text="Departamento:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/JRVc"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:id="@+id/view012"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:focusable="false"
+            android:layout_below="@id/tableLayout1"
+            android:background="#FF0000" />
+
+        <ScrollView
+            android:id="@+id/concepto_table_sv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view012"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:id="@+id/concepto_table"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*" >
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/reingresar_btn"
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="50dp"
+                        android:textSize="@dimen/buttonsTextSize"
+                        android:focusable="false"
+                        android:text="REINGRESAR" />
+
+                    <Button
+                        android:id="@+id/verificar_btn"
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="50dp"
+                        android:textSize="@dimen/buttonsTextSize"
+                        android:focusable="false"
+                        android:text="VERIFICAR" />
+
+                    <Button
+                        android:id="@+id/continuar_btn"
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/buttonsTextSize"
+                        android:focusable="false"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:text="CONTINUAR" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textView233"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/iniciar_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/iniciarBtnMargin"
+            android:layout_marginRight="30dp"
+            android:text="INICIAR"
+            android:layout_width="225dp" />
+
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

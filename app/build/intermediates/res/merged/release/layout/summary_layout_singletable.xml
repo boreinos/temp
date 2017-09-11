@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- XML for Header  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <!-- Table for Layout -->
+    <TableLayout
+        android:id="@+id/table_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:focusable="false"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <!-- Row 1 -->
+        <TableRow
+            android:id="@+id/table_1_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <!-- Blank Text -->
+            <TextView android:id="@+id/blank1_text" />
+
+            <!-- Municipal Label Text -->
+            <TextView
+                android:id="@+id/municipal_text"
+                android:layout_marginLeft="20dp"
+                android:text="Municipio:"
+                android:textStyle="bold" />
+
+            <!-- Municipal Value Text -->
+            <TextView
+                android:id="@+id/municipal_value"
+                android:text="" />
+
+            <!-- Department Label Text -->
+            <TextView
+                android:id="@+id/department_text"
+                android:text="Departamento:"
+                android:textStyle="bold" />
+
+            <!-- Department Value Text -->
+            <TextView
+                android:id="@+id/department_value"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow
+            android:id="@+id/table_1_row_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <!-- Blank Text -->
+            <TextView android:id="@+id/blank2_text" />
+
+            <!-- Barcode Text-->
+            <TextView
+                android:id="@+id/barcode_text"
+                android:text="Codigo de Barra"
+                android:textStyle="bold" />
+
+            <!-- Barcode Value -->
+            <TextView
+                android:id="@+id/barcode_value"
+                android:text="" />
+
+            <!--- JRV Text -->
+            <TextView
+                android:id="@+id/jrv_text"
+                android:text="@string/JRVc"
+                android:textStyle="bold" />
+
+            <!-- JRV Value-->
+            <TextView
+                android:id="@+id/jrv_value"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Red Line Border -->
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:focusable="false"
+        android:layout_marginTop="137dp"
+        android:background="#FF0000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_marginTop="139dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_gravity="right"
+            android:padding="1dp">
+            <!-- Text View for Title -->
+            <TextView
+                android:id="@+id/summaryHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/txt_Banderas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:textColor="#00f" />
+
+            <TextView
+                android:id="@+id/txt_Banderas_votes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="480dp"
+                android:textColor="@color/DarkBlue" />
+
+            <LinearLayout
+                android:id="@+id/linear_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:padding="2dp">
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/printBtn"
+                    android:onClick="doPrint"
+                    android:src="@drawable/printimg" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="false"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/Candidate"
+                android:layout_width="420dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/Total"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Banderas"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Preferential"
+
+                android:layout_width="220dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Cruzados"
+
+                android:layout_width="220dp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:padding="1dp">
+
+
+
+            <TextView
+                android:layout_width="420dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/TotalVotos"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Voto"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/TotalMarcas"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Marcas"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/bandvotos"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/PrefVotos"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Voto"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/PrefMarcas"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Marcas"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/CruzVotos"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Voto"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/CruzMarcas"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Marcas"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_marginBottom="185dp"
+            android:fadeScrollbars="false"
+            android:padding="1dp"
+            android:scrollbars="vertical">
+
+            <ListView
+                android:id="@+id/list_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fastScrollEnabled="false"
+                android:fillViewport="true"
+                android:scrollbars="none"/>
+
+        </TableRow>
+    </LinearLayout>
+
+    <!-- GET RID OF THIS: -->
+
+    <!-- Party Select Buttons -->
+    <LinearLayout
+        android:id="@+id/select_party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:layout_marginBottom="110dp"/>
+
+    <!-- XML for Custom Keyboard -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    <!--<android.inputmethodservice.KeyboardView-->
+    <!--android:id="@+id/keyboardview2"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center|bottom"-->
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:visibility="gone" />-->
+</FrameLayout>

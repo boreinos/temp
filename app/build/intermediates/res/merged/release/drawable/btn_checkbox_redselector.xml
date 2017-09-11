@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/checked_red_focus" android:state_checked="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/checked_red" android:state_checked="true"/>
+    <item android:drawable="@drawable/focus_unchecked" android:state_focused="true"/>
+    <!--<item android:drawable="@drawable/unchecked_released" android:state_checkable="false"/>-->
+    <!--<item android:drawable="@drawable/unchecked_released" android:state_active="false"/>-->
+    <item android:drawable="@drawable/unchecked_released" android:state_enabled="false"/>
+    <item android:drawable="@drawable/unchecked" android:state_checked="false"/>
+
+
+
+</selector>
