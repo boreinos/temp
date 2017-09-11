@@ -153,10 +153,13 @@
     <string name="nullVotes">Nulo</string>
     <string name="blankVote">En Blanco</string>
     <string name="cancel">Cancelar</string>
+    <string name="confirmInvalid">Desea Aceptar el Voto Como </string>
+    <string name="invalidEntryMismatch">Typo de Voto Invalido No Conincide</string>
     <!-- Drawer Ballot Display -->
     <string name="validCount">Votos Validos:</string>
     <string name="nullCount">Votos Nulos:</string>
     <string name="blankCount">Votos En Blanco:</string>
+    <string name="impugnadoCount">Votos Impugnados:</string>
 
     <string name="ismesa">NO</string>
 </resources>

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Election\ElSalvador\AndroidApps\ElSalvador_Honduras\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Election\ElSalvador\AndroidApps\ElSalvador_Honduras\app\src\debug\shaders"/></dataSet></merger>

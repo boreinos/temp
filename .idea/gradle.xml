@@ -20,7 +20,21 @@
             <option value="$PROJECT_DIR$/wheel" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/asamblea" />
+            <option value="$PROJECT_DIR$/asamblea2" />
+            <option value="$PROJECT_DIR$/hondurasasamblea" />
+            <option value="$PROJECT_DIR$/hondurasmayor" />
+            <option value="$PROJECT_DIR$/honduraspresidente" />
+            <option value="$PROJECT_DIR$/mayor" />
+            <option value="$PROJECT_DIR$/mermanager" />
+            <option value="$PROJECT_DIR$/presidente" />
+            <option value="$PROJECT_DIR$/wheel" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

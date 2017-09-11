@@ -43,6 +43,12 @@
                 app:actionLayout="@layout/item_quantity"
                 android:icon="@drawable/ic_not_interested_black_24dp"
                 />
+            <!--<item-->
+                <!--android:id="@+id/nav_impugnado"-->
+                <!--android:title="Impugnado"-->
+                <!--app:actionLayout="@layout/item_quantity"-->
+                <!--android:icon="@drawable/ic_help_black_24dp"-->
+                <!--/>-->
             <item
                 android:id="@+id/nav_grantotal"
                 android:title="Gran Total"
