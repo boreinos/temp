@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_cbsb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <CheckBox
+            android:id="@+id/radioBtn"
+            android:layout_width="70dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:button="@drawable/disabled_cb"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:clickable="true"/> 
+    </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/linear_layout_txts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:padding="2dip" >
+
+        <TextView
+            android:id="@+id/txt_name_b"
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:ellipsize="marquee"
+            android:textColor="@color/DarkBlue"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:id="@+id/txt_vote_b"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:textColor="#00f"
+            android:background="@drawable/bg"
+            android:padding="5dp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+</TableRow>

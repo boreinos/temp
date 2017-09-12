@@ -2,5 +2,20 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\DHatch\\.android\\build-cache\\d4fbc85209e66e1a3f8145ab4ab1684604c914ed\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+>>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     }
 ]

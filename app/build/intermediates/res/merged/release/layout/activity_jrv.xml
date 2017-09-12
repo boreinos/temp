@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JrvActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout001"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/escudo_small_176" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/afion_name"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tse_elections" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tribunal_supremo_electoral" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout001"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView21"
+                android:text="Municipio:" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:text="Departamento:" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView31"
+                android:text="Codigo De Barra:" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_span="2" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:text="@string/JRVLabelc"/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_span="2"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:text="Centro de Votacion:" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_span="5" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/lineView1"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/tableLayout1"
+        android:layout_marginBottom="30dp"
+        android:background="#FF0000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineView1"
+        android:layout_toRightOf="@id/linearLayout1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--<Button-->
+            <!--android:id="@+id/continuarBtn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:text="CONTINUAR" />-->
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="LOGIN" />
+    </LinearLayout>
+    
+            <Button
+            android:id="@+id/admin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="20dp"
+                android:visibility="invisible"
+            android:text="ADMINISTRADOR" />
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="138dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@+id/lineView1"
+        android:layout_toRightOf="@+id/admin_btn"
+        android:layout_toEndOf="@+id/admin_btn"
+        android:layout_marginStart="138dp">
+
+        <!--<EditText-->
+            <!--android:id="@+id/textView43"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:hint="JUNTA RECEPTORA DE VOTOS No:"-->
+            <!--android:inputType="phone"-->
+            <!--android:padding="20dp" />-->
+
+        <EditText
+            android:id="@+id/scan_barcode_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="INGRESAR CODIGO DE BARRA"
+            android:maxLength="13"
+            android:inputType="phone"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/scan_barcode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="ESCANEAR CODIGO DE BARRA" />
+    </LinearLayout>
+
+</RelativeLayout>

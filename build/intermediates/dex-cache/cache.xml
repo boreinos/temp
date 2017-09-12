@@ -3,6 +3,7 @@
 
     <item
         is-multidex="false"
+<<<<<<< HEAD
         jar="C:\Users\ccano\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -157,10 +158,167 @@
     <item
         is-multidex="false"
         jar="C:\Users\ccano\.android\build-cache\2d71d6717a8fcca9be2290a16c605635ab65b50a\output\jars\classes.jar"
+=======
+        jar="D:\ElSalvador_Honduras\wheel\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="721a84e5ef05c8736fd923bb2b83f2bcc625cee6">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_442d914579f7041b4c9a27745c935c04622c6378.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ElSalvador_Honduras\app\build\intermediates\bundles\default\libs\httpmime-4.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7153f9bf83cf2713bbf5720f937aa5a22a87857a">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\httpmime-4.2.2_c39898a72b3d96780477374883802f81e50d0fc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\84e0d2284b7932d0f6df2924701729444bedff89\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_50a3670bb8aaf1d61a396f59835d4d1f368a79ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ElSalvador_Honduras\app\build\intermediates\bundles\default\libs\xstream-1.4.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f213eeefb3ae748039c5688a383bb88defc8d0b">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\xstream-1.4.6_dfe81bd78d58dee22e926fb49ede0f87952052ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ElSalvador_Honduras\app\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3a6a57467b6938e6c3abc99d882c652c39e55aa">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_532bb938fea3b316a8b3059de098ca128efe47d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\commons-lang3-3.5_86d6f1f9bd8f0898ebc11dcdbcce5c909bae5990.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_b559d05f3e854fc20c4d8b4f547ed525eac931f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\b08cc5b0b88c54f1ce42038db9af516d4ad66696\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_8f0d5aa585678adbb595fadbae78b9da617e1aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ElSalvador_Honduras\app\build\intermediates\bundles\default\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fea5d8d1b5da926c7e3003bcb7aa8515b9764a8">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1_02018bd15cd05900a1adcdba9dbc894644cefdeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\1082b9dc8a2699042e607872624aeaccf9e76437\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_3b39ae772e5e7d4de80663e88ad458b67ac426ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\f860b3cfa5db3a9ce480dfa9149b6385f4ada1ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_cbd51aaaea76fe90b216b2398705238b867b7a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.3.3\eb3399988a52099b0127e27fb5bed666eca86ace\baseLibrary-2.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb3399988a52099b0127e27fb5bed666eca86ace">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\baseLibrary-2.3.3_69689842496bec3f870bb9042353b8d29e2792e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\9d6e9c9a5ad8f8f9049bbd0277e3cb8d01308cb0\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_51f99fa5339c19522d53d48ddad9d965950de872.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\9d6e9c9a5ad8f8f9049bbd0277e3cb8d01308cb0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_2a5151ff2e2aa660041513aaf1b00e73fd1c9281.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\9357f1185e350284be4e50297cf9f67ce7abc2be\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_196c1e1b4c1aba110aab4d94c350b8d018897db5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\87a662f985e018d1b914f7966b1254f273dc919f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_6cd5d359baeee808ada577f435b8c8f7ebfb5fa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\d3f8fa151facec5f8829343521dd79e156ebcbd8\output\jars\classes.jar"
+>>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+<<<<<<< HEAD
         <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_82fee1e5506d01763ed9f4f11260860723c6d508.jar" />
     </item>
     <item
@@ -193,10 +351,45 @@
     <item
         is-multidex="false"
         jar="C:\Users\ccano\.android\build-cache\a52a524e5a785b5fcf36d7ad3b0ee5af1dc6ed9d\output\jars\classes.jar"
+=======
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_b3d3ab806675fd79969ff160e0b82456b737398e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\core-3.2.0_ba0fbba3c57e4ea51ba06c2ac97a7de551629cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\d4fbc85209e66e1a3f8145ab4ab1684604c914ed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_3b33f38e534fe6bf033ae7b2c5d983d62869f3fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_cb7fc733aca7cb5b0bd02db0e126270087e3c66b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\d6a418c95dc4a7442d18bf90f99aeb0de78c171a\output\jars\classes.jar"
+>>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+<<<<<<< HEAD
         <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_689e1b0676b003e3529676eb6e2bc35976e7c7e3.jar" />
     </item>
     <item
@@ -207,6 +400,18 @@
         revision="25.0.0"
         sha1="7153f9bf83cf2713bbf5720f937aa5a22a87857a">
         <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\httpmime-4.2.2_584aa23fcaa55ab129bf14fe414383af6d807bba.jar" />
+=======
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_7cfe4c3fe7b4e1c283734cfabaf2c05831ba1508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DHatch\.android\build-cache\f0ab83cda6e6f26714208c345a8dfb769ed382bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\classes_5a1ef48a68f9e122b7df76e506743877800c4c01.jar" />
+>>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     </item>
 
 </items>

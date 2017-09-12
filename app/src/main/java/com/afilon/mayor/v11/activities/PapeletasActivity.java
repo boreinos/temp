@@ -40,6 +40,8 @@ import com.afilon.mayor.v11.utils.Consts;
 import com.afilon.mayor.v11.utils.UnCaughtException;
 import com.afilon.mayor.v11.utils.Utilities;
 
+import org.w3c.dom.Text;
+
 import kankan.wheel.widget.WheelView;
 
 public class PapeletasActivity extends AfilonActivity implements
@@ -49,14 +51,14 @@ public class PapeletasActivity extends AfilonActivity implements
     private TextView hora_de_conclucion_tv;
     private EditText papeletasInitialIngresar;
     private EditText papeletasFinalIngresar;
-    private EditText cantidadPapeletasFinal;
+    private EditText cantidadPapeletasFinal, sobrantes_et1, sobrantes_et2, inutil_et1, inutil_et2, cantidadPapeletasCantidad;
 
     private int papInicialInt;
     private int papFinalInt;
     private String papeletaInicialString;
     private String cantidadPapeletasFinalString;
-    private String papeletaFinalString;
-    private Button papeletasInitialBtn, papeletasFinalBtn, resetBtn;
+    private String papeletaFinalString, sobrantes, inutilizadas;
+    private Button papeletasInitialBtn, papeletasFinalBtn, resetBtn, sobrantesBtn, inutilizadasBtn;
     protected Context context;
     private TextView min_de_conclucion_tv;
 
@@ -122,6 +124,110 @@ public class PapeletasActivity extends AfilonActivity implements
 
         min_de_conclucion_tv.addTextChangedListener(tw1);
 
+        cantidadPapeletasCantidad = (EditText) findViewById(R.id.textView122Last);
+        cantidadPapeletasCantidad.setOnLongClickListener(longClickListener);
+        cantidadPapeletasCantidad.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+
+        final EditText papeletasFinalCantidad = (EditText) findViewById(R.id.textView122);
+        papeletasFinalCantidad.setOnLongClickListener(longClickListener);
+        papeletasFinalCantidad.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+
+
+        sobrantesBtn = (Button) findViewById(R.id.sobrantesbtn);
+        inutilizadasBtn = (Button) findViewById(R.id.inultilizadasbtn);
+        ah.setButtonColorRed(sobrantesBtn);
+        ah.setButtonColorRed(inutilizadasBtn);
+        sobrantes_et1 = (EditText) findViewById(R.id.sobranteset1);
+        sobrantes_et2 = (EditText) findViewById(R.id.sobranteset2);
+        inutil_et1 = (EditText) findViewById(R.id.inutilizadaset1);
+        inutil_et2 = (EditText) findViewById(R.id.inutilizadaset2);
+        sobrantes_et1.setOnLongClickListener(longClickListener);
+        sobrantes_et1.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+        sobrantes_et2.setOnLongClickListener(longClickListener);
+        sobrantes_et2.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+        inutil_et1.setOnLongClickListener(longClickListener);
+        inutil_et1.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+        inutil_et2.setOnLongClickListener(longClickListener);
+        inutil_et2.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
+
+//        sobrantes_et1.addTextChangedListener(tw5);
+        sobrantes_et2.addTextChangedListener(tw6);
+//        inutil_et1.addTextChangedListener(tw7);
+        inutil_et2.addTextChangedListener(tw8);
+
+        ah.enableEditText(sobrantes_et1,false);
+        ah.enableEditText(sobrantes_et2,false);
+        ah.enableEditText(inutil_et1,false);
+        ah.enableEditText(inutil_et2,false);
+        sobrantesBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //if first edit text filled, second empty
+                if(!sobrantes_et1.getText().equals("") && sobrantes_et1.getText().toString().equals(sobrantes_et2.getText().toString())){
+                    ah.setButtonColorRed(sobrantesBtn);
+                    ah.enableEditText(sobrantes_et1, false);
+                    ah.enableEditText(sobrantes_et2,false);
+                    ah.enableEditText(inutil_et1, true);
+                    ah.enableEditText(inutil_et2, true);
+                    sobrantes = sobrantes_et1.getText().toString();
+                    inutil_et1.requestFocus();
+                    // move on to next row, inutilizadas
+                }else if(!sobrantes_et1.getText().equals("") && !sobrantes_et1.getText().toString().equals(sobrantes_et2.getText().toString())){
+                    ah.setButtonColorRed(sobrantesBtn);
+                    ah.enableEditText(sobrantes_et1,true);
+                    ah.enableEditText(sobrantes_et2,true);
+                    sobrantes_et2.requestFocus();
+                    // enable second edit text in this row
+                }else {
+                    // clear row and try again
+                    ah.setButtonColorRed(sobrantesBtn);
+                    sobrantes_et1.setText("");
+                    sobrantes_et2.setText("");
+                    ah.enableEditText(sobrantes_et2,true);
+                    ah.enableEditText(sobrantes_et1,true);
+                    sobrantes_et1.requestFocus();
+                }
+            }
+        });
+
+        inutilizadasBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //if first edit text filled, second empty
+                if(!inutil_et1.getText().toString().equals("") && inutil_et1.getText().toString().equals(inutil_et2.getText().toString())){
+                    ah.setButtonColorRed(inutilizadasBtn);
+                    ah.enableEditText(inutil_et2,false);
+                    ah.enableEditText(inutil_et1, false);
+
+
+                    inutilizadas = inutil_et1.getText().toString();
+                    //
+//                    nextField.requestFocus();
+                    ah.enableEditText(cantidadPapeletasCantidad,true);
+                    ah.enableEditText(cantidadPapeletasFinal, true);
+                    cantidadPapeletasCantidad.requestFocus();
+//                    ah.enableEditText(papeletasFinalCantidad,true);
+//                    papeletasFinalCantidad.requestFocus();
+
+                    // move on to next row, inutilizadas
+                }else if(!inutil_et1.getText().toString().equals("") && !inutil_et1.getText().toString().equals(inutil_et2.getText())){
+                    ah.setButtonColorRed(inutilizadasBtn);
+                    ah.enableEditText(inutil_et1,true);
+                    ah.enableEditText(inutil_et2,true);
+                    inutil_et2.requestFocus();
+                    // enable second edit text in this row
+                }else {
+                    // clear row and try again
+                    ah.setButtonColorRed(inutilizadasBtn);
+                    inutil_et1.setText("");
+                    inutil_et2.setText("");
+                    ah.enableEditText(inutil_et2,true);
+                    ah.enableEditText(inutil_et1,true);
+                    inutil_et1.requestFocus();
+                }
+            }
+        });
+
+
+
         compareTimes_btn = (Button) findViewById(R.id.button414);
         ah.setButtonColorRed(compareTimes_btn);
 
@@ -147,17 +253,9 @@ public class PapeletasActivity extends AfilonActivity implements
         papeletasInitialIngresar.setOnLongClickListener(longClickListener);
         papeletasInitialIngresar.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
 
-        final EditText papeletasFinalCantidad = (EditText) findViewById(R.id.textView122);
-        papeletasFinalCantidad.setOnLongClickListener(longClickListener);
-        papeletasFinalCantidad.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
-
         papeletasFinalIngresar = (EditText) findViewById(R.id.textView123);
         papeletasFinalIngresar.setOnLongClickListener(longClickListener);
         papeletasFinalIngresar.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
-
-        final EditText cantidadPapeletasCantidad = (EditText) findViewById(R.id.textView122Last);
-        cantidadPapeletasCantidad.setOnLongClickListener(longClickListener);
-        cantidadPapeletasCantidad.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
 
         cantidadPapeletasFinal = (EditText) findViewById(R.id.textView123Last);
         cantidadPapeletasFinal.setKeyListener(DigitsKeyListener.getInstance("0123456789"));
@@ -166,6 +264,7 @@ public class PapeletasActivity extends AfilonActivity implements
         papeletasInitialIngresar.addTextChangedListener(tw2);
         papeletasFinalIngresar.addTextChangedListener(tw3);
         cantidadPapeletasFinal.addTextChangedListener(tw4);
+//        cantidadPapeletasCantidad.addTextChangedListener(twx);
 
         mCustomKeyboard = new CustomKeyboard(this, R.id.keyboardview,
                 R.xml.tenhexkbd);
@@ -178,6 +277,12 @@ public class PapeletasActivity extends AfilonActivity implements
         //CARLOS:
         mCustomKeyboard.registerEditText(R.id.textView122Last);
         mCustomKeyboard.registerEditText(R.id.textView123Last);
+
+        mCustomKeyboard.registerEditText(R.id.sobranteset1);
+        mCustomKeyboard.registerEditText(R.id.sobranteset2);
+
+        mCustomKeyboard.registerEditText(R.id.inutilizadaset1);
+        mCustomKeyboard.registerEditText(R.id.inutilizadaset2);
 
         ah.enableEditText(papeletasInitialCantidad,false);
         ah.enableEditText(papeletasInitialIngresar,false);
@@ -198,6 +303,16 @@ public class PapeletasActivity extends AfilonActivity implements
         totalPapeletasCalculado.setVisibility(View.GONE); //View.GONE
         totalPapeletasIngresar.setVisibility(View.GONE); //View.GONE
         totalPapeletasTxt.setVisibility(View.GONE);
+
+        final TextView ent = (TextView) findViewById(R.id.entregadastv);
+        final TextView ent1 = (TextView) findViewById(R.id.entregadastv1);
+        final TextView ent2 = (TextView) findViewById(R.id.entregadastv2);
+        ah.enableTextView(ent, false);
+        ah.enableTextView(ent1, false);
+        ah.enableTextView(ent2, false);
+        ent.setVisibility(View.GONE);
+        ent1.setVisibility(View.GONE);
+        ent2.setVisibility(View.GONE);
 
         papeletasInitialBtn = (Button) findViewById(R.id.button114);
         ah.setButtonColorRed(papeletasInitialBtn);
@@ -365,13 +480,11 @@ public class PapeletasActivity extends AfilonActivity implements
             @Override
             public void onClick(View v) {
 
-                if (papeletaFinalString != null
-                        && papeletaFinalString.equals(papeletasFinalIngresar
-                        .getText().toString())) {
-
-                    //CARLOS: 2016-09-12
-                    ah.enableEditText(cantidadPapeletasCantidad,true);
-                    ah.enableEditText(cantidadPapeletasFinal,true,cantidadPapeletasCantidad.getId());
+                if (papeletaFinalString != null && papeletaFinalString.equals(papeletasFinalIngresar.getText().toString())) {
+//                    ah.enableEditText(cantidadPapeletasCantidad,true);
+//                    ah.enableEditText(cantidadPapeletasFinal,true,cantidadPapeletasCantidad.getId());
+                    ah.enableEditText(sobrantes_et1, true);
+                    ah.enableEditText(sobrantes_et2, true);
                     ah.enableEditText(papeletasFinalCantidad,false);
                     ah.enableEditText(papeletasFinalIngresar,false);
 
@@ -381,8 +494,11 @@ public class PapeletasActivity extends AfilonActivity implements
                     escrudata.setPapeletasFinal(papeletaFinalString);
                     papFinalInt = ah.parseInt(papeletaFinalString, 0);
 
-                    cantidadPapeletasCantidad.requestFocus();
+//                    cantidadPapeletasCantidad.requestFocus();
+                    sobrantes_et1.requestFocus();
                     ah.setButtonColorRed(papeletasFinalBtn);
+                    //CARLOS: 2016-09-12
+
 
                     if ((1 + papFinalInt - papInicialInt) > 0) {
 
@@ -391,10 +507,8 @@ public class PapeletasActivity extends AfilonActivity implements
                         imm.hideSoftInputFromWindow(
                                 papeletasFinalIngresar.getWindowToken(), 0);
 
-                        totalPapeletasCalculado.setText(""
-                                + (1 + papFinalInt - papInicialInt));
-                        totalPapeletasIngresar.setText(""
-                                + (1 + papFinalInt - papInicialInt));
+                        totalPapeletasCalculado.setText("" + (1 + papFinalInt - papInicialInt));
+                        totalPapeletasIngresar.setText("" + (1 + papFinalInt - papInicialInt));
 
                     } else {
 
@@ -464,6 +578,16 @@ public class PapeletasActivity extends AfilonActivity implements
                 totalPapeletasCalculado.setVisibility(View.VISIBLE);
                 totalPapeletasIngresar.setVisibility(View.VISIBLE);
                 totalPapeletasTxt.setVisibility(View.VISIBLE);
+
+                int entregadas = Integer.parseInt(totalPapeletasCalculado.getText().toString()) - Integer.parseInt(sobrantes) - Integer.parseInt(inutilizadas);
+
+                ent1.setText(String.valueOf(entregadas));
+                ent2.setText(ent1.getText().toString());
+
+                ent.setVisibility(View.VISIBLE);
+                ent1.setVisibility(View.VISIBLE);
+                ent2.setVisibility(View.VISIBLE);
+
 //				setButtonColorGreen(continuar_btn);
                 cantidadPapeletasFinal.setFocusable(false);
                 cantidadPapeletasCantidad.setFocusable(false);
@@ -496,6 +620,12 @@ public class PapeletasActivity extends AfilonActivity implements
                     cantidadPapeletasFinal.setTextColor(Color.parseColor("#999999"));
                     totalPapeletasIngresar.setTextColor(Color.parseColor("#999999"));
                     totalPapeletasCalculado.setTextColor(Color.parseColor("#999999"));
+                    sobrantes_et1.setTextColor(Color.parseColor("#999999"));
+                    sobrantes_et2.setTextColor(Color.parseColor("#999999"));
+                    inutil_et1.setTextColor(Color.parseColor("#999999"));
+                    inutil_et2.setTextColor(Color.parseColor("#999999"));
+                    ent1.setTextColor(Color.parseColor("#999999"));
+                    ent2.setTextColor(Color.parseColor("#999999"));
 
 
                     //Disable EditText and TextView and Buttons
@@ -551,6 +681,11 @@ public class PapeletasActivity extends AfilonActivity implements
                 totalPapeletasCalculado.setVisibility(View.GONE); // View.GONE
                 totalPapeletasIngresar.setVisibility(View.GONE); // View.GONE
                 totalPapeletasTxt.setVisibility(View.GONE);
+
+                ent.setVisibility(View.GONE);
+                ent1.setVisibility(View.GONE);
+                ent2.setVisibility(View.GONE);
+
                 resetBtn.setVisibility(View.GONE);
                 ah.setButtonColorRed(resetBtn);
 
@@ -804,4 +939,114 @@ public class PapeletasActivity extends AfilonActivity implements
 
         }
     };
+
+//    TextWatcher tw5 = new TextWatcher() {
+//        @Override
+//        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+////			Log.d("tw1 beforeTextChanged", "x");
+//        }
+//
+//        @SuppressLint("LongLogTag")
+//        @Override
+//        public void onTextChanged(CharSequence s, int start, int before, int count) {
+//            if (sobrantes_et1.getText().length() > 0) {
+//                ah.setButtonColorGreen(sobrantesBtn);
+//            } else {
+//                ah.setButtonColorRed(sobrantesBtn);
+//            }
+//        }
+//        @Override
+//        public void afterTextChanged(Editable s) {
+//            Log.d("tw1 afterTextChanged", "x");
+//
+//        }
+//    };
+
+    TextWatcher tw6 = new TextWatcher() {
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//			Log.d("tw1 beforeTextChanged", "x");
+        }
+
+        @SuppressLint("LongLogTag")
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            if (sobrantes_et2.getText().length() > 0) {
+                ah.setButtonColorGreen(sobrantesBtn);
+            } else {
+                ah.setButtonColorRed(sobrantesBtn);
+            }
+        }
+        @Override
+        public void afterTextChanged(Editable s) {
+            Log.d("tw1 afterTextChanged", "x");
+
+        }
+    };
+
+//    TextWatcher tw7 = new TextWatcher() {
+//        @Override
+//        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+////			Log.d("tw1 beforeTextChanged", "x");
+//        }
+//
+//        @SuppressLint("LongLogTag")
+//        @Override
+//        public void onTextChanged(CharSequence s, int start, int before, int count) {
+//            if (inutil_et1.getText().length() > 0) {
+//                ah.setButtonColorGreen(inutilizadasBtn);
+//            } else {
+//                ah.setButtonColorRed(inutilizadasBtn);
+//            }
+//        }
+//        @Override
+//        public void afterTextChanged(Editable s) {
+//            Log.d("tw1 afterTextChanged", "x");
+//
+//        }
+//    };
+
+    TextWatcher tw8 = new TextWatcher() {
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//			Log.d("tw1 beforeTextChanged", "x");
+        }
+
+        @SuppressLint("LongLogTag")
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            if (inutil_et2.getText().length() > 0) {
+                ah.setButtonColorGreen(inutilizadasBtn);
+            } else {
+                ah.setButtonColorRed(inutilizadasBtn);
+            }
+        }
+        @Override
+        public void afterTextChanged(Editable s) {
+            Log.d("tw1 afterTextChanged", "x");
+
+        }
+    };
+
+//    TextWatcher twx = new TextWatcher() {
+//        @Override
+//        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+////			Log.d("tw1 beforeTextChanged", "x");
+//        }
+//
+//        @SuppressLint("LongLogTag")
+//        @Override
+//        public void onTextChanged(CharSequence s, int start, int before, int count) {
+//            if (cantidadPapeletasCantidad.getText().length() > 0) {
+//                ah.setButtonColorGreen(cantidadPapeletaBtn);
+//            } else {
+//                ah.setButtonColorRed(cantidadPapeletaBtn);
+//            }
+//        }
+//        @Override
+//        public void afterTextChanged(Editable s) {
+//            Log.d("tw1 afterTextChanged", "x");
+//
+//        }
+//    };
 }

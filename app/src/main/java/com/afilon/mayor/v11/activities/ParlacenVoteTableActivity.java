@@ -99,7 +99,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
     private boolean [] errorIndex;
     private boolean
             isUpdate,
-            firstScreen = true,
+//            firstScreen = true,
+            firstScreen = false,
             isIndependentParty = false,
             bandError = false,
             verpress = false,
@@ -175,6 +176,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
     private Drawable errorImage;
     private ImageSpan errorSpan;
     private ChallengeHelper challengeHelper;
+    private boolean convertBand = true;
 
     @SuppressLint("LongLogTag")
     @Override
@@ -234,7 +236,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
         colTwoTV = (TextView) this.findViewById(R.id.colTwo);
         colThreeTV = (TextView) this.findViewById(R.id.colThree);
 
-        firstScreen = ah.loadPreferencesBool("firstScreen");
+//        firstScreen = ah.loadPreferencesBool("firstScreen"); asdfasdf
+        firstScreen = false;
         db_adapter = new DatabaseAdapterParlacen(this);
         //--------------------------------------------------
         // set up tools and databse connection:
@@ -250,7 +253,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
         db_adapter.open();
 
         // read if we got here as update:
-        isUpdate = ah.loadPreferencesUpdate("anadir");
+//        isUpdate = ah.loadPreferencesUpdate("anadir"); asdfasdf
+        isUpdate = true;
         // read from party tables and party votes
         escrudata.setActaImageLink(vc.getPref_election_id());
         partyArrayList = db_adapter.getParlacenPartiesArrayList(vc.getPref_election_id());
@@ -1307,16 +1311,37 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                             }
 
                             //CARLOS: 2016-09-08
-                            for (int i = 0; i < candidatesList.size(); i++) {
-                                if (candidatesList.get(i).isCbOneSelected() && candidatesList.get(i).isCbTwoSelected()) {
+                            for(int i = 0; i < candidatesList.size(); i++){
+                                if(candidatesList.get(i).isCbOneSelected() && candidatesList.get(i).isCbTwoSelected()){
 
-                                    currentMarks.get(i).setText(String.valueOf(candidatesList.get(i).getMarcas() + 1));
-                                    currentMarks.get(i).setTypeface(null, Typeface.BOLD_ITALIC);
-                                }
+                                }else convertBand = false;
                             }
 
-                            // run code to verify preferential votes
-                            verifyPreferentialVotes();
+                            if(convertBand){
+                                //  if isBandera   // this is case for correct bandera vote
+                                //      if !fistScreen (aka, it is an added ballot)
+                                //          check both Boxes
+                                partido_cb_one.setButtonDrawable(R.drawable.dchecked);
+                                partido_cb_two.setButtonDrawable(R.drawable.dchecked);
+                                //          disable verificar button
+                                disableButtons(verificarBtn);
+                                //          enable aceptar button (aceptar button to run code to actually apply bandera vote (or right here just add code that bandera used to do**)
+                                enableButtons(aceptarBtn);
+                                // add votobanderbtn click code here
+                                partido_votes.setText("1");
+                            } else {
+                                for (int i = 0; i < candidatesList.size(); i++) {
+                                    if (candidatesList.get(i).isCbOneSelected() && candidatesList.get(i).isCbTwoSelected()) {
+
+                                        currentMarks.get(i).setText(String.valueOf(candidatesList.get(i).getMarcas() + 1));
+                                        currentMarks.get(i).setTypeface(null, Typeface.BOLD_ITALIC);
+                                    }
+                                }
+                                // run code to verify preferential votes
+                                verifyPreferentialVotes();
+                            }
+
+
                         }else {
                             // this is error resulting in bandera vote mixed with pref vote, consolut on how to handle
                             ah.createCustomToast("Error in vote type, re-initiating ballot");
@@ -2172,6 +2197,12 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                     reingressoBtn.setText("Re-ingresar\nPreferencia");
                 } else {
                     // else
+                    if(convertBand){
+                        isBandera = true;
+                        isTodos = false;
+                        isPref = false;
+                    }
+
                     if (isBandera && !(isTodos||isPref)) {
                         partidoCandidate.setVotesNumber(++partido_votes_int);
                         partidoCandidate.setPreferentialVotes(partidoCandidate.getVotesNumber());
@@ -2552,6 +2583,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
     }
 
     private void initialVoteConditions(){
+        convertBand = true;
         isTodos = false;
         isPref = false;
         isTodosReingresar = false;
