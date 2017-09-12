@@ -2,165 +2,211 @@
 <items version="2" >
 
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\Mayor-v2\wheel\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d6cd693334a4182d0b49394486e2755c84dfb3f3">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\Mayor-v2-wheel-unspecified_2b5681d615fecbedb2cbfb7b07c08862b6a8a48f.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\Mayor-v2\app\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e8d8f8b76fc1cf1740d23c17416914c2c1e76b8a">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\Mayor-v2-app-unspecified_48eff929898d661192d738ce68c13ec160416b6e.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-design-23.4.0_07dd5c5b542ec8706bbe1d52ce10abd4c0f9bbc5.jar" />
-    </item>
-    <item
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.1.0_596a879f3b5b54a62495718a92d129abb6f97544.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_3db324370308112c4be58a1766a35ddbdda90913.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_90cb2e67eac29f7d582639842f86d69d22090e48.jar" />
-    </item>
-    <item
-        jar="C:\Users\ccano\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\core-3.2.0_355370cfb4205ccd684e918189ab39b0e86876d8.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\Mayor-v2\app\unspecified\jars\libs\xstream-1.4.6.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9c41f6f2f80e30451b2c5be1c6eaf8d605dd0430">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\xstream-1.4.6_3b68efd4e8dac55e6483ac0bad76ffd40a46fe95.jar" />
-    </item>
-    <item
-        jar="C:\Users\ccano\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\commons-lang3-3.5_04eea5f808eba07d997e2b50274b665e640d7b5d.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="C:\Users\ccano\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="25.0.0"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\support-annotations-23.4.0_4755cc14b7fb005fdef1276d265fba6fc130b1ff.jar" />
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\support-annotations-23.4.0_4755cc14b7fb005fdef1276d265fba6fc130b1ff.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        is-multidex="false"
+        jar="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.4.0_ddded0d7c9fc659e49b6800c11f2c21cb132a4a1.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="de77a3addfe4803c6d188d6e23aad41e4c56dddc">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_a3dd193a27c14e3ead4ccaf5fc8287395f5ae6fe.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\d281262bc3f60c47962b73788719ae122e060be0\output\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.4.0_957aced468e2e03cecf2ec75ecfd07a64d32d399.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-appindexing-8.1.0_003bc310b79ca0d7216705c63c664df06a7854c9.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_bd40d6a781b76f8ac2fa4769e98633237cf39dad.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\Mayor-v2\app\unspecified\jars\libs\universal-image-loader-1.9.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fba927de4e380b9219338c31a04e58dd8ef0a264">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\universal-image-loader-1.9.1_8a6890c45df6d18f7203280b9d11b12632ea9249.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="25.0.0"
         sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.journeyapps-zxing-android-embedded-3.0.2_953783e77e5f2e6830192c4fd96525f24742681c.jar" />
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_c3b6b024cca9d3fd45e6f7196e3e2bfdcbb33814.jar" />
     </item>
     <item
-        jar="C:\Users\ccano\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.1.0\a7aeef173c4e5b104ec04f146f8e8f9debde1c5e\baseLibrary-2.1.0.jar"
+        is-multidex="false"
+        jar="C:\Users\ccano\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="a7aeef173c4e5b104ec04f146f8e8f9debde1c5e">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\baseLibrary-2.1.0_bd617d013591a21d12e2aa9044c95821fbdcebd0.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\commons-lang3-3.5_04eea5f808eba07d997e2b50274b665e640d7b5d.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        is-multidex="false"
+        jar="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\build\intermediates\bundles\default\libs\universal-image-loader-1.9.1.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\internal_impl-23.4.0_cde67b49ea832e7b41194dbdd981085f220f977e.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fea5d8d1b5da926c7e3003bcb7aa8515b9764a8">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\universal-image-loader-1.9.1_58e647b53ead319fdc04368aa22336c4b3b863b9.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.databinding\adapters\1.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\a460537cb0374aa492d5e0784453b7195759f4de\output\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="3cae403175958af8baa00bed0bd6e04187d69415">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.databinding-adapters-1.1_9c0bae164ad85169eb5aed3501672dae00ce4acb.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_29e36cf7daf098c65cf7ae4fb8290a95c25ff845.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.databinding\library\1.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\d6818248057a26541f9b81be332c6c880c275985\output\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="d985cdf99de8a63824b52d8a8efc309f9e5fbf01">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.databinding-library-1.1_5d012cd4dcfd722f6e319c2ac3fee75349f5c0bc.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_2e798139f8e97944ed46e5fbbad82da50cc1564d.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.3.3\baseLibrary-2.3.3.jar"
         jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb3399988a52099b0127e27fb5bed666eca86ace">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\baseLibrary-2.3.3_cc3afaf91424e734a49c56928e36b4d96c0d272b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\build\intermediates\bundles\default\libs\xstream-1.4.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f213eeefb3ae748039c5688a383bb88defc8d0b">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\xstream-1.4.6_7f11da6c0eb902bdfff91f381e9761a318ef0eb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_71e5176a6bfb970a7dc9178cc31c20383050c55d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\c16351d738401b95286aca5bc408b683061323cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_0ef28afb2a68a2827b8fa1510d4e5d2d9326a97c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\core-3.2.0_355370cfb4205ccd684e918189ab39b0e86876d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\905d9adfd9731366fb45ccfb8c592b41a3a2b3a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_d5263d32f030360bcd8231b46c74634e7e7ecd54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\7e558db88471632c59fa42ad34fcf40f18e6b8c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_f1245f25e7631dcf6977664395b09a93de40d004.jar" />
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_f55594e0c21722018c5da6ce2fcafb9a6e17d4ff.jar" />
     </item>
     <item
-        jar="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\exploded-aar\Mayor-v2\app\unspecified\jars\libs\httpmime-4.2.2.jar"
+        is-multidex="false"
+        jar="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\wheel\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="ab74989ff08198ce51177f0c94debb5c151f32f4">
-        <dex dex="D:\Workspace\AndroidStudio\Honduras\Mayor-v2\hondurasasamblea\build\intermediates\pre-dexed\release\httpmime-4.2.2_aa59134739b9702569b66721f6354c61727b6577.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="721a84e5ef05c8736fd923bb2b83f2bcc625cee6">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_14adf17f5314587a683b7b1e0efe736d2b907bc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\0db75003fa9d95dcc5c5ab0d8a14e68a9c180b6a\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\internal_impl-23.4.0_3678e059fdb701cc292bee5f3a9197f1cf7a1e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\2d71d6717a8fcca9be2290a16c605635ab65b50a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_82fee1e5506d01763ed9f4f11260860723c6d508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\d37b96cd14214772ed57f1a4c5ba8b1f8a884d0e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_87be1fd664333fc05a8836ca09139ef9bd543427.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\eed9132e30a6d07a5afca968b2f357df7efd61ed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_458d413626cfee96c1f98d0b345719d6a0c0215d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\0db75003fa9d95dcc5c5ab0d8a14e68a9c180b6a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_bbdc27b489ad91c4f4ecb6f3c8b804ce2d997b1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ccano\.android\build-cache\a52a524e5a785b5fcf36d7ad3b0ee5af1dc6ed9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\classes_689e1b0676b003e3529676eb6e2bc35976e7c7e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\app\build\intermediates\bundles\default\libs\httpmime-4.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7153f9bf83cf2713bbf5720f937aa5a22a87857a">
+        <dex dex="D:\Workspace\AndroidStudio\ElSalvador_Honduras\ELSAHON\asamblea\build\intermediates\pre-dexed\release\httpmime-4.2.2_584aa23fcaa55ab129bf14fe414383af6d807bba.jar" />
     </item>
 
 </items>

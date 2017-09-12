@@ -116,7 +116,7 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		final ChallengeHelper challengeHelper = new ChallengeHelper(this);
 //		LoginActivity.this.sendBroadcast();
 		tm = (TelephonyManager)getSystemService(this.TELEPHONY_SERVICE);
-		wm = (WifiManager)getSystemService(this.WIFI_SERVICE);
+		wm = (WifiManager)getApplicationContext().getSystemService(this.WIFI_SERVICE);
 
 		ah = new Utilities(LoginActivity.this);
 		ah.tabletConfiguration(Build.MODEL,this);
