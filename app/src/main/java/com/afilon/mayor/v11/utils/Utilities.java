@@ -398,6 +398,14 @@ public class Utilities   {
 				Log.e("@@CONFIG@@",String.valueOf(config.screenWidthDp));
 				context.getResources().updateConfiguration(config, displayMetrics);
 				Log.i("DISPLAY METRICS", displayMetrics.toString());
+			} else if (tabletModel.equals("SM-T580")) {
+				DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
+				displayMetrics.densityDpi = 240;//DisplayMetrics.DENSITY_LOW;
+				android.content.res.Configuration config = context.getResources().getConfiguration();
+				config.densityDpi = 240;//DisplayMetrics.DENSITY_LOW;
+				Log.e("@@CONFIG@@",String.valueOf(config.screenWidthDp));
+				context.getResources().updateConfiguration(config, displayMetrics);
+				Log.i("DISPLAY METRICS", displayMetrics.toString());
 			} else {
 				DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
 				displayMetrics.densityDpi = 61;//DisplayMetrics.DENSITY_LOW;

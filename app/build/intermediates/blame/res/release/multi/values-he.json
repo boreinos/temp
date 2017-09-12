@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-he\\values-he.xml",
+        "outputFile": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-he\\values-he.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\values-he\\values.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\values-he\\values.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 291
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\values-he\\values.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 381
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\values-he\\values.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

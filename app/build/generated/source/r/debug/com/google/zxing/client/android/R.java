@@ -29,15 +29,15 @@ public final class R {
     public static final class id {
         public static int zxing_back_button = 0x7f0d000f;
         public static int zxing_barcode_scanner = 0x7f0d009f;
-        public static int zxing_barcode_surface = 0x7f0d0205;
+        public static int zxing_barcode_surface = 0x7f0d0214;
         public static int zxing_camera_error = 0x7f0d0010;
         public static int zxing_decode = 0x7f0d0011;
         public static int zxing_decode_failed = 0x7f0d0012;
         public static int zxing_decode_succeeded = 0x7f0d0013;
         public static int zxing_possible_result_points = 0x7f0d0014;
         public static int zxing_prewiew_size_ready = 0x7f0d0015;
-        public static int zxing_status_view = 0x7f0d0207;
-        public static int zxing_viewfinder_view = 0x7f0d0206;
+        public static int zxing_status_view = 0x7f0d0216;
+        public static int zxing_viewfinder_view = 0x7f0d0215;
     }
     public static final class layout {
         public static int zxing_barcode_scanner = 0x7f030072;

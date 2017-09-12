@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 288
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 486
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

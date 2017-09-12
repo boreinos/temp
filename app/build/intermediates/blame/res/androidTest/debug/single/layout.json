@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -35,93 +34,50 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote_honduras.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote_honduras.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_reclamos.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_reclamos.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_login.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_action.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_ingreso_miembros_mer.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_ingreso_miembros_mer.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_last.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_last.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alert_header.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_header.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_capture.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_capture.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_jrv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_jrv.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_ingreso_miembros_mer.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_ingreso_miembros_mer.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_capture.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_capture.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_with_edittext_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_with_edittext_layout.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_right_align.xml",
@@ -132,24 +88,20 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_drawer_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_drawer_item.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_two_lines.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_two_lines.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_direct_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_direct_vote_counter.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
@@ -160,1537 +112,24 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_layout.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_manager.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_manager.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\styled_button.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\styled_button.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\acta_entry.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\acta_entry.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_manager.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_manager.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rollcallmanager.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\rollcallmanager.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_capture.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_capture.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\time_wheel_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\time_wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist3.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist3.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\three_button_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\three_button_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_barcode_scanner.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alert_header.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_header.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_signature_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_signature_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_jrv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_jrv.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_capture.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_candidate_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_candidate_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview_honduras.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview_honduras.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\party_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\party_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist2.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist2.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_row.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview_sv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview_sv.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_capture.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_center.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_center.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preferential_votes_table_row_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\preferential_votes_table_row_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_papeletas.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_papeletas.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote_summary.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote_summary.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_nocheckbox_list_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_nocheckbox_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_row.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_row.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_party_list.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_party_list.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alert_header.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_header.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vertical_concepto.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vertical_concepto.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\empty_text_view.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\empty_text_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_single_line.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_single_line.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login_hon.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login_hon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_party_buttons.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_party_buttons.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_ingreso_miembros_mer.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_ingreso_miembros_mer.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_exit.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_exit.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\acta_entry.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\acta_entry.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_quantity.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\item_quantity.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading_row.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nav_header_main.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_row.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_candidate_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_candidate_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_direct_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_direct_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_preferential_vote_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_preferential_vote_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_web_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_web_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_quantity.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\item_quantity.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_capture.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_capture.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_right_align.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_right_align.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_ingreso_miembros_mer.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_ingreso_miembros_mer.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_two_lines.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_two_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview_sv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview_sv.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\styled_button.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\styled_button.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\time_wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\time_wheel_layout.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_candidate_table.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_candidate_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_papeletas.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_papeletas.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_papeletas.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_papeletas.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_with_edittext_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_with_edittext_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_web_view.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_web_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preferential_votes_table_row_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\preferential_votes_table_row_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\candidate_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\candidate_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\time_wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\time_wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_drawer_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_drawer_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_center.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_center.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading_row.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nav_header_main.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\three_button_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\three_button_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist3.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist3.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_center.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_center.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_exit.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_exit.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading_row.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_nocheckbox_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_nocheckbox_list_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview_honduras.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview_honduras.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_singletable.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_singletable.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_with_edittext_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_with_edittext_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_drawer_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_drawer_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_confirmdui_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_confirmdui_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_singletable.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_singletable.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_direct_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_direct_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\empty_text_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\empty_text_view.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_nocheckbox_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_nocheckbox_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview_honduras.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview_honduras.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_drawer_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_drawer_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_two_lines.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_two_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_exit.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_exit.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vertical_concepto.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vertical_concepto.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_preferential_vote_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_preferential_vote_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rollcallmanager.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\rollcallmanager.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vertical_concepto.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vertical_concepto.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_jrv.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_jrv.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_jrv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_jrv.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote_honduras.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote_honduras.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_reclamos.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_reclamos.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\acta_entry.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\acta_entry.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist3.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist3.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_candidate_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_candidate_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote_summary.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote_summary.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\candidate_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\candidate_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\layout\\zxing_barcode_scanner.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote_honduras.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote_honduras.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_empty_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_empty_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_empty_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_empty_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\empty_text_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\empty_text_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login_hon.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login_hon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_login.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_login.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_quantity.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\item_quantity.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\time_wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\time_wheel_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_center.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_center.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_cross_vote.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_party_buttons.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_party_buttons.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login_hon.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login_hon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\three_button_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\three_button_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_nocheckbox_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_nocheckbox_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nav_header_main.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading_row.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading_row.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist2.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist2.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_web_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_web_view.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_party_buttons.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_party_buttons.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_last.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_last.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_preferential_vote_table.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_preferential_vote_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_login.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preferential_votes_table_row_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\preferential_votes_table_row_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist3.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist3.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_login.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_reclamos.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_reclamos.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login_hon.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login_hon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_direct_vote_counter.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_direct_vote_counter.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_singletable.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_singletable.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_right_align.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_right_align.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_last.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_last.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_web_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_web_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_reclamos.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_reclamos.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rollcallmanager.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\rollcallmanager.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\styled_button.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\styled_button.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_signature_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_signature_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_list_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote_summary.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote_summary.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\styled_button.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\styled_button.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_papeletas.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_papeletas.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_barcode_scanner.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_empty_list_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_empty_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_confirmdui_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_confirmdui_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_party_list.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_party_list.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_two_lines.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_two_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_single_line.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_single_line.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist2.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist2.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_exit.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_exit.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_manager.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_manager.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\check_item.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\check_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_view.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_view.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\edittext_dialog.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\edittext_dialog.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_singletable.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_singletable.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_right_align.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_right_align.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_two_lines.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_two_lines.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_action.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_right_align.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_right_align.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_last.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_last.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\wheel_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\wheel_layout.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\styled_button.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\styled_button.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vote_counter.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vote_counter.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\party_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\party_item.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_single_line.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_single_line.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
@@ -1713,41 +152,22 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\three_button_fragment_layout.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_empty_table.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_empty_table.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview_sv.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview_sv.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\three_button_fragment_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\three_button_fragment_layout.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_barcode_scanner.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_toast_single_line.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_toast_single_line.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_layout.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_layout.xml"
     },
@@ -1760,25 +180,10 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_quantity.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\item_quantity.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_with_edittext_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_with_edittext_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_button_dialog_fragment_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\two_button_dialog_fragment_layout.xml"
-    },
-    {
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist2.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_checklist2.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_drawer_item.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_drawer_item.xml"
     },
@@ -1791,8 +196,6 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading_row.xml"
     },
     {
-=======
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -1801,7 +204,6 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_header.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -1822,8 +224,6 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
     },
     {
-=======
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_screen_simple.xml"
     },
@@ -1832,63 +232,40 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\layout\\zxing_capture.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_exit.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_exit.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_login.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_login.xml"
     },
     {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading.xml"
+    },
+    {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mer_activity_manager.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\mer_activity_manager.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\acta_entry.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\acta_entry.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout_row.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout_row.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_item_material.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_menu_item_action_area.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_checklist3.xml",
@@ -1899,7 +276,6 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_gridview_honduras.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_gridview_honduras.xml"
     },
@@ -1908,13 +284,10 @@
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_reclamos.xml"
     },
     {
-=======
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login_hon.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login_hon.xml"
     },
@@ -1941,21 +314,16 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview_sv.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview_sv.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\candidate_item.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\candidate_item.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_empty_table.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_empty_table.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_nocheckbox_list_item.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_nocheckbox_list_item.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preferential_votes_table_row_item.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\preferential_votes_table_row_item.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview.xml"
     },
@@ -1970,27 +338,14 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_papeletas.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_papeletas.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_media_cancel_action.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_signature_layout.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_signature_layout.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_web_view.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_web_view.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\party_item.xml",
@@ -2013,24 +368,14 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rollcallmanager.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\rollcallmanager.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_signature_layout.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_signature_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_party_buttons.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_party_buttons.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_party_list.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_party_list.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
     },
@@ -2049,33 +394,12 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-=======
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rollcallmanager.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\rollcallmanager.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\3ad4626a94a1365a239ca220ebf8bcec03cf5b0a\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_action_bar_up_container.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_party_buttons.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_party_buttons.xml"
     },
@@ -2094,26 +418,10 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_action_menu_layout.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_preferential_vote_table.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_preferential_vote_table.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nav_header_main.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\summary_layout.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\summary_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\candidate_item.xml",
@@ -2124,7 +432,6 @@
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
@@ -2139,29 +446,12 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\acta_entry.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\acta_entry.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_cross_vote_summary.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_cross_vote_summary.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_vertical_concepto.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_vertical_concepto.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\9357f1185e350284be4e50297cf9f67ce7abc2be\\output\\res\\layout\\zxing_capture.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_final_table_lazy_loading.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_final_table_lazy_loading.xml"
-    },
-    {
-<<<<<<< HEAD
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_quantity.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\item_quantity.xml"
     },
@@ -2172,21 +462,5 @@
     {
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crossvote_flags_gridview_sv.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\crossvote_flags_gridview_sv.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\DHatch\\.android\\build-cache\\b08cc5b0b88c54f1ce42038db9af516d4ad66696\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\layout\\abc_dialog_title_material.xml"
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
     }
 ]

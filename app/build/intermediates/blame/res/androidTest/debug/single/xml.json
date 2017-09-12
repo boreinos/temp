@@ -1,20 +1,5 @@
 [
     {
-<<<<<<< HEAD
-=======
-        "merged": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\tenhexkbd.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\xml\\tenhexkbd.xml"
-    },
-    {
-        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\tenhexkbd.xml",
-        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\Mayor-v2\\app\\build\\intermediates\\bundles\\debug\\res\\xml\\tenhexkbd.xml"
-    },
-    {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\tenhexkbd.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\bundles\\debug\\res\\xml\\tenhexkbd.xml"
-    },
-    {
->>>>>>> e87ed0f80539eb4264ce09747b2a4ab0fed01ce8
         "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\tenhexkbd.xml",
         "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\bundles\\debug\\res\\xml\\tenhexkbd.xml"
     }

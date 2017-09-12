@@ -1,54 +1,54 @@
 [
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_crossvote_drawer.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\activity_crossvote_drawer.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\vote_count.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\vote_count.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\splash.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\splash.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\preferential_vote.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\preferential_vote.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\vote_count.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\vote_count.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\second.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\second.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\fifth.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\fifth.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\third.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\third.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\second.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\second.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\jrv.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\jrv.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\login.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\login.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\fouth.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\fouth.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\preferential_vote.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\preferential_vote.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\horizontal_concepto.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\horizontal_concepto.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\fouth.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\fouth.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\fifth.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\fifth.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\web_view.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\web_view.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_crossvote_drawer.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\activity_crossvote_drawer.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\horizontal_concepto.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\horizontal_concepto.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\web_view.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\web_view.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\third.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\third.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\splash.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\splash.xml"
     },
     {
-        "merged": "D:\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\release\\menu\\jrv.xml",
-        "source": "D:\\ElSalvador_Honduras\\app\\src\\main\\res\\menu\\jrv.xml"
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\menu\\login.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\menu\\login.xml"
     }
 ]
