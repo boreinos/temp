@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\popup_show.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\popup_show.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\fadein.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\fadein.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\slidedown_out.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\slidedown_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\slide_ballot_in.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\slide_ballot_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\reset_ballot.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\reset_ballot.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\popup_hide.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\popup_hide.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\slidedown_in.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\slidedown_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\save_ballot.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\save_ballot.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_in.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\fadeout.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\fadeout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\scale.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\scale.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_in2.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\fade_in2.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\9b7872bb4a8cad533b3f29a4f225b7680dcf251f\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\slide_ballot_out.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\anim\\slide_ballot_out.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\anim\\abc_fade_in.xml"
+    }
+]

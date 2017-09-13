@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/ElSalvador_Honduras.iml" filepath="$PROJECT_DIR$/ElSalvador_Honduras.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/ELSAHON.iml" filepath="$PROJECT_DIR$/ELSAHON.iml" />
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asamblea/asamblea.iml" filepath="$PROJECT_DIR$/asamblea/asamblea.iml" />
       <module fileurl="file://$PROJECT_DIR$/asamblea2/asamblea2.iml" filepath="$PROJECT_DIR$/asamblea2/asamblea2.iml" />

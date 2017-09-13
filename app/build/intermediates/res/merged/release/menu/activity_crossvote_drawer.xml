@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single"
+           android:id="@+id/candidates">
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Import" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <item
+        android:id="@+id/ballot_menu"
+        android:title="Resumen de Papeletas">
+        <menu>
+            <item
+                android:id="@+id/nav_valid"
+                android:title="Validos"
+                app:actionLayout="@layout/item_quantity"
+                android:icon="@drawable/ic_check_circle_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_null"
+                android:title="Nulos"
+                app:actionLayout="@layout/item_quantity"
+                android:icon="@drawable/ic_error_black_24dp"
+            />
+            <item
+                android:id="@+id/nav_blank"
+                android:title="En Blanco"
+                app:actionLayout="@layout/item_quantity"
+                android:icon="@drawable/ic_not_interested_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_grantotal"
+                android:title="Gran Total"
+                app:actionLayout="@layout/item_quantity"/>
+        </menu>
+    </item>
+
+</menu>

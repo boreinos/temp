@@ -30,7 +30,11 @@
                     "endOffset": 174
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+=======
+                    "file": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

@@ -1,0 +1,494 @@
+[
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_edittext_rounded_corners.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\red_edittext_rounded_corners.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pan_party.jpg",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\pan_party.jpg"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\escudo_small_176.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\escudo_small_176.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pcn_party.jpg",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\pcn_party.jpg"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_selector.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\button_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\amber_button_shape_released.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\amber_button_shape_released.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_shape_pressed.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\button_shape_pressed.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\right_gray.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\right_gray.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked_red_focus.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked_red_focus.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bg.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\radiobuttongreen_checkmark.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\radiobuttongreen_checkmark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\toast_boarder.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\toast_boarder.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\custom_list_shape.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\custom_list_shape.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked_red.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked_red.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\radiobuttonred.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\radiobuttonred.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\sym_keyboard_delete.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\sym_keyboard_delete.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\unchecked_released.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\unchecked_released.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_button_shape_pressed.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\red_button_shape_pressed.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\escudo.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\escudo.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\flmn_party.jpg",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\flmn_party.jpg"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked_green.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked_green.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\edittext.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\edittext.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\puestaacero.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\puestaacero.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\edittextbg.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\edittextbg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\twitter_im_edittext_normal.9.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\twitter_im_edittext_normal.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\left_gray.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\left_gray.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dchecked.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\dchecked.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\myshape.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\myshape.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\afilon_logo.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\afilon_logo.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\acta_icon.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\acta_icon.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\fps_party.jpg",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\fps_party.jpg"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\radiobuttongray.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\radiobuttongray.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\unchecked.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\unchecked.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\small_arrow_300x30.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\small_arrow_300x30.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\c16351d738401b95286aca5bc408b683061323cc\\output\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\fill_out_64.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\fill_out_64.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\arrow_image.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\arrow_image.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\right_green_pressed.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\right_green_pressed.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\amber_button_shape_pressed.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\amber_button_shape_pressed.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\disabled_cb.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\disabled_cb.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_button_shape_released.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\green_button_shape_released.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\acta.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\acta.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\puestaacero_horizontal.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\puestaacero_horizontal.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\warning_24dp.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\warning_24dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_button_selector.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\green_button_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\right_green.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\right_green.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\yellow_triangle.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\yellow_triangle.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked_focus.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked_focus.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_button_shape_released.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\red_button_shape_released.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\fmln.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\fmln.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_check_circle_black_24dp.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\ic_check_circle_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\left_green_pressed.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\left_green_pressed.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\sym_keyboard_done.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\sym_keyboard_done.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\edittext_rounded_corners.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\edittext_rounded_corners.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_shape_released.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\button_shape_released.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\radiobuttongreen.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\radiobuttongreen.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\fill_out_128.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\fill_out_128.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\custom_progressbar.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\custom_progressbar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\amber_button_selector.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\amber_button_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\escudo_small.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\escudo_small.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\twitter_im_edittext_focused.9.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\twitter_im_edittext_focused.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\radiobutton.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\radiobutton.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\btn_checkbox_selector.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\btn_checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_triangle.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\green_triangle.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\left_green.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\left_green.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\arena_party.jpg",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\arena_party.jpg"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\focus_unchecked.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\focus_unchecked.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\checked_green_focus.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\checked_green_focus.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ccano\\.android\\build-cache\\7e558db88471632c59fa42ad34fcf40f18e6b8c4\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_button_selector.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\red_button_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\tribunal_supremo_electoral.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\tribunal_supremo_electoral.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_button_shape_pressed.xml",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\green_button_shape_pressed.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_not_interested_black_24dp.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\ic_not_interested_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_error_black_24dp.png",
+        "source": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\src\\main\\res\\drawable-hdpi\\ic_error_black_24dp.png"
+    }
+]

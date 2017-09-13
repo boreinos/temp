@@ -95,6 +95,15 @@
         android:layout_below="@id/tableLayout1"
         android:background="#FF0000" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineView1"
+        android:paddingBottom="120dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
@@ -234,10 +243,100 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayoutLast"
+        android:id="@+id/sobrantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sobrantestv"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="SOBRANTES:" />
+
+        <EditText
+            android:id="@+id/sobranteset1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="NÚMERO"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textIsSelectable="false"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/sobranteset2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textIsSelectable="false"
+            android:hint="REINGRESAR"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/sobrantesbtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/inutilizadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sobrantes"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inutilizadastv"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="INUTILIZADAS:" />
+
+        <EditText
+            android:id="@+id/inutilizadaset1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="NÚMERO"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textIsSelectable="false"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/inutilizadaset2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textIsSelectable="false"
+            android:hint="REINGRESAR"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/inultilizadasbtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="=>" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inutilizadas"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
@@ -294,7 +393,7 @@
             android:gravity="start"
             android:padding="15dp"
             android:textSize="@dimen/viewTextSizePapeletas"
-            android:text="TOTAL DE PAPELETAS:" />
+            android:text="PAPELETAS RECIBIDAS:" />
 
         <TextView
             android:id="@+id/textView132"
@@ -318,6 +417,48 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/entregadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout3"
+        android:paddingTop="10dp"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/entregadastv"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:textSize="@dimen/viewTextSizePapeletas"
+            android:text="PAPELETAS ENTREGADAS:" />
+
+        <TextView
+            android:id="@+id/entregadastv1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_corners"
+            android:hint="CALCULADO"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/entregadastv2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_corners"
+            android:hint="INGRESAR"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/entregadastv3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
     <Button
         android:id="@+id/procedo_btn"
         android:layout_width="wrap_content"

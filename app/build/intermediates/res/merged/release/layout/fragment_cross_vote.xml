@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/parentLayout"
+        tools:context=".activities.CrossedVoteActivity">
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:background="@color/HeaderBlue">
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:visibility="invisible"
+                android:id="@+id/mismatch_icon">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/yellow_triangle"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/mismatch_value"
+                    android:paddingTop="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="!"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/crossvote_no_tv"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:padding="2dp"
+                android:textColor="@color/dark_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/rectangle_rounded_corners_white"/>
+
+            <TextView
+                android:id="@+id/crossvote_no_detail_tv"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="15dp"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_ballots"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/crossvote_total_tv"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/dark_grey"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/rectangle_rounded_corners_white"/>
+
+            <TextView
+                android:id="@+id/crossvote_total_detail_tv"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/crossvote_total_tv"
+                android:padding="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/crossvote_marks_tv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/dark_grey"
+                android:textSize="18sp"
+                android:text="MARCAS"
+                android:textStyle="bold"
+                android:background="@drawable/rectangle_rounded_corners_white"/>
+
+            <TextView
+                android:id="@+id/entered_marcas"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_rounded_corners_white"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/crossvote_marks_detail_tv"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/crossvote_marks_tv"
+                android:background="@drawable/rectangle_rounded_corners_white"
+                android:padding="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <!--android:textColor="@color/white"-->
+            <Button
+                android:id="@+id/invalid_btn"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                />
+            <Button
+                android:id="@+id/descartar_btn"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/aceptar_btn"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:text="Aceptar"
+                />
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="5dp"-->
+
+            <Button
+                android:id="@+id/siguiente_btn"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:textColor="@color/white"
+                android:nextFocusDown="@id/siguiente_btn"
+                android:nextFocusRight="@id/siguiente_btn"
+                android:nextFocusLeft="@id/siguiente_btn"
+                android:nextFocusUp="@id/siguiente_btn"
+                android:nextFocusForward="@id/siguiente_btn"
+                android:layout_margin="5dp"
+                android:text="Proxima\nPapeleta"
+                ><requestFocus/>
+            </Button>
+
+
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="5dp"-->
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/flag_layout"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:orientation="vertical"
+            android:background="@color/HeaderBlue">
+            <!--android:padding="10dp"-->
+
+            <!-- Only Party FLAGS -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/PartyFlagsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                />
+            <!--android:layout_height="122dp"-->
+
+            <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:id="@+id/PartyFlagsFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:columnWidth="80dp"-->
+            <!--android:numColumns="auto_fit"-->
+            <!--android:verticalSpacing="15dp"-->
+            <!--android:horizontalSpacing="10dp"-->
+            <!--android:stretchMode="spacingWidthUniform"/>-->
+
+            <!--<View-->
+            <!--android:id="@+id/view01"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dip"-->
+            <!--android:layout_below="@id/PartyFlagsFragment"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#FF0000" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/flag_layout"
+            android:padding="2dp" >
+            <!--android:layout_marginBottom="80dp"-->
+
+            <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:fillViewport="true">-->
+
+
+            <!-- A RecyclerView with some commonly used attributes -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gridviewFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                />
+            <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:id="@+id/gridviewFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:columnWidth="80dp"-->
+            <!--android:numColumns="auto_fit"-->
+            <!--android:verticalSpacing="15dp"-->
+            <!--android:horizontalSpacing="10dp"-->
+            <!--android:stretchMode="spacingWidthUniform"/>-->
+
+            <!--</ScrollView>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    </RelativeLayout>
+
+

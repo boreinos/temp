@@ -1018,7 +1018,11 @@
                     "endOffset": 7405
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-uk\\values.xml",
+=======
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-uk\\values.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

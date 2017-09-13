@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Andrid Studio files
 .idea/workspace.xml
 .idea/libraries
@@ -25,3 +26,14 @@ gradle/wrapper/gradle-wrapper.jar
 #built application files
 *.apk
 *.ap_
+=======
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe

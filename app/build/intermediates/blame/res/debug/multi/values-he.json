@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\res\\merged\\debug\\values-he\\values-he.xml",
+=======
+        "outputFile": "D:\\Workspace\\AndroidStudio\\ElSalvador_Honduras\\ELSAHON\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 106
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-he\\values.xml",
+=======
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 156
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-he\\values.xml",
+=======
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +61,11 @@
                     "endOffset": 291
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-he\\values.xml",
+=======
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +84,11 @@
                     "endOffset": 381
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Election\\ElSalvador\\AndroidApps\\ElSalvador_Honduras\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-he\\values.xml",
+=======
+                    "file": "C:\\Users\\ccano\\.android\\build-cache\\d281262bc3f60c47962b73788719ae122e060be0\\output\\res\\values-he\\values.xml",
+>>>>>>> 26c71b5f4775aee7ef03e757432590cd4fa6dbbe
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
