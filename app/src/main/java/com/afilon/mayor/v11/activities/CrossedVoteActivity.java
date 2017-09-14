@@ -647,49 +647,69 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     public void dumpCrossVoteToDb() {
         keepDbOpen();
         ArrayList<CrossVoteBundle> mCrossVoteBundle = ballot.buildVoteBundle();
-        int electionType = ballot.getMarkType(partyListIds);
-        String markType = String.valueOf(electionType);
-        int TotalMarks = mCrossVoteBundle.size();
-        for (CrossVoteBundle mCVB : mCrossVoteBundle) {
 
-            db_adapter.insertCandidateCrossVote(
-                    mCVB.getJrv(),
-                    mCVB.getPrefElecId(),
-                    mCVB.getPartyPrefElecId(),
-                    mCVB.getCandidatePrefElecId(),
-                    mCVB.getVote(),
-//                    1,
-                    mCVB.getBoletaNo());
-            db_adapter.insertMarks(
-                    mCVB.getJrv(),
-                    mCVB.getPrefElecId(),
-                    mCVB.getCandidatePrefElecId(),
-                    mCVB.getPartyPrefElecId(),
-                    markType,
-                    "1"
-            );
-        }
+        int TotalMarks = mCrossVoteBundle.size();
 
         if (Consts.LOCALE.contains("HON")) {
+            int electionType = ballot.getMarkType(partyListIds);
+            String markType = String.valueOf(electionType);
+            for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+
+                db_adapter.insertCandidateCrossVote(
+                        mCVB.getJrv(),
+                        mCVB.getPrefElecId(),
+                        mCVB.getPartyPrefElecId(),
+                        mCVB.getCandidatePrefElecId(),
+                        mCVB.getVote(),
+//                    1,
+                        mCVB.getBoletaNo());
+                db_adapter.insertMarks(
+                        mCVB.getJrv(),
+                        mCVB.getPrefElecId(),
+                        mCVB.getCandidatePrefElecId(),
+                        mCVB.getPartyPrefElecId(),
+                        markType,
+                        "1"
+                );
+            }
             // db insertion:
             includePartyVoteBreakDown(electionType);
             int validBallots = validBallot.addToCount();
             String validCount = String.valueOf(validBallots);
             valuesMap.put("VOTOS VALIDOS",validCount);
             updateValidInMenu(validBallots);
-            updatePersistBallotCount();
+           // updatePersistBallotCount();
         } else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
             //todo: go one by one:
-            // db insertion:
-            includePartyVoteBreakDown(electionType);
-            // TODO : HUGE !!
-            // todo/ here, we need to first update the breakdown based on the exisiting values,
-            // todo/ therefore, when parties are loaded, vote breakdown must be loaded, but question is would this affect the values displayed?
-            // todo/ if so then we need to take the values we are trying to update and do the update in the back, meaning we need to store the original
-            // todo/ values and just add them to the new count every time or something.  or we can abandon that table all together?
-            updatePersistBallotCount(); // good.
-        }
+            int electionType = ballot.getMarkTypeES();
+            String markType = String.valueOf(electionType);
+            if(electionType!=Ballot.NULO){
+                for (CrossVoteBundle mCVB : mCrossVoteBundle) {
 
+                    db_adapter.insertCandidateCrossVote(
+                            mCVB.getJrv(),
+                            mCVB.getPrefElecId(),
+                            mCVB.getPartyPrefElecId(),
+                            mCVB.getCandidatePrefElecId(),
+                            mCVB.getVote(),
+//                    1,
+                            mCVB.getBoletaNo());
+                    db_adapter.insertMarks(
+                            mCVB.getJrv(),
+                            mCVB.getPrefElecId(),
+                            mCVB.getCandidatePrefElecId(),
+                            mCVB.getPartyPrefElecId(),
+                            markType,
+                            "1"
+                    );
+                }
+                // db insertion:
+                includePartyVoteBreakDown(electionType);
+            }else{
+                //todo: ADD INVALID VOTE TO THE COUNT
+            }
+        }
+        updatePersistBallotCount(); // good.
         String strCurrentMarkValue = ballot.voteMultiplier();
         crossVoteTotalDetail.setText(strCurrentMarkValue);
         crossVoteMarksDetail.setText(String.valueOf(TotalMarks));
@@ -848,7 +868,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         animateSaveBallot();
         ((Button) view).setText(nextLabel);
         adapter.attachListener(false);
-        flagsAdapter.ignoreTouch(true);
+        flagsAdapter.attachListener(false);
+        flagsAdapter.ignoreTouch(true);//todo: needed?
 
     }
 
@@ -889,7 +910,9 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         // stop adapter from attaching listeners:
         adapter.attachListener(false);
         adapter.allMatch();
+        flagsAdapter.allMatch();
         flagsAdapter.ignoreTouch(true);
+        flagsAdapter.attachListener(false);
         flagsAdapter.notifyDataSetChanged(); // just to update scroll
         //disable touch event after saving into db
         disableChildsOnTouch(gridView);
@@ -954,6 +977,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        aceptarBtn.setText(SAVE);
 //        aceptarBtn.setText(CONFIRM_ENTRY);
         adapter.attachListener(true); // unlock grid.
+        flagsAdapter.attachListener(true);
         flagsAdapter.ignoreTouch(false);
         HashMap<String, CandidateCrossVote> withMarks = ballot.getSecondMarks();
         adapter.ballotFull(false);
@@ -980,9 +1004,12 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         adapter.allMatch();
         //lock grid:
         adapter.attachListener(false);
+        flagsAdapter.attachListener(false);
+        flagsAdapter.allMatch();
         // enable mis matches
         adapter.setResId(R.drawable.match_x);
         adapter.unLockMisMatches(ballot.confirmBallotEntries());// todo: rename, it doesn't unlock mismatches. it identifyMismatches()
+        flagsAdapter.unLockMisMatches(ballot.confirmPartySelection());
         adapter.ballotFull(ballot.isBallotFull());
         adapter.setReviewMode(true); // now in review mode.
 
@@ -1022,6 +1049,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         flagsAdapter.setReviewMode(false);
 //        adapter.setResId(R.drawable.blue_x); again, it will occur after marks are entered.
         adapter.attachListener(false);
+        flagsAdapter.attachListener(false);
         flagsAdapter.updatePartyData(ballot.getPartyArrayList());
 
 
@@ -1076,6 +1104,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        ballot.resetBallot(); //clear vote data from party and candidates
         ballot.newBallot(currentBallotNumber);
         adapter.attachListener(true); // unlock
+        flagsAdapter.attachListener(true);
         adapter.ballotFull(false);
         clearScreen();
         ((TextView) findViewById(R.id.entered_marcas)).setText("");
@@ -1092,6 +1121,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
     private void clearScreen() {
         adapter.removeCandidateMarks(); //update  candidate grid
+        flagsAdapter.removePartyMarks();
         flagsAdapter.updatePartyData(ballot.getPartyArrayList()); //update party grid
 //        flagsAdapter.updatePartyData(partyArrayList); //update party grid
         clearHeaders();
@@ -1177,6 +1207,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        aceptarBtn.setText(REENTER);
 //        setButtonColorRed(aceptarBtn);
         adapter.attachListener(true); // unlock grid.
+        flagsAdapter.attachListener(true);
         adapter.setResId(R.drawable.blue_x);
         ballot.setFirstEntry(true);
         adapter.candidatesWithPreviousMarks(ballot.getFirstMarks());

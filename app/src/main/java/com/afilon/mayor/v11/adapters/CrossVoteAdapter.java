@@ -124,15 +124,16 @@ public class CrossVoteAdapter extends RecyclerView.Adapter<CrossVoteAdapter.View
             gridListener.onCandidateGridEvent(holder.mItem); // update candidate info.
         } else {
             // determine that candidate can be selected
-            if (!ballotIsFull) { //this flag is updated from fragment!
+            //if (!ballotIsFull) { //this flag is updated from fragment!
                 // candidate was selected: from No mark to Mark!
                 holder.redImage.setImageResource(resId);
 //                holder.redImage.bringToFront();
                 mCandidateCrossVote.get(holder.getAdapterPosition()).setMark(true);
                 gridListener.onCandidateGridEvent(holder.mItem); // update candidate info.
-            } else {
-                ah.createCustomToast("LA CANTIDAD MAXIMA DE CANDIDATOS PARA ESTA ELECCION ES DE " + String.valueOf(mMaxCandidatesAllowed));
-            }
+           // } else {
+                //todo: remove
+               // ah.createCustomToast("LA CANTIDAD MAXIMA DE CANDIDATOS PARA ESTA ELECCION ES DE " + String.valueOf(mMaxCandidatesAllowed));
+          //  }
         }
     }
 

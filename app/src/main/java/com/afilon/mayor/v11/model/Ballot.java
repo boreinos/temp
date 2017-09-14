@@ -31,7 +31,7 @@ public class Ballot {
     private final int PLANCHA = 2;
     private final int PREFERENTIAL = 1;
     private final int CROSS = 3;
-    private final int NULO=-1;
+    public static final int NULO=-1;
     public static final int PREF_MARK= 4;
     public static final int PLAN_MARK=5;
     public static final int CROS_MARK=6;
@@ -43,7 +43,10 @@ public class Ballot {
         this.maxBallotSize = maxBallotSize;
         List1 = new HashMap<>();
         List2 = new HashMap<>();
+        partySelection1 = new HashMap<>();
+        partySelection2 = new HashMap<>();
         partyList1 = new HashMap<>();
+
     }
 
     public void setLocation(String jrv, String preferentialId){
@@ -156,7 +159,7 @@ public class Ballot {
         return mismatch;
     }
     public HashMap<String, Party> confirmPartySelection(){
-        initializeMatches();
+        initializePartyMatches();
         if (partyList1.size() < partyList2.size()) {
             // get a list of matches and mismatches, then compare the second list to matches
             // in order to append all mismatches to the mismatch list.
@@ -250,14 +253,23 @@ public class Ballot {
         }
     }
 
+    private void initializePartyMatches(){
+        matchParties =  new HashMap<>();
+        mismatchParties = new HashMap<>();
+    }
+
     private void initializeMatches() {
         matches = new HashMap<>();
         mismatch = new HashMap<>();
+
     }
 
     private void clearMatches() {
         matches = null;
         mismatch = null;
+        matchParties = null;
+        mismatchParties = null;
+
     }
 
     private void initializePartyList() {
@@ -282,13 +294,17 @@ public class Ballot {
         //counted marks:
         resetMarks();
         // candidate votes
-        List1 = List2 = null;
+        List1 = List2  = null;
         List1 = new HashMap<>();
         List2 = new HashMap<>();
         //party votes
         partyList1 = partyList2 = null;
         partyList1 = new HashMap<>();
         partyList2 = new HashMap<>();
+
+        partySelection1 = partySelection2 = null;
+        partySelection1 = new HashMap<>();
+        partySelection2 = new HashMap<>();
         //update partyArrayList:
         for (int k = 0; k < partyArrayList.size(); k++) {
             partyArrayList.get(k).setBallotVotes(0f);
@@ -498,7 +514,10 @@ public class Ballot {
                         candidate.getPartyName(), candidate.getCandidatePreferentialElectionID(),
                         true, candidateVote);
                 crossVote.setPartyElectionId(candidate.getPartyPreferentialElectionID());
-                List1.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+                CandidateCrossVote ccv = List1.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+                if(ccv!=null){
+                    List1.put(ccv.getCandidatePrefElecId(),ccv);
+                }
             }
             List1 = updateCandidateVote(List1);
         }else{
@@ -518,7 +537,11 @@ public class Ballot {
     public void removeCandidatesFrom(ArrayList<Candidate> candidates){
         if(firstEntry){
             for(Candidate candidate: candidates){
-                List1.remove(candidate.getCandidatePreferentialElectionID());
+                CandidateCrossVote ccv =  List1.remove(candidate.getCandidatePreferentialElectionID());
+                if(ccv.isMarked()){
+                    List1.put(ccv.getCandidatePrefElecId(),ccv);
+                }
+
             }
             List1 = updateCandidateVote(List1);
 
@@ -563,8 +586,30 @@ public class Ballot {
         // otherwise it must be preferential
         return PREFERENTIAL;
     }
+    public int getMarkTypeES(){
+        int marktype;
+        switch (voteType){
+            case PLANCHA:
+                marktype= PLAN_MARK;
+                break;
+            case PREFERENTIAL:
+                marktype = PREF_MARK;
+                break;
+            case CROSS:
+                marktype = CROS_MARK;
+                break;
+            case NULO:
+                marktype = NULO;
+                break;
+            default:
+                marktype = NULO;
+                break;
+        }
+        return marktype;
+    }
 
     public int getMarkType(ArrayList<String> partyListIds){
+
         if(isCrossVote(partyListIds)){
             return CROS_MARK;
         }

@@ -17,6 +17,7 @@ import com.afilon.mayor.v11.utils.Consts;
 import com.afilon.mayor.v11.utils.Utilities;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 import static com.afilon.mayor.v11.R.drawable.blue_x;
@@ -96,11 +97,34 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 // Flag was touched: print the flag:
-                if(!inReview && !ignore)
+                if(Consts.LOCALE.equals(Consts.HONDURAS)){
+                    if(!inReview && !ignore){
                         flagGrid.onPartyGridEvent(holder.mItem);
+                    }
+                }else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                    if (attachListener) {
+                        if(!inReview){
+                            itemSelected(holder);
+                        }else if(holder.mItem.isMismatch()) {
+                            itemSelected(holder);
+                        }
+                    }
+                }
+
             }
         });
 
+    }
+    private void itemSelected(ViewHolder holder){
+        if(holder.mItem.isMarked()){
+            holder.redImage.setImageResource(R.color.transparent);
+            holder.mItem.setMark(false);
+            flagGrid.onPartyGridEvent(holder.mItem);
+        }else{
+            holder.redImage.setImageResource(resId);
+            holder.mItem.setMark(true);
+            flagGrid.onPartyGridEvent(holder.mItem);
+        }
     }
 
     @Override
@@ -115,6 +139,34 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
         }
         this.notifyDataSetChanged();
 //        mPartyArrayList =  partyArrayList;
+    }
+
+    public void attachListener(boolean attach) {
+        attachListener = attach;
+        this.notifyDataSetChanged();
+    }
+    public void allMatch() {
+        for (int j = 0; j <mPartyArrayList.size(); j++) {
+            mPartyArrayList.get(j).setMismatch(false);
+        }
+        this.notifyDataSetChanged();
+    }
+
+    public void unLockMisMatches(HashMap<String, Party> mismatches) {
+        for (int j = 0; j < mPartyArrayList.size(); j++) {
+            String partyId =mPartyArrayList.get(j).getParty_preferential_election_id();
+            Party candidate = mismatches.get(partyId);
+            if (candidate != null) {
+                mPartyArrayList.get(j).setMismatch(true); //enable touch
+                mPartyArrayList.get(j).setMark(false); // remove mark
+            }
+        }
+    }
+    public void removePartyMarks() {
+        for (Party cand : mPartyArrayList) {
+            cand.setMark(false);
+        }
+        this.notifyDataSetChanged();
     }
 
     public void setGreenWarning(boolean isGreen){
