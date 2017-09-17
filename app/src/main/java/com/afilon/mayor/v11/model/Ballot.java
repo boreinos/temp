@@ -537,6 +537,7 @@ public class Ballot {
     public void removeCandidatesFrom(ArrayList<Candidate> candidates){
         if(firstEntry){
             for(Candidate candidate: candidates){
+
                 CandidateCrossVote ccv =  List1.remove(candidate.getCandidatePreferentialElectionID());
                 if(ccv.isMarked()){
                     List1.put(ccv.getCandidatePrefElecId(),ccv);

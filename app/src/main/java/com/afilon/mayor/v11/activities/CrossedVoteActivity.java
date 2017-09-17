@@ -1238,6 +1238,11 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private void selectedCandidatesFromES(String partyElectionID) {
         keepDbOpen();
         ArrayList<Candidate> candidates = db_adapter.getParlacenCandidatesArrayList(partyElectionID);
+        for (Candidate candidate : candidates) {
+            candidate.setCandidate_image(String.valueOf(getResources().getIdentifier("pic" +
+                            candidate.getCandidatePreferentialElectionID().toLowerCase(), "drawable",
+                    getApplicationContext().getPackageName())));
+        }
 //        ballot.markCandidatesFrom(candidates);
         ballot.addCandidatesFrom(candidates);
         adapter.ballotFull(ballot.isBallotFull());
