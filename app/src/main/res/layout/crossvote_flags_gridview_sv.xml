@@ -21,7 +21,6 @@
         android:paddingBottom="0dp"
         android:paddingRight="0dp">
 
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -30,13 +29,7 @@
             android:padding="0dp"
             android:scaleType="centerCrop"
             android:adjustViewBounds="true"/>
-        <ImageView
-            android:id="@+id/redcross_image"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:background="@android:color/transparent"
-            android:layout_gravity="center_horizontal"
-            android:visibility="invisible"/>
+        <!-- android:visibility="invisible" -->
 
         <TextView
             android:layout_width="60dp"
@@ -92,11 +85,19 @@
                 android:textSize="12sp"/>
         </FrameLayout>
         <ImageView
+            android:id="@+id/redcross_image"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_horizontal"
+            />
+        <ImageView
             android:id="@+id/fade"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:background="@android:color/transparent"
             android:layout_gravity="center_horizontal" />
+
 
 
 

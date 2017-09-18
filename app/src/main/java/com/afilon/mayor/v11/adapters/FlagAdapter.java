@@ -127,6 +127,10 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
         }
     }
 
+    public void setResId(int id){
+        resId = id;
+    }
+
     @Override
     public int getItemCount() {
         return mPartyArrayList.size();
@@ -176,6 +180,21 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
 
     public void ignoreTouch(boolean ignore){
         this.ignore = ignore;
+        this.notifyDataSetChanged();
+    }
+    public void partiesWithPreviousMarks(HashMap<String, Party> withMarks){
+        if(withMarks ==null || withMarks.size()==0){
+            return;
+        }
+
+        for (int j = 0; j < mPartyArrayList.size(); j++) {
+            String partyId = mPartyArrayList.get(j).getParty_preferential_election_id();
+            Party candidate = withMarks.get(partyId);
+            if (candidate != null) {
+//                mCandidateCrossVote.get(j).setMismatch(true); //enable touch
+                mPartyArrayList.get(j).setMark(candidate.isMarked()); // remove mark
+            }
+        }
         this.notifyDataSetChanged();
     }
 

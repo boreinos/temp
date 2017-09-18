@@ -385,22 +385,28 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     }
 
     private void updateNullInMenu(int nullv){
-        TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
-        String totalS = (String)grantotal.getText();
-        int total = util.parseInt(totalS,0)+1;
-        totalS = String.valueOf(total);
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
+            TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
+            String totalS = (String)grantotal.getText();
+            int total = util.parseInt(totalS,0)+1;
+            totalS = String.valueOf(total);
+            grantotal.setText(totalS);
+        }
+
+
         String nullS = String.valueOf(nullv);
-        grantotal.setText(totalS);
         ((TextView)voteMenu.findItem(R.id.nav_null).getActionView()).setText(nullS);
     }
 
     private void updateBlankInMenu(int emptyv){
-        TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
-        String totalS = (String)grantotal.getText();
-        int total = util.parseInt(totalS,0)+1;
-        totalS = String.valueOf(total);
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
+            TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
+            String totalS = (String)grantotal.getText();
+            int total = util.parseInt(totalS,0)+1;
+            totalS = String.valueOf(total);
+            grantotal.setText(totalS);
+        }
         String emptyS = String.valueOf(emptyv);
-        grantotal.setText(totalS);
         ((TextView)voteMenu.findItem(R.id.nav_blank).getActionView()).setText(emptyS);
     }
 
@@ -706,7 +712,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 // db insertion:
                 includePartyVoteBreakDown(electionType);
             }else{
-                //todo: ADD INVALID VOTE TO THE COUNT
+                markBallotNulo();
             }
         }
         updatePersistBallotCount(); // good.
@@ -980,9 +986,12 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         flagsAdapter.attachListener(true);
         flagsAdapter.ignoreTouch(false);
         HashMap<String, CandidateCrossVote> withMarks = ballot.getSecondMarks();
+        HashMap<String, Party> pwithMarks = ballot.getPartySecondMarks();
         adapter.ballotFull(false);
         adapter.setResId(R.drawable.red_x);
+        flagsAdapter.setResId(R.drawable.red_x);
         adapter.candidatesWithPreviousMarks(withMarks);
+        flagsAdapter.partiesWithPreviousMarks(pwithMarks);
         allowAcceptar(ballot.isReady(partyListIds));
         if (withMarks == null || withMarks.size() == 0) {
             return;
@@ -1008,6 +1017,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         flagsAdapter.allMatch();
         // enable mis matches
         adapter.setResId(R.drawable.match_x);
+        flagsAdapter.setResId(R.drawable.match_x);
         adapter.unLockMisMatches(ballot.confirmBallotEntries());// todo: rename, it doesn't unlock mismatches. it identifyMismatches()
         flagsAdapter.unLockMisMatches(ballot.confirmPartySelection());
         adapter.ballotFull(ballot.isBallotFull());
@@ -1209,8 +1219,10 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         adapter.attachListener(true); // unlock grid.
         flagsAdapter.attachListener(true);
         adapter.setResId(R.drawable.blue_x);
+        flagsAdapter.setResId(R.drawable.blue_x);
         ballot.setFirstEntry(true);
         adapter.candidatesWithPreviousMarks(ballot.getFirstMarks());
+        flagsAdapter.partiesWithPreviousMarks(ballot.getpartiesFirstmarks());
         flagsAdapter.ignoreTouch(false); //should be able to touch from here until confirm is selected
 //        adapter.notifyDataSetChanged(); //maybe?
         flagsAdapter.notifyDataSetChanged();
@@ -1313,19 +1325,36 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private OnGridListener GridListener = new OnGridListener() {
         @Override
         public void onCandidateGridEvent(CandidateCrossVote candidate) {
-            //candidate Logic:
-            if (candidate.isMarked()) {
-                //candidate was selected:
-                ballot.addCandidate(candidate);
-                adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
+            if(Consts.LOCALE.equals(Consts.HONDURAS)){
+                //candidate Logic:
+                if (candidate.isMarked()) {
+                    //candidate was selected:
+                    ballot.addCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
 
-            } else {
-                //likely candidate was de-selected: possibility of ballot full and not marked
-                ballot.removeCandidate(candidate);
-                adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                } else {
+                    //likely candidate was de-selected: possibility of ballot full and not marked
+                    ballot.removeCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                }
+                flagsAdapter.updatePartyData(ballot.getPartyArrayList());
+                updateHeaders();
+            }else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                //candidate Logic:
+                if (candidate.isMarked()) {
+                    //candidate was selected:
+                    ballot.addCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
+
+                } else {
+                    //likely candidate was de-selected: possibility of ballot full and not marked
+                    ballot.removeCandidateES(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                }
+                flagsAdapter.updatePartyData(ballot.getPartyArrayList());
+                updateHeaders();
             }
-            flagsAdapter.updatePartyData(ballot.getPartyArrayList());
-            updateHeaders();
+
         }
 
         @Override

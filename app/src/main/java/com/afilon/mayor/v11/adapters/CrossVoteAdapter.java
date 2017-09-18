@@ -179,7 +179,7 @@ public class CrossVoteAdapter extends RecyclerView.Adapter<CrossVoteAdapter.View
             CandidateCrossVote candidate = withMarks.get(candidateId);
             if (candidate != null) {
 //                mCandidateCrossVote.get(j).setMismatch(true); //enable touch
-                mCandidateCrossVote.get(j).setMark(true); // remove mark
+                mCandidateCrossVote.get(j).setMark(candidate.isMarked()); // remove mark
             }
         }
         this.notifyDataSetChanged();
