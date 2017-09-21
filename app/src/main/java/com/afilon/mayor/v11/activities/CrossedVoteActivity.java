@@ -41,6 +41,7 @@ import com.afilon.mayor.v11.adapters.FlagAdapter;
 import com.afilon.mayor.v11.data.DatabaseAdapterParlacen;
 import com.afilon.mayor.v11.fragments.BallotDialog;
 import com.afilon.mayor.v11.fragments.DialogToConfirmDui;
+import com.afilon.mayor.v11.fragments.FourButtonFragment;
 import com.afilon.mayor.v11.fragments.ThreeButtonFragment;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogEditTextFragment4Boletas;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogFragment;
@@ -85,8 +86,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private Escrudata escrudata;
     private FlagAdapter flagsAdapter;
     //-- need views to be global:
-    private RecyclerView gridView;
-    private RecyclerView gridPartyFlags;
+    private RecyclerView gridView, gridPartyFlags;
     private ArrayList<Party> partyArrayList;
     private ArrayList<String> partyListIds;
     private List<Candidate> candidateCrossVoteTemp;
@@ -98,13 +98,13 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private int biggestPartyElements = 0;
     private int smallestParty = 0;
     private int HowManyBallotsToIterate = 0;
-    private Ballot.BallotType validBallot, nullBallot, emptyBallot;
+    private Ballot.BallotType validBallot, nullBallot, emptyBallot, impugnadoBallot;
     private String currentJrv = "";
     private Utilities util;
     private int currentBallotNumber = 0;
     private Ballot ballot;
     private Button seguienteBtn;
-    private Button aceptarBtn, invalidBtn;
+    private Button aceptarBtn, invalidBtn, descartarBtn;
     private TextView crossVoteMarksDetail;
     private TextView crossVoteTotalDetail;
     private TextView crossVoteNoDetail;
@@ -121,19 +121,25 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private static final String ADD  = "Añadir\nPAPELETA"; //= ContextHandler.getElectionContext().getResources().getString(R.string.add_ballots);//
     private static final String DROP = "Descartar\nRestantes";
     private static final String INVALID="Papeleta\nInvalida";
+    private static final String RE_INVALID="Re-invalido";
     private static final String CANCEL="Cancelar",
             NULO="Nulo",
-            EMPTY="En Blanco";
+            EMPTY="Blanco",
+            IMPUGNADO="Impugnado";
     private static final int DROP_MESSAGE = 2;
     private static final int ACCEPT_MESSAGE = 1;
     private CustomKeyboard customKeyboard;
     private ChallengeHelper challengeHelper;
     private static final int ADD_BALLOT = 1;
     private static final int DROP_BALLOT = 2;
+    private static final int SELECT_NULO = 3;
+    private static final int SELECT_EMPTY = 4;
+    private static final int SELECT_IMPUGNADO=5;
     private SubMenu voteMenu;
+    private String currentBtnSelection;
+    private String nextLabel = "ERROR!";
+    View touchSource;
 
-
-    @SuppressLint("LongLogTag")
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -143,15 +149,9 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         if (Consts.LOCALE.contains("ELSA")) {
-            setContentView(R.layout.fragment_cross_vote);
-            invalidBtn =(Button)findViewById(R.id.invalid_btn);
+            setContentView(R.layout.activity_cross_vote_es);
         } else {
-//            setContentView(R.layout.fragment_cross_vote_honduras);
             setContentView(R.layout.activity_cross_vote);
-            invalidBtn =(Button)findViewById(R.id.invalid_btn);
-            invalidBtn.setText(INVALID);
-            invalidBtn.setOnClickListener(getInvalidBallot());
-            setButtonColorGreen(invalidBtn);
         }
         Thread.setDefaultUncaughtExceptionHandler(new UnCaughtException(CrossedVoteActivity.this));
         db_adapter = new DatabaseAdapterParlacen(this);
@@ -161,20 +161,17 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         // REGISTER ROUTINES TO CHALLENGE HELPER:
         challengeHelper.addRoutine(ADD_BALLOT, add_ballots);
         challengeHelper.addRoutine(DROP_BALLOT, drop_ballots);
+        challengeHelper.addRoutine(SELECT_NULO,select_nulo);
+        challengeHelper.addRoutine(SELECT_EMPTY,select_blank);
+        challengeHelper.addRoutine(SELECT_IMPUGNADO,select_impugnado);
         challengeHelper.addCustomKeyBoard(R.id.keyboardview);// FOR DUI CONFIRMATION ONLY
         challengeHelper.setTools(util, db_adapter); //TOOLS ARE FOR DUI CONFIRMATION ONLY
 
         //---------------------------------------------------------------------------
-        //TODO DEBUG:
-        // really interesting:
         currentBallotNumber = util.loadPreferences("HowManyBallotSoFar") + 1;
-//        displayCurrentMarks = util.loadPreferences("HowManyMarksSoFar");todo debug, uncommnet
-//        displayCurrentCV = util.loadPreferencesString("HowManyCVSoFar");todo debug, uncommnet
         HowManyBallotsToIterate = util.loadPreferences(Consts.VOTO_CRUZADO);
-//        customKeyboard = new CustomKeyboard(this, R.id.keyboardview, R.xml.tenhexkbd);
 
-        //* * * * *  HEADER SECTION * * * * * * * * * * * * * * * * * * * * * * * * * *
-        Button descartarBtn = (Button) findViewById(R.id.descartar_btn);
+        // ---------------------  HEADER SECTION   ----------------------------------------
         TextView crossVoteNo = (TextView) findViewById(R.id.crossvote_no_tv);
         crossVoteNoDetail = (TextView) findViewById(R.id.crossvote_no_detail_tv);
         TextView crossVoteMarks = (TextView) findViewById(R.id.crossvote_marks_tv);
@@ -186,51 +183,33 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         String totalBallots = "/  " + String.valueOf(HowManyBallotsToIterate);
         ((TextView) findViewById(R.id.total_ballots)).setText(totalBallots);
 
+        // set up invalid vote:
+        invalidBtn =(Button)findViewById(R.id.invalid_btn);
+        invalidBtn.setOnClickListener(getInvalidBallot());
         aceptarBtn = (Button) findViewById(R.id.aceptar_btn);
-//        aceptarBtn.setText("REINGRESAR");
-        aceptarBtn.setText(STARTBALLOT);
         seguienteBtn = (Button) findViewById(R.id.siguiente_btn);
-        seguienteBtn.setText(NEXT);
-        setButtonColorRed(descartarBtn);
-
-//        setButtonColorRed(aceptarBtn);
-        setButtonColorGreen(aceptarBtn);
-        setButtonColorRed(seguienteBtn);
-
-//        descartarBtn.setVisibility(View.GONE);
-        descartarBtn.setText(DROP);
-
-
-
+        descartarBtn = (Button) findViewById(R.id.descartar_btn);
+        // determine button text and color:
+        setButtonsToStart();
         //---------------------------------------------------------------------------------------
-        partyListIds = new ArrayList<>();
 
-//        crossVoteNo.setText("BOLETA No ");
+        partyListIds = new ArrayList<>();
         crossVoteNo.setText("PAPELETA No ");
-//        crossVoteMarks.setText("CANTIDADA DE MARCAS");
         crossVoteTotal.setText("VOTO X MARCA ");
         initiateHeaders();
-        //* * * * * * * * Database * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
         db_adapter.open();
-
-        //* * * * * * * * * Bundle * * * * * * * * * * * * * * * * * * * * * * * * * * *
         Bundle b = getIntent().getExtras();
-        // todo: create a class to return a fake bundle for testing.
-
         vc = b.getParcelable("com.afilon.tse.votingcenter");
         escrudata = b.getParcelable("com.afilon.tse.escrudata");
-        currentJrv = vc.getJRV(); //b.getString("currentJrv");
+        currentJrv = vc.getJRV();
 
         util.saveCurrentScreen(this.getClass(),b);
 
-//        final String testJRV = util.loadPreferencesString(Consts.CURRENT_JRV);
-
         //Get Parties
         partyArrayList = db_adapter.getParlacenPartiesArrayList(vc.getPref_election_id());
-
         getTotalCandidatesList(partyArrayList);
 
-        //TODO: Print out Parties name for debug
         for (int i = 0; i < partyArrayList.size(); i++) {
             //Save Image Drawable Resource ID:
             String name = partyArrayList.get(i).getParty_name();
@@ -259,8 +238,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         gridView = (RecyclerView) findViewById(R.id.gridviewFragment);
         SpaceItemDecoration spacing;
 
-        if (Consts.LOCALE.contains("ELSA")) {
-            // todo: EL SALVADOR SORTING:
+        if (Consts.LOCALE.equals(Consts.ELSALVADOR)) {
+            // EL SALVADOR SORTING:
             sortCandidatesGridView();
             flagLayoutManager.setTotalColumnCount(partiesQty);
             gridLayoutManager.setTotalColumnCount(partiesQty);
@@ -270,17 +249,13 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 gridView.addItemDecoration(spacing);
                 gridPartyFlags.addItemDecoration(spacing);
             }
-        } else {
-            // todo: HONDURAS
+        } else if(Consts.LOCALE.equals(Consts.HONDURAS)) {
+            // HONDURAS SORTING
             sortCandidatesGridHonduras();
             flagLayoutManager.setTotalColumnCount(1);
             gridLayoutManager.setTotalColumnCount(biggestPartyElements);
         }
-
-
-        //*****************************************************************************************
-
-
+        //------------------------------------------------------------------------------------------
         gridView.setLayoutManager(gridLayoutManager);
         gridPartyFlags.setLayoutManager(flagLayoutManager);
         flagsAdapter = new FlagAdapter(getApplicationContext(), partyArrayList, GridListener);
@@ -290,55 +265,47 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         ballot = new Ballot(biggestPartyElements);
         ballot.setPartyArrayList(partyArrayList);
         ballot.setLocation(currentJrv, vc.getPreferential_election2_id());
-
         //------------------------------------------------------------------------------------------
+        Gson gson = new Gson();
+        String map = escrudata.getValueMap();
+        valuesMap = gson.fromJson(map,LinkedHashMap.class);
+        // get menu view:
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        voteMenu = navigationView.getMenu().findItem(R.id.ballot_menu).getSubMenu();
         // initialize ballot count:
         if(Consts.LOCALE.equals(Consts.HONDURAS)){
-            Gson gson = new Gson();
-            String map = escrudata.getValueMap();
-            valuesMap = gson.fromJson(map,LinkedHashMap.class);
-//            ArrayList<Ballot.BallotType> countedBallots = new ArrayList<>();
             validBallot = ballot.createType(Ballot.BallotType.VALID_VOTE);
             nullBallot = ballot.createType(Ballot.BallotType.NULL_VOTE);
             emptyBallot = ballot.createType(Ballot.BallotType.EMPTY_VOTE);
-
             validBallot.setCount(util.parseInt((String)valuesMap.get("VOTOS VALIDOS"),0));// load them from escrudata?
             nullBallot.setCount(util.parseInt((String)valuesMap.get("NULOS"),0));
             emptyBallot.setCount(util.parseInt((String)valuesMap.get("EN BLANCO"),0));
-
-            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-            voteMenu = navigationView.getMenu().findItem(R.id.ballot_menu).getSubMenu();
-
             updateVoteMenu(validBallot.getCount(),nullBallot.getCount(), emptyBallot.getCount());
-
-            // set up the drawer list:
-            //TODO: SAVE TO DATABASE SQLITE!!!!!!!
+        }else if (Consts.LOCALE.equals(Consts.ELSALVADOR)){
+            nullBallot = ballot.createType(Ballot.BallotType.NULL_VOTE);
+            emptyBallot = ballot.createType(Ballot.BallotType.EMPTY_VOTE);
+            impugnadoBallot = ballot.createType(Ballot.BallotType.IMPUGNADO_VOTE);
+            nullBallot.setCount(util.parseInt((String)valuesMap.get("NULOS"),0));
+            emptyBallot.setCount(util.parseInt((String)valuesMap.get("ABSTENCIONES"),0));
+            impugnadoBallot.setCount(util.parseInt((String)valuesMap.get("IMPUGNADOS"),0));
+            updateVoteMenuES(nullBallot.getCount(),emptyBallot.getCount(),impugnadoBallot.getCount());
         }
+        // todo: LEFT HERE KIND OFF
 
         gridView.setAdapter(adapter);
         gridPartyFlags.setAdapter(flagsAdapter);
-
-
         gridView.setOnScrollListener(gridScrollListener());
         gridView.setOnTouchListener(gridTouchListener());
-
         gridPartyFlags.setOnScrollListener(flagScrollListener());
         gridPartyFlags.setOnTouchListener(gridTouchListener());
-
         aceptarBtn.setOnClickListener(getAceptar());
 
         seguienteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 final String label = ((Button) v).getText().toString();
-                // todo: FIND A WAY TO MOVE OUT OF HERE!
-                if(Consts.LOCALE.equals(Consts.HONDURAS)){
-                    setButtonColorGreen(invalidBtn);
-                }
-                // -----------------------------------------------
-
-
-
+                setButtonColorGreen(invalidBtn);
+                // ----------------------------------------------------------
                 setButtonColorRed(seguienteBtn);
                 seguienteBtn.setText(NEXT);
                 switch (label) {
@@ -357,16 +324,11 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             }
         });
         descartarBtn.setOnClickListener(getAddDescartar());
-//        customKeyboard.showCustomKeyboard(null);
-//        return v;
         if (currentBallotNumber >= HowManyBallotsToIterate) {
             setButtonColorRed(invalidBtn);
             setButtonColorRed(aceptarBtn);
             setButtonColorGreen(seguienteBtn);
         }
-//        showBallotDialot();
-
-
     }
 
     private void updateVoteMenu(int valid,int nullv, int emptyv){
@@ -376,6 +338,9 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         String nullBallots = String.valueOf(nullv);
         String emptyBallots = String.valueOf(emptyv);
 
+        // set El Salvador counts invisible:
+//        voteMenu.findItem(R.id.nav_impugnado).getActionView().setVisibility(View.GONE);
+        // update views:
         ((TextView)voteMenu.findItem(R.id.nav_valid).getActionView())
                 .setText(validBallots);
 
@@ -389,6 +354,26 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 .setText(totalS);
     }
 
+    private void updateVoteMenuES(int nullv, int emptyv, int impugnadov){
+        String nullBallots = String.valueOf(nullv);
+        String emptyBallots = String.valueOf(emptyv);
+        String impugandoBallots = String.valueOf(impugnadov);
+
+        // hide Honduras counts:
+//        voteMenu.findItem(R.id.nav_valid).getActionView().setVisibility(View.GONE);
+//        voteMenu.findItem(R.id.nav_grantotal).getActionView().setVisibility(View.GONE);
+        //update views:
+        ((TextView)voteMenu.findItem(R.id.nav_null).getActionView()).setText(nullBallots);
+        ((TextView)voteMenu.findItem(R.id.nav_blank).getActionView()).setText(emptyBallots);
+        ((TextView)voteMenu.findItem(R.id.nav_impugnado).getActionView()).setText(impugandoBallots);
+
+    }
+
+    private void updateImpugnadoInMenu(int impugnado){
+        String impugnadoS = String.valueOf(impugnado);
+        ((TextView)voteMenu.findItem(R.id.nav_impugnado).getActionView()).setText(impugnadoS);
+    }
+
     private void updateValidInMenu(int valid){
         TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
         String totalS = (String)grantotal.getText();
@@ -400,44 +385,60 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     }
 
     private void updateNullInMenu(int nullv){
-        TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
-        String totalS = (String)grantotal.getText();
-        int total = util.parseInt(totalS,0)+1;
-        totalS = String.valueOf(total);
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
+            TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
+            String totalS = (String)grantotal.getText();
+            int total = util.parseInt(totalS,0)+1;
+            totalS = String.valueOf(total);
+            grantotal.setText(totalS);
+        }
+
+
         String nullS = String.valueOf(nullv);
-        grantotal.setText(totalS);
         ((TextView)voteMenu.findItem(R.id.nav_null).getActionView()).setText(nullS);
     }
 
     private void updateBlankInMenu(int emptyv){
-        TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
-        String totalS = (String)grantotal.getText();
-        int total = util.parseInt(totalS,0)+1;
-        totalS = String.valueOf(total);
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
+            TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
+            String totalS = (String)grantotal.getText();
+            int total = util.parseInt(totalS,0)+1;
+            totalS = String.valueOf(total);
+            grantotal.setText(totalS);
+        }
         String emptyS = String.valueOf(emptyv);
-        grantotal.setText(totalS);
         ((TextView)voteMenu.findItem(R.id.nav_blank).getActionView()).setText(emptyS);
-    }
-
-    public void showBallotDialot(String header){
-        FragmentManager fm = getFragmentManager();
-        DialogFragment dialog = new BallotDialog();
-        ((BallotDialog) dialog).setHeader(header);
-        dialog.show(fm, "BallotDialogFragment");
     }
 
     private ChallengeHelper.OnApprove add_ballots = new ChallengeHelper.OnApprove() {
         @Override
-        public void approved() {
-            createDialogEditText("INGRESAR CANTIDAD DE PAPELETAS ADICIONALES", -1);
-        }
+        public void approved() { createDialogEditText("INGRESAR CANTIDAD DE PAPELETAS ADICIONALES", -1);}
     };
 
     private ChallengeHelper.OnApprove drop_ballots = new ChallengeHelper.OnApprove() {
         @Override
         public void approved() {
             discardBallots();
-//            continueRoutine();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_nulo = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {
+            markBallotNulo();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_blank = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {
+            markBallotAbstained();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_impugnado = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {markBallotImpugnado();
         }
     };
 
@@ -457,26 +458,22 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         return new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                if (!recyclerView.equals(touchSource)) { // for when your finger moves into the other grid
+                if (!recyclerView.equals(touchSource)) {
                     return;
                 }
-//                gridView.addOnItemTouchListener(listener);
                 gridView.scrollBy(dx, dy);
             }
         };
     }
 
-    View touchSource;
-
     RecyclerView.OnItemTouchListener listener = new RecyclerView.SimpleOnItemTouchListener() {
         @Override
         public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
-            if (gridPartyFlags.getScrollState() == RecyclerView.SCROLL_STATE_IDLE && gridView.getScrollState() == RecyclerView.SCROLL_STATE_IDLE) {
-                // neither is moving.
-//                touchSource = rv;
-                return false;
-            }
-            return true;
+          return !(gridPartyFlags.getScrollState() == RecyclerView.SCROLL_STATE_IDLE && gridView.getScrollState() == RecyclerView.SCROLL_STATE_IDLE);
+//            if (gridPartyFlags.getScrollState() == RecyclerView.SCROLL_STATE_IDLE && gridView.getScrollState() == RecyclerView.SCROLL_STATE_IDLE) {
+//                return false;
+//            }
+//            return true;
         }
     };
 
@@ -656,51 +653,69 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     public void dumpCrossVoteToDb() {
         keepDbOpen();
         ArrayList<CrossVoteBundle> mCrossVoteBundle = ballot.buildVoteBundle();
-        int electionType = ballot.getMarkType(partyListIds);
-        String markType = String.valueOf(electionType);
+
         int TotalMarks = mCrossVoteBundle.size();
-        for (CrossVoteBundle mCVB : mCrossVoteBundle) {
-
-            db_adapter.insertCandidateCrossVote(
-                    mCVB.getJrv(),
-                    mCVB.getPrefElecId(),
-                    mCVB.getPartyPrefElecId(),
-                    mCVB.getCandidatePrefElecId(),
-                    mCVB.getVote(),
-//                    1,
-                    mCVB.getBoletaNo());
-            db_adapter.insertMarks(
-                    mCVB.getJrv(),
-                    mCVB.getPrefElecId(),
-                    mCVB.getCandidatePrefElecId(),
-                    mCVB.getPartyPrefElecId(),
-                    markType,
-                    "1"
-            );
-
-//            Log.e(CLASS_TAG, "Inserting JRV # " + mCVB.getJrv());
-//            Log.e(CLASS_TAG, "Inserting PrefElecId # " + mCVB.getPrefElecId());
-//            Log.e(CLASS_TAG, "Inserting PartyPrefElecId # " + mCVB.getPartyPrefElecId());
-//            Log.e(CLASS_TAG, "Inserting CandidatePrefElecId # " + mCVB.getCandidatePrefElecId());
-//            Log.e(CLASS_TAG, "Inserting Vote # " + mCVB.getVote());
-//            Log.e(CLASS_TAG, "Inserting Boleta # " + mCVB.getBoletaNo());
-//            Log.e(CLASS_TAG, "mark Type " + markType);
-
-        }
 
         if (Consts.LOCALE.contains("HON")) {
+            int electionType = ballot.getMarkType(partyListIds);
+            String markType = String.valueOf(electionType);
+            for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+
+                db_adapter.insertCandidateCrossVote(
+                        mCVB.getJrv(),
+                        mCVB.getPrefElecId(),
+                        mCVB.getPartyPrefElecId(),
+                        mCVB.getCandidatePrefElecId(),
+                        mCVB.getVote(),
+//                    1,
+                        mCVB.getBoletaNo());
+                db_adapter.insertMarks(
+                        mCVB.getJrv(),
+                        mCVB.getPrefElecId(),
+                        mCVB.getCandidatePrefElecId(),
+                        mCVB.getPartyPrefElecId(),
+                        markType,
+                        "1"
+                );
+            }
             // db insertion:
             includePartyVoteBreakDown(electionType);
             int validBallots = validBallot.addToCount();
             String validCount = String.valueOf(validBallots);
             valuesMap.put("VOTOS VALIDOS",validCount);
             updateValidInMenu(validBallots);
-            updatePersistBallotCount();
+           // updatePersistBallotCount();
+        } else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+            //todo: go one by one:
+            int electionType = ballot.getMarkTypeES();
+            String markType = String.valueOf(electionType);
+            if(electionType!=Ballot.NULO){
+                for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+
+                    db_adapter.insertCandidateCrossVote(
+                            mCVB.getJrv(),
+                            mCVB.getPrefElecId(),
+                            mCVB.getPartyPrefElecId(),
+                            mCVB.getCandidatePrefElecId(),
+                            mCVB.getVote(),
+//                    1,
+                            mCVB.getBoletaNo());
+                    db_adapter.insertMarks(
+                            mCVB.getJrv(),
+                            mCVB.getPrefElecId(),
+                            mCVB.getCandidatePrefElecId(),
+                            mCVB.getPartyPrefElecId(),
+                            markType,
+                            "1"
+                    );
+                }
+                // db insertion:
+                includePartyVoteBreakDown(electionType);
+            }else{
+                markBallotNulo();
+            }
         }
-
-
-
-
+        updatePersistBallotCount(); // good.
         String strCurrentMarkValue = ballot.voteMultiplier();
         crossVoteTotalDetail.setText(strCurrentMarkValue);
         crossVoteMarksDetail.setText(String.valueOf(TotalMarks));
@@ -733,7 +748,6 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 break;
         }
         updatePartyVotes(ballot.getPartyArrayList());
-//        updatePartyVotes(partyArrayList);
     }
 
     private void updatePartyVotes(ArrayList<Party> partylist) {
@@ -768,8 +782,6 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             }
         }
     }
-
-    private String nextLabel = "ERROR!";
 
     private View.OnClickListener getAceptar() {
         return new View.OnClickListener() {
@@ -840,10 +852,11 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                challengeHelper.createThreeButtonMenu(CANCEL,NULO,EMPTY,menuListener);
-//                int remaining = currentBallotNumber;
-//                String invalidMessage = getResources().getString(R.string.bdmessage);
-//                showBallotDialot(String.format(invalidMessage,remaining));
+                if(Consts.LOCALE.equals(Consts.HONDURAS)){
+                    challengeHelper.createThreeButtonMenu(CANCEL,NULO,EMPTY,menuListener);
+                }else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                    challengeHelper.createFourButtonMenu(CANCEL,NULO,EMPTY,IMPUGNADO,toastMenuListener);
+                }
             }
         };
     }
@@ -861,7 +874,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         animateSaveBallot();
         ((Button) view).setText(nextLabel);
         adapter.attachListener(false);
-        flagsAdapter.ignoreTouch(true);
+        flagsAdapter.attachListener(false);
+        flagsAdapter.ignoreTouch(true);//todo: needed?
 
     }
 
@@ -902,7 +916,9 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         // stop adapter from attaching listeners:
         adapter.attachListener(false);
         adapter.allMatch();
+        flagsAdapter.allMatch();
         flagsAdapter.ignoreTouch(true);
+        flagsAdapter.attachListener(false);
         flagsAdapter.notifyDataSetChanged(); // just to update scroll
         //disable touch event after saving into db
         disableChildsOnTouch(gridView);
@@ -930,7 +946,6 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         animateNewBallot();
         reInitiateBallot();
         initiateHeaders();
-//        showBallotDialot();
     }
 
     private void nextActivity() {
@@ -940,9 +955,11 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             TextView grantotal = (TextView)voteMenu.findItem(R.id.nav_grantotal).getActionView();
             String totalS = (String)grantotal.getText();
             valuesMap.put("GRAN TOTAL",totalS);
-            if(!db_adapter.isOpen())db_adapter.open();
-            db_adapter.updateConceptsCount(valuesMap,vc.getJRV()); // super important now also
         }
+        //update concepts to db:
+        if(!db_adapter.isOpen())db_adapter.open();
+        db_adapter.updateConceptsCount(valuesMap,vc.getJRV()); // super important now also
+
         Intent search = new Intent(this, CrossVoteSummaryActivity.class);
         Bundle b = prepareBundle();
         search.putExtras(b);
@@ -966,11 +983,15 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        aceptarBtn.setText(SAVE);
 //        aceptarBtn.setText(CONFIRM_ENTRY);
         adapter.attachListener(true); // unlock grid.
+        flagsAdapter.attachListener(true);
         flagsAdapter.ignoreTouch(false);
         HashMap<String, CandidateCrossVote> withMarks = ballot.getSecondMarks();
+        HashMap<String, Party> pwithMarks = ballot.getPartySecondMarks();
         adapter.ballotFull(false);
         adapter.setResId(R.drawable.red_x);
+        flagsAdapter.setResId(R.drawable.red_x);
         adapter.candidatesWithPreviousMarks(withMarks);
+        flagsAdapter.partiesWithPreviousMarks(pwithMarks);
         allowAcceptar(ballot.isReady(partyListIds));
         if (withMarks == null || withMarks.size() == 0) {
             return;
@@ -992,9 +1013,13 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         adapter.allMatch();
         //lock grid:
         adapter.attachListener(false);
+        flagsAdapter.attachListener(false);
+        flagsAdapter.allMatch();
         // enable mis matches
         adapter.setResId(R.drawable.match_x);
+        flagsAdapter.setResId(R.drawable.match_x);
         adapter.unLockMisMatches(ballot.confirmBallotEntries());// todo: rename, it doesn't unlock mismatches. it identifyMismatches()
+        flagsAdapter.unLockMisMatches(ballot.confirmPartySelection());
         adapter.ballotFull(ballot.isBallotFull());
         adapter.setReviewMode(true); // now in review mode.
 
@@ -1034,6 +1059,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         flagsAdapter.setReviewMode(false);
 //        adapter.setResId(R.drawable.blue_x); again, it will occur after marks are entered.
         adapter.attachListener(false);
+        flagsAdapter.attachListener(false);
         flagsAdapter.updatePartyData(ballot.getPartyArrayList());
 
 
@@ -1088,6 +1114,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        ballot.resetBallot(); //clear vote data from party and candidates
         ballot.newBallot(currentBallotNumber);
         adapter.attachListener(true); // unlock
+        flagsAdapter.attachListener(true);
         adapter.ballotFull(false);
         clearScreen();
         ((TextView) findViewById(R.id.entered_marcas)).setText("");
@@ -1104,6 +1131,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
     private void clearScreen() {
         adapter.removeCandidateMarks(); //update  candidate grid
+        flagsAdapter.removePartyMarks();
         flagsAdapter.updatePartyData(ballot.getPartyArrayList()); //update party grid
 //        flagsAdapter.updatePartyData(partyArrayList); //update party grid
         clearHeaders();
@@ -1163,29 +1191,6 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
     }
 
-    //----------------------------------------------------------------------------------------------
-    private Parcelable gridViewState;
-    private Parcelable flagViewState;
-
-    private void saveGridState() {
-        gridViewState = gridView.getLayoutManager().onSaveInstanceState();
-        flagViewState = gridPartyFlags.getLayoutManager().onSaveInstanceState();
-    }
-
-    private void restoreGridState() {
-        // Restore state
-        //offset
-        int offset = biggestPartyElements+ 3;
-        int candidatePosition = ((Bundle)gridViewState).getInt("position");
-        Log.e("CANDIDATE","POSITION "+String.valueOf(candidatePosition));
-        int partyPosition = ((Bundle)flagViewState).getInt("position");
-        Log.e("PARTY","POSITION "+String.valueOf(partyPosition));
-        gridView.getLayoutManager().smoothScrollToPosition(gridView,null,candidatePosition);
-        gridPartyFlags.getLayoutManager().smoothScrollToPosition(gridPartyFlags,null,partyPosition);
-//        gridView.getLayoutManager().onRestoreInstanceState(gridViewState);
-//        gridPartyFlags.getLayoutManager().onRestoreInstanceState(flagViewState);
-    }
-
     //--------------------------- COLLECT MARCAS CHALLENGE -----------------------------------------
 
     TwoButtonDialogEditTextFragment4Boletas editTextFragment;
@@ -1212,9 +1217,12 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 //        aceptarBtn.setText(REENTER);
 //        setButtonColorRed(aceptarBtn);
         adapter.attachListener(true); // unlock grid.
+        flagsAdapter.attachListener(true);
         adapter.setResId(R.drawable.blue_x);
+        flagsAdapter.setResId(R.drawable.blue_x);
         ballot.setFirstEntry(true);
         adapter.candidatesWithPreviousMarks(ballot.getFirstMarks());
+        flagsAdapter.partiesWithPreviousMarks(ballot.getpartiesFirstmarks());
         flagsAdapter.ignoreTouch(false); //should be able to touch from here until confirm is selected
 //        adapter.notifyDataSetChanged(); //maybe?
         flagsAdapter.notifyDataSetChanged();
@@ -1238,6 +1246,33 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         int valueInPx = (int) getResources().getDimension(R.dimen.btnSmallPadding);
 //        btn.setPadding(valueInPx, valueInPx, valueInPx, valueInPx);
     }
+    // HONDURAS METHODS:
+    private void selectedCandidatesFromES(String partyElectionID) {
+        keepDbOpen();
+        ArrayList<Candidate> candidates = db_adapter.getParlacenCandidatesArrayList(partyElectionID);
+        for (Candidate candidate : candidates) {
+            candidate.setCandidate_image(String.valueOf(getResources().getIdentifier("pic" +
+                            candidate.getCandidatePreferentialElectionID().toLowerCase(), "drawable",
+                    getApplicationContext().getPackageName())));
+        }
+//        ballot.markCandidatesFrom(candidates);
+        ballot.addCandidatesFrom(candidates);
+        adapter.ballotFull(ballot.isBallotFull());
+        updateHeaders();
+        // update party grid:
+        flagsAdapter.updatePartyData(ballot.getPartyArrayList()); // set parties as marked ia ir needed?
+    }
+
+    private void deselectCandidateFromES(String partyElectionID){
+        keepDbOpen();
+        ArrayList<Candidate> candidates = db_adapter.getParlacenCandidatesArrayList(partyElectionID);
+        ballot.removeCandidatesFrom(candidates);
+        adapter.ballotFull(ballot.isBallotFull());
+        updateHeaders();
+        flagsAdapter.updatePartyData(ballot.getPartyArrayList());
+    }
+
+
 
     //----------------------------------------------------------------------------------------------
     // HONDURAS METHODS:
@@ -1290,45 +1325,55 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private OnGridListener GridListener = new OnGridListener() {
         @Override
         public void onCandidateGridEvent(CandidateCrossVote candidate) {
-            //save location:
-//            saveGridState();
-            //candidate Logic:
-            if (candidate.isMarked()) {
-                //candidate was selected:
-                ballot.addCandidate(candidate);
-                adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
+            if(Consts.LOCALE.equals(Consts.HONDURAS)){
+                //candidate Logic:
+                if (candidate.isMarked()) {
+                    //candidate was selected:
+                    ballot.addCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
 
-            } else {
-                //likely candidate was de-selected: possibility of ballot full and not marked
-                ballot.removeCandidate(candidate);
-                adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                } else {
+                    //likely candidate was de-selected: possibility of ballot full and not marked
+                    ballot.removeCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                }
+                flagsAdapter.updatePartyData(ballot.getPartyArrayList());
+                updateHeaders();
+            }else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                //candidate Logic:
+                if (candidate.isMarked()) {
+                    //candidate was selected:
+                    ballot.addCandidate(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); // todo fix for second iteration
+
+                } else {
+                    //likely candidate was de-selected: possibility of ballot full and not marked
+                    ballot.removeCandidateES(candidate);
+                    adapter.ballotFull(ballot.isBallotFull()); //todo fix for second iteration
+                }
+                flagsAdapter.updatePartyData(ballot.getPartyArrayList());
+                updateHeaders();
             }
-            flagsAdapter.updatePartyData(ballot.getPartyArrayList());
-//            runOnUiThread(new Runnable() {
-//                public void run() {
-//                    flagsAdapter.notifyDataSetChanged();
-//                }
-//            });
-//            flagsAdapter.updatePartyData(partyArrayList);
-            updateHeaders();
-            //restore grid location:
-//            restoreGridState();
+
         }
 
         @Override
         public void onPartyGridEvent(Party party) {
             //Todo: party Logic:
-            if (Consts.LOCALE.contains("HON")) {
-//                //save location:
-//                saveGridState();
+            if (Consts.LOCALE.equals(Consts.HONDURAS)) {
                 selectedCandidatesFrom(party.getParty_preferential_election_id());
-//                //restore grid location:
-//                restoreGridState();
-//                gridView.getLayoutManager().smoothScrollToPosition(gridView,null,135);
-//                gridView.getLayoutManager().scrollToPosition(48);
+            } else if (Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                if(party.isMarked()){
+                    ballot.addParty(party);
+                    selectedCandidatesFromES(party.getParty_preferential_election_id());
+                }else{
+                    ballot.removeParty(party);
+                    deselectCandidateFromES(party.getParty_preferential_election_id());
+                }
+                // assign votes, no marks are assigned
+                // vote becomes a bandera vote, this is ok.
+                // add to party mark, track party mark, wtf is party mark?
             }
-
-
         }
     };
 
@@ -1454,6 +1499,132 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         }
     };
 
+    FourButtonFragment.ToastMenuListener toastMenuListener = new FourButtonFragment.ToastMenuListener(){
+        @Override
+        public void onFirstButtonClicked(){}
+        @Override
+        public void onSecondButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = NULO;
+                    setButtonsInvalidRentry();
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(NULO)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+NULO,SELECT_NULO);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+        @Override
+        public void onThirdButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = EMPTY;
+                    setButtonsInvalidRentry();
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(EMPTY)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+EMPTY,SELECT_EMPTY);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+        @Override
+        public void onFourthButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = IMPUGNADO;
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(IMPUGNADO)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+IMPUGNADO,SELECT_IMPUGNADO);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
+
+    private void rejectInvalidSelection(){
+        util.createCustomToast(getResources().getString(R.string.invalidEntryMismatch));
+        setButtonsToStart();
+    }
+
+    private void setButtonsReadyForNext(){
+        // set the proper label:
+        seguienteBtn.setText(NEXT);
+        invalidBtn.setText(INVALID);
+        util.setButtonColorGreen(seguienteBtn);
+        util.setButtonColorRed(aceptarBtn);
+        util.setButtonColorRed(invalidBtn);
+    }
+
+    private void setButtonsInvalidRentry(){
+        invalidBtn.setText(RE_INVALID);
+        util.setButtonColorRed(seguienteBtn);
+        util.setButtonColorRed(aceptarBtn);
+        util.setButtonColorGreen(invalidBtn);
+    }
+
+    private void setButtonsToStart(){
+        aceptarBtn.setText(STARTBALLOT);
+        seguienteBtn.setText(NEXT);
+        invalidBtn.setText(INVALID);
+        descartarBtn.setText(DROP);
+        setButtonColorGreen(invalidBtn);
+        setButtonColorRed(descartarBtn);
+        setButtonColorGreen(aceptarBtn);
+        setButtonColorRed(seguienteBtn);
+    }
+    // toast menu methods:
+
+    private void markBallotNulo(){
+        //NULOS BALLOTS:
+        int nullBallolts = nullBallot.addToCount();
+        String nullCount = String.valueOf(nullBallolts);
+        valuesMap.put("NULOS",nullCount);
+        updatePersistBallotCount();
+        updateNullInMenu(nullBallolts);
+        util.savePreferences("HowManyBallotSoFar",currentBallotNumber);
+        setButtonsReadyForNext();
+    }
+
+    private void markBallotAbstained(){
+        // EMPTY BALLOTS:
+        int emptyBallots = emptyBallot.addToCount();
+        String emptyCount = String.valueOf(emptyBallots);
+        valuesMap.put("ABSTENCIONES",emptyCount);
+        updatePersistBallotCount();
+        updateBlankInMenu(emptyBallots);
+        util.savePreferences("HowManyBallotSoFar",currentBallotNumber);
+        setButtonsReadyForNext();
+    }
+
+    private void markBallotImpugnado(){
+        // IMPUGNADOS BALLOTS:
+        int emptyBallots = impugnadoBallot.addToCount();
+        String emptyCount = String.valueOf(emptyBallots);
+        valuesMap.put("IMPUGNADOS",emptyCount);
+        updatePersistBallotCount();
+        updateImpugnadoInMenu(emptyBallots);
+        util.savePreferences("HowManyBallotSoFar",currentBallotNumber);
+        setButtonsReadyForNext();
+    }
 
     //-------------------------------------------------------------------------------------
     @Deprecated
@@ -1495,7 +1666,4 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     }
 
     //------------------------------------------------------------------------------------
-
-
-
 }

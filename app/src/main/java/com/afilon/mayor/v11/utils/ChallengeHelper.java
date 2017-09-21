@@ -13,6 +13,7 @@ import com.afilon.mayor.v11.R;
 import com.afilon.mayor.v11.data.DatabaseAdapterParlacen;
 import com.afilon.mayor.v11.fragments.DialogToConfirmDui;
 import com.afilon.mayor.v11.fragments.DialogToConfirmDuiTwoBtns;
+import com.afilon.mayor.v11.fragments.FourButtonFragment;
 import com.afilon.mayor.v11.fragments.ThreeButtonFragment;
 import com.afilon.mayor.v11.fragments.drawSignature;
 import com.afilon.mayor.v11.fragments.DialogToConfirmDuiTwoBtns.DuiChallengeListener;
@@ -86,7 +87,19 @@ public class ChallengeHelper {
        bnld.putString(Consts.THRID_BTN,btnLabel3);
        menuFrag.setArguments(bnld);
        menuFrag.show(fm,"three_menu");
-   }
+    }
+    public void createFourButtonMenu(String btnLabel1, String btnLabel2, String btnLabel3, String btnLabel4, FourButtonFragment.ToastMenuListener listener){
+        FragmentManager fm = ((Activity)mContext).getFragmentManager();
+        FourButtonFragment menuFrag = new FourButtonFragment();
+        menuFrag.setOnButtonsClickedListenerOne(listener);
+        Bundle bndl = new Bundle();
+        bndl.putString(Consts.FIRST_BTN, btnLabel1);
+        bndl.putString(Consts.SECOND_BTN,btnLabel2);
+        bndl.putString(Consts.THRID_BTN,btnLabel3);
+        bndl.putString(Consts.FOURTH_BTN,btnLabel4);
+        menuFrag.setArguments(bndl);
+        menuFrag.show(fm,"four_menu");
+    }
 
 
 

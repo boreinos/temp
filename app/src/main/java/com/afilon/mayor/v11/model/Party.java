@@ -20,6 +20,16 @@ public class Party {
 	public  ArrayList<Candidate> candidates;
 	private int party_marcas=0;
 	private int mismatchQty=0;
+	private boolean mIsMarked = false;
+	private boolean mismatch=false;
+	public void setMismatch(boolean mismatch){
+		this.mismatch = mismatch;
+	}
+	public boolean isMismatch(){
+		return this.mismatch;
+	}
+	public boolean isMarked() { return mIsMarked; }
+	public void setMark(boolean mark) { this.mIsMarked = mark;}
 
 	public void addMismatch(int mismatch){
 		mismatchQty+=mismatch;

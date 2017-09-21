@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by BReinosa on 6/27/2017.
@@ -18,51 +19,67 @@ import java.util.Map;
 public class Ballot {
     private HashMap<String, CandidateCrossVote> List1, List2, matches, mismatch; // happy?
     private int maxBallotSize;
-    private HashMap<String, Party> partyList1, partyList2;
+    private HashMap<String, Party> partyList1, partyList2, partySelection1, partySelection2, matchParties, mismatchParties;
     private boolean isConfirmed = false;
     private boolean firstEntry = true;
     private ArrayList<Party> partyArrayList;
     private int ballotNumber;
     private String jrv, preferentialId;
     //-----------------------------------
-    private int Marks=0;
+    private int Marks = 0;
     //-----------------------------------
     private final int PLANCHA = 2;
     private final int PREFERENTIAL = 1;
     private final int CROSS = 3;
-    public static final int PREF_MARK= 4;
-    public static final int PLAN_MARK=5;
-    public static final int CROS_MARK=6;
+    public static final int NULO = -1;
+    public static final int PREF_MARK = 4;
+    public static final int PLAN_MARK = 5;
+    public static final int CROS_MARK = 6;
+    private int voteType = NULO;
+    private float candidateVote = 0f;
 
 
     public Ballot(int maxBallotSize) {
         this.maxBallotSize = maxBallotSize;
         List1 = new HashMap<>();
         List2 = new HashMap<>();
+        partySelection1 = new HashMap<>();
+        partySelection2 = new HashMap<>();
         partyList1 = new HashMap<>();
+
     }
 
-    public void setLocation(String jrv, String preferentialId){
+    public void setLocation(String jrv, String preferentialId) {
         this.jrv = jrv;
         this.preferentialId = preferentialId;
     }
 
-    public HashMap<String, CandidateCrossVote> getFirstMarks(){return List1;}
+    public HashMap<String, CandidateCrossVote> getFirstMarks() {
+        return List1;
+    }
 
-    public HashMap<String, CandidateCrossVote> getSecondMarks(){
+    public HashMap<String, CandidateCrossVote> getSecondMarks() {
         return List2;
     }
 
-    public void setMarks(int marks){
+    public HashMap<String, Party> getpartiesFirstmarks(){
+        return partySelection1;
+    }
+    public HashMap<String, Party> getPartySecondMarks(){
+        return partySelection2;
+    }
+
+
+    public void setMarks(int marks) {
         Marks = marks;
     }
 
-    private void resetMarks(){
+    private void resetMarks() {
         setMarks(0);
     }
 
-    public boolean verifyMarks(){
-        return Marks==getVotes();
+    public boolean verifyMarks() {
+        return Marks == getVotes();
     }
 
     public void setFirstEntry(boolean isFirstEntry) {
@@ -75,18 +92,48 @@ public class Ballot {
             if (guy != null) {
                 Log.e("CROSSVOTE/BR", "OLD MEMBER REPLACED " + guy.getCandidateName());
             }
+            calcualteMultiplier();
             List1 = updateCandidateVote(List1);
         } else {
             List2.put(candidate.getCandidatePrefElecId(), candidate);
+            calcualteMultiplier();
             List2 = updateCandidateVote(List2);
         }
         updatePartyList(firstEntry);
     }
 
+    public void removeCandidateES(CandidateCrossVote candidate) {
+
+
+        if (firstEntry)
+
+        {
+            Party someparty = partySelection1.get(candidate.getPartyElectionId());
+            if (someparty == null) {
+                // the party is not selected.
+                List1.remove(candidate.getCandidatePrefElecId());
+                calcualteMultiplier();
+                List1 = updateCandidateVote(List1);
+            }
+
+        } else {
+            Party someparty = partySelection1.get(candidate.getPartyElectionId());
+            if (someparty == null) {
+                List2.remove(candidate.getCandidatePrefElecId());
+                calcualteMultiplier();
+                List2 = updateCandidateVote(List2);
+            }
+        }
+
+        updatePartyList(firstEntry);
+    }
     public void removeCandidate(CandidateCrossVote candidate) {
+        calcualteMultiplier();
         if (firstEntry) {
+            Party someparty = partySelection1.get(candidate.getPartyElectionId());
             List1.remove(candidate.getCandidatePrefElecId());
             List1 = updateCandidateVote(List1);
+
         } else {
             List2.remove(candidate.getCandidatePrefElecId());
             List2 = updateCandidateVote(List2);
@@ -94,10 +141,31 @@ public class Ballot {
         updatePartyList(firstEntry);
     }
 
+    public void addParty(Party party){
+        if(firstEntry){
+            partySelection1.put(party.getParty_preferential_election_id(),party);
+        }else{
+            partySelection2.put(party.getParty_preferential_election_id(), party);
+        }
+        calcualteMultiplier();
+        // Todo: update vote assignments
+    }
+    public void removeParty(Party party){
+        if(firstEntry){
+            partySelection1.remove(party.getParty_preferential_election_id());
+        }else{
+            partySelection2.remove(party.getParty_preferential_election_id());
+        }
+        calcualteMultiplier();
+    }
+
+
     public boolean isBallotFull() {
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
-        return list.size() == maxBallotSize;
+//        return list.size() == maxBallotSize;
+        return list.size() >= maxBallotSize;
     }
+
     public boolean partyHasVotes(String partyId){
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
         for(Map.Entry<String, CandidateCrossVote> entry: list.entrySet()){
@@ -125,6 +193,28 @@ public class Ballot {
         findMismatchParty();
         return mismatch;
     }
+    public HashMap<String, Party> confirmPartySelection(){
+        initializePartyMatches();
+
+        if (partyList1.size() < partyList2.size()) {
+            // get a list of matches and mismatches, then compare the second list to matches
+            // in order to append all mismatches to the mismatch list.
+            compareParties(partySelection1, partySelection2);
+            compareParties(partySelection2, matchParties);
+        } else {
+            compareParties(partySelection2, partySelection1);
+            compareParties(partySelection1, matchParties);
+        }
+        //popMismatches();
+        //findMismatchParty();
+        int numberofmismatch = mismatchParties.size();
+        int partieslist1 = partySelection1.size();
+        int partieslist2 = partySelection2.size();
+        Log.e("MISMATCHES",String.valueOf(partieslist1)+" parties in list 1");
+        Log.e("MISMATCHES",String.valueOf(partieslist2)+" parties in list 2");
+        Log.e("MISMATCHES",String.valueOf(numberofmismatch)+" mismatched parties ");
+        return mismatchParties;
+    }
 
     private void resetMismatchParty(){
         for(int i=0; i<partyArrayList.size(); i++){
@@ -150,7 +240,7 @@ public class Ballot {
     }
 
     private HashMap<String, CandidateCrossVote> updateCandidateVote(HashMap<String, CandidateCrossVote> list){
-        if(Consts.LOCALE.contains("ELSA")){
+        if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
             return updateCandidateVoteSV(list);
         }
         return updateCandidateVoteHN(list);
@@ -160,7 +250,15 @@ public class Ballot {
         HashMap<String, CandidateCrossVote> tempList = new HashMap<>();
         for (Map.Entry<String, CandidateCrossVote> entry : list.entrySet()) {
             CandidateCrossVote candidate = entry.getValue();
-            candidate.setCandidateVote(1f / list.size());
+//            candidate.setCandidateVote(1f / list.size());
+            float vote;
+            if(voteType==NULO){
+                vote = 0f;
+            }else {
+                vote = 1f/list.size();
+            }
+
+            candidate.setCandidateVote(vote);
             Log.e("BR/CROSS","CANDIDATE VOTE: "+String.valueOf(candidate.getCandidateVote()));
             tempList.put(candidate.getCandidatePrefElecId(), candidate);
         }
@@ -191,14 +289,37 @@ public class Ballot {
         }
     }
 
+    private void compareParties(HashMap<String, Party> firstList, HashMap<String, Party> secondList){
+        Party tempCandidate;
+        for (Map.Entry<String, Party> entry : firstList.entrySet()) {
+            String candidateId = entry.getKey();
+            tempCandidate = secondList.get(candidateId);
+            if (tempCandidate != null) {
+                matchParties.put(candidateId, tempCandidate);
+            } else {
+
+                mismatchParties.put(candidateId, entry.getValue());
+            }
+        }
+    }
+
+    private void initializePartyMatches(){
+        matchParties =  new HashMap<>();
+        mismatchParties = new HashMap<>();
+    }
+
     private void initializeMatches() {
         matches = new HashMap<>();
         mismatch = new HashMap<>();
+
     }
 
     private void clearMatches() {
         matches = null;
         mismatch = null;
+        matchParties = null;
+        mismatchParties = null;
+
     }
 
     private void initializePartyList() {
@@ -223,13 +344,17 @@ public class Ballot {
         //counted marks:
         resetMarks();
         // candidate votes
-        List1 = List2 = null;
+        List1 = List2  = null;
         List1 = new HashMap<>();
         List2 = new HashMap<>();
         //party votes
         partyList1 = partyList2 = null;
         partyList1 = new HashMap<>();
         partyList2 = new HashMap<>();
+
+        partySelection1 = partySelection2 = null;
+        partySelection1 = new HashMap<>();
+        partySelection2 = new HashMap<>();
         //update partyArrayList:
         for (int k = 0; k < partyArrayList.size(); k++) {
             partyArrayList.get(k).setBallotVotes(0f);
@@ -326,26 +451,27 @@ public class Ballot {
     }
 
     public String voteMultiplier(){
-        if(Consts.LOCALE.contains("HON")){
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
             return "1";
         }
         return voteMultiplierSV();
     }
 
     public String voteMultiplierSV() {
+        //TODO: DETERMINE BY VOTE VALIDITY
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
-        if (list.size() != 0) {
+        if (list.size() != 0 && voteType!=NULO) {
             return String.format(Locale.US,"%.4f",(1f / list.size()));
-//            return Float.toString((1f / list.size()));
         }
         return "0";
     }
 
     public boolean isReady(ArrayList<String> partyListIds){
-        if (Consts.LOCALE.contains("HON")) {
-            return !isBallotEmpty();
-        }
-        return isCrossVote(partyListIds);
+        return !isBallotEmpty();
+//        if (Consts.LOCALE.contains("HON")) {
+//            return !isBallotEmpty();
+//        }
+//        return isCrossVote(partyListIds);
     }
 
     public boolean isCrossVote(ArrayList<String> partyListIds) {
@@ -364,19 +490,29 @@ public class Ballot {
         return false;
     }
 
+    private boolean  isPlanchaOrPreferential(){
+        HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
+        int count = 0;
+        String previousID="noID";
+        String currentID;
+        for (Map.Entry<String, CandidateCrossVote> entry : list.entrySet()){
+            currentID = entry.getValue().getPartyElectionId();
+            if(!currentID.equals(previousID)){
+                count++;
+                if(count>1){
+                    return false;
+                }
+            }
+            previousID = currentID;
+        }
+        // exhusted the list
+        return true;
+    }
+
     public boolean isBallotEmpty(){
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
         return list.isEmpty();
     }
-
-//    public void markCandidatesFrom(String partyElectionId) {
-//        if (firstEntry) {
-//            List1 = selectCandidatesFrom(partyElectionId);
-//        } else {
-//            List2 = selectCandidatesFrom(partyElectionId);
-//        }
-//        updatePartyList(firstEntry);
-//    }
 
     public void markCandidatesFrom(ArrayList<Candidate> candidates) {
         if (firstEntry) {
@@ -401,8 +537,13 @@ public class Ballot {
         //todo: move out of here:
         //todo-------------------------------------
         float singleVote;
-        if(Consts.LOCALE.contains("ELSA")){
-            singleVote = 1f / candidates.size();
+        if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+            if(voteType==NULO){
+                singleVote = 0f;
+            }else {
+                singleVote = 1f/candidates.size();
+            }
+
         }else{
             singleVote = 1f;
         }
@@ -420,33 +561,79 @@ public class Ballot {
         return list;
     }
 
-//    private HashMap<String, CandidateCrossVote> selectCandidatesFrom(String partyElectionID) {
-//        HashMap<String, CandidateCrossVote> list = new HashMap<>();
-//        ArrayList<Candidate> candidates = db_adapter.getParlacenCandidatesArrayList(partyElectionID);
-//        //todo: move out of here:
-//        //todo-------------------------------------
-//        float singleVote;
-//        if(Consts.LOCALE.contains("ELSA")){
-//            singleVote = 1f / candidates.size();
-//        }else{
-//            singleVote = 1f;
-//        }
-//        // todo------------------------------------
-//        for (Candidate candidate : candidates) {
-//
-//            candidate.setCandidate_image(String.valueOf(getResources().getIdentifier("pic" +
-//                            candidate.getCandidatePreferentialElectionID().toLowerCase(), "drawable",
-//                    getApplicationContext().getPackageName())));
-//
-//            CandidateCrossVote crossVote = new CandidateCrossVote(0, candidate.getCandidate_name(),
-//                    candidate.getCandidateID(), Integer.valueOf(candidate.getCandidate_image()), // might not need this garbage
-//                    candidate.getPartyName(), candidate.getCandidatePreferentialElectionID(),
-//                    true, singleVote);
-//            crossVote.setPartyElectionId(partyElectionID);
-//            list.put(candidate.getCandidatePreferentialElectionID(), crossVote);
-//        }
-//        return list;
-//    }
+    public void addCandidatesFrom(ArrayList<Candidate> candidates){
+        float vote;
+        if(firstEntry){
+            float divider = (candidates.size()+List1.size());
+            if(divider>maxBallotSize){
+                voteType=NULO;
+            }
+            if(voteType==NULO){
+                vote = 0f;
+            }else {
+
+                vote = 1f/divider;
+            }
+            for(Candidate candidate:candidates){
+                CandidateCrossVote crossVote = new CandidateCrossVote(0, candidate.getCandidate_name(),
+                        candidate.getCandidateID(), Integer.valueOf(candidate.getCandidate_image()), // might not need this garbage
+                        candidate.getPartyName(), candidate.getCandidatePreferentialElectionID(),
+                        false, vote);
+                crossVote.setPartyElectionId(candidate.getPartyPreferentialElectionID());
+                CandidateCrossVote ccv = List1.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+                if(ccv!=null){
+                    List1.put(ccv.getCandidatePrefElecId(),ccv);
+                }
+            }
+            List1 = updateCandidateVote(List1);
+        }else{
+            float divider = (candidates.size()+List2.size());
+            if(divider>maxBallotSize){
+                voteType=NULO;
+            }
+            if(voteType==NULO){
+                vote = 0f;
+            }else {
+                vote = 1f/divider;
+            }
+            for(Candidate candidate:candidates){
+                CandidateCrossVote crossVote = new CandidateCrossVote(0, candidate.getCandidate_name(),
+                        candidate.getCandidateID(), Integer.valueOf(candidate.getCandidate_image()), // might not need this garbage
+                        candidate.getPartyName(), candidate.getCandidatePreferentialElectionID(),
+                        false, vote);
+                crossVote.setPartyElectionId(candidate.getPartyPreferentialElectionID());
+                List2.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+            }
+            List2 = updateCandidateVote(List2);
+        }
+        updatePartyList(firstEntry);
+
+    }
+
+    public void removeCandidatesFrom(ArrayList<Candidate> candidates){
+        if(firstEntry){
+            for(Candidate candidate: candidates){
+                CandidateCrossVote ccv =  List1.remove(candidate.getCandidatePreferentialElectionID());
+                if(ccv.isMarked()){
+                    List1.put(ccv.getCandidatePrefElecId(),ccv);
+                }
+
+            }
+            calcualteMultiplier();
+            List1 = updateCandidateVote(List1);
+
+        }else{
+            for(Candidate candidate: candidates){
+                List2.remove(candidate.getCandidatePreferentialElectionID());
+            }
+            calcualteMultiplier();
+            List2 = updateCandidateVote(List2);
+        }
+        updatePartyList(firstEntry);
+
+    }
+
+
 
     private void popMismatches() {
         for (Map.Entry<String, CandidateCrossVote> entry : mismatch.entrySet()) {
@@ -454,6 +641,7 @@ public class Ballot {
             List1.remove(candidateId);
             List2.remove(candidateId);
         }
+        calcualteMultiplier();
         List1 = updateCandidateVote(List1);
         Log.e("BR/CROSS","is it first entry?"+String.valueOf(firstEntry));
         //at this point first entry should be false, but we want to update the fist list.
@@ -476,8 +664,30 @@ public class Ballot {
         // otherwise it must be preferential
         return PREFERENTIAL;
     }
+    public int getMarkTypeES(){
+        int marktype;
+        switch (voteType){
+            case PLANCHA:
+                marktype= PLAN_MARK;
+                break;
+            case PREFERENTIAL:
+                marktype = PREF_MARK;
+                break;
+            case CROSS:
+                marktype = CROS_MARK;
+                break;
+            case NULO:
+                marktype = NULO;
+                break;
+            default:
+                marktype = NULO;
+                break;
+        }
+        return marktype;
+    }
 
     public int getMarkType(ArrayList<String> partyListIds){
+
         if(isCrossVote(partyListIds)){
             return CROS_MARK;
         }
@@ -510,13 +720,16 @@ public class Ballot {
             partyArrayList.get(i).addCrossVote(partyList2.get(partyId).getBallotVotes());
         }
     }
+
     public BallotType createType(int type){
         return  new BallotType(type);
     }
+
     public class BallotType{
         public final static int VALID_VOTE = 1;
         public final static int NULL_VOTE = 2;
         public final static int EMPTY_VOTE = 3;
+        public final static int IMPUGNADO_VOTE = 4;
         private String ballotType;
         private int count;
         public BallotType(int type) {
@@ -529,6 +742,9 @@ public class Ballot {
                     break;
                 case EMPTY_VOTE:
                     ballotType = ContextHandler.getElectionContext().getResources().getString(R.string.blankCount);
+                    break;
+                case IMPUGNADO_VOTE:
+                    ballotType = ContextHandler.getElectionContext().getResources().getString(R.string.impugnadoCount);
                     break;
                 default:
                     throw new InitializationException("NOT A VALID VOTE TYPE");
@@ -548,5 +764,42 @@ public class Ballot {
         }
 
     }
+
+    // ----------------------------------------------------------------------------------
+    private void calcualteMultiplier() {
+        HashMap<String, Party> partylist = firstEntry ? partySelection1 : partySelection2;
+        HashMap<String, CandidateCrossVote> candidatelist = firstEntry ? List1 : List2;
+        float divider = candidatelist.size();
+
+        if (partylist.size() > 1){
+            voteType = NULO;
+//            nullifyBallot();
+        } else if (candidatelist.size() > maxBallotSize){
+            voteType = NULO;
+        } else if (partylist.size() == 1) {
+            if(!isPlanchaOrPreferential()){
+                // this is the case where at least one candidate on the list doesn't belong to the party
+                voteType = NULO;
+            }else if(candidatelist.size() == maxBallotSize || candidatelist.size() ==0){
+                voteType = PLANCHA;
+                // marks only when selected candidateMark = 0;
+            }else if(candidatelist.size()<maxBallotSize){
+                voteType = PREFERENTIAL;
+            }
+        } else if (partylist.size() < 1) {
+            if(isPlanchaOrPreferential()){
+                if(divider == maxBallotSize){
+                    voteType = PLANCHA;
+                } else if(divider < maxBallotSize){
+                    voteType = PREFERENTIAL;
+                }
+            } else {
+                //cross vote:
+                voteType = CROSS;
+            }
+        }
+        //todo:  assignVotesToParty();
+    }
+
 
 }

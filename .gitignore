@@ -1,0 +1,30 @@
+
+#Andrid Studio files
+.idea/workspace.xml
+.idea/libraries
+.idea/
+.gradle
+build/*
+app/build/*
+wheel/build/*
+
+
+gradle/wrapper/gradle-wrapper.jar
+
+#property files
+*.properties
+
+#bat files
+*.bat
+
+#files being edited
+*~
+
+#DS_Store file
+.DS_Store
+
+#built application files
+*.apk
+*.ap_
+
+

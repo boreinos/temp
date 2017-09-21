@@ -17,7 +17,11 @@ import com.afilon.mayor.v11.utils.Consts;
 import com.afilon.mayor.v11.utils.Utilities;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
+
+import static com.afilon.mayor.v11.R.drawable.blue_x;
+import static com.afilon.mayor.v11.R.drawable.match_x;
 
 /**
  * Created by BReinosa on 6/14/2017.
@@ -29,6 +33,8 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
     private boolean ignore = true;
     private boolean inReview = false;
     private boolean isGreen= false;
+    private boolean attachListener = false;
+    private int resId = blue_x;
 
     public FlagAdapter(Context context, ArrayList<Party> partyArrayList, OnGridListener flagGrid){
         this.mContext = context;
@@ -68,18 +74,61 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
         holder.itemTitle.setText(String.valueOf(holder.mItem.getPartyMarks()));  //set number of marks
         holder.itemCV.setText(String.format(Locale.US,"%.4f",holder.mItem.getBallotVotes()));
         //Testing this
-        if(Consts.LOCALE.contains("HON")){
+        if(Consts.LOCALE.equals(Consts.HONDURAS)){
             holder.itemCV.setVisibility(View.GONE);
+        }else{
+            // El Salvador logic:
+            if(!inReview){
+                holder.locked.setImageResource(attachListener? R.color.transparent:R.color.faded);// is guy locked?
+               // holder.warning.setVisibility(View.INVISIBLE);
+            }else {
+                // it is in review:
+                holder.locked.setImageResource(holder.mItem.isMismatch() ? R.color.transparent:R.color.faded);// is guy locked?
+               // holder.warning.setVisibility((holder.mItem.isMismatch()&& showWarning) ? View.VISIBLE : View.INVISIBLE);
+            }
+            holder.redImage.setImageResource(holder.mItem.isMarked() ? resId : R.color.transparent); // always show marks if marked
+            if(resId==match_x && holder.mItem.isMarked()){
+                holder.locked.setImageResource(R.color.transparent);
+            }
+
         }
+
         holder.itemImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Flag was touched: print the flag:
-                if(!inReview && !ignore)
+                if(Consts.LOCALE.equals(Consts.HONDURAS)){
+                    if(!inReview && !ignore){
                         flagGrid.onPartyGridEvent(holder.mItem);
+                    }
+                }else if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                    if (attachListener) {
+                        if(!inReview){
+                            itemSelected(holder);
+                        }else if(holder.mItem.isMismatch()) {
+                            itemSelected(holder);
+                        }
+                    }
+                }
+
             }
         });
 
+    }
+    private void itemSelected(ViewHolder holder){
+        if(holder.mItem.isMarked()){
+            holder.redImage.setImageResource(R.color.transparent);
+            holder.mItem.setMark(false);
+            flagGrid.onPartyGridEvent(holder.mItem);
+        }else{
+            holder.redImage.setImageResource(resId);
+            holder.mItem.setMark(true);
+            flagGrid.onPartyGridEvent(holder.mItem);
+        }
+    }
+
+    public void setResId(int id){
+        resId = id;
     }
 
     @Override
@@ -96,6 +145,34 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
 //        mPartyArrayList =  partyArrayList;
     }
 
+    public void attachListener(boolean attach) {
+        attachListener = attach;
+        this.notifyDataSetChanged();
+    }
+    public void allMatch() {
+        for (int j = 0; j <mPartyArrayList.size(); j++) {
+            mPartyArrayList.get(j).setMismatch(false);
+        }
+        this.notifyDataSetChanged();
+    }
+
+    public void unLockMisMatches(HashMap<String, Party> mismatches) {
+        for (int j = 0; j < mPartyArrayList.size(); j++) {
+            String partyId =mPartyArrayList.get(j).getParty_preferential_election_id();
+            Party candidate = mismatches.get(partyId);
+            if (candidate != null) {
+                mPartyArrayList.get(j).setMismatch(true); //enable touch
+                mPartyArrayList.get(j).setMark(false); // remove mark
+            }
+        }
+    }
+    public void removePartyMarks() {
+        for (Party cand : mPartyArrayList) {
+            cand.setMark(false);
+        }
+        this.notifyDataSetChanged();
+    }
+
     public void setGreenWarning(boolean isGreen){
         this.isGreen = isGreen;
         this.notifyDataSetChanged();
@@ -103,6 +180,21 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
 
     public void ignoreTouch(boolean ignore){
         this.ignore = ignore;
+        this.notifyDataSetChanged();
+    }
+    public void partiesWithPreviousMarks(HashMap<String, Party> withMarks){
+        if(withMarks ==null || withMarks.size()==0){
+            return;
+        }
+
+        for (int j = 0; j < mPartyArrayList.size(); j++) {
+            String partyId = mPartyArrayList.get(j).getParty_preferential_election_id();
+            Party candidate = withMarks.get(partyId);
+            if (candidate != null) {
+//                mCandidateCrossVote.get(j).setMismatch(true); //enable touch
+                mPartyArrayList.get(j).setMark(candidate.isMarked()); // remove mark
+            }
+        }
         this.notifyDataSetChanged();
     }
 
@@ -115,20 +207,24 @@ public class FlagAdapter extends RecyclerView.Adapter<FlagAdapter.ViewHolder> {
 
         public TextView itemTitle;
         public ImageView itemImage;
+        public final ImageView redImage;
         public View warning;
         public TextView itemCV;
         public TextView mismatch;
+        public final ImageView locked;
 
         public Party mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
+            redImage = (ImageView) mView.findViewById(R.id.redcross_image);
             itemImage = (ImageView) mView.findViewById(R.id.item_image);
             itemTitle = (TextView) mView.findViewById(R.id.item_title);
             itemCV = (TextView) mView.findViewById(R.id.item_cv);
             warning = mView.findViewById(R.id.mismatch_icon);
             mismatch =(TextView) mView.findViewById(R.id.mismatch_value);
+            locked = (ImageView) mView.findViewById(R.id.fade);
 
         }
     }

@@ -99,6 +99,7 @@ public final class Consts {
 	public static final String FIRST_BTN = "first_btn";
 	public static final String SECOND_BTN ="second_btn";
 	public static final String THRID_BTN="third_btn";
+	public static final String FOURTH_BTN="fourth_btn";
 
 	//TODO: debug only, remove
 //	public static final String LOCALE = "ELSA";

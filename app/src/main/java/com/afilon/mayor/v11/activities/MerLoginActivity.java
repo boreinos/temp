@@ -114,7 +114,7 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
         //--------- end filter listeners ------------------------------------------------
 
         tm = (TelephonyManager)getSystemService(this.TELEPHONY_SERVICE);
-        wm = (WifiManager)getSystemService(this.WIFI_SERVICE);
+        wm = (WifiManager)getApplicationContext().getSystemService(this.WIFI_SERVICE);
 
         ah = new Utilities(MerLoginActivity.this);
         ah.tabletConfiguration(Build.MODEL,this);

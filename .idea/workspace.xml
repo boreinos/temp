@@ -68,8 +68,8 @@
       <file leaf-file-name="ParlacenVoteTableActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="2802" column="18" selection-start-line="2802" selection-start-column="12" selection-end-line="2802" selection-end-column="18" />
+            <state relative-caret-position="328">
+              <caret line="2811" column="23" selection-start-line="2811" selection-start-column="23" selection-end-line="2811" selection-end-column="23" />
               <folding>
                 <element signature="method#verificarButtonListener#0;class#ParlacenVoteTableActivity#0" expanded="false" />
                 <element signature="method#banderaButtonListener#0;class#ParlacenVoteTableActivity#0" expanded="false" />
@@ -9842,8 +9842,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-308" />
-    <option name="y" value="173" />
+    <option name="x" value="106" />
+    <option name="y" value="190" />
     <option name="width" value="1383" />
     <option name="height" value="1022" />
   </component>
@@ -10759,7 +10759,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-308" y="173" width="1383" height="1022" extended-state="0" />
+    <frame x="106" y="190" width="1383" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -11022,8 +11022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="2802" column="18" selection-start-line="2802" selection-start-column="12" selection-end-line="2802" selection-end-column="18" />
+        <state relative-caret-position="328">
+          <caret line="2811" column="23" selection-start-line="2811" selection-start-column="23" selection-end-line="2811" selection-end-column="23" />
           <folding>
             <element signature="method#verificarButtonListener#0;class#ParlacenVoteTableActivity#0" expanded="false" />
             <element signature="method#banderaButtonListener#0;class#ParlacenVoteTableActivity#0" expanded="false" />
