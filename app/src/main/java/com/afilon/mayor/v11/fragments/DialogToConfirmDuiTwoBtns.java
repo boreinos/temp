@@ -346,3 +346,21 @@ public class DialogToConfirmDuiTwoBtns extends DialogFragment {
 
 
 }
+
+
+//Notes For Logging*******
+/*
+    need to save on yes to local database  database name = ?????
+        local database table has 3 or 4 columns (3 columns if on yes saves for each dui individually
+                                                   still perhaps save them in the correct column?)
+
+        Database format and datatypes
+        [Index]         [DUI 1]         [DUI2]          [TIME]
+        Int             string          string          string
+        XXX             XXX             XXX             XXX
+        XXX             XXX             XXX             XXX
+
+        Considerations,
+            how to save both duis simultaneously
+            formatting of timestamp
+ */

@@ -46,10 +46,10 @@ public final class Consts {
 
 	public static final String BASE_URI = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.loginApp);
 	public static final String PATH_NAME = "/rest/UserInfoService/name/";
-	public static final String MER_LOGIN_PATH = "https://four.afilon.com:8443/" + ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) + "/rest/UserValidation/loginMerManager/";
+	public static final String MER_LOGIN_PATH = "https://four.afilon.com:8443/" + ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) + "/rest/UserValidation/loginMerManagerELSA/";
 	public static final String PATH_CONFIRM = "/rest/UserInfoService/login/"+ContextHandler.getElectionContext().getResources().getString(R.string.electionType)+"/";
 	public static final String DUI_KEY = "1533794"; // For testing only
-	public static final String MER_MANAGEMENT = "https://four.afilon.com:8443/HONDURAS_Mesa_WS/rest/UserValidation/UpdateMerMembers/";
+	public static final String MER_MANAGEMENT = "https://four.afilon.com:8443/HONDURAS_Mesa_WS/rest/UserValidation/UpdateMerMembersELSA/";
 
 	public static final String enlaceUser = "2ElSalvador2014";
 	public static final String enlacePassword = "Xerr0rD@t@2014Now";
@@ -59,8 +59,10 @@ public final class Consts {
 	public static final String PREF_ELECTION_SIG_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webApp)+"/rest/save/Signatures";
     public static final String NEWMEMBERS = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webUpdate)+"/";
 	public static final String GETMEMBERS = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/"+ContextHandler.getElectionContext().getResources().getString(R.string.webRequest)+"/";
+	public static final String GETMEMBERSELSA = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffAppELSA) +"/rest/UserValidation/"+ContextHandler.getElectionContext().getResources().getString(R.string.webRequest)+"/";
 	public static final String GETMEMBERSWPARTY = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/"+ContextHandler.getElectionContext().getResources().getString(R.string.webRequest)+"/";
 	public static final String VALIDATETABLET = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/tablet/"+ContextHandler.getElectionContext().getResources().getString(R.string.electionType)+"/";
+	public static final String VALIDATETABLETELSA = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/tabletELSA/"+ContextHandler.getElectionContext().getResources().getString(R.string.electionType)+"/";
 
 	public static final String PREF_ELECTION_JRVAccept_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webApp)+"/rest/save/JRVAccept";
 	public static final String PREF_ELECTION_JRV_PROCESSABLE_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webApp)+"/rest/save/JRVProcessable";

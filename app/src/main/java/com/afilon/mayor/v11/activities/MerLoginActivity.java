@@ -403,8 +403,10 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
             // if the request was made from log in:
             if (loginRequest)
                 logInConfirmation(response);
-            else
+            else {
+                Log.e("Response" , "after get members");
                 loadAndSaveUsers(response);
+            }
         }
     }
 
@@ -457,7 +459,7 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
             //-------------------------------------------------------------------------------------
             //create the table to check the login
             db_adapter.open();
-            db_adapter.insertDui(jrvNumber,duiOneString, "0000-0000-00000");
+            db_adapter.insertDui(jrvNumber,duiOneString, "00000000-0");
             db_adapter.close();
             //-------------------------------------------------------------------------------------
             fetchMesaJuntaMembers();
@@ -482,10 +484,11 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
             jsonArray = new JSONArray(response);
             for (int i=0; i<jsonArray.length(); i++){
                 JSONObject member = jsonArray.getJSONObject(i);
-//                db_adapter.insertMERMembers(member.getString("DUI"),member.getString("Name"),
-//                        member.getString("Title"),"","", member.getString("Proprietario"),jrvNumber);
-                db_adapter.insertMERMemberswParty(member.getString("DUI"),member.getString("Name"),
-                        member.getString("Title"),"","", member.getString("Proprietario"),jrvNumber, member.getString("Party"));
+                db_adapter.insertMERMembers(member.getString("DUI"),member.getString("Name"),
+                        member.getString("Title"),"","", member.getString("Proprietario"),jrvNumber);
+                Log.e("Name : " , member.getString("Name"));
+                Log.e("DUI : " , member.getString("DUI"));
+//                db_adapter.insertMERMemberswParty(member.getString("DUI"),member.getString("Name"), member.getString("Title"),"","", member.getString("Proprietario"),jrvNumber, member.getString("Party"));
             }
             db_adapter.close();
         }catch (JSONException je){
@@ -519,10 +522,11 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
         //METHODS TO FETCH DATA:
         JSONObject json = new JSONObject();
         try {
+            Log.e("HERE WE GET, ", "MEMBERS");
             json.put("JRV",jrvNumber);
             String fetch = json.toString();
             int ws_task_number = 0;
-            String url = Consts.GETMEMBERS;
+            String url = Consts.GETMEMBERSELSA;
             HttpPost membersRequest = new HttpPost(url);
             membersRequest.setHeader("content-type","application/json");
             StringEntity entity = new StringEntity(fetch);
@@ -694,7 +698,7 @@ public class MerLoginActivity extends AfilonActivity implements DataResponseCall
             validation = tm.getDeviceId();
         }else validation = Build.SERIAL;
 //		ah.createCustomToast("Validation Number : " + validation);
-        String url = Consts.VALIDATETABLET + jrvNumber + "&" + validation; //TODO ensure proper URL
+        String url = Consts.VALIDATETABLETELSA + jrvNumber + "&" + validation; //TODO ensure proper URL
         Log.e("URL for tablet valid ", url);
         HttpGet searchRequest = new HttpGet(url);
         WebServiceRestTask task = new WebServiceRestTask(ws_task_number);

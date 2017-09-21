@@ -10,6 +10,7 @@
     <string name="imageApp">ELSAMUNICIPAL_ImageWS</string>
     <string name="loginApp">TSE_PHONE_DUI_v2</string>
     <string name="staffApp">Mesa_WS</string>
+    <string name="staffAppELSA">Mesa_WS</string>
     <string name="enalceWeb">JrvConfirmationAlcaldesTomcat/ViewActaDirectDetails</string>
     <string name="voteType">DIRECT</string>
     <string name="precint">JRV</string>

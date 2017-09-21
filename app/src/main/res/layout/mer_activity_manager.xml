@@ -324,13 +324,6 @@
             android:text="NOMBRES Y APELLIDOS"
             android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/cambioView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="PARTY"
-            android:textSize="16sp"/>
         <!--android:visibility="gone" removed from below-->
         <!--<TextView-->
             <!--android:id="@+id/cambioView"-->

@@ -5,15 +5,16 @@
     <string name ="electype">PRSDNT</string>
     <string name="webApp">HONDURAS_ANGLER_WS</string>
     <string name="webUpdate">updatePresident</string>
-    <string name="webRequest">MesaPresident</string>
+    <string name="webRequest">MesaMunicipal</string>
     <string name="imageApp">HONDURAS_ANGLER_ImageWS</string>
     <string name="loginApp">HONDURAS_ANGLER_V1</string>
     <string name="staffApp">HONDURAS_Mesa_WS</string>
+    <string name="staffAppELSA">Mesa_WS</string>
     <string name="enalceWeb">MERConfirmationPresident/ViewActaDirectDetails</string>
     <string name="voteType">DIRECT</string>
     <string name="precint">MER</string>
     <string name="imageType">_2_</string>
-    <string name="locale">HON</string>
+    <string name="locale">ELSAL</string>
     <!--               end application settings -->
 
     <string name="action_settings">Settings</string>
@@ -23,7 +24,7 @@
     <string name="flmn_name">PARTIDO FLMN</string>
     <string name="afion_name">TRIBUNAL SUPREMO ELECTORAL</string>
     <!--ACTA DE CIERRE Y ESCRUTINIO PARA ELECCIONES DE PRESIDENTE-->
-    <string name="tse_elections">Registro de Delegados de MER\n 2017</string>
+    <string name="tse_elections">Registro de Delegados de JRV\n 2017</string>
     <string name="title_activity_vote_count">VoteCountActivity</string>
     <string name="title_activity_second">SecondActivity</string>
     <string name="title_activity_third">ThirdActivity</string>
@@ -51,9 +52,9 @@
     <string name="title_activity_horizontal_concepto">HorizontalConceptoActivity</string>
     <string name="parlacen">ASAMBLEA</string>
 
-    <string name="duiConfirmed">Nº TARJETA DE IDENTIDAD CONFIRMADO</string>
-    <string name="duiNotConfirmed">Nº TARJETA DE IDENTIDAD NO FUE CONFIRMADO</string>
-    <string name="insertID">Ingrese su\n Nº de Identidad</string>
+    <string name="duiConfirmed">Nº TARJETA DE DUI CONFIRMADO</string>
+    <string name="duiNotConfirmed">Nº TARJETA DE DUI NO FUE CONFIRMADO</string>
+    <string name="insertID">Ingrese su\n Nº de Dui</string>
     <string name="signatureWarning">¡MARQUE SI ESTA PRESENTE Y FIRME!</string>
     <string name="signatureWarning2">¡SI ESTE MIEMBRO NO ESTA\n PRESENTE FIRME NO!</string>
     <string name="changeOrContinue">¡Listo! ¿Desea Efectuar Algun Cambio? </string>
@@ -69,8 +70,8 @@
     <string name="eleccion_asamblea">Instalacion de Mesa</string>
     <string name="logInSwitchOn">Auto Instalacion</string>
     <string name="logInSwtichOff">TSE Instalacion</string>
-    <string name="firstLoginEntry">INGRESAR MER</string>
-    <string name="secondLoginEntry">INGRESAR IDENTIDAD</string>
+    <string name="firstLoginEntry">INGRESAR JRV</string>
+    <string name="secondLoginEntry">INGRESAR DUI</string>
     <string name="thirdLoginEntry">CODIGO DE BARRA</string>
     <string name="firstButton">CONTINUAR</string>
     <string name="secondButton">CONTINUAR</string>
@@ -80,8 +81,8 @@
     <!-- ROLL CALL ACTIVITY    -->
     <string name="JRVLabel">Mesa Electoral Receptora De Votos</string>
     <string name="JRVLabelc">Mesa Electoral Receptora De Votos:</string>
-    <string name="OfficialsHeader">OFFICIALES MER</string>
-    <string name="officialesJRV">OFFICIALES MER</string>
+    <string name="OfficialsHeader">OFFICIALES JRV</string>
+    <string name="officialesJRV">OFFICIALES JRV</string>
     <string name="updateError">LISTA DE MIEMBROS\n NO FUE ACTUALIZADA</string>
     <string name="proprietarios">PROPRIETARIOS</string>
     <string name="suplentes">SUPLENTES</string>
@@ -94,14 +95,14 @@
     <string name="aceptChallenge">¿DESEA ACEPTAR LOS RESULTADOS?</string>
 
     <!-- DUI CHALLENGES -->
-    <string name="dui1Input">Ingrese el IDENTIDAD del Presidente</string>
-    <string name="dui2Input">Ingrese el IDENTIDAD del Secretario</string>
+    <string name="dui1Input">Ingrese el DUI del Presidente</string>
+    <string name="dui2Input">Ingrese el DUI del Secretario</string>
     <string name="Dui1">Presidente</string>
     <string name="Dui2">Secretario</string>
-    <string name="dui1Confirmed">IDENTIDAD CONFIRMADO, INGRESE 2do IDENTIDAD</string>
-    <string name="dui2Confirmed">IDENTIDAD CONFIRMADO</string>
-    <string name="failedConfirmation">IDENTIDAD INVALIDO, INTENTE DE NUEVO!</string>
-    <string name="duiplicateDui">Este IDENTIDAD ya fue ingresado \npor favor ingrese uno diferente!</string>
+    <string name="dui1Confirmed">DUI CONFIRMADO, INGRESE 2do DUI</string>
+    <string name="dui2Confirmed">DUI CONFIRMADO</string>
+    <string name="failedConfirmation">DUI INVALIDO, INTENTE DE NUEVO!</string>
+    <string name="duiplicateDui">Este DUI ya fue ingresado \npor favor ingrese uno diferente!</string>
 
     <!-- JRV ACTIVITY -->
     <string name="challengeScan">¿Desea Escannear el Codigo?</string>
@@ -111,8 +112,8 @@
     <string name="resetChecklist">¿Desea reiniciar la lista de verificación?</string>
     <string name="continueChecklist">¿Desea aceptar la lista de verificación?</string>
     <string name="floatFormating">%.0f</string>
-    <string name="selloMessageP">Certifico Que El Sello Se Ha Puesto En El Acta  \n IDENTIDAD de Presidente</string>
-    <string name="selloMessageS">Certifico Que El Sello Se Ha Puesto En El Acta  \n IDENTIDAD de Secretario</string>
+    <string name="selloMessageP">Certifico Que El Sello Se Ha Puesto En El Acta  \n DUI de Presidente</string>
+    <string name="selloMessageS">Certifico Que El Sello Se Ha Puesto En El Acta  \n DUI de Secretario</string>
 
     <!-- SUMMARY ACTIVITY-->
     <string name="continueSummary">¿Se imprimieron los datos del Acta?</string>
@@ -122,9 +123,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="duiLength">15</string>
-    <string name="receptora">MER :</string>
-    <string name="JRV">MER</string>
-    <string name="JRVc">MER:</string>
+    <string name="receptora">JRV :</string>
+    <string name="JRV">JRV</string>
+    <string name="JRVc">JRV:</string>
 
     <string name="flagvote">Plancha</string>
     <string name="prefvote">Parcial</string>
@@ -132,15 +133,15 @@
     <string name="loginSen">Se Necesita un Oficial del Centro\n de Votacion para Abrir la Aplicacion</string>
 
     <string name="loginHint">INGRESAR INDENTIDAD</string>
-    <string name="rollCallPhrase">TARJETA DE IDENTIDAD</string>
-    <string name="loginHintJRV">INGRESAR MER</string>
+    <string name="rollCallPhrase">TARJETA DE DUI</string>
+    <string name="loginHintJRV">INGRESAR JRV</string>
     <string name="primer">LOGIN OFICIAL</string>
-    <string name="segundo">LOGIN SEGUNDO IDENTIDAD</string>
-    <string name="tercer">LOGIN TERCER IDENTIDAD</string>
+    <string name="segundo">LOGIN SEGUNDO DUI</string>
+    <string name="tercer">LOGIN TERCER DUI</string>
 
     <string name="iniciarBtnMargin">250dp</string>
     <string name="voto"> </string>
-    <string name="dui">IDENTIDAD</string>
+    <string name="dui">DUI</string>
 
     <string name="ismesa">YES</string>
 </resources>

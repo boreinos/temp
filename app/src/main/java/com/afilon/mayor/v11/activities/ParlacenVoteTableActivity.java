@@ -99,6 +99,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
     private boolean [] errorIndex;
     private boolean
             isUpdate,
+            isThisCrap = false,
 //            firstScreen = true,
             firstScreen = false,
             isIndependentParty = false,
@@ -225,6 +226,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
         partido_votes_int = 0.000f; // Bandera Votes
         preferentialVotes = 0.000f; // Preferential Votes
         currentBallotPreferentialVotes = 0.000f; //proposed assigned votes.
+        banderaVoteIngresar = "0";
+        banderaVoteIngresarTwo = "0";
 
         //---------------------------------------------------------------------------------
         // Top Layout Textviews
@@ -254,6 +257,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
 
         // read if we got here as update:
 //        isUpdate = ah.loadPreferencesUpdate("anadir"); asdfasdf
+        isThisCrap = ah.loadPreferencesUpdate("anadir");
         isUpdate = true;
         // read from party tables and party votes
         escrudata.setActaImageLink(vc.getPref_election_id());
@@ -1200,7 +1204,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                         //THIS IS GUARDAR FOR FIRST BANDERA VOTE
                         if (checkBoxColumn == 1) {
                             checkBoxColumn = 2;
-                            banderaVoteIngresar = partido_et_one.getText().toString();
+//                            banderaVoteIngresar = partido_et_one.getText().toString();
+//                            banderaVoteIngresar = "0";
                             partido_et_one.removeTextChangedListener(tw1);
                             partido_et_one.setText("***");
                             enableButtons(reingressoBtn);
@@ -1209,7 +1214,8 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                         } else if (checkBoxColumn == 2) {
                             checkBoxColumn = 1;
                             verificarBtn.setText("Verificar");
-                            banderaVoteIngresarTwo = partido_et_two.getText().toString();
+//                            banderaVoteIngresarTwo = partido_et_two.getText().toString();
+//                            banderaVoteIngresarTwo = "0";
                             partido_et_two.removeTextChangedListener(tw2);
                             partido_et_two.setText("***");
                             enableButtons(verificarBtn);
@@ -2215,8 +2221,14 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                             candidatesList.get(i).setVotesNumber(number + candidateBanderaVote);
                             //for display:
                             candidatesList.get(i).setBanderaNumber(partido_votes_int / candidatesList.size());
+                            Log.e("candlist band num", String.format("$0.3f",candidatesList.get(i).getBanderaNumbers()));
                             accumulatedVotes.get(i).setText(formatFloat(candidatesList.get(i).getVotesNumber()));
                         }
+                        int voteTemp = Integer.valueOf(banderaVoteIngresar) + 1;
+                        banderaVoteIngresar = Integer.toString(voteTemp);
+                        banderaVoteIngresarTwo = banderaVoteIngresar;
+//                        verifyBanderaValues();
+//                        acceptBanderaVotes();
                     }
                     // if todos button pressed add to candidates and display
                     // number
@@ -2252,85 +2264,85 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
         };
     }
 
-    private OnClickListener aceptarButtonListener() {
-        return new OnClickListener() {
-            @SuppressLint("LongLogTag")
-            @Override
-            public void onClick(View v) {
-                isTodosReingresar = false;
-                isTodos = false;
-                todosGuardar1st = false;
-                if(ingresoBtn.getText().toString().contains("Ingresar")){
-                    ingresoBtn.setText("Preferencial");
-                }
-                if (!isAceptarBtnPressed.raised()) {
-                    Log.e("isAceptarBtnPressed false", "!isAceptarBtnPressed");
-                    // if voto bandera button pressed add to partido and display
-                    // number
-                    if (isVotosOrTodosPressed == 1) {
-                        partidoCandidate.setVotesNumber(++partido_votes_int);
-                        partidoCandidate.setPreferentialVotes(partidoCandidate.getVotesNumber());
-                        partido_votes_two.setText(String.format(Locale.US, "%.0f", partido_votes_int));
-                        //attempt at adding preferencias to each candidate:
-                        for (int i = 0; i < candidatesList.size(); i++) {
-                            float number = candidatesList.get(i).getVotesNumber();
-                            float divider = (float) candidatesList.size();
-                            float candidateBanderaVote = 1.0f / divider;
-                            candidatesList.get(i).setVotesNumber(number + candidateBanderaVote);
-                            //for display:
-                            candidatesList.get(i).setBanderaNumber(partido_votes_int / candidatesList.size());
-                            accumulatedVotes.get(i).setText(formatFloat(candidatesList.get(i).getVotesNumber()));
-                        }
-                    }
-                    // if todos button pressed add to candidates and display
-                    // number
-                    if (isVotosOrTodosPressed == 2) {
-                        ++preferentialVotes;
-
-                        for (int i = 0; i < candidatesList.size(); i++) {
-                            if (candidatesList.get(i).isCbOneSelected()
-                                    & candidatesList.get(i).isCbTwoSelected()) {
-                                float prefVotes = candidatesList.get(i).getPreferentialVotes();
-                                float number = candidatesList.get(i).getVotesNumber();
-                                int marcas = candidatesList.get(i).getMarcas();
-                                candidatesList.get(i).setVotesNumber(number + currentBallotPreferentialVotes);
-                                candidatesList.get(i).setPreferentialVotes(prefVotes + currentBallotPreferentialVotes);
-                                candidatesList.get(i).setMarcas(++marcas);
-                                accumulatedVotes.get(i).setText(formatFloat(candidatesList.get(i).getVotesNumber()));
-                            }
-                        }
-                    }
-                    raiseFlags(isIngresoBtnPressed ,isReingresarBtnPressed ,isVerificarBtnPressed,
-                            isVotoBanderaBtnPressed,isTodosBtnPressed, isReiniciarBoletaBtnPressed,
-                            isAceptarBtnPressed);
-                    lowerFlags(isProximaBoletaPressed);
-                    disableButtons(ingresoBtn, reingressoBtn, verificarBtn, votoBanderaBtn, todosBtn,
-                            reinitiateBoletaBtn, aceptarBtn, descartarBtn);
-                    enableButtons(proxBoletaBtn);
-                } else if (firstScreen) {
-                    Log.e("isAceptarBtnPressed true", "isAceptarBtnPressed");
-                    acceptBanderaVotes();
-                    ingresoBtn.setText("Preferencial");
-                    reingressoBtn.setText("Re-ingresar\nPreferencia");
-
-                }
-                String voteCounts = "Contados"
-                        + "\n"
-                        + "Votos Bandera: "
-                        + String.format(Locale.US, "%.0f", partido_votes_int)
-                        + "\n"
-                        + "Votos Preferenciales: "
-                        + String.format(Locale.US, "%.0f", preferentialVotes);
-                String bol = String.valueOf(currentBallotNumber);
-                String columnHeader = "Votos"; //Preferencias
-                colOneTV.setText("Bol" + bol);
-                colTwoTV.setText("Cum");
-                colThreeTV.setText("Cum");
-                partyNameTv.setText(columnHeader);
-                banderaVotesTv.setText(voteCounts);
-            }
-        };
-    }
+//    private OnClickListener aceptarButtonListener() {
+//        return new OnClickListener() {
+//            @SuppressLint("LongLogTag")
+//            @Override
+//            public void onClick(View v) {
+//                isTodosReingresar = false;
+//                isTodos = false;
+//                todosGuardar1st = false;
+//                if(ingresoBtn.getText().toString().contains("Ingresar")){
+//                    ingresoBtn.setText("Preferencial");
+//                }
+//                if (!isAceptarBtnPressed.raised()) {
+//                    Log.e("isAceptarBtnPressed false", "!isAceptarBtnPressed");
+//                    // if voto bandera button pressed add to partido and display
+//                    // number
+//                    if (isVotosOrTodosPressed == 1) {
+//                        partidoCandidate.setVotesNumber(++partido_votes_int);
+//                        partidoCandidate.setPreferentialVotes(partidoCandidate.getVotesNumber());
+//                        partido_votes_two.setText(String.format(Locale.US, "%.0f", partido_votes_int));
+//                        //attempt at adding preferencias to each candidate:
+//                        for (int i = 0; i < candidatesList.size(); i++) {
+//                            float number = candidatesList.get(i).getVotesNumber();
+//                            float divider = (float) candidatesList.size();
+//                            float candidateBanderaVote = 1.0f / divider;
+//                            candidatesList.get(i).setVotesNumber(number + candidateBanderaVote);
+//                            //for display:
+//                            candidatesList.get(i).setBanderaNumber(partido_votes_int / candidatesList.size());
+//                            accumulatedVotes.get(i).setText(formatFloat(candidatesList.get(i).getVotesNumber()));
+//                        }
+//                    }
+//                    // if todos button pressed add to candidates and display
+//                    // number
+//                    if (isVotosOrTodosPressed == 2) {
+//                        ++preferentialVotes;
+//
+//                        for (int i = 0; i < candidatesList.size(); i++) {
+//                            if (candidatesList.get(i).isCbOneSelected()
+//                                    & candidatesList.get(i).isCbTwoSelected()) {
+//                                float prefVotes = candidatesList.get(i).getPreferentialVotes();
+//                                float number = candidatesList.get(i).getVotesNumber();
+//                                int marcas = candidatesList.get(i).getMarcas();
+//                                candidatesList.get(i).setVotesNumber(number + currentBallotPreferentialVotes);
+//                                candidatesList.get(i).setPreferentialVotes(prefVotes + currentBallotPreferentialVotes);
+//                                candidatesList.get(i).setMarcas(++marcas);
+//                                accumulatedVotes.get(i).setText(formatFloat(candidatesList.get(i).getVotesNumber()));
+//                            }
+//                        }
+//                    }
+//                    raiseFlags(isIngresoBtnPressed ,isReingresarBtnPressed ,isVerificarBtnPressed,
+//                            isVotoBanderaBtnPressed,isTodosBtnPressed, isReiniciarBoletaBtnPressed,
+//                            isAceptarBtnPressed);
+//                    lowerFlags(isProximaBoletaPressed);
+//                    disableButtons(ingresoBtn, reingressoBtn, verificarBtn, votoBanderaBtn, todosBtn,
+//                            reinitiateBoletaBtn, aceptarBtn, descartarBtn);
+//                    enableButtons(proxBoletaBtn);
+//                } else if (firstScreen) {
+//                    Log.e("isAceptarBtnPressed true", "isAceptarBtnPressed");
+//                    acceptBanderaVotes();
+//                    ingresoBtn.setText("Preferencial");
+//                    reingressoBtn.setText("Re-ingresar\nPreferencia");
+//
+//                }
+//                String voteCounts = "Contados"
+//                        + "\n"
+//                        + "Votos Bandera: "
+//                        + String.format(Locale.US, "%.0f", partido_votes_int)
+//                        + "\n"
+//                        + "Votos Preferenciales: "
+//                        + String.format(Locale.US, "%.0f", preferentialVotes);
+//                String bol = String.valueOf(currentBallotNumber);
+//                String columnHeader = "Votos"; //Preferencias
+//                colOneTV.setText("Bol" + bol);
+//                colTwoTV.setText("Cum");
+//                colThreeTV.setText("Cum");
+//                partyNameTv.setText(columnHeader);
+//                banderaVotesTv.setText(voteCounts);
+//            }
+//        };
+//    }
 
     private OnClickListener proximoListener() {
         return new OnClickListener() {
@@ -2403,84 +2415,6 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
                     startActivity(search);
                     finish();
                     }
-            }
-        };
-    }
-
-    private OnClickListener proximaboletaButtonListener() {
-        return new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int totalVotes = ah.parseInt(partyArrayList.get(partyArrayIndex).getParty_boletas(), 0);
-                // AFTER PRESSING ACEPTAR isProximaBoletaPressed is FALSE
-                if (currentBallotNumber < totalVotes) {
-                    findViewById(R.id.marcas_tv).setVisibility(View.INVISIBLE);
-                    //if ballots is less than max ballots, load next ballot:
-                    for (Candidate selected : candidatesList) {
-                        selected.setCbOneSelected(false);
-                        selected.setCbTwoSelected(false);
-                    }
-                    for (CheckBox cb : firstColumn) {
-                        cb.setChecked(false);
-                        firstErr.get(firstColumn.indexOf(cb)).setVisibility(View.GONE);
-                        checkBoxDisabled(cb);
-                    }
-                    for (CheckBox cb : secondColumn) {
-                        cb.setChecked(false);
-                        secondErr.get(secondColumn.indexOf(cb)).setVisibility(View.GONE);
-                        checkBoxDisabled(cb);
-                    }
-                    partido_cb_one.setButtonDrawable(R.drawable.disabled_cb);
-                    partido_cb_two.setButtonDrawable(R.drawable.disabled_cb);
-
-                    currentBallotNumber++;
-                    if (firstScreen) {
-                        firstScreen = false;
-                    }
-                    String outMessage = "Boleta No: " + currentBallotNumber + "\n" + "Votos de Partido: " + String.format(Locale.US, "%.0f", Float.parseFloat(partyArrayList.get(partyArrayIndex).getParty_votes())) + "\n" + "Total de Boletas: " + partyArrayList.get(partyArrayIndex).getParty_boletas();
-                    String cumbol = String.valueOf(currentBallotNumber - 1);
-                    String columnHeader = "Votos"; //Preferencias
-                    partyNameTv.setText(columnHeader);
-                    colOneTV.setText("Bol" + String.valueOf(currentBallotNumber));
-                    colTwoTV.setText("Cum");
-                    colThreeTV.setText("Cum");
-
-                    ballotNmbTv.setText(outMessage);
-                    for (int i = 0; i < candidatesList.size(); i++) {
-                        currentVotes.get(i).setText(formatFloat(0f));
-                        currentVotes.get(i).setTypeface(null, Typeface.NORMAL);
-                        currentVotes.get(i).setTextColor(getResources().getColor(R.color.DarkBlue));
-                        previousVotes.get(i).setText(accumulatedVotes.get(i).getText());
-                    }
-                    partido_votes.setText("0");
-                    partidoPrevious.setText(partido_votes_two.getText());
-                    isVotosOrTodosPressed = 0;
-                    raiseFlags(isReingresarBtnPressed,isVerificarBtnPressed,isReiniciarBoletaBtnPressed,isAceptarBtnPressed, isProximaBoletaPressed);
-
-                    lowerFlags(isIngresoBtnPressed,isVotoBanderaBtnPressed,isTodosBtnPressed,isAbortBtnPressed);
-                    isVotosOrTodosPressed = 0;
-                    disableButtons(reingressoBtn, verificarBtn, reinitiateBoletaBtn, aceptarBtn, proxBoletaBtn);
-                    enableButtons(ingresoBtn, todosBtn);
-                    if(isUpdate){
-                        enableButtons(votoBanderaBtn);
-                    }
-                    warningButtons(descartarBtn);
-//                    ArrayList<Candidate> candidatesListSelectedArrayList = saveOrUpdateCandidateVotes(false);
-                } else {
-                    // if this is the last ballot then move on and save to db:
-                    ArrayList<Candidate> candidatesListSelectedArrayList = saveOrUpdateCandidateVotes(false);
-                    ah.savePreferences("currentBallotNumber", currentBallotNumber);
-                    ah.savePreferences("firstScreen", false);
-                    Bundle b = new Bundle();
-                    b.putParcelable("com.afilon.tse.votingcenter", vc);
-                    b.putParcelable("com.afilon.tse.escrudata", escrudata);
-                    b.putInt("partyNumber", partyArrayIndex);
-                    b.putParcelableArrayList("selectedCandidates", candidatesListSelectedArrayList);
-                    Intent search = new Intent(ParlacenVoteTableActivity.this, Consts.CANDLISTACT);
-                    search.putExtras(b);
-                    startActivity(search);
-                    finish();
-                }
             }
         };
     }
@@ -2773,34 +2707,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
 
     }
 
-    public void createConfirmationDialog(String msg, int yesIndex) {
-        FragmentManager fm = getFragmentManager();
-        twoBtnDialogFragment = new TwoButtonDialogFragment();
-        twoBtnDialogFragment.setOnButtonsClickedListenerOne(this);
-        Bundle bndl = new Bundle();
-        bndl.putString("yesButtonText", "Si");
-        bndl.putInt("yesIndex", yesIndex);
-        bndl.putString("noButtonText", "No");
-        bndl.putString("question", msg);
-        bndl.putString("invisible", "visible");
-        twoBtnDialogFragment.setArguments(bndl);
-        twoBtnDialogFragment.show(fm, "discrard boleta dialog");
-    }
 
-    public void createDialogToConfirmDui(String msg, int yesIndex) {
-        FragmentManager fm = getFragmentManager();
-        DialogToConfirmDui dialogToConfirmDui = new DialogToConfirmDui();
-        dialogToConfirmDui.setOnButtonsClickedListenerOne(this);
-        dialogToConfirmDui.setCustomKeyboard(mCustomKeyboard);
-        Bundle bndl = new Bundle();
-        bndl.putString("yesButtonText", "Continuar");
-        bndl.putInt("yesIndex", yesIndex);
-        bndl.putString("noButtonText", "No");
-        bndl.putString("question", msg);
-        bndl.putString("invisible", "invisible");
-        dialogToConfirmDui.setArguments(bndl);
-        dialogToConfirmDui.show(fm, "new triage dialog");
-    }
 
     private Bitmap getBitmapFromAsset(String strName) throws IOException {
         AssetManager assetManager = getAssets();
@@ -2893,7 +2800,7 @@ public class ParlacenVoteTableActivity extends Activity implements OnTwoButtonDi
         votoBandera.setParty_preferential_election_id(partidoCandidate.getCandidatePreferentialElectionID());
         votoBandera.setParty_votes(partido_votes_int);
         votoBandera.setParty_preferential_votes(preferentialVotes);
-        if (isUpdate) {
+        if (isThisCrap) {
             for (Candidate selected : candidatesList) {
                 candidatesListSelectedArrayList.add(selected);
                 db_adapter.updatePreferentialCandidateVote(

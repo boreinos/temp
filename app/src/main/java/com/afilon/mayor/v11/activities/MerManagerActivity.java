@@ -75,8 +75,7 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
     private ArrayList<EditText> duiList_et = new ArrayList<>();
     private ArrayList<TextView> title_tv_list = new ArrayList<>();
     private ArrayList<EditText>
-            nameList = new ArrayList<>(),
-            partyList = new ArrayList<>();
+            nameList = new ArrayList<>();
     private ArrayList<CheckBox> selectedList = new ArrayList<>();
     private ArrayList<Button> cambiosList = new ArrayList<>();
     private ArrayList<User> miembrosList = new ArrayList<>();
@@ -84,8 +83,7 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
     private ArrayList<User> proprietarios = new ArrayList<>();
     private String
             tempName = "",
-            tempDui = "",
-            tempParty = "";
+            tempDui = "";
 
     private VotingCenter vc;
 
@@ -127,8 +125,7 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
             thisjrv;//"Propietarios";
 
     private boolean
-            isName = false,
-            isParty = false;
+            isName = false;
     private Button
 //            switchBtn,
             modificarBtn,
@@ -205,10 +202,10 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
         miembrosList = new ArrayList<>();//clear miembrosList just in case
         db.open();
         vc = db.getNewJrv(jrv);
-//        proprietarios = db.getMesaMembers(String.valueOf(true), jrv);
-//        suplentes = db.getMesaMembers(String.valueOf(false), jrv);
-        proprietarios = db.getMesaMemberswParty(String.valueOf(true), jrv);
-        suplentes = db.getMesaMemberswParty(String.valueOf(false), jrv);
+        proprietarios = db.getMesaMembers(String.valueOf(true), jrv);
+        suplentes = db.getMesaMembers(String.valueOf(false), jrv);
+//        proprietarios = db.getMesaMemberswParty(String.valueOf(true), jrv);
+//        suplentes = db.getMesaMemberswParty(String.valueOf(false), jrv);
         miembrosList = proprietarios; // we start with displaying proprietarios
         db.close();
     }
@@ -237,22 +234,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
 
                 // edit text width changed from 280 to 260 for test
 
-                final EditText memberParty_et = createEditText(100,10,0,20);
-                memberParty_et.setImeOptions(EditorInfo.IME_ACTION_DONE);
-                memberParty_et.setInputType(InputType.TYPE_CLASS_TEXT);
-                final InputMethodManager imm1 =  (InputMethodManager) getSystemService(this.INPUT_METHOD_SERVICE);
-                memberParty_et.setOnFocusChangeListener(
-                        new View.OnFocusChangeListener() {
-                            @Override
-                            public void onFocusChange(View v, boolean hasFocus) {
-                                if(hasFocus){
-                                    imm1.showSoftInput(memberParty_et, InputMethodManager.SHOW_IMPLICIT);
-                                }
-                            }
-                        }
-                );
-
-
                 final EditText memberName_et = createEditText(260, 10, 0, 20); //name of the MER representative
                 memberName_et.setImeOptions(EditorInfo.IME_ACTION_DONE);
                 final InputMethodManager imm =  (InputMethodManager) getSystemService(this.INPUT_METHOD_SERVICE);
@@ -277,8 +258,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                 selected.setId(rowID * (100) + 5);
                 modify.setId(rowID * (100) + 9);
 
-                memberParty_et.setId(rowID * (100) + 7);
-
                 //scale boxes:
                 selected.setButtonDrawable(getResources().getDrawable(R.drawable.btn_checkbox_green_selector));
                 selected.setLayoutParams(new LinearLayout.LayoutParams(convertToPx(80), LinearLayout.LayoutParams.WRAP_CONTENT));//
@@ -290,16 +269,12 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                 selectedList.add(selected);
                 cambiosList.add(modify);
 
-                partyList.add(memberParty_et);
-
                 //set textview values
                 modify.setText("C");
                 dui_et.setText(member.getDUI());//member.getDUI()
                 memberName_et.setText(member.getName());
                 memberTitle_tv.setText(member.getTitle());
 
-                memberParty_et.setText(member.getParty());
-//                memberParty_et.setText("PTabc");
 
                 //add check boxes to cb sub-layout
                 cbSelect.addView(selected);
@@ -312,7 +287,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                 row.addView(space_tv);
                 row.addView(memberName_et);
                 row.addView(modify);
-                row.addView(memberParty_et);
 
                 parentLayout.addView(row);
                 //register and set listeners
@@ -328,7 +302,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
 //                memberName_et.addTextChangedListener(new DuiFormatTextWatcher(memberParty_et, selected));
 
                 memberName_et.setOnKeyListener(presingDoneKey());
-                memberParty_et.setOnKeyListener(presingDoneKey());
                 //set listeners
                 utility.setButtonColorRed(modify);
                 modify.setPadding(25, 3, 25, 3);
@@ -413,7 +386,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
 //            nameList.get(i).setOnFocusChangeListener(focusChangeListener());
             nameList.get(i).setOnClickListener(clear());
             duiList_et.get(i).setOnClickListener(clear());
-            partyList.get(i).setOnClickListener(clear());
         }
     }
 
@@ -721,7 +693,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
         Log.e(DEBUGROW, Integer.toString(row));
         duiList_et.get(row).setText("");
         nameList.get(row).setText("");
-        partyList.get(row).setText("");
     }
 
     private void enableCheckboxes(int i, boolean enable){
@@ -738,8 +709,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
             nameList.get(i).setEnabled(enable);
             duiList_et.get(i).setFocusable(enable);
             nameList.get(i).setFocusable(enable);
-            partyList.get(i).setEnabled(enable);
-            partyList.get(i).setFocusable(enable);
         }
     }
 
@@ -806,9 +775,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                 duiList_et.get(i).setText(miembro.getDUI());
                 nameList.get(i).setText(miembro.getName());
                 selectedList.get(i).setChecked(false);
-//                partyList.get(i).setText(miembro.getParty());
-//                partyList.get(i).setText("PTabc");
-                partyList.get(i).setText(miembro.getParty());
                 Log.e("DEBUG: ", miembro.toString());
                 i++;
             }
@@ -831,7 +797,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                 duiList_et.get(i).setText(miembro.getDUI());//
                 nameList.get(i).setText(miembro.getName());
                 selectedList.get(i).setChecked(miembro.isPresent());
-                partyList.get(i).setText(miembro.getParty());
 //                partyList.get(i).setText("PTabc");
                 //presenteNoList.get(i).setChecked(!miembro.isPresent());
                 Log.e("DEBUG: ", miembro.toString());
@@ -897,17 +862,13 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
     public boolean verifyCandidateEntry() {
         boolean isIdCompleted = hasValues(duiList_et.get(currentRow));
         boolean isNameCompleted = hasValues(nameList.get(currentRow));
-        boolean isPartyCompleted = hasValues(partyList.get(currentRow));
         if (!isIdCompleted) {
             utility.enableEditText(duiList_et.get(currentRow), true);
         }
         if (!isNameCompleted) {
             utility.enableEditText(nameList.get(currentRow), true);
         }
-        if (!isPartyCompleted) {
-            utility.enableEditText(partyList.get(currentRow), true);
-        }
-        return (isIdCompleted && isNameCompleted && isPartyCompleted);
+        return (isIdCompleted && isNameCompleted);
     }
 
 
@@ -925,14 +886,11 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
 //                utility.setButtonColorGreen(aceptarBtn);
                 tempName = nameList.get(currentRow).getText().toString();
                 tempDui = duiList_et.get(currentRow).getText().toString();
-                tempParty = partyList.get(currentRow).getText().toString();
 
                 duiList_et.get(currentRow).setText("");
                 nameList.get(currentRow).setText("");
-                partyList.get(currentRow).setText("");
                 miembrosList.get(currentRow).setDUI("");
                 miembrosList.get(currentRow).setName("");
-                miembrosList.get(currentRow).setParty("");
 //                miembrosList.get(currentRow).setParty("");
 //                clearCheckBoxes(currentRow,true);
 //                unlockAllCheckBoxes();
@@ -960,10 +918,8 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
             if(miembrosList.get(i).getName().equals("")){
                 miembrosList.get(i).setName(miembrosList.get(i+1).getName());
                 miembrosList.get(i).setDUI(miembrosList.get(i+1).getDUI());
-                miembrosList.get(i).setParty(miembrosList.get(i+1).getParty());
                 miembrosList.get(i+1).setName("");
                 miembrosList.get(i+1).setDUI("");
-                miembrosList.get(i+1).setParty("");
             }
         }
     }
@@ -1356,7 +1312,6 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
 
                 duiList_et.get(currentRow).setText(tempDui);
                 nameList.get(currentRow).setText(tempName);
-                partyList.get(currentRow).setText(tempParty);
                 updateTableWithUsers();
 
 //                unlockAllCheckBoxes();
@@ -1451,28 +1406,17 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
             public void onClick(View v) {
                 tempDui = duiList_et.get(currentRow).getText().toString();
                 tempName = nameList.get(currentRow).getText().toString();
-                tempParty = partyList.get(currentRow).getText().toString();
 
                 utility.setButtonColorRed(clearBtn);
                 utility.setButtonColorRed(substituteBtn);
                 utility.setButtonColorRed(modificarBtn);
                 if(aceptarBtn.getText().toString().contains("GUARDAR")) {
-                    if(isParty){
-                        isParty = false;
-                        partyList.get(currentRow).setEnabled(false);
-                        partyList.get(currentRow).setFocusable(false);
-                        utility.enableEditText(partyList.get(currentRow), false);
-                        for(int i=0; i < partyList.size() ; i++){
-                            Log.e("party list " , partyList.get(i).getText().toString());
-                            Log.e("party id " , Integer.toString(partyList.get(i).getId()));
-                            Log.e("dui list " , duiList_et.get(i).getText().toString());
-                            Log.e("dui id " , Integer.toString(duiList_et.get(i).getId()));
-                            Log.e("name list " , nameList.get(i).getText().toString());
-                            Log.e("name id " , Integer.toString(nameList.get(i).getId()));
-                        }
+                    if(isName){
+                        isName = false;
+                        nameList.get(currentRow).setEnabled(false);
+                        nameList.get(currentRow).setFocusable(false);
                         miembrosList.get(currentRow).setDUI(duiList_et.get(currentRow).getText().toString());
                         miembrosList.get(currentRow).setName(nameList.get(currentRow).getText().toString());
-                        miembrosList.get(currentRow).setParty(partyList.get(currentRow).getText().toString());
                         utility.setButtonColorRed(shiftBtn);
                         for(User member : miembrosList){
                             if(stepOne){
@@ -1495,24 +1439,10 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
                         unlockAllCheckBoxes();
                         updateTableWithUsers();
                         aceptarBtn.setText("ACEPTAR");
-                    }else if(isName){
-                        tempParty = partyList.get(currentRow).getText().toString();
-                        isName = false;
-                        isParty = true;
-                        nameList.get(currentRow).setEnabled(false);
-                        nameList.get(currentRow).setFocusable(false);
-                        partyList.get(currentRow).setEnabled(true);
-                        partyList.get(currentRow).setFocusable(true);
-                        utility.enableEditText(partyList.get(currentRow), true);
-                        partyList.get(currentRow).setText("");
-                        partyList.get(currentRow).requestFocus();
-                        partyList.get(currentRow).performClick();
-                        partyList.get(currentRow).setSelection(partyList.get(currentRow).getText().length());
-                        aceptarBtn.setText("GUARDAR");
+//                        aceptarBtn.setText("GUARDAR");
                     }else {
                         tempName = nameList.get(currentRow).getText().toString();
                         isName = true;
-                        isParty = false;
                         duiList_et.get(currentRow).setEnabled(false);
                         duiList_et.get(currentRow).setFocusable(false);
                         nameList.get(currentRow).setEnabled(true);
@@ -1602,15 +1532,13 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
         String url;
         String identity;
         String name;
-        String party;
 
         for(User member : proprietarios){
             title = member.getTitle();
             identity = member.getDUI();
             name = member.getName().replaceAll(" ", "%20");
 //            name = member.getName();
-            party = member.getParty();
-            url = Consts.MER_MANAGEMENT +"Prop/"+ "'"+title+"'" + "&" + "'"+name+"'" + "&" + "'"+identity+"'" + "&" + "'"+party+"'" + "&"+ thisjrv;
+            url = Consts.MER_MANAGEMENT +"Prop/"+ "'"+title+"'" + "&" + "'"+name+"'" + "&" + "'"+identity+"'" + "&"+ thisjrv;
             HttpPost updateOficial = new HttpPost(url);
             WebServiceRestTask task = new WebServiceRestTask(0);
             task.execute(updateOficial);
@@ -1629,8 +1557,7 @@ public class MerManagerActivity extends AfilonActivity implements DataResponseCa
             identity = member.getDUI();
             name = member.getName().replaceAll(" ", "%20");
 //            name = member.getName();
-            party = member.getParty();
-            url = Consts.MER_MANAGEMENT +"Supp/"+ "'"+title+"'" + "&" + "'"+name+"'" + "&" + "'"+identity+"'" + "&" + "'"+party+"'" + "&"+ thisjrv;
+            url = Consts.MER_MANAGEMENT +"Supp/"+ "'"+title+"'" + "&" + "'"+name+"'" + "&" + "'"+identity+"'" + "&"+ thisjrv;
             HttpPost updateOficial = new HttpPost(url);
             WebServiceRestTask task = new WebServiceRestTask(0);
             task.execute(updateOficial);

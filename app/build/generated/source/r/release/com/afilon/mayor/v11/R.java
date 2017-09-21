@@ -4222,30 +4222,31 @@ containing a value of this type.
         public static int signatureWarning2=0x7f0700a3;
         public static int signin=0x7f0700a4;
         public static int staffApp=0x7f0700a5;
+        public static int staffAppELSA=0x7f0700a6;
         public static int status_bar_notification_info_overflow=0x7f070031;
-        public static int summary=0x7f0700a6;
-        public static int suplentes=0x7f0700a7;
-        public static int tercer=0x7f0700a8;
-        public static int thirdButton=0x7f0700a9;
-        public static int thirdLoginEntry=0x7f0700aa;
-        public static int title_activity_fifth=0x7f0700ab;
-        public static int title_activity_fouth=0x7f0700ac;
-        public static int title_activity_horizontal_concepto=0x7f0700ad;
-        public static int title_activity_second=0x7f0700ae;
-        public static int title_activity_third=0x7f0700af;
-        public static int title_activity_tse_main=0x7f0700b0;
-        public static int title_activity_vote_count=0x7f0700b1;
-        public static int title_activity_web_view=0x7f0700b2;
-        public static int tse_elections=0x7f0700b3;
-        public static int tse_name=0x7f0700b4;
-        public static int updateError=0x7f0700b5;
-        public static int validCount=0x7f0700b6;
-        public static int validVote=0x7f0700b7;
-        public static int voteType=0x7f0700b8;
-        public static int voto=0x7f0700b9;
-        public static int webApp=0x7f0700ba;
-        public static int webRequest=0x7f0700bb;
-        public static int webUpdate=0x7f0700bc;
+        public static int summary=0x7f0700a7;
+        public static int suplentes=0x7f0700a8;
+        public static int tercer=0x7f0700a9;
+        public static int thirdButton=0x7f0700aa;
+        public static int thirdLoginEntry=0x7f0700ab;
+        public static int title_activity_fifth=0x7f0700ac;
+        public static int title_activity_fouth=0x7f0700ad;
+        public static int title_activity_horizontal_concepto=0x7f0700ae;
+        public static int title_activity_second=0x7f0700af;
+        public static int title_activity_third=0x7f0700b0;
+        public static int title_activity_tse_main=0x7f0700b1;
+        public static int title_activity_vote_count=0x7f0700b2;
+        public static int title_activity_web_view=0x7f0700b3;
+        public static int tse_elections=0x7f0700b4;
+        public static int tse_name=0x7f0700b5;
+        public static int updateError=0x7f0700b6;
+        public static int validCount=0x7f0700b7;
+        public static int validVote=0x7f0700b8;
+        public static int voteType=0x7f0700b9;
+        public static int voto=0x7f0700ba;
+        public static int webApp=0x7f0700bb;
+        public static int webRequest=0x7f0700bc;
+        public static int webUpdate=0x7f0700bd;
         public static int zxing_app_name=0x7f070032;
         public static int zxing_button_ok=0x7f070033;
         public static int zxing_msg_camera_framework_bug=0x7f070034;
@@ -4266,16 +4267,9 @@ containing a value of this type.
         public static int AnimationPopup=0x7f0a0095;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static int AppBaseTheme=0x7f0a000c;
         public static int AppCompatTheme=0x7f0a0096;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static int AppTheme=0x7f0a0097;
         public static int ApplicationStyle=0x7f0a0098;
         public static int Base_AlertDialog_AppCompat=0x7f0a0099;

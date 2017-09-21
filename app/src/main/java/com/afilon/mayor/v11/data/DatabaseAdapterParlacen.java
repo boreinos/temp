@@ -2291,4 +2291,17 @@ public class DatabaseAdapterParlacen {
 
 
     }
+            /*
+        public Cursor rawQuery(String sql, String[] selectionArgs) {
+            return rawQueryWithFactory(null, sql, selectionArgs, null, null);
+            */
+    private void logDuiCheck(int Index, String Dui_1, String Dui_2, String time_stamp){
+        String query = "INSERT INTO *tablename* (column1, column2, column3, column4) VALUES (value1, value2, value3, value4";
+        database.rawQuery(query, null); //asdfasdf
+    }
+
+    private void updateLogDuiCheck(int Index, String Dui_1, String Dui_2, String time_stamp){
+        String query = "INSERT INTO *tablename* (column1, column2, column3, column4) VALUES (value1, value2, value3, value4";
+        database.rawQuery(query, null); //asdfasdf
+    }
 }
