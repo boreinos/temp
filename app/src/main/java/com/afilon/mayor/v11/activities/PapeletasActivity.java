@@ -665,6 +665,11 @@ public class PapeletasActivity extends AfilonActivity implements
                 papeletasFinalIngresar.setText("");
                 cantidadPapeletasCantidad.setText("");
                 cantidadPapeletasFinal.setText("");
+                sobrantes_et1.setText("");
+                sobrantes_et2.setText("");
+                inutil_et1.setText("");
+                inutil_et2.setText("");
+
                 ah.setButtonColorRed(papeletasFinalBtn);
                 ah.setButtonColorRed(papeletasInitialBtn);
                 ah.setButtonColorRed(cantidadPapeletaBtn);

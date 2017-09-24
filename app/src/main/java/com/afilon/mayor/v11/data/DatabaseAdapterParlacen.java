@@ -2295,13 +2295,50 @@ public class DatabaseAdapterParlacen {
         public Cursor rawQuery(String sql, String[] selectionArgs) {
             return rawQueryWithFactory(null, sql, selectionArgs, null, null);
             */
-    private void logDuiCheck(int Index, String Dui_1, String Dui_2, String time_stamp){
-        String query = "INSERT INTO *tablename* (column1, column2, column3, column4) VALUES (value1, value2, value3, value4";
-        database.rawQuery(query, null); //asdfasdf
+
+
+    public void logELSA(String logIndex, String Dui_1, String Dui_2, String time_stamp){
+        String query = "INSERT INTO logTableELSA (logIndex, Dui_1, Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_1+","+Dui_2+","+"'"+time_stamp+"'"+")";
+//        String query = "INSERT INTO logTableELSA ("+logIndex+","+Dui_1+","+Dui_2+","+time_stamp+")"+" VALUES (logIndex, Dui_1, Dui_2, Time_stamp)";
+        database.rawQuery(query, null);
     }
 
-    private void updateLogDuiCheck(int Index, String Dui_1, String Dui_2, String time_stamp){
-        String query = "INSERT INTO *tablename* (column1, column2, column3, column4) VALUES (value1, value2, value3, value4";
-        database.rawQuery(query, null); //asdfasdf
+    public void logDui1(String logIndex, String Dui_1, String time_stamp){
+        Log.e("DUI LOG","DUI WAS LOGGED");
+        String query = "INSERT INTO logTableELSA (logIndex, Dui_1, Dui_2, Time_stamp) VALUES ('"+logIndex+"','"+Dui_1+"','"+Dui_1+"',"+"'"+time_stamp+"'"+")";
+//        String query = "INSERT INTO logTableELSA ("+logIndex+","+Dui_1+","+Dui_1+","+time_stamp+")"+" VALUES (logIndex, Dui_1, Dui_2, Time_stamp)";
+        database.execSQL(query);
+    }
+
+    //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
+    public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
+//        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
+        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"')";
+        database.rawQuery(query, null);
+    }
+
+    public ArrayList<String> getELSAlog(){
+
+//        String query = "SELECT  logIndex,  Dui_1, Dui_2, Time_stamp FROM logTableELSA ";
+        String query = "SELECT  * FROM logTableELSA ";
+        Log.e("getELSAlog : ", " XXXXXXXXXXXXXXXXXXXXXX");
+        Cursor cursor = database.rawQuery(query, null);
+        ArrayList<String> list = new ArrayList<String>();
+        if (cursor.moveToFirst()) {
+            do {
+                String logIndex = cursor.getString(cursor.getColumnIndexOrThrow("logIndex"));
+                String Dui_1 = cursor.getString(cursor.getColumnIndexOrThrow("Dui_1"));
+                String Dui_2 = cursor.getString(cursor.getColumnIndexOrThrow("Dui_2"));
+                String time_stamp = cursor.getString(cursor.getColumnIndexOrThrow("Time_stamp"));
+                String log = "Index : "+logIndex+"\nDui 1 : "+Dui_1+"\nDui 2 : "+Dui_2+"\nTime stamp : "+time_stamp;
+                list.add(log);
+                Log.e("log = ", logIndex);
+                Log.e("log = ", Dui_1);
+                Log.e("log = ", Dui_2);
+                Log.e("log = ", time_stamp);
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        return list;
     }
 }

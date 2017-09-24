@@ -239,6 +239,7 @@ public class SummaryActivity extends AfilonFragmentActivity {
             @Override
             public void onClick(View view) {
 //                challengeHelper.createDuiChallenge(getResources().getString(R.string.continueSummary),CONTINUE);
+                  challengeHelper.setLogIndex("10");
                   challengeHelper.createDialog(getResources().getString(R.string.continueSummary),CONTINUE);
             }
         });
