@@ -160,6 +160,7 @@ public class ParlacenCandidateListActivity extends ListActivity implements
         addBoletaBtn = (Button) findViewById(R.id.extra_boleta_btn);
         addBoletaBtn.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
+                challengeHelper.setLogIndex("7");
                 challengeHelper.createDuiChallenge(getResources().getString(R.string.addBallotMessabe),ANADIR);
 //                challengeHelper.createSingleDuiChallenge(ANADIR);
             }

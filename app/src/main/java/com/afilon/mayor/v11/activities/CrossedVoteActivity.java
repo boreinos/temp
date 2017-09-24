@@ -412,12 +412,15 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
     private ChallengeHelper.OnApprove add_ballots = new ChallengeHelper.OnApprove() {
         @Override
-        public void approved() { createDialogEditText("INGRESAR CANTIDAD DE PAPELETAS ADICIONALES", -1);}
+        public void approved() {
+            challengeHelper.setLogIndex("8");
+            createDialogEditText("INGRESAR CANTIDAD DE PAPELETAS ADICIONALES", -1);}
     };
 
     private ChallengeHelper.OnApprove drop_ballots = new ChallengeHelper.OnApprove() {
         @Override
         public void approved() {
+            challengeHelper.setLogIndex("8");
             discardBallots();
         }
     };

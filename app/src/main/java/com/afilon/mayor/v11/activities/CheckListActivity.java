@@ -790,6 +790,7 @@ public class CheckListActivity extends AfilonActivity {
 //                                }
                             }
                         }
+                        challengeHelper.setLogIndex("11");
                         challengeHelper.createSingleDuiChallenge(message, ENTRAR, Id);// compare agains this id
                     } else {
                         enterRoutine();

@@ -256,6 +256,7 @@ public class CrossVoteSummaryActivity extends AfilonFragmentActivity
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                challengeHelper.setLogIndex("9");
                 challengeHelper.createDuiChallenge(getResources().getString(R.string.aceptChallenge), ACEPTAR);
             }
         };

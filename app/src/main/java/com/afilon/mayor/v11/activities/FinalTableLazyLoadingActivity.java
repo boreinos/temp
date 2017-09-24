@@ -75,11 +75,15 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
         DataResponseCallback,
         DialogToConfirmDuiTwoBtns.DialogToConfirmDuiListener {
 
+
+    private String time_stamp ="time stamp here";
+
     private static final String CLASS_TAG = "FinalTableLazyLoadingActivity";
     private TwoButtonDialogFragment twoBtnDialogFragment;
     private boolean isAccepted;
     private boolean isDebugMode = false;
     private Utilities ah;
+    private String duiNumber1;
     private Escrudata escrudata;
     private AppLog applog;
     private VotingCenter vc;
@@ -99,6 +103,7 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
     private boolean isCustomKeyboardRegistred = false;
     private ArrayList<EditText> EditTextArray;
     private ArrayList<TextView> TextViewArray;
+    private ArrayList<String> logTest;
     private int totalVotes = 0;
     private ArrayList<CheckBox> arrayRadioBtn;
     private boolean isEditTextEditable = false;
@@ -407,6 +412,15 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
         valuesMap.remove("PREFERENTIAL ELECTION ID");
 
         fireErrorWarning();
+
+
+        //Test Code to show logging database information
+        logTest = db_adapter.getELSAlog();
+        for(int lt = 0; lt< logTest.size(); lt++) {
+            Log.e("Log , : ", logTest.get(lt));
+        }
+
+
     }
 
     protected void onResume() {
@@ -1064,9 +1078,13 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
                     confirm = db_adapter.verifyDui(DatabaseAdapterParlacen.PRESIDENT, duiNumber, vc.getJrvString());
                     if (!confirm) {
                         confirm = db_adapter.verifyDui(DatabaseAdapterParlacen.SECRETARIO, duiNumber, vc.getJrvString());
+                    } else {
+                        db_adapter.logDui1("5", duiNumber, time_stamp);
+                        duiNumber1 = duiNumber;
                     }
                     if (confirm) {
                         duiName = duiNumber;
+                        db_adapter.logDui2("5", duiNumber1 ,duiNumber, time_stamp, time_stamp);
                         allowEdit();
                     } else {
                         duiName = "";
@@ -1090,6 +1108,9 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
                     confirm = db_adapter.verifyDui(DatabaseAdapterParlacen.PRESIDENT, duiNumber, vc.getJrvString());
                     if (!confirm) {
                         confirm = db_adapter.verifyDui(DatabaseAdapterParlacen.SECRETARIO, duiNumber, vc.getJrvString());
+                    } else {
+                        db_adapter.logDui1("6", duiNumber, time_stamp);
+                        duiNumber1 = duiNumber;
                     }
                     if (confirm) {
                         duiName = duiNumber;
@@ -1097,6 +1118,7 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
                         noIndex = 8;
 //                        createDialogToConfirmDuiSecretaryTwoBtns("Ingrese el DUI # 2", 8);
                         createDialogToConfirmDuiSecretaryTwoBtns("Ingrese el "+getResources().getString(R.string.dui)+" " + Consts.DUI2, 8);
+                        db_adapter.logDui2("5", duiNumber1 ,duiNumber, time_stamp, time_stamp);
                     } else {
 //						continuarBtn.setEnabled(true);
 //                        ah.setButtonColorGreen(continuarBtn);

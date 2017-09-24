@@ -35,6 +35,7 @@ public class ChallengeHelper {
     private int[] keyboardIds;
     private CustomKeyboard presidenteKeyboard;
     private CustomKeyboard secretaryKeyboard;
+    private String logIndex;
     private boolean challengeHelperReady;
     private static final int PRESIDENT_VERIFICATION = 556;
     private static final int SECRETARY_VERIFICATION = 558;
@@ -47,6 +48,8 @@ public class ChallengeHelper {
     private OnApprove routine;
 
 
+    private String time_stamp = "this is a time stamp";
+
 
     public ChallengeHelper(Context context) {
         mContext = context;
@@ -56,6 +59,9 @@ public class ChallengeHelper {
     TwoButtonDialogFragment twoBtnDialogFragment;
 
 
+    public void setLogIndex(String index){
+        logIndex = index;
+    }
 
 
 
@@ -442,6 +448,7 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -458,6 +465,7 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.logDui1(logIndex,DUI_A, time_stamp);
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
                 createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input),SECRETARY_VERIFICATION,duiChallengeListener);
             }
@@ -481,6 +489,7 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -497,6 +506,7 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.logDui1(logIndex,DUI_A, time_stamp);
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
 //                secretaryKeyboard.showCustomKeyboard(null);
 //                secretaryKeyboard = new CustomKeyboard((Activity)mContext,keyboardIds[1], R.xml.tenhexkbd);

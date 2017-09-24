@@ -59,6 +59,7 @@ import com.google.gson.reflect.TypeToken;
 public class VerticalConceptoTableActivity extends AfilonActivity implements
         DialogToConfirmDuiTwoBtns.DialogToConfirmDuiListener, OnTwoButtonDialogFragmentListener {
 
+    private String time_stamp = "time stamp here";
     private static final String CLASS_TAG = "VerticalConceptoTableActivity";
     private CustomKeyboard mCustomKeyboard;
     //	private CustomKeyboard mCustomKeyboardTwo;
@@ -1258,7 +1259,12 @@ public class VerticalConceptoTableActivity extends AfilonActivity implements
                 } else {
                     if(Consts.LOCALE.contains("HON")){
                         ah.createCustomToast("IDENTIDAD CONFIRMADO");
-                    }else ah.createCustomToast("DUI CONFIRMADO");
+                    }else {
+                        ah.createCustomToast("DUI CONFIRMADO");
+                        db_adapter.open();
+                        db_adapter.logDui1("3",duiNumber, time_stamp);
+                        db_adapter.close();
+                    }
                     //CARLOS: 2016-11-01
                     ah.setButtonColorGreen(entrarBtn);
                 }
@@ -1299,7 +1305,12 @@ public class VerticalConceptoTableActivity extends AfilonActivity implements
                         ah.setButtonColorGreen(entrarBtn);
                         if(Consts.LOCALE.contains("HON")){
                             ah.createCustomToast("IDENTIDAD CONFIRMADO");
-                        }else ah.createCustomToast("DUI CONFIRMADO");
+                        }else {
+                            ah.createCustomToast("DUI CONFIRMADO");
+                            db_adapter.open();
+                            db_adapter.logDui1("4",duiNumber, time_stamp);
+                            db_adapter.close();
+                        }
                     }
 
                 } else {
