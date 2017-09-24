@@ -80,7 +80,7 @@ public class VoteCounterActivity extends AfilonActivity {
         db_adapter = new DatabaseAdapterParlacen(this);
         db_adapter.open();
 
-        //------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------------+
         challengeHelper = new ChallengeHelper(this);
         // REGISTER ROUTINES TO CHALLENGE HELPER:
         challengeHelper.addRoutine(ADD_BALLOT, add_ballots);
