@@ -65,6 +65,8 @@ public class DatabaseAdapterParlacen {
     private static final String PREFERENTIAL_ELECTION_CANDIDATE_VOTES = "preferential_election_candidate_votes";
     private static final String PREFERENTIAL_ELECTION_CONCEPTS_COUNT_VOTES = "concepts_count_preferential";
     private static final String PREFERENTIAL_CANDIDATE_CROSSVOTES = "candidate_crossvotes";
+    private static final String CANDIDATE_PREFERENTIALVOTES = "pref_vote_temp"; //used for ES only, duirng crossvote activity! currently used as temp only
+    private static final String CANDIDATE_PLANCHAVOTES = "plancha_vote_temp";  // used for ES only during crossvote activity, temp only
     private static final String ELECTION_TYPES = "ElectionTypes";
     private static final String MARKS = "Marks";
     private static final String CANDIDATE_MARKS = "";
@@ -275,55 +277,6 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return list;
     }
-//    public ArrayList<Party> getParties(String pref_election_id) {
-//        ArrayList<Party> list = new ArrayList<Party>();
-//        String sqlQuery = "";
-//        String electionIdColumn = "";
-//        String partyOrderColumn = "Party_Order";
-//        switch (context.getResources().getString(R.string.electionType)) {
-//            case "MAYOR":
-//                sqlQuery = "select * from direct_election_parties where CAST(Direct_Election_ID AS INTEGER) =?" + " ORDER BY CAST(party_order AS INTEGER)";
-//                electionIdColumn = "Party_Direct_Election_ID";
-//                break;
-//            case "ASAMBLEA":
-//                sqlQuery = "SELECT Party_Preferential_Election_ID, Party, party_order" +
-//                        " FROM preferential_election_parties" +
-//                        " WHERE Preferential_Election_ID=? " +
-//                        " ORDER BY CAST(party_order AS INTEGER)";
-//                electionIdColumn = "Party_Preferential_Election_ID";
-//                partyOrderColumn = "party_order";
-//                break;
-//            case "PRESIDENT":
-//                break;
-//            case "PARLACEN":
-//                break;
-//            default:
-//                break;
-//        }
-//
-//        Cursor cursor = database.rawQuery(sqlQuery, new String[]{pref_election_id});
-//        if (cursor.moveToFirst()) {
-//            do {
-//
-//                String party_id = pref_election_id;  //cursor.getString(cursor
-//                String party_preferential_election_id = cursor
-//                        .getString(cursor
-//                                .getColumnIndexOrThrow(electionIdColumn));
-//                String party_name = cursor.getString(cursor
-//                        .getColumnIndexOrThrow("Party"));
-//                String party_order = cursor.getString(cursor
-//                        .getColumnIndexOrThrow(partyOrderColumn));
-//
-//                Party cls = new BallotParty(party_id, pref_election_id,party_preferential_election_id, party_name, party_order);
-//
-//                list.add(cls);
-//            } while (cursor.moveToNext());
-//
-//        }
-//        return list;
-//    }
-
-
 
     public ArrayList<Candidate> getParlacenCandidatesArrayList(String party_preferential_election_id){
         if(Consts.LOCALE.contains("ELSA")){
@@ -331,6 +284,7 @@ public class DatabaseAdapterParlacen {
         }
         return getCandidatesArrayListHN(party_preferential_election_id);
     }
+
     public ArrayList<Candidate> getCandidatesArrayListSV(
             String party_preferential_election_id) {
         ArrayList<Candidate> list = new ArrayList<Candidate>();
@@ -362,6 +316,7 @@ public class DatabaseAdapterParlacen {
 
         return list;
     }
+
     public ArrayList<Candidate> getCandidatesArrayListHN(
             String party_preferential_election_id) {
         ArrayList<Candidate> list = new ArrayList<Candidate>();
@@ -439,6 +394,7 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return candidates;
     }
+
     private String getCandidateIndexColumnName(){
         String candidateIndex = "throwError";
         // todo find a more elegant solution
@@ -861,6 +817,7 @@ public class DatabaseAdapterParlacen {
         cv.put("present",member.getIspresent());
         database.insert(Attendees,null,cv);
     }
+
     public void insertActaAttendeesInOrder(User member,int order){
         Log.e("ROLLCALL Acta: ",member.getDUI());
         ContentValues cv = new ContentValues();
@@ -871,6 +828,7 @@ public class DatabaseAdapterParlacen {
         cv.put("present",member.getIspresent());
         database.insert(Attendees,null,cv);
     }
+
     public ArrayList<User> getActaAttendees(){
         ArrayList<User> members = new ArrayList<>();
         Cursor cursor = database.query(Attendees,
@@ -893,6 +851,7 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return members;
     }
+
     public int getActaAttendeesNumber(){
         ArrayList<User> members = new ArrayList<>();
         String selection = "present =?";
@@ -1046,7 +1005,6 @@ public class DatabaseAdapterParlacen {
         return prefCandVotesList;
 
     }
-
 
     // CARLOS: APPLOG TABLE
     // 2014-09-18
@@ -1326,6 +1284,7 @@ public class DatabaseAdapterParlacen {
         database.update(PREFERENTIAL_ELECTION_BANDERA_VOTES, contentValues,
                 "party_preferential_election_id='" + preferentialID + "'", null);
     }
+
     public void updatePartyVotes(PreferentialVotoBanderas votoBandera, String jrvString){
         ContentValues contentValues = new ContentValues();
 //        contentValues.put("jrv", jrvString);
@@ -1611,13 +1570,13 @@ public class DatabaseAdapterParlacen {
 
     }
 
-
     public void updateConceptsCount(LinkedHashMap<String,String> escrutadaMap, String jrv){
         if(Consts.LOCALE.contains("ELSA")){
             updateConceptCountSV(escrutadaMap,jrv);
         }else
             updateConceptCountHN(escrutadaMap,jrv);
     }
+
     private void updateConceptCountSV(LinkedHashMap<String,String> escrudataMap,String jrv){
         Log.e("DATABASEADAPTER: ", escrudataMap.toString());
         ContentValues contentValues = new ContentValues();
@@ -1635,6 +1594,7 @@ public class DatabaseAdapterParlacen {
         int rows = database.update(PREFERENTIAL_ELECTION_CONCEPTS_COUNT_VOTES,contentValues, "JRV= '"+jrv+"'", null);
         Log.e("CROSSUPDATE","rows updated: "+String.valueOf(rows)+" of JRV = "+jrv);
     }
+
     private void updateConceptCountHN(LinkedHashMap<String,String> escrudataMap, String jrv){
         Log.e("DATABASEADAPTER: ", escrudataMap.toString());
 
@@ -1656,9 +1616,6 @@ public class DatabaseAdapterParlacen {
         Log.e("CROSSUPDATE","rows updated: "+String.valueOf(rows)+" of JRV = "+jrv);
     }
 
-
-
-
     public void updateConceptCount(String key, String value, String jrv){
         ContentValues contentValues = new ContentValues();
         contentValues.put(key,value);
@@ -1670,9 +1627,6 @@ public class DatabaseAdapterParlacen {
         database.delete(PREFERENTIAL_ELECTION_CONCEPTS_COUNT_VOTES, null, null);
 
     }
-
-
-
 
     private String[] getRawQueriesHN(){
         String[] queries = new String[3];
@@ -1722,7 +1676,77 @@ public class DatabaseAdapterParlacen {
         return party_candidates;
     }
     //----------------------------------------------------------------------------------------------
+    public void insertPlanchaVote(String jrv,
+    String pref_elec_id,
+    String party_elec_id,
+    String candidate_elec_id,
+    float candidate_vote,
+    String candidate_boleta_no) {
+        database.beginTransactionNonExclusive();
+        try {
+            ContentValues contentValues = new ContentValues();
 
+            contentValues.put("jrv", jrv);
+            contentValues.put("electionId", pref_elec_id);
+            contentValues.put("partyId", party_elec_id);
+            contentValues.put("candidateId", candidate_elec_id);
+            contentValues.put("vote", candidate_vote);
+            contentValues.put("ballotNumber", candidate_boleta_no);
+            database.insert(CANDIDATE_PLANCHAVOTES, null, contentValues);
+        } finally {
+            database.setTransactionSuccessful();
+            database.endTransaction();
+        }
+
+    }
+
+    public void insertPreferentialVote(String jrv,
+                                  String pref_elec_id,
+                                  String party_elec_id,
+                                  String candidate_elec_id,
+                                  float candidate_vote,
+                                  String candidate_boleta_no) {
+        database.beginTransactionNonExclusive();
+        try {
+            ContentValues contentValues = new ContentValues();
+
+            contentValues.put("jrv", jrv);
+            contentValues.put("electionId", pref_elec_id);
+            contentValues.put("partyId", party_elec_id);
+            contentValues.put("candidateId", candidate_elec_id);
+            contentValues.put("vote", candidate_vote);
+            contentValues.put("ballotNumber", candidate_boleta_no);
+            database.insert(CANDIDATE_PREFERENTIALVOTES, null, contentValues);
+        } finally {
+            database.setTransactionSuccessful();
+            database.endTransaction();
+        }
+
+    }
+
+    public void updatePlanchaPreferentialVotes(){
+        database.beginTransaction();
+        String planchaUpdate = "  update preferential_election_candidate_votes " +
+                " set candidate_bandera_votes = (select sum(vote) + candidate_bandera_votes from plancha_vote_temp pt where pt.candidateId = Candidate_Preferential_Election_ID) " +
+                " where Candidate_Preferential_Election_ID IN (select candidateId from plancha_vote_temp pt where pt.candidateId = Candidate_Preferential_Election_ID)";
+        String preferentialUpdate = "  update preferential_election_candidate_votes" +
+                "  set candidate_preferential_votes = (select sum(vote) + candidate_preferential_votes from pref_vote_temp pvt where pvt.candidateId = Candidate_Preferential_Election_ID)" +
+                "  where Candidate_Preferential_Election_ID IN (select candidateId from pref_vote_temp pt where pt.candidateId = Candidate_Preferential_Election_ID)";
+
+        try{
+            database.execSQL(planchaUpdate);
+            database.execSQL(preferentialUpdate);
+            database.setTransactionSuccessful();
+        }finally {
+            database.endTransaction();
+        }
+
+    }
+    public void deleteTempVotes(){
+        database.delete(CANDIDATE_PREFERENTIALVOTES, null, null);
+        database.delete(CANDIDATE_PLANCHAVOTES, null, null);
+
+    }
 
     public static Drawable getAssetImage(Context context, String filename)
             throws IOException {
@@ -2313,7 +2337,7 @@ public class DatabaseAdapterParlacen {
     //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
     public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
 //        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
-        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"')";
+        String query = "UPDATE logTableELSA SET [Dui_2] = '"+Dui_2+"', [Time_stamp] = '"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
         database.rawQuery(query, null);
     }
 

@@ -6,134 +6,27 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee900ac-41a7-4fb1-b5ea-2c01a7068c40" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/dataBinding/release/android/databinding/layouts/DataBindingInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/com/afilon/mayor/v11/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/default/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/default/assets/parlacen_dbv10.db-journal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/default/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/default/res/layout/mer_activity_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/default/res/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerLoginActivity$CustomTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerLoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$CustomTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$DuiFormatTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$Flag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/utils/Consts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/data-binding-layout-out/release/layout/mer_activity_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/data-binding-layout-out/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/mer_activity_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-release.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-14-13-37-34-705.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-07-59-39-657.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-11-36-34-018.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-05-34-594.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-08-36-007.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-19-13-903.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-24-34-270.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-44-06-140.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-04-30-292.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-11-26-628.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-32-09-930.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-10-23-16-276.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-10-28-12-460.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-18-25-939.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-21-38-298.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-26-26-389.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-49-02-270.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-12-02-38-291.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-15-52-41-967.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-16-05-50-398.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-16-12-29-683.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-14-31-099.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-36-46-473.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-56-24-087.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-33-41-314.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-43-11-944.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-56-13-618.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-25-36-055.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-45-36-335.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-55-38-158.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db-journal" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" afterPath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VoteCounterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VoteCounterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea/asamblea.iml" afterPath="$PROJECT_DIR$/asamblea/asamblea.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea2/asamblea2.iml" afterPath="$PROJECT_DIR$/asamblea2/asamblea2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" afterPath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" afterPath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honduraspresidente/honduraspresidente.iml" afterPath="$PROJECT_DIR$/honduraspresidente/honduraspresidente.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayor/mayor.iml" afterPath="$PROJECT_DIR$/mayor/mayor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mermanager/mermanager.iml" afterPath="$PROJECT_DIR$/mermanager/mermanager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presidente/presidente.iml" afterPath="$PROJECT_DIR$/presidente/presidente.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/wheel.iml" afterPath="$PROJECT_DIR$/wheel/wheel.iml" />
     </list>
     <ignored path="ElSalvador_Honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,71 +52,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SummaryActivityPreferential.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SummaryActivityPreferential.java">
+      <file leaf-file-name="CrossedVoteActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="571" column="44" selection-start-line="571" selection-start-column="44" selection-end-line="571" selection-end-column="44" />
+            <state vertical-scroll-proportion="-2.9310346">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#13728#13729#0" expanded="false" />
-                <element signature="e#13770#13771#0" expanded="false" />
-                <element signature="e#98381#98382#0" expanded="false" />
-                <element signature="e#98420#98421#0" expanded="false" />
-                <element signature="e#98470#98471#0" expanded="false" />
-                <element signature="e#98509#98510#0" expanded="false" />
-                <element signature="e#99118#99119#0" expanded="false" />
-                <element signature="e#99164#99165#0" expanded="false" />
+                <element signature="method#updateVoteMenu#0;class#CrossedVoteActivity#0" expanded="false" />
+                <element signature="method#updateVoteMenuES#0;class#CrossedVoteActivity#0" expanded="false" />
+                <element signature="e#19548#19769#0" expanded="true" />
+                <element signature="e#19768#19769#0" expanded="true" />
+                <element signature="e#20642#20957#0" expanded="true" />
+                <element signature="e#20956#20957#0" expanded="true" />
+                <element signature="e#21046#21355#0" expanded="true" />
+                <element signature="e#21354#21355#0" expanded="true" />
+                <element signature="e#21412#21946#0" expanded="true" />
+                <element signature="e#21945#21946#0" expanded="true" />
+                <element signature="class#59400:61874" expanded="false" />
+                <element signature="method#onPartyGridEvent#0;class#59400:61874" expanded="false" />
+                <element signature="class#61994:62936" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParlacenCandidateListActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenCandidateListActivity.java">
+      <file leaf-file-name="VotingCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/VotingCenter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="208" column="13" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="13" />
-              <folding />
+              <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="39" />
+              <folding>
+                <element signature="e#3558#3559#0" expanded="true" />
+                <element signature="e#3597#3598#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreferentialCandidateVotes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/PreferentialCandidateVotes.java">
+      <file leaf-file-name="CrossVoteBundle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/CrossVoteBundle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrossedVoteActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0">
-              <caret line="721" column="0" selection-start-line="721" selection-start-column="2" selection-end-line="727" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -233,17 +103,188 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Ballot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="670" column="32" selection-start-line="670" selection-start-column="32" selection-end-line="670" selection-end-column="32" />
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseAdapterParlacen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
+      <file leaf-file-name="CandidateCrossVote.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/CandidateCrossVote.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1073" column="29" selection-start-line="1073" selection-start-column="29" selection-end-line="1073" selection-end-column="29" />
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseAdapterParlacen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2220545">
+              <caret line="1727" column="36" selection-start-line="1727" selection-start-column="36" selection-end-line="1727" selection-end-column="36" />
+              <folding>
+                <element signature="method#DatabaseAdapterParlacen#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#open#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#close#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#verifyDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#scrambleId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertUser#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getNewJrv#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#8050#8105#0" expanded="true" />
+                <element signature="method#getParlacenPartiesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#9544#9551#0" expanded="true" />
+                <element signature="e#9688#9743#0" expanded="true" />
+                <element signature="method#getParlacenCandidatesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidatesArrayListSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#12271#12282#0" expanded="true" />
+                <element signature="method#getCandidatesArrayListHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#13856#13867#0" expanded="true" />
+                <element signature="method#getCandidatesWithMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidateIndexColumnName#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidatesWithTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidateTotalVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidateCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getPartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getTotalPartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateFinalVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCheckListItemsFromCatalog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#saveCheckListItems#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getMesaMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getMesaMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getVCOfficial#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getAttendeeMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertActaAttendeesInOrder#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getActaAttendeesNumber#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCheckListItemsFromAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getConceptosAndParties#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getPreferentialElectionCandidateVotesForThisParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#44854#44882#0" expanded="true" />
+                <element signature="method#getPreferentialElectionCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#46326#46354#0" expanded="true" />
+                <element signature="method#insertAppLog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertPreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updatePreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateFinalVote#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateFinalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateBanderaMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidatePreferentialMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateCrossVoteMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateFinalTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateCrossVoteandMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteAllPreferentialCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteAllPreferentialCandidateVotes#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#resetCandidateVotesbyParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateNumberOfChangeBoletasAndPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updatePartyTotal#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateNumberOfPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#56815#56839#0" expanded="true" />
+                <element signature="method#insertConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updatePartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updatePartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getBanderaVotesPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#62156#62182#0" expanded="true" />
+                <element signature="method#getBanderaVotesPreferential#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCurrentBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#68495#68550#0" expanded="true" />
+                <element signature="method#getRawQueriesES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#69961#70016#0" expanded="true" />
+                <element signature="method#getConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateConceptsCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateConceptCountSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateConceptCountHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getRawQueriesHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#77733#77788#0" expanded="true" />
+                <element signature="method#getPartiesCandidatesIDs#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertPlanchaVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertPreferentialVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getAssetImage#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#saveActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#updateCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteAllCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#resetCandidateCrossVoteByBoleta#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getParyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getTotalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCrossVoteBundleArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#90329#90346#0" expanded="true" />
+                <element signature="method#insertMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidatMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deletePartyMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getPartyMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getAllCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#96084#96100#0" expanded="true" />
+                <element signature="method#getCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getCandidateMarksArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#deleteAllCandidateMarks#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#resetCandidateMarksByCandidateId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="docComment;method#deleteTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#insertTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#testTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getMarksArrayListToSend#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#104456#104472#0" expanded="true" />
+                <element signature="e#108911#108927#0" expanded="true" />
+                <element signature="method#dropTempTables#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#logELSA#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#logDui1#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#logDui2#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="method#getELSAlog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+                <element signature="e#112193#112201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.518518">
+              <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChallengeHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="516" column="35" selection-start-line="516" selection-start-column="35" selection-end-line="516" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -253,25 +294,10 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Candidate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrossVoteSummaryActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossVoteSummaryActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
+              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#12297#12298#0" expanded="false" />
-                <element signature="e#12332#12333#0" expanded="false" />
-                <element signature="e#16520#16521#0" expanded="false" />
-                <element signature="e#16563#16564#0" expanded="false" />
-                <element signature="e#16710#16711#0" expanded="false" />
-                <element signature="e#16749#16750#0" expanded="false" />
+                <element signature="e#2159#2160#0" expanded="true" />
+                <element signature="e#2204#2205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -9530,11 +9556,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/mer_activity_manager.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/MerManagerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/fragments/DialogToConfirmDuiTwoBtns.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenCandidateListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VoteCounterActivity.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/mermanager/mermanager.iml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
       </list>
     </option>
   </component>
@@ -9555,7 +9585,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -9627,6 +9657,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElSalvador_Honduras" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v11" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginActivity.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -9645,30 +9701,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ElSalvador_Honduras" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ElSalvador_Honduras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ElSalvador_Honduras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ElSalvador_Honduras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ElSalvador_Honduras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -10611,7 +10643,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -10619,16 +10651,16 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19169329" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2342918" sideWeight="0.7670576" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2342918" sideWeight="0.23294243" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31842387" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -10660,7 +10692,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -10686,7 +10720,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="334" column="49" selection-start-line="334" selection-start-column="49" selection-end-line="334" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1506273198388" expanded="false" signature="7891:7942" placeholder="&quot;¿DESEA AÑADIR PAPELETAS?&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10702,7 +10738,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="682" column="26" selection-start-line="682" selection-start-column="26" selection-end-line="682" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="method#updateVoteMenu#0;class#CrossedVoteActivity#0" expanded="false" />
+            <element signature="method#updateVoteMenuES#0;class#CrossedVoteActivity#0" expanded="false" />
+            <element signature="e#19548#19769#0" expanded="true" />
+            <element signature="e#19768#19769#0" expanded="true" />
+            <element signature="e#20642#20957#0" expanded="true" />
+            <element signature="e#20956#20957#0" expanded="true" />
+            <element signature="e#21046#21355#0" expanded="true" />
+            <element signature="e#21354#21355#0" expanded="true" />
+            <element signature="e#21412#21946#0" expanded="true" />
+            <element signature="e#21945#21946#0" expanded="true" />
+            <element signature="class#59400:61874" expanded="false" />
+            <element signature="method#onPartyGridEvent#0;class#59400:61874" expanded="false" />
+            <element signature="class#61994:62936" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10718,7 +10768,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#DatabaseAdapterParlacen#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#open#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#close#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#verifyDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#scrambleId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertUser#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getNewJrv#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#8050#8105#0" expanded="true" />
+            <element signature="method#getParlacenPartiesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#9544#9551#0" expanded="true" />
+            <element signature="e#9688#9743#0" expanded="true" />
+            <element signature="method#getParlacenCandidatesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesArrayListSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#12271#12282#0" expanded="true" />
+            <element signature="method#getCandidatesArrayListHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#13856#13867#0" expanded="true" />
+            <element signature="method#getCandidatesWithMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateIndexColumnName#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesWithTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateTotalVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalPartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromCatalog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveCheckListItems#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getVCOfficial#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAttendeeMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendeesInOrder#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendeesNumber#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptosAndParties#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPreferentialElectionCandidateVotesForThisParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#44854#44882#0" expanded="true" />
+            <element signature="method#getPreferentialElectionCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#46326#46354#0" expanded="true" />
+            <element signature="method#insertAppLog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateBanderaMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidatePreferentialMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteandMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateVotesbyParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfChangeBoletasAndPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyTotal#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#56815#56839#0" expanded="true" />
+            <element signature="method#insertConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getBanderaVotesPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#62156#62182#0" expanded="true" />
+            <element signature="method#getBanderaVotesPreferential#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCurrentBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#68495#68550#0" expanded="true" />
+            <element signature="method#getRawQueriesES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#69961#70016#0" expanded="true" />
+            <element signature="method#getConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptsCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getRawQueriesHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#77733#77788#0" expanded="true" />
+            <element signature="method#getPartiesCandidatesIDs#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPlanchaVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAssetImage#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateCrossVoteByBoleta#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getParyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCrossVoteBundleArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#90329#90346#0" expanded="true" />
+            <element signature="method#insertMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deletePartyMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAllCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#96084#96100#0" expanded="true" />
+            <element signature="method#getCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateMarksArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateMarks#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateMarksByCandidateId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="docComment;method#deleteTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#testTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMarksArrayListToSend#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#104456#104472#0" expanded="true" />
+            <element signature="e#108911#108927#0" expanded="true" />
+            <element signature="method#dropTempTables#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logELSA#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui1#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui2#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getELSAlog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#112193#112201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10734,7 +10915,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10744,12 +10928,46 @@
           <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#12297#12298#0" expanded="false" />
-            <element signature="e#12332#12333#0" expanded="false" />
-            <element signature="e#16520#16521#0" expanded="false" />
-            <element signature="e#16563#16564#0" expanded="false" />
-            <element signature="e#16710#16711#0" expanded="false" />
-            <element signature="e#16749#16750#0" expanded="false" />
+            <element signature="e#16603#16604#0" expanded="false" />
+            <marker date="1506273198377" expanded="true" signature="2734:5311" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="3676:3795" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="4365:4476" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="5317:5824" placeholder="/**...*/" />
+            <marker date="1506273198377" expanded="true" signature="5869:6008" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="5897:6002" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="6014:6066" placeholder="/**...*/" />
+            <marker date="1506273198377" expanded="true" signature="6115:6200" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="6247:6334" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="6458:8719" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="8774:9908" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="9765:9882" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="9978:10209" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10280:10511" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10558:10807" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10602:10800" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10666:10790" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10858:11160" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10902:11153" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10966:11143" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11204:11522" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11569:11853" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11918:11970" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="12250:12389" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="12346:12361" placeholder=" { " />
+            <marker date="1506273198377" expanded="false" signature="12373:12383" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="12474:13127" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="13212:13485" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="13525:14689" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="14723:16429" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16519:16620" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="16604:16614" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="16709:16806" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="16759:16774" placeholder=" { " />
+            <marker date="1506273198377" expanded="false" signature="16790:16800" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="16861:17439" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16905:17432" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16991:17422" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="17509:17715" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -10776,7 +10994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="334" column="49" selection-start-line="334" selection-start-column="49" selection-end-line="334" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1506273198388" expanded="false" signature="7891:7942" placeholder="&quot;¿DESEA AÑADIR PAPELETAS?&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10800,7 +11020,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10808,7 +11031,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1497" column="29" selection-start-line="1497" selection-start-column="29" selection-end-line="1497" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="method#DatabaseAdapterParlacen#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#open#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#close#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#verifyDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#scrambleId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertUser#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getNewJrv#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#8050#8105#0" expanded="true" />
+            <element signature="method#getParlacenPartiesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#9544#9551#0" expanded="true" />
+            <element signature="e#9688#9743#0" expanded="true" />
+            <element signature="method#getParlacenCandidatesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesArrayListSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#12271#12282#0" expanded="true" />
+            <element signature="method#getCandidatesArrayListHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#13856#13867#0" expanded="true" />
+            <element signature="method#getCandidatesWithMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateIndexColumnName#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesWithTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateTotalVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalPartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromCatalog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveCheckListItems#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getVCOfficial#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAttendeeMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendeesInOrder#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendeesNumber#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptosAndParties#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPreferentialElectionCandidateVotesForThisParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#44854#44882#0" expanded="true" />
+            <element signature="method#getPreferentialElectionCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#46326#46354#0" expanded="true" />
+            <element signature="method#insertAppLog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateBanderaMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidatePreferentialMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteandMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateVotesbyParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfChangeBoletasAndPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyTotal#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#56815#56839#0" expanded="true" />
+            <element signature="method#insertConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getBanderaVotesPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#62156#62182#0" expanded="true" />
+            <element signature="method#getBanderaVotesPreferential#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCurrentBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#68495#68550#0" expanded="true" />
+            <element signature="method#getRawQueriesES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#69961#70016#0" expanded="true" />
+            <element signature="method#getConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptsCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getRawQueriesHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#77733#77788#0" expanded="true" />
+            <element signature="method#getPartiesCandidatesIDs#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPlanchaVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAssetImage#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateCrossVoteByBoleta#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getParyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCrossVoteBundleArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#90329#90346#0" expanded="true" />
+            <element signature="method#insertMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deletePartyMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAllCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#96084#96100#0" expanded="true" />
+            <element signature="method#getCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateMarksArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateMarks#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateMarksByCandidateId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="docComment;method#deleteTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#testTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMarksArrayListToSend#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#104456#104472#0" expanded="true" />
+            <element signature="e#108911#108927#0" expanded="true" />
+            <element signature="method#dropTempTables#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logELSA#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui1#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui2#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getELSAlog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#112193#112201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10853,13 +11207,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="162" selection-start-line="61" selection-start-column="150" selection-end-line="61" selection-end-column="162" />
           <folding>
-            <element signature="e#3907#3986#0" expanded="true" />
-            <element signature="e#4012#4093#0" expanded="true" />
-            <element signature="e#4285#4366#0" expanded="true" />
-            <element signature="e#4720#4799#0" expanded="true" />
-            <element signature="e#4832#4915#0" expanded="true" />
-            <element signature="e#5002#5081#0" expanded="true" />
-            <element signature="e#5118#5201#0" expanded="true" />
+            <element signature="e#3907#3986#0" expanded="false" />
+            <element signature="e#4012#4093#0" expanded="false" />
+            <element signature="e#4285#4366#0" expanded="false" />
+            <element signature="e#4720#4799#0" expanded="false" />
+            <element signature="e#4832#4915#0" expanded="false" />
+            <element signature="e#5002#5081#0" expanded="false" />
+            <element signature="e#5118#5201#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10922,6 +11276,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding>
+            <element signature="method#DialogToConfirmDuiTwoBtns#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="class#DialogToConfirmDuiListener#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="class#DuiChallengeListener#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#setCustomKeyboard#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#setOnButtonsClickedListenerOne#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#setOnDuiChallengerListener#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#onCreate#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#closeKeyboard#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#onActivityCreated#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+            <element signature="method#registerEditTextWithCustomKeyboard#0;class#DialogToConfirmDuiTwoBtns#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -10980,26 +11349,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Candidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossVoteSummaryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
+          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#12297#12298#0" expanded="false" />
-            <element signature="e#12332#12333#0" expanded="false" />
-            <element signature="e#16520#16521#0" expanded="false" />
-            <element signature="e#16563#16564#0" expanded="false" />
-            <element signature="e#16710#16711#0" expanded="false" />
-            <element signature="e#16749#16750#0" expanded="false" />
+            <element signature="e#16603#16604#0" expanded="false" />
+            <marker date="1506273198377" expanded="true" signature="2734:5311" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="3676:3795" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="4365:4476" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="5317:5824" placeholder="/**...*/" />
+            <marker date="1506273198377" expanded="true" signature="5869:6008" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="5897:6002" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="6014:6066" placeholder="/**...*/" />
+            <marker date="1506273198377" expanded="true" signature="6115:6200" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="6247:6334" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="6458:8719" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="8774:9908" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="9765:9882" placeholder="//..." />
+            <marker date="1506273198377" expanded="true" signature="9978:10209" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10280:10511" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10558:10807" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10602:10800" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10666:10790" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10858:11160" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10902:11153" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="10966:11143" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11204:11522" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11569:11853" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="11918:11970" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="12250:12389" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="12346:12361" placeholder=" { " />
+            <marker date="1506273198377" expanded="false" signature="12373:12383" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="12474:13127" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="13212:13485" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="13525:14689" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="14723:16429" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16519:16620" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="16604:16614" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="16709:16806" placeholder="{...}" />
+            <marker date="1506273198377" expanded="false" signature="16759:16774" placeholder=" { " />
+            <marker date="1506273198377" expanded="false" signature="16790:16800" placeholder=" }" />
+            <marker date="1506273198377" expanded="true" signature="16861:17439" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16905:17432" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="16991:17422" placeholder="{...}" />
+            <marker date="1506273198377" expanded="true" signature="17509:17715" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -11007,8 +11402,10 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenCandidateListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="13" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="13" />
-          <folding />
+          <caret line="210" column="13" selection-start-line="210" selection-start-column="13" selection-end-line="210" selection-end-column="13" />
+          <folding>
+            <marker date="1506273198388" expanded="false" signature="7891:7942" placeholder="&quot;¿DESEA AÑADIR PAPELETAS?&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -11016,30 +11413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="42" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1073" column="29" selection-start-line="1073" selection-start-column="29" selection-end-line="1073" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Ballot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="670" column="32" selection-start-line="670" selection-start-column="32" selection-end-line="670" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0">
-          <caret line="721" column="0" selection-start-line="721" selection-start-column="2" selection-end-line="727" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -11057,6 +11430,253 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mermanager/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mermanager/mermanager.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3681593">
+          <caret line="84" column="77" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/CandidateCrossVote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Candidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <folding>
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/CrossVoteBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/Ballot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/VotingCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="39" />
+          <folding>
+            <element signature="e#3558#3559#0" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="516" column="35" selection-start-line="516" selection-start-column="35" selection-end-line="516" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.518518">
+          <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CrossedVoteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9310346">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="method#updateVoteMenu#0;class#CrossedVoteActivity#0" expanded="false" />
+            <element signature="method#updateVoteMenuES#0;class#CrossedVoteActivity#0" expanded="false" />
+            <element signature="e#19548#19769#0" expanded="true" />
+            <element signature="e#19768#19769#0" expanded="true" />
+            <element signature="e#20642#20957#0" expanded="true" />
+            <element signature="e#20956#20957#0" expanded="true" />
+            <element signature="e#21046#21355#0" expanded="true" />
+            <element signature="e#21354#21355#0" expanded="true" />
+            <element signature="e#21412#21946#0" expanded="true" />
+            <element signature="e#21945#21946#0" expanded="true" />
+            <element signature="class#59400:61874" expanded="false" />
+            <element signature="method#onPartyGridEvent#0;class#59400:61874" expanded="false" />
+            <element signature="class#61994:62936" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2220545">
+          <caret line="1727" column="36" selection-start-line="1727" selection-start-column="36" selection-end-line="1727" selection-end-column="36" />
+          <folding>
+            <element signature="method#DatabaseAdapterParlacen#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#open#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#close#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#verifyDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#scrambleId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertDui#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertUser#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getNewJrv#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#8050#8105#0" expanded="true" />
+            <element signature="method#getParlacenPartiesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#9544#9551#0" expanded="true" />
+            <element signature="e#9688#9743#0" expanded="true" />
+            <element signature="method#getParlacenCandidatesArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesArrayListSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#12271#12282#0" expanded="true" />
+            <element signature="method#getCandidatesArrayListHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#13856#13867#0" expanded="true" />
+            <element signature="method#getCandidatesWithMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateIndexColumnName#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatesWithTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateTotalVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalPartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromCatalog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveCheckListItems#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMesaMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getVCOfficial#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAttendeeMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertMERMemberswParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteMERMembers#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertActaAttendeesInOrder#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getActaAttendeesNumber#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCheckListItemsFromAttendees#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptosAndParties#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPreferentialElectionCandidateVotesForThisParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#44854#44882#0" expanded="true" />
+            <element signature="method#getPreferentialElectionCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#46326#46354#0" expanded="true" />
+            <element signature="method#insertAppLog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePreferentialCandidateVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalVote#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateBanderaMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidatePreferentialMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateFinalTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVoteandMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllPreferentialCandidateVotes#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateVotesbyParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfChangeBoletasAndPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyTotal#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateNumberOfPartyBoletasToParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartiesPreferentialVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#56815#56839#0" expanded="true" />
+            <element signature="method#insertConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updatePartyVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getBanderaVotesPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#62156#62182#0" expanded="true" />
+            <element signature="method#getBanderaVotesPreferential#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCurrentBanderaVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferential#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#68495#68550#0" expanded="true" />
+            <element signature="method#getRawQueriesES#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#69961#70016#0" expanded="true" />
+            <element signature="method#getConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertConceptsCountPreferentialHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptsCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountSV#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCountHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteConceptCount#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getRawQueriesHN#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#77733#77788#0" expanded="true" />
+            <element signature="method#getPartiesCandidatesIDs#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPlanchaVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertPreferentialVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAssetImage#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#saveActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteActaSignatures#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#updateCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateCrossVoteByBoleta#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertCandidateCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getParyCrossVotes#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalCrossVote#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCrossVoteBundleArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#90329#90346#0" expanded="true" />
+            <element signature="method#insertMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidatMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deletePartyMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getPartyMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandMark#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getTotalMarks#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getAllCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#96084#96100#0" expanded="true" />
+            <element signature="method#getCandidateMarksArrayListByParty#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getCandidateMarksArrayList#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#deleteAllCandidateMarks#1;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#resetCandidateMarksByCandidateId#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="docComment;method#deleteTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#insertTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#testTemp#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getMarksArrayListToSend#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#104456#104472#0" expanded="true" />
+            <element signature="e#108911#108927#0" expanded="true" />
+            <element signature="method#dropTempTables#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logELSA#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui1#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#logDui2#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="method#getELSAlog#0;class#DatabaseAdapterParlacen#0" expanded="false" />
+            <element signature="e#112193#112201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

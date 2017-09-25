@@ -448,7 +448,9 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.open();
                     db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
+                    db_adapter.close();
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -465,7 +467,9 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.open();
                 db_adapter.logDui1(logIndex,DUI_A, time_stamp);
+                db_adapter.close();
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
                 createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input),SECRETARY_VERIFICATION,duiChallengeListener);
             }
@@ -489,7 +493,9 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.open();
                     db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
+                    db_adapter.close();
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -506,7 +512,9 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.open();
                 db_adapter.logDui1(logIndex,DUI_A, time_stamp);
+                db_adapter.close();
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
 //                secretaryKeyboard.showCustomKeyboard(null);
 //                secretaryKeyboard = new CustomKeyboard((Activity)mContext,keyboardIds[1], R.xml.tenhexkbd);
