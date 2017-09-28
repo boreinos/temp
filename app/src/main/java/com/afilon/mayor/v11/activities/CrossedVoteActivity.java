@@ -264,7 +264,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         findViewById(R.id.parentLayout).setOnTouchListener(clearTouchSource());
         ballot = new Ballot(biggestPartyElements);
         ballot.setPartyArrayList(partyArrayList);
-        ballot.setLocation(currentJrv, vc.getPreferential_election2_id());
+        ballot.setLocation(currentJrv, vc.getPref_election_id());
         //------------------------------------------------------------------------------------------
         Gson gson = new Gson();
         String map = escrudata.getValueMap();
@@ -692,30 +692,25 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             //todo: go one by one:
             int electionType = ballot.getMarkTypeES();
             String markType = String.valueOf(electionType);
-            if(electionType!=Ballot.NULO){
-                for (CrossVoteBundle mCVB : mCrossVoteBundle) {
-
-                    db_adapter.insertCandidateCrossVote(
-                            mCVB.getJrv(),
-                            mCVB.getPrefElecId(),
-                            mCVB.getPartyPrefElecId(),
-                            mCVB.getCandidatePrefElecId(),
-                            mCVB.getVote(),
-//                    1,
-                            mCVB.getBoletaNo());
-                    db_adapter.insertMarks(
-                            mCVB.getJrv(),
-                            mCVB.getPrefElecId(),
-                            mCVB.getCandidatePrefElecId(),
-                            mCVB.getPartyPrefElecId(),
-                            markType,
-                            "1"
-                    );
-                }
-                // db insertion:
-                includePartyVoteBreakDown(electionType);
-            }else{
-                markBallotNulo();
+            switch (electionType){
+                case Ballot.NULO:
+                    markBallotNulo();
+                    break;
+                case Ballot.PLAN_MARK:
+                    insertIntoPlanchaTable(mCrossVoteBundle);
+                    includePartyVoteBreakDown(electionType);
+                    break;
+                case Ballot.PREF_MARK:
+                    insertIntoPreferentialTable(mCrossVoteBundle);
+                    includePartyVoteBreakDown(electionType);
+                    break;
+                case Ballot.CROS_MARK:
+                    insertIntoCrossTable(mCrossVoteBundle);
+                    includePartyVoteBreakDown(electionType);
+                    break;
+                default:
+                    markBallotNulo();
+                    break;
             }
         }
         updatePersistBallotCount(); // good.
@@ -724,6 +719,72 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         crossVoteMarksDetail.setText(String.valueOf(TotalMarks));
         Log.e(CLASS_TAG, "TotalMarks after saving to DB " + String.valueOf(TotalMarks));
     }
+    private void insertIntoPlanchaTable(ArrayList<CrossVoteBundle> mCrossVoteBundle){
+        for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+            db_adapter.insertPlanchaVote(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getVote(),
+                    mCVB.getBoletaNo());
+            db_adapter.insertMarks(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    String.valueOf(Ballot.PLAN_MARK),
+                    "1"
+            );
+        }
+    }
+    private void insertIntoPreferentialTable(ArrayList<CrossVoteBundle> mCrossVoteBundle){
+        for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+
+            db_adapter.insertPreferentialVote(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getVote(),
+                    mCVB.getBoletaNo());
+            db_adapter.insertMarks(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    String.valueOf(Ballot.PREF_MARK),
+                    "1"
+            );
+        }
+    }
+    private void insertIntoCrossTable(ArrayList<CrossVoteBundle> mCrossVoteBundle){
+        for (CrossVoteBundle mCVB : mCrossVoteBundle) {
+
+            db_adapter.insertCandidateCrossVote(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getVote(),
+                    mCVB.getBoletaNo());
+            db_adapter.insertMarks(
+                    mCVB.getJrv(),
+                    mCVB.getPrefElecId(),
+                    mCVB.getCandidatePrefElecId(),
+                    mCVB.getPartyPrefElecId(),
+                    String.valueOf(Ballot.CROS_MARK),
+                    "1"
+            );
+        }
+    }
+    // todo: read from preferntial votes:
+    private void getSummaryOfVotes(){
+        // read from the temp tables that contain preferential and plancha votes
+
+    }
+
+
 
     private void updatePersistBallotCount(){
         Gson gson = new Gson();
@@ -962,6 +1023,10 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         //update concepts to db:
         if(!db_adapter.isOpen())db_adapter.open();
         db_adapter.updateConceptsCount(valuesMap,vc.getJRV()); // super important now also
+
+        if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+            db_adapter.updatePlanchaPreferentialVotes();
+        }
 
         Intent search = new Intent(this, CrossVoteSummaryActivity.class);
         Bundle b = prepareBundle();
@@ -1549,6 +1614,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             switch (label){
                 case INVALID:
                     currentBtnSelection = IMPUGNADO;
+                    setButtonsInvalidRentry();
                     break;
                 case RE_INVALID:
                     if(currentBtnSelection.equals(IMPUGNADO)){
