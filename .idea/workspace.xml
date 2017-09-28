@@ -11,43 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee900ac-41a7-4fb1-b5ea-2c01a7068c40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/src/androidTest/java/com/afilon/universalprintservice/ExampleInstrumentedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/universalprintservice/src/test/java/com/afilon/universalprintservice/ExampleUnitTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ElSalvador_Honduras.iml" afterPath="$PROJECT_DIR$/ElSalvador_Honduras.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SummaryActivityPreferential.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SummaryActivityPreferential.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea/asamblea.iml" afterPath="$PROJECT_DIR$/asamblea/asamblea.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea/build.gradle" afterPath="$PROJECT_DIR$/asamblea/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea2/asamblea2.iml" afterPath="$PROJECT_DIR$/asamblea2/asamblea2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea2/build.gradle" afterPath="$PROJECT_DIR$/asamblea2/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasasamblea/build.gradle" afterPath="$PROJECT_DIR$/hondurasasamblea/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" afterPath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasmayor/build.gradle" afterPath="$PROJECT_DIR$/hondurasmayor/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" afterPath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honduraspresidente/build.gradle" afterPath="$PROJECT_DIR$/honduraspresidente/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honduraspresidente/honduraspresidente.iml" afterPath="$PROJECT_DIR$/honduraspresidente/honduraspresidente.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayor/build.gradle" afterPath="$PROJECT_DIR$/mayor/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayor/mayor.iml" afterPath="$PROJECT_DIR$/mayor/mayor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mermanager/build.gradle" afterPath="$PROJECT_DIR$/mermanager/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mermanager/mermanager.iml" afterPath="$PROJECT_DIR$/mermanager/mermanager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presidente/build.gradle" afterPath="$PROJECT_DIR$/presidente/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presidente/presidente.iml" afterPath="$PROJECT_DIR$/presidente/presidente.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build.gradle" afterPath="$PROJECT_DIR$/wheel/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/wheel.iml" afterPath="$PROJECT_DIR$/wheel/wheel.iml" />
     </list>
     <ignored path="ElSalvador_Honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SummaryActivityPreferential.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SummaryActivityPreferential.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SummaryActivityPreferential.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="2368" column="0" selection-start-line="2368" selection-start-column="0" selection-end-line="2368" selection-end-column="0" />
+            <state relative-caret-position="-67">
+              <caret line="2373" column="108" selection-start-line="2373" selection-start-column="108" selection-end-line="2373" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6049#6082#0" expanded="true" />
@@ -157,7 +126,6 @@
                 <element signature="e#97931#97974#0" expanded="true" />
                 <element signature="e#98318#98361#0" expanded="true" />
                 <element signature="method#fillTextviewsActa#0;class#SummaryActivityPreferential#0" expanded="false" />
-                <element signature="method#onWindowFocusChanged#0;class#SummaryActivityPreferential#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -170,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintServiceXP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintServiceXP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/universalprintservice/src/main/java/com/afilon/universalprintservice/PrintServiceXP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="146">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -12351,10 +12319,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Downloads/device-2017-09-28-124546.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universalprintservice/src/main/java/com/afilon/universalprintservice/PrintServiceXP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SummaryActivityPreferential.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="2368" column="0" selection-start-line="2368" selection-start-column="0" selection-end-line="2368" selection-end-column="0" />
+        <state relative-caret-position="-67">
+          <caret line="2373" column="108" selection-start-line="2373" selection-start-column="108" selection-end-line="2373" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6049#6082#0" expanded="true" />
@@ -12428,22 +12411,6 @@
             <element signature="e#97931#97974#0" expanded="true" />
             <element signature="e#98318#98361#0" expanded="true" />
             <element signature="method#fillTextviewsActa#0;class#SummaryActivityPreferential#0" expanded="false" />
-            <element signature="method#onWindowFocusChanged#0;class#SummaryActivityPreferential#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Downloads/device-2017-09-28-124546.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universalprintservice/src/main/java/com/afilon/universalprintservice/PrintServiceXP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

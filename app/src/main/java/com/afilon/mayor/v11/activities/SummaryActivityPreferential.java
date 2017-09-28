@@ -2345,14 +2345,14 @@ public class SummaryActivityPreferential extends FragmentActivity {
                     leftMargin, titleBaseLine + (90), paint);
 
             canvas.drawText("Sobrantes", leftMargin, titleBaseLine + (lineNumber), paint);
-            canvas.drawText(actaSumaryReport.getConceptA(), leftMargin + 100, titleBaseLine + (lineNumber), paint);
+            canvas.drawText(this.asm.getConceptA(), leftMargin + 100, titleBaseLine + (lineNumber), paint);
 
             if(this.electionType.contains("HON")) {
                 canvas.drawText("Utilizadas", leftMargin, titleBaseLine + (lineNumber+20), paint);
             } else {
                 canvas.drawText("Inutilizadas", leftMargin, titleBaseLine + (lineNumber+20), paint);
             }
-            canvas.drawText(actaSumaryReport.getConceptB(), leftMargin + 100, titleBaseLine + (lineNumber+20), paint);
+            canvas.drawText(this.asm.getConceptB(), leftMargin + 100, titleBaseLine + (lineNumber+20), paint);
 
             lineNumber = lineNumber + 20;
             for (ActaEntry ae : entries) {
@@ -2369,32 +2369,32 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
             if(this.electionType.contains("HON")){
                 canvas.drawText("Ciudadanos", leftMargin, titleBaseLine + (np + 20), paint);
-                canvas.drawText(actaSumaryReport.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
+                canvas.drawText(this.asm.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
                 canvas.drawText("MER", leftMargin, titleBaseLine + (np + 40), paint);
-                canvas.drawText(actaSumaryReport.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
+                canvas.drawText(this.asm.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
                 canvas.drawText("Total Votantes", leftMargin, titleBaseLine + (np + 60), paint);
-                canvas.drawText(actaSumaryReport.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
+                canvas.drawText(this.asm.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
                 canvas.drawText("Votos Validos", leftMargin, titleBaseLine + (np + 80), paint);
-                canvas.drawText(actaSumaryReport.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
+                canvas.drawText(this.asm.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
                 canvas.drawText("Blanco", leftMargin, titleBaseLine + (np + 100), paint);
-                canvas.drawText(actaSumaryReport.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
+                canvas.drawText(this.asm.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
                 canvas.drawText("Nulos", leftMargin, titleBaseLine + (np + 120), paint);
-                canvas.drawText(actaSumaryReport.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
+                canvas.drawText(this.asm.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
                 canvas.drawText("Gran Total", leftMargin, titleBaseLine + (np + 140), paint);
-                canvas.drawText(actaSumaryReport.getConceptI(), leftMargin + 100, titleBaseLine + (np + 140), paint);
+                canvas.drawText(this.asm.getConceptI(), leftMargin + 100, titleBaseLine + (np + 140), paint);
             } else {
                 canvas.drawText("Impugnados", leftMargin, titleBaseLine + (np + 20), paint);
-                canvas.drawText(actaSumaryReport.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
+                canvas.drawText(this.asm.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
                 canvas.drawText("Abstenciones", leftMargin, titleBaseLine + (np + 40), paint);
-                canvas.drawText(actaSumaryReport.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
+                canvas.drawText(this.asm.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
                 canvas.drawText("Escrutadas", leftMargin, titleBaseLine + (np + 60), paint);
-                canvas.drawText(actaSumaryReport.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
+                canvas.drawText(this.asm.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
                 canvas.drawText("Faltantes", leftMargin, titleBaseLine + (np + 80), paint);
-                canvas.drawText(actaSumaryReport.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
+                canvas.drawText(this.asm.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
                 canvas.drawText("Entregadas", leftMargin, titleBaseLine + (np + 100), paint);
-                canvas.drawText(actaSumaryReport.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
+                canvas.drawText(this.asm.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
                 canvas.drawText("Nulos", leftMargin, titleBaseLine + (np + 120), paint);
-                canvas.drawText(actaSumaryReport.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
+                canvas.drawText(this.asm.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
 
 
             }
