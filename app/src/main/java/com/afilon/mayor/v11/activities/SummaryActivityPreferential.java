@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -69,12 +70,15 @@ import com.afilon.mayor.v11.utils.ChallengeHelper;
 import com.afilon.mayor.v11.utils.Consts;
 import com.afilon.mayor.v11.utils.UnCaughtException;
 import com.afilon.mayor.v11.utils.Utilities;
+import com.afilon.universalprintservice.PrintServiceXP;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import android.support.v4.app.FragmentActivity;
 import android.text.SpannableString;
 import org.apache.commons.lang3.text.WordUtils;
+
+import static com.afilon.mayor.v11.utils.Consts.LOCALE;
 
 /**
  * Created by BReinosa on 4/14/2017.
@@ -154,7 +158,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
         // Start a print job, passing in a PrintDocumentAdapter implementation
         // to handle the generation of a print document
-        printManager.print(jobName, new PrintAdapter(this),
+        printManager.print(jobName, new PrintAdapter(this, Consts.LOCALE, actaSumaryReport),
                 null); //
     }
 
@@ -293,14 +297,14 @@ public class SummaryActivityPreferential extends FragmentActivity {
                 ah.setButtonColorGreen(previous_btn);
                 setButtonSelected(acta_btn);
                 previous_btn = acta_btn;
-                if(Consts.LOCALE.contains("HON")){
+                if(LOCALE.contains("HON")){
                     loadSummaryActaHon();
                 }else loadSummaryActa();
             }
         });
 
 //        lockScrolling(candNames, candBand, candPrefs, candPrefmarks, candCruz, candCruzmarks, candTotal, candMarcs, blank1, blank2, blank3);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             loadSummaryActaHon();
         }else loadSummaryActa();
         setButtonSelected(acta_btn);
@@ -369,7 +373,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
                     ah.setButtonColorGreen(previous_btn);
                     setButtonSelected((Button) view);
                     previous_btn = (Button) view;
-                    if(Consts.LOCALE.contains("HON")){
+                    if(LOCALE.contains("HON")){
                         loadSummaryPartyHon(view.getId());
                     }else loadSummaryParty(view.getId());
                 }
@@ -406,7 +410,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         summaryText.setText(party.getParty_name().toUpperCase());
         // Fill text as "   Votos :  "
         banderasLabel = (TextView) findViewById(R.id.txt_Banderas);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             banderasLabel.setText("  Marcas : ");
         }else {
             banderasLabel.setText("  Votos : ");
@@ -415,7 +419,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         banderasCounts = banderasInfo.get(partyIndex.get(ID));
         // Fill text view for total number of party votes
         banderasVotes = (TextView) findViewById(R.id.txt_Banderas_votes);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             banderasVotes.setText("");
         }else banderasVotes.setText(String.format("%.5f",banderasCounts.getParty_preferential_votes() + banderasCounts.getParty_votes() + banderasCounts.getParty_cross_votes()));
         // Fill text views for column labels
@@ -519,7 +523,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
             candidatePrefs[i] = "";
             candidateTotal[i] = "";
             candidateCruz[i] = "";
-            }
+        }
 
         int totes = 0;
         for (int x = 0; x < candidateTotalmarks.length; x++) {
@@ -546,7 +550,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         summaryText.setText(party.getParty_name().toUpperCase());
         // Fill text as "   Votos :  "
         banderasLabel = (TextView) findViewById(R.id.txt_Banderas);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             banderasLabel.setText("  Marcas : ");
         }else {
             banderasLabel.setText("  Votos : ");
@@ -555,7 +559,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         banderasCounts = banderasInfo.get(partyIndex.get(ID));
         // Fill text view for total number of party votes
         banderasVotes = (TextView) findViewById(R.id.txt_Banderas_votes);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             banderasVotes.setText("");
         }else banderasVotes.setText(String.format("%.5f",banderasCounts.getParty_preferential_votes() + banderasCounts.getParty_votes() + banderasCounts.getParty_cross_votes()));
         // Fill text views for column labels
@@ -648,7 +652,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
             Float tempVal = votesInfo.get(i).getCandidate_votes();
 
 
-            if(Consts.LOCALE.contains("HON")) {
+            if(LOCALE.contains("HON")) {
 //                candidateBand[i] = String.format("%.1f", partyValues.get(i).getCandidate_bandera_votes() * c);  //This needs to be number of Bandeera Marks
 //                Log.e("getCandBandVotes", String.format("%.1f", partyValues.get(i).getCandidate_votes()));
 //                candidateBand[i] = String.format("%.0f", partyValues.get(i).getCandidate_votes()*c);
@@ -691,6 +695,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
     //---------------------------------------------------------------------------------------
     // Load Summary View Methods
+    @SuppressLint("LongLogTag")
     public void loadSummaryActa() {
         String[] acta = {""};
         String[] values = {""};
@@ -701,7 +706,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         String[] empty = {""};
         String voto = "";
         boolean isHon = false;
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             voto = "Marca";
             isHon = true;
         } else voto = "Voto";
@@ -887,7 +892,62 @@ public class SummaryActivityPreferential extends FragmentActivity {
             k++;
         }
 
-          populateTable();
+        //CARLOS: Populating Report for Acta ELSA
+
+        int counter = 0;
+        int iPartyQty = partyCount.size();
+//        String partyList[] = new String[iPartyQty];
+        partyList = new String[iPartyQty];
+        List<String[]> pName = new ArrayList<>();
+        for (Party p : partyCount) {
+            partyList[counter] = p.getParty_name();
+            counter++;
+        }
+        pName.add(partyList);
+
+        partyEntries = new ArrayList<>();
+
+
+        for (ActaEntry ae : entries) {
+
+            if (ae.getEntryName().equals("Sobrantes")) {
+                actaSumaryReport.setConceptA(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Inutilizadas")) {
+                actaSumaryReport.setConceptB(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Impugnados")) {
+                actaSumaryReport.setConceptC(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Abstenciones")) {
+                actaSumaryReport.setConceptD(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Total Papeletas Escrutadas")) {
+                actaSumaryReport.setConceptE(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Papeletas Faltantes")) {
+                actaSumaryReport.setConceptF(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Papeletas Entregadas a Votantes")) {
+                actaSumaryReport.setConceptG(ae.getTotalVotes());
+            }
+            if (ae.getEntryName().equals("Nulos")) {
+                actaSumaryReport.setConceptH(ae.getTotalVotes());
+            }
+
+
+            Log.e("CC:entries ae.getEntryName()", ae.getEntryName() != null ? ae.getEntryName() : "Empty");
+            Log.e("CC:entries ae.getTotalVotes()", ae.getTotalVotes() != null ? ae.getTotalVotes() : "Empty");
+            Log.e("CC:entries ae.getPlanchaVotes()", ae.getPlanchaVotes() != null ? ae.getPlanchaVotes() : "Empty");
+            Log.e("CC:entries ae.getParcialVotes()", ae.getParcialVotes() != null ? ae.getParcialVotes() : "empty");
+            Log.e("CC:entries ae.getCruzadoVotes()", ae.getCruzadoVotes() != null ? ae.getCruzadoVotes() : "Empty");
+            Log.e("CC:entries ae.getTotalMarcas()", ae.getTotalMarcas() != null ? ae.getTotalMarcas() : "Empty");
+            Log.e("CC:entries ae.getPlanchaMarcas()", ae.getPlanchaMarcas() != null ? ae.getPlanchaMarcas() : "Empty");
+            Log.e("CC:entries ae.getParcialMarcas()", ae.getParcialMarcas() != null ? ae.getParcialMarcas() : "Empty");
+            Log.e("CC:entries ae.getCruzadoMarcas()", ae.getCruzadoMarcas() != null ? ae.getCruzadoMarcas() : "Empty");
+
+        }
+        populateTable();
 //        populateListViewsFromPassed(acta, pref, band, blank, cruz, blank, values, blank, empty);
     }
 
@@ -1042,7 +1102,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         float prefmark = 0, plancha = 0;
         if (!db_adapter.isOpen()) db_adapter.open();
 //        for(PreferentialVotoBanderas pvBanderas: partypref){
-            for(Party party : partyCount) {
+        for(Party party : partyCount) {
 //                candidates = db_adapter.getParlacenCandidatesArrayList(party.getParty_preferential_election_id());
 //                ArrayList<CandidateMarks> cvm = db_adapter.getCandidateMarksArrayListByParty(party.getParty_preferential_election_id(), "4");
 
@@ -1059,23 +1119,23 @@ public class SummaryActivityPreferential extends FragmentActivity {
 //                    }
 //                }
 //                plancha = plancha - prefmark;
-                Log.e("Party prefelec ID", party.getParty_preferential_election_id());
+            Log.e("Party prefelec ID", party.getParty_preferential_election_id());
 
-                band[k] = String.format(Locale.US, "%d", db_adapter.getPartyMark(party.getParty_preferential_election_id(), "5"));
-                pref[k] = String.format(Locale.US, "%d", db_adapter.getPartyMark(party.getParty_preferential_election_id(), "4"));
+            band[k] = String.format(Locale.US, "%d", db_adapter.getPartyMark(party.getParty_preferential_election_id(), "5"));
+            pref[k] = String.format(Locale.US, "%d", db_adapter.getPartyMark(party.getParty_preferential_election_id(), "4"));
 //                plancha = 0;
 //            }
 
 //            prefmark = Float.valueOf(cruz[k]) - Float.valueOf(pref[k]) - Float.valueOf(band[k]);
-                cruz[k] = String.format("%d",db_adapter.getPartyMark(party.getParty_preferential_election_id(), "6"));
-                int total = Integer.valueOf(band[k])+Integer.valueOf(pref[k])+Integer.valueOf(cruz[k]);
-                values[k] = String.format(Locale.US, "%d", total);
+            cruz[k] = String.format("%d",db_adapter.getPartyMark(party.getParty_preferential_election_id(), "6"));
+            int total = Integer.valueOf(band[k])+Integer.valueOf(pref[k])+Integer.valueOf(cruz[k]);
+            values[k] = String.format(Locale.US, "%d", total);
 
-                entries.get(k).setTotalMarcas(values[k]);
-                entries.get(k).setTotalVotes("");
-                entries.get(k).setPlanchaMarcas(band[k]);
-                entries.get(k).setCruzadoVotes(cruz[k]);
-                entries.get(k).setParcialVotes(pref[k]);
+            entries.get(k).setTotalMarcas(values[k]);
+            entries.get(k).setTotalVotes("");
+            entries.get(k).setPlanchaMarcas(band[k]);
+            entries.get(k).setCruzadoVotes(cruz[k]);
+            entries.get(k).setParcialVotes(pref[k]);
 
 //            prefmark = 0;
 //            plancha = 0;
@@ -1110,17 +1170,6 @@ public class SummaryActivityPreferential extends FragmentActivity {
             if(ae.getEntryName().equals("Nulos")) { actaSumaryReport.setConceptH(ae.getTotalVotes()); }
             if(ae.getEntryName().equals("Gran Total")) { actaSumaryReport.setConceptI(ae.getTotalVotes()); }
 
-
-//
-//            Log.e("CC:entries ae.getEntryName()", ae.getEntryName());
-//            Log.e("CC:entries ae.getTotalVotes()", ae.getTotalVotes());
-//            Log.e("CC:entries ae.getPlanchaVotes()", ae.getPlanchaVotes());
-//            Log.e("CC:entries ae.getParcialVotes()", ae.getParcialVotes());
-//            Log.e("CC:entries ae.getCruzadoVotes()", ae.getCruzadoVotes());
-//            Log.e("CC:entries ae.getTotalMarcas()", ae.getTotalMarcas());
-//            Log.e("CC:entries ae.getPlanchaMarcas()", ae.getPlanchaMarcas());
-//            Log.e("CC:entries ae.getParcialMarcas()", ae.getParcialMarcas());
-//            Log.e("CC:entries ae.getCruzadoMarcas()", ae.getCruzadoMarcas());
 //
         }
 
@@ -1165,7 +1214,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
             //Iterate through each candidate
             for(int cand = 0; cand < c; cand++) {
-                    marks += Integer.valueOf(candidateBand[cand])+Integer.valueOf(candidatePrefmarks[cand])+Integer.valueOf(candidateCruzmarks[cand]);
+                marks += Integer.valueOf(candidateBand[cand])+Integer.valueOf(candidatePrefmarks[cand])+Integer.valueOf(candidateCruzmarks[cand]);
             }
         }
 
@@ -2064,7 +2113,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
     private void fillTextviewsParty() {
         // Fill text views for labels of list view columns
         String votos, votos1, marcas;
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             votos = "";
             votos1 = "Marcas";
             marcas = "Marcas";
@@ -2096,7 +2145,7 @@ public class SummaryActivityPreferential extends FragmentActivity {
         labels = (TextView) findViewById(R.id.PrefMarcas);
         labels.setText(marcas);
         labels = (TextView) findViewById(R.id.Cruzados);
-        if(Consts.LOCALE.contains("HON")){
+        if(LOCALE.contains("HON")){
             content = new SpannableString("____Cruzadas_____");
         }else content = new SpannableString("____Cruzados_____");
         content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
@@ -2158,16 +2207,21 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
     //CARLOS: 2017-08-23
     //PRINTING WIFI CAPABILITY
-    public class PrintAdapter extends PrintDocumentAdapter {
-
-        Context context;
+//    public class PrintAdapter extends PrintDocumentAdapter {
+      public class PrintAdapter extends PrintServiceXP {
+        private Context context;
+        private String electionType = Consts.LOCALE;
+        private ActaSumaryReport asm;
         private int pageHeight;
         private int pageWidth;
         public PdfDocument myPdfDocument;
         public int totalpages = 2;
 
-        public PrintAdapter(Context context) {
-            this.context = context;
+
+        public PrintAdapter(Context context, Object key, Object value) {
+            super(context, key, value);
+            this.electionType = key.toString();
+            this.asm = (ActaSumaryReport) value;
         }
 
         @Override
@@ -2201,6 +2255,8 @@ public class SummaryActivityPreferential extends FragmentActivity {
                 callback.onLayoutFailed("Page count is zero.");
             }
         }
+
+
 
         @Override
         public void onWrite(final PageRange[] pageRanges,
@@ -2279,7 +2335,6 @@ public class SummaryActivityPreferential extends FragmentActivity {
             canvas.drawText(datet, leftMargin + 200, titleBaseLine + 35, paint);
 
 
-
             PdfDocument.PageInfo pageInfo = page.getInfo();
 
             paint.setColor(Color.BLACK);
@@ -2291,8 +2346,14 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
             canvas.drawText("Sobrantes", leftMargin, titleBaseLine + (lineNumber), paint);
             canvas.drawText(actaSumaryReport.getConceptA(), leftMargin + 100, titleBaseLine + (lineNumber), paint);
-            canvas.drawText("Utilizadas", leftMargin, titleBaseLine + (lineNumber+20), paint);
+
+            if(this.electionType.contains("HON")) {
+                canvas.drawText("Utilizadas", leftMargin, titleBaseLine + (lineNumber+20), paint);
+            } else {
+                canvas.drawText("Inutilizadas", leftMargin, titleBaseLine + (lineNumber+20), paint);
+            }
             canvas.drawText(actaSumaryReport.getConceptB(), leftMargin + 100, titleBaseLine + (lineNumber+20), paint);
+
             lineNumber = lineNumber + 20;
             for (ActaEntry ae : entries) {
                 if(findList(partyList, ae.getEntryName())) {
@@ -2305,20 +2366,40 @@ public class SummaryActivityPreferential extends FragmentActivity {
                 }
                 lineNumber+=20;
             }
-            canvas.drawText("Ciudadanos", leftMargin, titleBaseLine + (np + 20), paint);
-            canvas.drawText(actaSumaryReport.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
-            canvas.drawText("MER", leftMargin, titleBaseLine + (np + 40), paint);
-            canvas.drawText(actaSumaryReport.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
-            canvas.drawText("Total Votantes", leftMargin, titleBaseLine + (np + 60), paint);
-            canvas.drawText(actaSumaryReport.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
-            canvas.drawText("Votos Validos", leftMargin, titleBaseLine + (np + 80), paint);
-            canvas.drawText(actaSumaryReport.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
-            canvas.drawText("Blanco", leftMargin, titleBaseLine + (np + 100), paint);
-            canvas.drawText(actaSumaryReport.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
-            canvas.drawText("Nulos", leftMargin, titleBaseLine + (np + 120), paint);
-            canvas.drawText(actaSumaryReport.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
-            canvas.drawText("Gran Total", leftMargin, titleBaseLine + (np + 140), paint);
-            canvas.drawText(actaSumaryReport.getConceptI(), leftMargin + 100, titleBaseLine + (np + 140), paint);
+
+            if(this.electionType.contains("HON")){
+                canvas.drawText("Ciudadanos", leftMargin, titleBaseLine + (np + 20), paint);
+                canvas.drawText(actaSumaryReport.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
+                canvas.drawText("MER", leftMargin, titleBaseLine + (np + 40), paint);
+                canvas.drawText(actaSumaryReport.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
+                canvas.drawText("Total Votantes", leftMargin, titleBaseLine + (np + 60), paint);
+                canvas.drawText(actaSumaryReport.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
+                canvas.drawText("Votos Validos", leftMargin, titleBaseLine + (np + 80), paint);
+                canvas.drawText(actaSumaryReport.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
+                canvas.drawText("Blanco", leftMargin, titleBaseLine + (np + 100), paint);
+                canvas.drawText(actaSumaryReport.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
+                canvas.drawText("Nulos", leftMargin, titleBaseLine + (np + 120), paint);
+                canvas.drawText(actaSumaryReport.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
+                canvas.drawText("Gran Total", leftMargin, titleBaseLine + (np + 140), paint);
+                canvas.drawText(actaSumaryReport.getConceptI(), leftMargin + 100, titleBaseLine + (np + 140), paint);
+            } else {
+                canvas.drawText("Impugnados", leftMargin, titleBaseLine + (np + 20), paint);
+                canvas.drawText(actaSumaryReport.getConceptC(), leftMargin + 100, titleBaseLine + (np + 20), paint);
+                canvas.drawText("Abstenciones", leftMargin, titleBaseLine + (np + 40), paint);
+                canvas.drawText(actaSumaryReport.getConceptD(), leftMargin + 100, titleBaseLine + (np + 40), paint);
+                canvas.drawText("Escrutadas", leftMargin, titleBaseLine + (np + 60), paint);
+                canvas.drawText(actaSumaryReport.getConceptE(), leftMargin + 100, titleBaseLine + (np + 60), paint);
+                canvas.drawText("Faltantes", leftMargin, titleBaseLine + (np + 80), paint);
+                canvas.drawText(actaSumaryReport.getConceptF(), leftMargin + 100, titleBaseLine + (np + 80), paint);
+                canvas.drawText("Entregadas", leftMargin, titleBaseLine + (np + 100), paint);
+                canvas.drawText(actaSumaryReport.getConceptG(), leftMargin + 100, titleBaseLine + (np + 100), paint);
+                canvas.drawText("Nulos", leftMargin, titleBaseLine + (np + 120), paint);
+                canvas.drawText(actaSumaryReport.getConceptH(), leftMargin + 100, titleBaseLine + (np + 120), paint);
+
+
+            }
+
+
         }
 
     }
