@@ -84,6 +84,8 @@ public class ParlacenCandidateListActivity extends ListActivity implements
             ACEPTAR = 3;
 
 
+    private ArrayList<String> logTest;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -246,6 +248,11 @@ public class ParlacenCandidateListActivity extends ListActivity implements
             aceptarRoutine();
         }
 
+
+        logTest = db_adapter.getELSAlog();
+        for(int lt = 0; lt< logTest.size(); lt++) {
+            Log.e("Log , : ", logTest.get(lt));
+        }
 
     }
 

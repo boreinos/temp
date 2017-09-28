@@ -39,6 +39,7 @@ import com.afilon.mayor.v11.model.Escrudata;
 import com.afilon.mayor.v11.model.PreferentialCandidateVotes;
 import com.afilon.mayor.v11.model.PreferentialPartyVotes;
 import com.afilon.mayor.v11.model.PreferentialVotoBanderas;
+import com.afilon.mayor.v11.model.elsaLog;
 import com.afilon.mayor.v11.model.PresidenteStaff;
 import com.afilon.mayor.v11.utils.Consts;
 import com.afilon.mayor.v11.utils.UnCaughtException;
@@ -71,6 +72,9 @@ public class LastActivity extends AfilonActivity implements
     private int i = 0;
     private boolean isDirectVote;
     private List<File> signatureFiles;
+    private ArrayList<String> logTest;
+    private List<elsaLog> log;
+    private String[] logElement = new String[7];
 
     @SuppressLint("LongLogTag")
     @Override
@@ -107,30 +111,31 @@ public class LastActivity extends AfilonActivity implements
         signatureFiles = getSigFiles(new File(Environment.getExternalStorageDirectory() + File.separator));
 
         db_adapter = new DatabaseAdapterParlacen(this);
-        db_adapter.open();
+                    db_adapter.open();
 
-        results = new Results(escrudata,db_adapter);
+                    results = new Results(escrudata,db_adapter);
+                    log = db_adapter.getLogELSA(jrvNumber,electionId);
 
-        webservice_confirmationTv = (TextView) findViewById(R.id.imageconfirmation_textView);
-        TextView jrv_numberTv = (TextView) findViewById(R.id.jrv_number);
-        String jrvLabel = getResources().getText(R.string.precint)+": " + jrvNumber;
-        jrv_numberTv.setText(jrvLabel);
+                    webservice_confirmationTv = (TextView) findViewById(R.id.imageconfirmation_textView);
+                    TextView jrv_numberTv = (TextView) findViewById(R.id.jrv_number);
+                    String jrvLabel = getResources().getText(R.string.precint)+": " + jrvNumber;
+                    jrv_numberTv.setText(jrvLabel);
 
-        progressBar = (ProgressBar) findViewById(R.id.progress_bar);
-        progressBar.setVisibility(View.GONE);
+                    progressBar = (ProgressBar) findViewById(R.id.progress_bar);
+                    progressBar.setVisibility(View.GONE);
 
-        Button cerrarBtn = (Button) findViewById(R.id.cerrar_btn);
-        ah.setButtonColorGreen(cerrarBtn);
-        cerrarBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
+                    Button cerrarBtn = (Button) findViewById(R.id.cerrar_btn);
+                    ah.setButtonColorGreen(cerrarBtn);
+                    cerrarBtn.setOnClickListener(new View.OnClickListener() {
+                        public void onClick(View view) {
 
-                Boolean isSDPresent = android.os.Environment
-                        .getExternalStorageState().equals(
-                                android.os.Environment.MEDIA_MOUNTED);
-                if (!isSDPresent) {
-                    File dir = getFilesDir();
-                    File file = new File(dir, jrvNumber);
-                    file.delete();
+                            Boolean isSDPresent = android.os.Environment
+                                    .getExternalStorageState().equals(
+                                            android.os.Environment.MEDIA_MOUNTED);
+                            if (!isSDPresent) {
+                                File dir = getFilesDir();
+                                File file = new File(dir, jrvNumber);
+                                file.delete();
                 }
                 createDialog("  \u00BFDESEA CERRAR?  ", 3);
             }
@@ -153,6 +158,31 @@ public class LastActivity extends AfilonActivity implements
                 sendJsonTask(results.getPartyVoteUri(),results.getPartyVotes(),2);
                 sendJsonTask(results.getChecklistUri(),results.getCheckList(),7);
                 sendJsonTask(results.getIsprocessableUri(),results.getCheckList(),34);
+
+                //Send JSON for logs
+                Gson jsonlog = new Gson();
+                sendJsonTask(Consts.ELSA_LOG,jsonlog.toJson(log), 7);
+                Log.e("Json : " , jsonlog.toJson(log));
+                //asdfasdf
+
+
+//                logTest = db_adapter.getELSAlog();
+//                for(int lt = 0; lt< logTest.size(); lt++) {
+//                    Log.e("Log , : ", logTest.get(lt));
+//                    logElement[0] = String.valueOf(lt);
+//                    logElement[1] = jrvNumber;
+//                    logElement[2] = electionId;
+//                    logElement[3] = logTest.get(lt);
+////                    logElement[4] ="";
+////                    logElement[5] ="";
+////                    logElement[6] ="";
+//                    Log.e("Log :::::::::: \n", "Log element");
+//                    for(int x = 0; x < logElement.length ; x++){
+//                        Log.e(" : ", logElement[x]);
+//                    }
+//                }
+
+
                 if (!isDirectVote) {
                     sendJsonTask(results.getUriCandidates(),results.getCandidateVotes(),3);
                     sendJsonTask(results.getUriBanderas(),results.getBanderaVotes(),5);
@@ -471,6 +501,11 @@ public class LastActivity extends AfilonActivity implements
         return inFiles;
     }
 
+
+    private class log{
+        private Gson gson = new Gson();
+
+    }
 
     private class Results {
         private List<PreferentialPartyVotes> partyVotes;

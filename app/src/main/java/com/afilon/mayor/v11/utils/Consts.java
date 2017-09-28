@@ -50,6 +50,7 @@ public final class Consts {
 	public static final String PATH_CONFIRM = "/rest/UserInfoService/login/"+ContextHandler.getElectionContext().getResources().getString(R.string.electionType)+"/";
 	public static final String DUI_KEY = "1533794"; // For testing only
 	public static final String MER_MANAGEMENT = "https://four.afilon.com:8443/HONDURAS_Mesa_WS/rest/UserValidation/UpdateMerMembersELSA/";
+	public static final String ELSA_LOG = "https://four.afilon.com:8443/HONDURAS_Mesa_WS/rest/UserValidation/ELSALog";
 
 	public static final String enlaceUser = "2ElSalvador2014";
 	public static final String enlacePassword = "Xerr0rD@t@2014Now";

@@ -281,6 +281,26 @@ public class ChallengeHelper {
 
     }
 
+    private void createDialogToConfirmDui(String msg, int yesIndex, DuiChallengeListener listener, String index) {
+//        if(mContext instanceof FragmentActivity){
+//            android.support.v4.app.FragmentManager fm =((FragmentActivity)mContext).getSupportFragmentManager();
+//        }
+        logIndex = index;
+        android.app.FragmentManager fm =((Activity)mContext).getFragmentManager();
+        DialogToConfirmDuiTwoBtns dialogToConfirmDuiTwoBtns = new DialogToConfirmDuiTwoBtns();
+        dialogToConfirmDuiTwoBtns.setOnDuiChallengerListener(listener);
+        dialogToConfirmDuiTwoBtns.setCustomKeyboard(presidenteKeyboard);
+        Bundle bndl = new Bundle();
+        bndl.putString("yesButtonText", "Continuar");
+        bndl.putInt("yesIndex", yesIndex);
+        bndl.putString("noButtonText", "Cancelar");
+        bndl.putString("question", msg);
+        bndl.putString("invisible", "No");//set invisible to hide 'Cancelar' btn
+        dialogToConfirmDuiTwoBtns.setArguments(bndl);
+        dialogToConfirmDuiTwoBtns.show(fm,msg);
+
+    }
+
     public void signaturePad(drawSignature.drawSignatureListener sigList,String electionID, String jrv, String name, String title, String dui){
         android.app.FragmentManager fm = ((Activity)mContext).getFragmentManager();
         drawSignature drawSig = new drawSignature();
@@ -306,6 +326,23 @@ public class ChallengeHelper {
      */
     @Deprecated
     private void createDialogToConfirmDui(String msg, int yesIndex, CustomKeyboard keyboard) {
+        android.app.FragmentManager fm =((Activity)mContext).getFragmentManager();
+        DialogToConfirmDuiTwoBtns dialogToConfirmDuiTwoBtns = new DialogToConfirmDuiTwoBtns();
+        dialogToConfirmDuiTwoBtns.setOnDuiChallengerListener(duiChallengeListener);
+        dialogToConfirmDuiTwoBtns.setCustomKeyboard(keyboard);
+        Bundle bndl = new Bundle();
+        bndl.putString("yesButtonText", "Continuar");
+        bndl.putInt("yesIndex", yesIndex);
+        bndl.putString("noButtonText", "Cancelar");
+        bndl.putString("question", msg);
+        bndl.putString("invisible", "No");//set invisible to hide 'Cancelar' btn
+        dialogToConfirmDuiTwoBtns.setArguments(bndl);
+        dialogToConfirmDuiTwoBtns.show(fm,msg);
+    }
+
+    @Deprecated
+    private void createDialogToConfirmDui(String msg, int yesIndex, CustomKeyboard keyboard, String index) {
+        logIndex = index;
         android.app.FragmentManager fm =((Activity)mContext).getFragmentManager();
         DialogToConfirmDuiTwoBtns dialogToConfirmDuiTwoBtns = new DialogToConfirmDuiTwoBtns();
         dialogToConfirmDuiTwoBtns.setOnDuiChallengerListener(duiChallengeListener);
@@ -448,7 +485,9 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.open();
                     db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
+                    db_adapter.close();
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -465,9 +504,11 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.open();
                 db_adapter.logDui1(logIndex,DUI_A, time_stamp);
+                db_adapter.close();
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
-                createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input),SECRETARY_VERIFICATION,duiChallengeListener);
+                createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input),SECRETARY_VERIFICATION,duiChallengeListener, logIndex);
             }
         }
     };
@@ -489,7 +530,9 @@ public class ChallengeHelper {
                 if (!confirmSecretary(currentDui)) {
                     rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
                 } else {
+                    db_adapter.open();
                     db_adapter.logDui2(logIndex, DUI_A ,DUI_B, time_stamp, time_stamp);
+                    db_adapter.close();
                     ah.createCustomToast(mContext.getResources().getString(R.string.dui2Confirmed));
                     proceedToFinalApprovalRoutine();
                 }
@@ -506,11 +549,13 @@ public class ChallengeHelper {
             if (!confirmPresident(currentDui)) {
                 rejectVerification(mContext.getResources().getString(R.string.failedConfirmation));
             } else {
+                db_adapter.open();
                 db_adapter.logDui1(logIndex,DUI_A, time_stamp);
+                db_adapter.close();
                 ah.createCustomToast(mContext.getResources().getString(R.string.dui1Confirmed));
 //                secretaryKeyboard.showCustomKeyboard(null);
 //                secretaryKeyboard = new CustomKeyboard((Activity)mContext,keyboardIds[1], R.xml.tenhexkbd);
-                createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input), SECRETARY_VERIFICATION,secretaryKeyboard);
+                createDialogToConfirmDui(mContext.getResources().getString(R.string.dui2Input), SECRETARY_VERIFICATION,secretaryKeyboard, logIndex);
             }
         }
     };

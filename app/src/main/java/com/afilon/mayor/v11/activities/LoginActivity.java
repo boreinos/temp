@@ -146,6 +146,7 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		db_adapter.deleteAllCandidateMarks();
 		db_adapter.deleteActaAttendees();
 		db_adapter.deleteConceptCount();
+		db_adapter.reCreateLogTable();
 		Log.e("LOGIN","---------------------------------------------------------------");
 //		String tstemp = db_adapter.testTemp();
 
