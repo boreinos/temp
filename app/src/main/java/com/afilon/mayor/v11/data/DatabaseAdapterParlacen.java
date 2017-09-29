@@ -30,6 +30,7 @@ import com.afilon.mayor.v11.model.CandidateMarks;
 import com.afilon.mayor.v11.model.CrossVoteBundle;
 import com.afilon.mayor.v11.model.Party;
 import com.afilon.mayor.v11.model.PreferentialCandidateVotes;
+import com.afilon.mayor.v11.model.elsaLog;
 import com.afilon.mayor.v11.model.PreferentialPartyVotes;
 import com.afilon.mayor.v11.model.PreferentialVotoBanderas;
 import com.afilon.mayor.v11.model.PresidenteStaff;
@@ -2337,10 +2338,40 @@ public class DatabaseAdapterParlacen {
     //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
     public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
 //        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
+<<<<<<< HEAD
+        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+        database.execSQL(query);
+=======
         String query = "UPDATE logTableELSA SET [Dui_2] = '"+Dui_2+"', [Time_stamp] = '"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
         database.rawQuery(query, null);
+>>>>>>> 35c65569bcd366839316f38c1c79e4e3a570e8bc
     }
 
+
+    //Elsa log, need to pass arguments of items not stored in log, JRV  ELECTION_ID  , ID?
+    public List<elsaLog> getLogELSA(String jrv, String elecID){
+        List<elsaLog> log = new ArrayList<elsaLog>();
+
+        String[] tableColumns = new String[]{"logIndex", "Dui_1", "Dui_2", "Time_stamp"};
+        Cursor cursor = database.query("logTableELSA",tableColumns, null, null, null, null, null);
+        cursor.moveToFirst();
+
+        while(!cursor.isAfterLast()){
+            elsaLog logElement = new elsaLog();
+            logElement.setJrv(jrv);
+            logElement.setelection_id(elecID);
+            logElement.setLogIndex(cursor.getString(0));
+            logElement.setDui_1(cursor.getString(1));
+            logElement.setDui_2(cursor.getString(2));
+            logElement.setTime_stamp(cursor.getString(3));
+            log.add(logElement);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return log;
+    }
+
+    //THIS FUNCTION IS FOR TESTING PURPOSES ONLY!!
     public ArrayList<String> getELSAlog(){
 
 //        String query = "SELECT  logIndex,  Dui_1, Dui_2, Time_stamp FROM logTableELSA ";
@@ -2364,5 +2395,17 @@ public class DatabaseAdapterParlacen {
         }
         cursor.close();
         return list;
+    }
+
+    public void reCreateLogTable(){
+        String queryDrop = "DROP TABLE LogTableELSA;";
+        database.execSQL(queryDrop);
+        String queryCreate = "CREATE TABLE LogTableELSA(\n" +
+                "logIndex STRING DEFAULT NULL,\n" +
+                "Dui_1 STRING DEFAULT NULL, \n" +
+                "Dui_2 STRING DEFAULT NULL,\n" +
+                "Time_stamp STRING DEFAULT NULL\n" +
+                ");";
+        database.execSQL(queryCreate);
     }
 }

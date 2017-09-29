@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\ElSalvador_Honduras\asamblea\build\intermediates\exploded-aar\ElSalvador_Honduras\app\unspecified\jars\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="36049056df9365a1ceb8f6fc961e58d898cc3c41">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1_25e4edf2e1ae6a71aeb9bc7ed46a8f6ffef20eaf.jar" />
+    </item>
+    <item
+        jar="D:\ElSalvador_Honduras\asamblea\build\intermediates\exploded-aar\ElSalvador_Honduras\app\unspecified\jars\libs\xstream-1.4.6.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1ffe85351189cea7e43819b415d1ffe3e44892e7">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\xstream-1.4.6_97bece790fce8891cf5e384f942f8137c07a3249.jar" />
+    </item>
+    <item
+        jar="D:\ElSalvador_Honduras\asamblea\build\intermediates\exploded-aar\ElSalvador_Honduras\app\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="65d86d1a88f9343e106f922f3a159803f4f5581a">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\ElSalvador_Honduras-app-unspecified_2abf5a18c2d9af33259a6e2ee25e2ddfe93007e0.jar" />
+    </item>
+    <item
+        jar="D:\ElSalvador_Honduras\asamblea\build\intermediates\exploded-aar\ElSalvador_Honduras\app\unspecified\jars\libs\httpmime-4.2.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="baab0e2d77d055e8d4e52ff73508e674db0a15db">
+        <dex dex="D:\ElSalvador_Honduras\asamblea\build\intermediates\pre-dexed\debug\httpmime-4.2.2_cb82b6357e77d189e3683c6979bd119dfefc5152.jar" />
+    </item>
+
+</items>

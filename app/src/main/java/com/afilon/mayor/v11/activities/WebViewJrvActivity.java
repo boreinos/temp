@@ -36,6 +36,8 @@ import com.afilon.mayor.v11.model.ApproveEnlaceModel;
 import com.afilon.mayor.v11.utils.UnCaughtException;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+
 public class WebViewJrvActivity extends AfilonActivity implements
 		DataResponseCallback{
 
@@ -57,6 +59,7 @@ public class WebViewJrvActivity extends AfilonActivity implements
 	private final static int USER_NOT_APPROVED = 2;
 	private DatabaseAdapterParlacen db_adapter;
     private ChallengeHelper challengeHelper;
+	private ArrayList<String> logTest;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -178,6 +181,10 @@ public class WebViewJrvActivity extends AfilonActivity implements
 			}
 		});
 
+//		logTest = db_adapter.getELSAlog();
+//		for(int lt = 0; lt< logTest.size(); lt++) {
+//			Log.e("Log , : ", logTest.get(lt));
+//		}
 	}
 
 	private void sendApprovalTask(String uri, String jsonString, int task_case) {
