@@ -2338,13 +2338,10 @@ public class DatabaseAdapterParlacen {
     //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
     public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
 //        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
-<<<<<<< HEAD
-        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+
+        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+
+                "' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
         database.execSQL(query);
-=======
-        String query = "UPDATE logTableELSA SET [Dui_2] = '"+Dui_2+"', [Time_stamp] = '"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
-        database.rawQuery(query, null);
->>>>>>> 35c65569bcd366839316f38c1c79e4e3a570e8bc
     }
 
 

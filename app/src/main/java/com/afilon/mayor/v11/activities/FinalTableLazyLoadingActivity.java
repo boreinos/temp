@@ -1567,10 +1567,10 @@ public class FinalTableLazyLoadingActivity extends AfilonActivity implements
             if(Consts.LOCALE.equals(Consts.HONDURAS)&& getResources().getString(R.string.voteType).equals(Consts.DIRECT)){
                 search= new Intent(FinalTableLazyLoadingActivity.this,
                         Consts.VOTECOUNTER);
-            }else{
+            } else {
                search = new Intent(FinalTableLazyLoadingActivity.this,
-                        Consts.RECACT);
-
+//                        Consts.RECACT);
+                        Consts.VOTECOUNTER);
             }
 
             search.putExtras(b);
