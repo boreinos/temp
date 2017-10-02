@@ -109,6 +109,48 @@ public class DatabaseAdapterParlacen {
         dbHelper.backUpDataBase();
     }
 
+    /**
+     * Check if table exist and return boolean as response
+     * @param tableName Table name
+     * @param openDb
+     * @return
+     */
+    public boolean hasTable(String tableName, boolean openDb) {
+        if(openDb) {
+            if(database == null || !database.isOpen()) {
+                database = dbHelper.getWritableDatabase();
+            }
+
+            if(!database.isReadOnly()) {
+                database.close();
+                database = dbHelper.getWritableDatabase();
+            }
+        }
+
+        Cursor cursor = database.rawQuery("select DISTINCT tbl_name from sqlite_master where tbl_name = '"+tableName+"'", null);
+        if(cursor!=null) {
+            if(cursor.getCount()>0) {
+                cursor.close();
+                return true;
+            }
+            cursor.close();
+        }
+        return false;
+    }
+
+    /**
+     *
+     * @param tables table list
+     * @return
+     */
+    public boolean hasTables(String... tables) {
+        boolean isFound = true;
+        for (String tbl: tables) {
+            if(! hasTable(tbl, true)) { isFound = false; }
+        }
+        return isFound;
+    }
+
     public String getDui(String user) {
         Cursor cursor = database.query(Attendees, new String[]{"MRE","usr_id","usr_title","present"},null,null,null,null,null);
 
@@ -1747,6 +1789,10 @@ public class DatabaseAdapterParlacen {
         database.delete(CANDIDATE_PREFERENTIALVOTES, null, null);
         database.delete(CANDIDATE_PLANCHAVOTES, null, null);
 
+    }
+
+    public String[] getAllTempVotesTableNames() {
+        return new String[] { CANDIDATE_PREFERENTIALVOTES, CANDIDATE_PLANCHAVOTES };
     }
 
     public static Drawable getAssetImage(Context context, String filename)

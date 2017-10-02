@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.Window;
 import android.view.WindowManager;
@@ -18,28 +19,50 @@ import android.view.animation.Animation.AnimationListener;
 import android.widget.TextView;
 
 import com.afilon.mayor.v11.utils.Utilities;
-//import com.afilon.mayor.v8.utils.Utilities;
 
+/**
+ *  Entry point of the App
+ */
 public class SplashActivity extends AfilonActivity {
 
-    private Utilities utilities=new Utilities(this);
-	ChallengeHelper challengeHelper = new ChallengeHelper(this);
-	boolean isNew;
+	private static final String CLASS_TAG = "SplashActivity";
+
+    private Utilities utilities = new Utilities(this);
+	private ChallengeHelper challengeHelper = new ChallengeHelper(this);
+	private boolean isNew;
 	private static final int CONTINUE = 1;
 	private static final int RESTART = -1;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        utilities.tabletConfiguration(Build.MODEL,this);
+
+		/**
+		 * Set de screen density based on hardware model
+		 */
+		utilities.tabletConfiguration(Build.MODEL,this);
+
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_splash);
+
+		/**
+		 * This handler is invoked in
+		 * case any Thread dies due to an unhandled exception.
+		 */
 		//catch unexpected error:
 		Thread.setDefaultUncaughtExceptionHandler(new UnCaughtException(
 				SplashActivity.this));
+
+		Log.e("CLASS TAG:", CLASS_TAG);
+
+		/**
+		 * Set start-mode, whether app should restart or continue from previous session
+		 */
 		challengeHelper.addRoutine(CONTINUE,resume);
 		challengeHelper.addRoutine(RESTART,restart);
+
 		startAnimating();
 		utilities.removePreferences("anadir");
 		utilities.removePreferences("firstScreen");
@@ -56,8 +79,11 @@ public class SplashActivity extends AfilonActivity {
 		// Transition to Main Menu when bottom title finishes animating
 		fade1.setAnimationListener(new AnimationListener() {
 			public void onAnimationEnd(Animation animation) {
+
 				// The animation has ended, transition to the Main Menu screen
-				if(isNew || Consts.LOCALE.equals(Consts.ELSALVADOR) || Consts.MESAINSTALL.equals("YES")){
+				if(isNew
+						|| Consts.LOCALE.equals(Consts.ELSALVADOR)
+						|| Consts.MESAINSTALL.equals("YES")){
 				goToNextActivity();
 				}else{
 					challengeHelper.createDialog("La aplicación fue cerrada prematuramente, ¿desea restablecerla y continuar donde la dejo?",CONTINUE);
@@ -119,23 +145,5 @@ public class SplashActivity extends AfilonActivity {
 		startActivity(search);
 		finish();
 	}
-
-
-
-
-	// splash activity
-	// login activity
-	// jrv activity
-	// papeletas activity
-	// empty table activity
-	// horizontal vote counting activity
-	// final table activity
-	// reclamos activity
-	// preferential vote activity
-	// candidates table activity
-	// camera activity
-	// last activity
-	
-
 
 }
