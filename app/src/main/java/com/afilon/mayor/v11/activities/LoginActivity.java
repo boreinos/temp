@@ -162,7 +162,7 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 //		String tstemp = db_adapter.testTemp();
 
 		//db_adapter.deleteAllCandidateMarks();
-		/** DEBUGGIN !!!!*/
+		/** DEBUGGING !!!!*/
 /*		ArrayList<CandidateMarks> cms =db_adapter.getCandidateMarksArrayList("290","4");
 		for(CandidateMarks cm: cms){
 			Log.e("Candidate ID", cm.getmCandidateId());
