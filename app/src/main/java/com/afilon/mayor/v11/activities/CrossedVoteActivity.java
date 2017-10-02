@@ -324,7 +324,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
             }
         });
         descartarBtn.setOnClickListener(getAddDescartar());
-        if (currentBallotNumber >= HowManyBallotsToIterate) {
+        if (currentBallotNumber >= HowManyBallotsToIterate && HowManyBallotsToIterate>1) {
             setButtonColorRed(invalidBtn);
             setButtonColorRed(aceptarBtn);
             setButtonColorGreen(seguienteBtn);
@@ -1047,6 +1047,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
     private void reEnterBallot() {
         ballot.setFirstEntry(false);
         ballot.setupNextEntry();
+//        ballot.checkBallot();// check if valid for correction mode
         clearScreen();
 //        aceptarBtn.setText(SAVE);
 //        aceptarBtn.setText(CONFIRM_ENTRY);
@@ -1289,6 +1290,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         adapter.setResId(R.drawable.blue_x);
         flagsAdapter.setResId(R.drawable.blue_x);
         ballot.setFirstEntry(true);
+//        ballot.checkBallot();
         adapter.candidatesWithPreviousMarks(ballot.getFirstMarks());
         flagsAdapter.partiesWithPreviousMarks(ballot.getpartiesFirstmarks());
         flagsAdapter.ignoreTouch(false); //should be able to touch from here until confirm is selected
