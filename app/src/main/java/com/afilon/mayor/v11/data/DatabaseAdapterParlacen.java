@@ -1785,10 +1785,13 @@ public class DatabaseAdapterParlacen {
         }
 
     }
-    public void deleteTempVotes(){
-        database.delete(CANDIDATE_PREFERENTIALVOTES, null, null);
-        database.delete(CANDIDATE_PLANCHAVOTES, null, null);
-
+    public void deleteTempVotes(String... tables){
+        for (String tb: tables) {
+            database.delete(tb, null, null);
+            Log.e("deleteTempVotes", "deleted");
+//            database.delete(CANDIDATE_PREFERENTIALVOTES, null, null);
+//            database.delete(CANDIDATE_PLANCHAVOTES, null, null);
+        }
     }
 
     public String[] getAllTempVotesTableNames() {
