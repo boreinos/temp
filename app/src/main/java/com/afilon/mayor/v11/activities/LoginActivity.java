@@ -153,6 +153,8 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		db_adapter.deleteAllCandidateMarks();
 		db_adapter.deleteActaAttendees();
 		db_adapter.deleteConceptCount();
+		db_adapter.reCreateLogTable();
+		db_adapter.deleteTempVotes();
 
 		db_adapter.reCreateLogTable();
 

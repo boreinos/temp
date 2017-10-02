@@ -2376,7 +2376,14 @@ public class DatabaseAdapterParlacen {
 
     public void logDui1(String logIndex, String Dui_1, String time_stamp){
         Log.e("DUI LOG","DUI WAS LOGGED");
-        String query = "INSERT INTO logTableELSA (logIndex, Dui_1, Dui_2, Time_stamp) VALUES ('"+logIndex+"','"+Dui_1+"','"+Dui_1+"',"+"'"+time_stamp+"'"+")";
+        String query = "INSERT INTO logTableELSA (logIndex, Dui_1, Dui_2, Time_stamp) VALUES ('"+logIndex+"','"+Dui_1+"','"+" "+"',"+"'"+time_stamp+"'"+")";
+//        String query = "INSERT INTO logTableELSA ("+logIndex+","+Dui_1+","+Dui_1+","+time_stamp+")"+" VALUES (logIndex, Dui_1, Dui_2, Time_stamp)";
+        database.execSQL(query);
+    }
+
+    public void log5Duis(String logIndex, String Dui_1, String Dui_2, String Dui_3, String Dui_4, String Dui_5, String time_stamp){
+        Log.e("DUI LOG","DUI WAS LOGGED");
+        String query = "INSERT INTO logTableELSA (logIndex, Dui_1, Dui_2, Dui_3, Dui_4, Dui_5, Time_stamp) VALUES ('"+logIndex+"','"+Dui_1+"','"+Dui_2+"','"+Dui_3+"','"+Dui_4+"','"+Dui_5+"',"+"'"+time_stamp+"'"+")";
 //        String query = "INSERT INTO logTableELSA ("+logIndex+","+Dui_1+","+Dui_1+","+time_stamp+")"+" VALUES (logIndex, Dui_1, Dui_2, Time_stamp)";
         database.execSQL(query);
     }
@@ -2384,10 +2391,15 @@ public class DatabaseAdapterParlacen {
     //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
     public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
 //        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
-
-        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+
-                "' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
         database.execSQL(query);
+//        String query = "UPDATE logTableELSA SET [Dui_2] = '"+Dui_2+"', [Time_stamp] = '"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+//        database.rawQuery(query, null);
+
+//        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+
+//                "' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+//        database.execSQL(query);
+
     }
 
 
@@ -2395,7 +2407,7 @@ public class DatabaseAdapterParlacen {
     public List<elsaLog> getLogELSA(String jrv, String elecID){
         List<elsaLog> log = new ArrayList<elsaLog>();
 
-        String[] tableColumns = new String[]{"logIndex", "Dui_1", "Dui_2", "Time_stamp"};
+        String[] tableColumns = new String[]{"logIndex", "Dui_1", "Dui_2", "Dui_3", "Dui_4", "Dui_5", "Time_stamp"};
         Cursor cursor = database.query("logTableELSA",tableColumns, null, null, null, null, null);
         cursor.moveToFirst();
 
@@ -2406,7 +2418,10 @@ public class DatabaseAdapterParlacen {
             logElement.setLogIndex(cursor.getString(0));
             logElement.setDui_1(cursor.getString(1));
             logElement.setDui_2(cursor.getString(2));
-            logElement.setTime_stamp(cursor.getString(3));
+            logElement.setDui_3(cursor.getString(3));
+            logElement.setDui_4(cursor.getString(4));
+            logElement.setDui_5(cursor.getString(5));
+            logElement.setTime_stamp(cursor.getString(6));
             log.add(logElement);
             cursor.moveToNext();
         }
@@ -2447,6 +2462,9 @@ public class DatabaseAdapterParlacen {
                 "logIndex STRING DEFAULT NULL,\n" +
                 "Dui_1 STRING DEFAULT NULL, \n" +
                 "Dui_2 STRING DEFAULT NULL,\n" +
+                "Dui_3 STRING DEFAULT NULL,\n" +
+                "Dui_4 STRING DEFAULT NULL,\n" +
+                "Dui_5 STRING DEFAULT NULL,\n" +
                 "Time_stamp STRING DEFAULT NULL\n" +
                 ");";
         database.execSQL(queryCreate);
