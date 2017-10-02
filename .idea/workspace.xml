@@ -11,114 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5a8778-207d-4253-bd4c-25fdd4b34c1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/com/afilon/mayor/v11/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerLoginActivity$CustomTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerLoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$CustomTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity$DuiFormatTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/MerManagerActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity$Flag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/data-binding-layout-out/release/layout/mer_activity_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/data-binding-layout-out/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/mer_activity_manager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-14-13-37-34-705.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-07-59-39-657.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-11-36-34-018.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-05-34-594.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-08-36-007.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-19-13-903.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-24-34-270.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-12-44-06-140.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-04-30-292.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-11-26-628.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-15-13-32-09-930.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-10-23-16-276.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-10-28-12-460.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-18-25-939.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-21-38-298.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-26-26-389.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-11-49-02-270.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-12-02-38-291.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-15-52-41-967.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-16-05-50-398.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-18-16-12-29-683.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-14-31-099.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-36-46-473.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-13-56-24-087.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-33-41-314.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-43-11-944.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-19-14-56-13-618.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-25-36-055.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-45-36-335.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-21-09-55-38-158.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/local.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/utils/Consts.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/afilon/mayor/v11/utils/Consts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-release.aar" afterPath="$PROJECT_DIR$/app/build/outputs/aar/app-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" afterPath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/dataBinding/release/android/databinding/layouts/DataBindingInfo.java" afterPath="$PROJECT_DIR$/app/build/generated/source/dataBinding/release/android/databinding/layouts/DataBindingInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="ElSalvador_Honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -151,99 +46,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParlacenVoteTableActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
+      <file leaf-file-name="electronicConceptos.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/electronicConceptos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+            <state relative-caret-position="1545">
+              <caret line="1642" column="64" selection-start-line="1642" selection-start-column="64" selection-end-line="1642" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#13204#13247#0" expanded="true" />
+                <element signature="e#20484#20522#0" expanded="true" />
+                <element signature="e#22552#22590#0" expanded="true" />
+                <element signature="e#29461#29499#0" expanded="true" />
+                <element signature="e#30747#30785#0" expanded="true" />
+                <element signature="e#31568#31606#0" expanded="true" />
+                <element signature="e#41178#41221#0" expanded="true" />
+                <element signature="e#44856#44894#0" expanded="true" />
+                <element signature="e#45916#45954#0" expanded="true" />
+                <element signature="e#45983#46021#0" expanded="true" />
+                <element signature="e#46233#46271#0" expanded="true" />
+                <element signature="e#46666#46704#0" expanded="true" />
+                <element signature="e#47228#47266#0" expanded="true" />
+                <element signature="e#48236#48274#0" expanded="true" />
+                <element signature="e#48979#49017#0" expanded="true" />
+                <element signature="e#55641#55679#0" expanded="true" />
+                <element signature="e#57291#57343#0" expanded="true" />
+                <element signature="e#61928#61966#0" expanded="true" />
+                <element signature="e#62939#62977#0" expanded="true" />
+                <element signature="e#63413#63451#0" expanded="true" />
+                <element signature="e#65541#65584#0" expanded="true" />
+                <element signature="e#66528#66580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conceptosCompare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/conceptosCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="1380" column="41" selection-start-line="1380" selection-start-column="41" selection-end-line="1380" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8247#8290#0" expanded="true" />
+                <element signature="e#31741#31779#0" expanded="true" />
+                <element signature="e#36257#36309#0" expanded="true" />
+                <element signature="e#37041#37086#0" expanded="true" />
+                <element signature="e#37791#37843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RollCall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/RollCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="1065" column="116" selection-start-line="1065" selection-start-column="116" selection-end-line="1065" selection-end-column="116" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LastActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LastActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4577#4617#0" expanded="true" />
-                <element signature="e#5012#5650#0" expanded="true" />
-                <element signature="e#5649#5650#0" expanded="true" />
-                <element signature="e#5803#7860#0" expanded="true" />
-                <element signature="e#7859#7860#0" expanded="true" />
-                <element signature="e#21799#21800#0" expanded="true" />
-                <element signature="e#21842#21843#0" expanded="true" />
-                <element signature="e#23457#23458#0" expanded="true" />
-                <element signature="e#23498#23499#0" expanded="true" />
-                <element signature="e#25203#25204#0" expanded="true" />
-                <element signature="e#25250#25251#0" expanded="true" />
-                <element signature="e#25288#25289#0" expanded="true" />
-                <element signature="e#25328#25329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebViewJrvActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/WebViewJrvActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="186" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/Consts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="52" column="116" selection-start-line="52" selection-start-column="116" selection-end-line="52" selection-end-column="116" />
-              <folding>
-                <element signature="e#3215#3292#0" expanded="true" />
-                <element signature="e#4128#4209#0" expanded="true" />
-                <element signature="e#5415#5492#0" expanded="true" />
-                <element signature="e#5614#5691#0" expanded="true" />
-                <element signature="e#6039#6119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceRestTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/webservice/WebServiceRestTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseAdapterParlacen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseAdapterParlacen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="2399" column="35" selection-start-line="2399" selection-start-column="35" selection-end-line="2399" selection-end-column="35" />
+            <state relative-caret-position="432">
+              <caret line="2412" column="48" selection-start-line="2412" selection-start-column="48" selection-end-line="2412" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1506629236745" expanded="true" signature="112181:112187" ph="{...}" />
-                <marker date="1506629236745" expanded="true" signature="112343:113138" ph="{...}" />
+                <marker date="1506967708680" expanded="true" signature="112694:112700" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elsaLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/elsaLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -251,36 +123,36 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+            <state relative-caret-position="148">
+              <caret line="149" column="28" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="34" />
               <folding>
-                <element signature="e#6078#6121#0" expanded="false" />
-                <element signature="e#8810#9198#0" expanded="false" />
-                <element signature="e#9197#9198#0" expanded="false" />
-                <element signature="e#9239#9762#0" expanded="false" />
-                <element signature="e#9761#9762#0" expanded="false" />
-                <marker date="1506629237429" expanded="true" signature="4535:4681" ph="//..." />
+                <element signature="e#12017#14035#0" expanded="true" />
+                <element signature="e#14034#14035#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreferentialCandidateVotes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/PreferentialCandidateVotes.java">
+      <file leaf-file-name="FinalTableLazyLoadingActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/FinalTableLazyLoadingActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="65" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="579">
+              <caret line="1678" column="1" selection-start-line="1678" selection-start-column="1" selection-end-line="1678" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MerManagerActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/MerManagerActivity.java">
+      <file leaf-file-name="VerticalConceptoTableActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VerticalConceptoTableActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="1559" column="30" selection-start-line="1559" selection-start-column="25" selection-end-line="1559" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="596">
+              <caret line="1400" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -9610,18 +9482,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/FinalTableLazyLoadingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/model/elsaLog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/WebViewJrvActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/Consts.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LastActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/electronicConceptos.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/conceptosCompare.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="424" />
-    <option name="y" value="142" />
-    <option name="width" value="1065" />
-    <option name="height" value="895" />
+    <option name="x" value="94" />
+    <option name="y" value="118" />
+    <option name="width" value="1689" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -10457,7 +10331,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="142" width="1065" height="895" extended-state="0" />
+    <frame x="94" y="118" width="1689" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -10468,7 +10342,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5025707" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19783197" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28684628" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -10477,7 +10351,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26965174" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22774708" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -10918,14 +10792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VerticalConceptoTableActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="1264" column="24" selection-start-line="1264" selection-start-column="24" selection-end-line="1264" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/CheckListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -10988,14 +10854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/FinalTableLazyLoadingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="417" column="35" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -11011,33 +10869,6 @@
         <state relative-caret-position="170">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
-          <folding>
-            <element signature="e#6078#6121#0" expanded="false" />
-            <element signature="e#8810#9198#0" expanded="false" />
-            <element signature="e#9197#9198#0" expanded="false" />
-            <element signature="e#9239#9762#0" expanded="false" />
-            <element signature="e#9761#9762#0" expanded="false" />
-            <marker date="1506629237429" expanded="true" signature="4535:4681" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="2399" column="35" selection-start-line="2399" selection-start-column="35" selection-end-line="2399" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506629236745" expanded="true" signature="112181:112187" ph="{...}" />
-            <marker date="1506629236745" expanded="true" signature="112343:113138" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -11081,10 +10912,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/MerManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="1559" column="30" selection-start-line="1559" selection-start-column="25" selection-end-line="1559" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="2958" column="48" selection-start-line="2957" selection-start-column="0" selection-end-line="2958" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LastActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4577#4617#0" expanded="true" />
@@ -11104,19 +10951,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/electronicConceptos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+        <state relative-caret-position="1545">
+          <caret line="1642" column="64" selection-start-line="1642" selection-start-column="64" selection-end-line="1642" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13204#13247#0" expanded="true" />
+            <element signature="e#20484#20522#0" expanded="true" />
+            <element signature="e#22552#22590#0" expanded="true" />
+            <element signature="e#29461#29499#0" expanded="true" />
+            <element signature="e#30747#30785#0" expanded="true" />
+            <element signature="e#31568#31606#0" expanded="true" />
+            <element signature="e#41178#41221#0" expanded="true" />
+            <element signature="e#44856#44894#0" expanded="true" />
+            <element signature="e#45916#45954#0" expanded="true" />
+            <element signature="e#45983#46021#0" expanded="true" />
+            <element signature="e#46233#46271#0" expanded="true" />
+            <element signature="e#46666#46704#0" expanded="true" />
+            <element signature="e#47228#47266#0" expanded="true" />
+            <element signature="e#48236#48274#0" expanded="true" />
+            <element signature="e#48979#49017#0" expanded="true" />
+            <element signature="e#55641#55679#0" expanded="true" />
+            <element signature="e#57291#57343#0" expanded="true" />
+            <element signature="e#61928#61966#0" expanded="true" />
+            <element signature="e#62939#62977#0" expanded="true" />
+            <element signature="e#63413#63451#0" expanded="true" />
+            <element signature="e#65541#65584#0" expanded="true" />
+            <element signature="e#66528#66580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/FinalTableLazyLoadingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="1678" column="1" selection-start-line="1678" selection-start-column="1" selection-end-line="1678" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VerticalConceptoTableActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="1400" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/conceptosCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="1380" column="41" selection-start-line="1380" selection-start-column="41" selection-end-line="1380" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8247#8290#0" expanded="true" />
+            <element signature="e#31741#31779#0" expanded="true" />
+            <element signature="e#36257#36309#0" expanded="true" />
+            <element signature="e#37041#37086#0" expanded="true" />
+            <element signature="e#37791#37843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/RollCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1065" column="116" selection-start-line="1065" selection-start-column="116" selection-end-line="1065" selection-end-column="116" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/MerManagerActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1559" column="30" selection-start-line="1559" selection-start-column="25" selection-end-line="1559" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="149" column="28" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="34" />
+          <folding>
+            <element signature="e#12017#14035#0" expanded="true" />
+            <element signature="e#14034#14035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="2412" column="48" selection-start-line="2412" selection-start-column="48" selection-end-line="2412" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506967708680" expanded="true" signature="112694:112700" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
