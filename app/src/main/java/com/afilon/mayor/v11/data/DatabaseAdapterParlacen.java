@@ -109,6 +109,48 @@ public class DatabaseAdapterParlacen {
         dbHelper.backUpDataBase();
     }
 
+    /**
+     * Check if table exist and return boolean as response
+     * @param tableName Table name
+     * @param openDb
+     * @return
+     */
+    public boolean hasTable(String tableName, boolean openDb) {
+        if(openDb) {
+            if(database == null || !database.isOpen()) {
+                database = dbHelper.getWritableDatabase();
+            }
+
+            if(!database.isReadOnly()) {
+                database.close();
+                database = dbHelper.getWritableDatabase();
+            }
+        }
+
+        Cursor cursor = database.rawQuery("select DISTINCT tbl_name from sqlite_master where tbl_name = '"+tableName+"'", null);
+        if(cursor!=null) {
+            if(cursor.getCount()>0) {
+                cursor.close();
+                return true;
+            }
+            cursor.close();
+        }
+        return false;
+    }
+
+    /**
+     *
+     * @param tables table list
+     * @return
+     */
+    public boolean hasTables(String... tables) {
+        boolean isFound = true;
+        for (String tbl: tables) {
+            if(! hasTable(tbl, true)) { isFound = false; }
+        }
+        return isFound;
+    }
+
     public String getDui(String user) {
         Cursor cursor = database.query(Attendees, new String[]{"MRE","usr_id","usr_title","present"},null,null,null,null,null);
 
@@ -1749,6 +1791,10 @@ public class DatabaseAdapterParlacen {
 
     }
 
+    public String[] getAllTempVotesTableNames() {
+        return new String[] { CANDIDATE_PREFERENTIALVOTES, CANDIDATE_PLANCHAVOTES };
+    }
+
     public static Drawable getAssetImage(Context context, String filename)
             throws IOException {
         AssetManager assets = context.getResources().getAssets();
@@ -2345,10 +2391,17 @@ public class DatabaseAdapterParlacen {
     //This one an update i think, UPDATE WHere logindex = logindex AND Dui1 = dui1 and timestamp = timestamp
     public void logDui2(String logIndex, String Dui_1, String Dui_2, String old_time, String new_time){
 //        String query = "UPDATE logTableELSA (logIndex ,Dui_2, Time_stamp) VALUES ("+logIndex+","+Dui_2+","+new_time+") WHERE [logIndex] = "+ logIndex +" AND [Dui_1] = "+Dui_1+" AND [Time_stamp] = "+old_time+")";
+<<<<<<< HEAD
         String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
         database.execSQL(query);
 //        String query = "UPDATE logTableELSA SET [Dui_2] = '"+Dui_2+"', [Time_stamp] = '"+new_time+"' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
 //        database.rawQuery(query, null);
+=======
+
+        String query = "UPDATE logTableELSA SET [Dui_2] = +'"+Dui_2+"', [Time_stamp] = +'"+new_time+
+                "' WHERE [logIndex] = '"+ logIndex +"' AND [Dui_1] = '"+Dui_1+"' AND [Time_Stamp] = '"+old_time+"'";
+        database.execSQL(query);
+>>>>>>> 848959564d66df041022053cf91220008bb3771a
     }
 
 

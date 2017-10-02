@@ -263,6 +263,9 @@ public class SummaryActivityPreferential extends FragmentActivity {
         jrv_tv.setText(vc.getJrvString());
         summaryText.setText(" Please Select Desired Summary Report View ");
 
+        //CARLOS: Reporting
+        actaSumaryReport.setTitleB(votecenter_tv.getText().toString());
+        actaSumaryReport.setTitleC("Departamento: " + departmental_tv.getText().toString() + "       JRV: " + jrv_tv.getText().toString());
 
         // Get Party List to Count and Determine Number of Parties for
         //  Loading Appropriate Select Party xml
@@ -2323,16 +2326,26 @@ public class SummaryActivityPreferential extends FragmentActivity {
 
             Paint paint = new Paint();
             paint.setColor(Color.BLACK);
-            paint.setTextSize(40);
-            canvas.drawText(
-                    "TSE - CONGRESO ",
-                    leftMargin,
-                    titleBaseLine,
-                    paint);
+            paint.setTextSize(20);
+            if(this.electionType.contains("HON")) {
+                canvas.drawText(
+                        "TSE - CONGRESO ",
+                        leftMargin,
+                        titleBaseLine,
+                        paint);
+            } else {
+                canvas.drawText(
+                        "TSE - ASAMBLEA ",
+                        leftMargin,
+                        titleBaseLine,
+                        paint);
+            }
+
 
             paint.setTextSize(14);
-            canvas.drawText("ACTA DE CIERRE ", leftMargin, titleBaseLine + 35, paint);
-            canvas.drawText(datet, leftMargin + 200, titleBaseLine + 35, paint);
+            canvas.drawText(this.asm.getTitleB(), leftMargin, titleBaseLine + 35, paint);
+            canvas.drawText("ACTA DE CIERRE ", leftMargin, titleBaseLine + 55, paint);
+            canvas.drawText(datet, leftMargin + 200, titleBaseLine + 55, paint);
 
 
             PdfDocument.PageInfo pageInfo = page.getInfo();
@@ -2340,9 +2353,9 @@ public class SummaryActivityPreferential extends FragmentActivity {
             paint.setColor(Color.BLACK);
             paint.setTextSize(12);
             canvas.drawText("CONCEPTO          TOTAL          Marca/Plancha          Marca/Parcial          Marca/Cruzada",
-                    leftMargin, titleBaseLine + (35 * 2), paint);
+                    leftMargin, titleBaseLine + (75), paint);
             canvas.drawText("======================================================================================",
-                    leftMargin, titleBaseLine + (90), paint);
+                    leftMargin, titleBaseLine + (95), paint);
 
             canvas.drawText("Sobrantes", leftMargin, titleBaseLine + (lineNumber), paint);
             canvas.drawText(this.asm.getConceptA(), leftMargin + 100, titleBaseLine + (lineNumber), paint);

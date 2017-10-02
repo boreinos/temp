@@ -43,85 +43,159 @@
                     android:textSize="18sp"/>
             </FrameLayout>
 
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/crossvote_no_tv"
+                        android:layout_width="146dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:padding="2dp"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/rectangle_rounded_corners_white"/>
 
-            <TextView
-                android:id="@+id/crossvote_no_tv"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="5dp"
-                android:padding="2dp"
-                android:textColor="@color/dark_grey"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:background="@drawable/rectangle_rounded_corners_white"/>
+                    <TextView
+                        android:id="@+id/crossvote_no_detail_tv"
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="1dp"
+                        android:padding="2dp"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/crossvote_no_detail_tv"
-                android:layout_width="60dp"
-                android:layout_height="wrap_content"
-                android:gravity="right"
-                android:layout_marginLeft="1dp"
-                android:layout_marginTop="15dp"
-                android:padding="2dp"
-                android:textColor="@color/white"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/total_ballots"
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:padding="2dp"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/total_ballots"
-                android:layout_width="82dp"
-                android:layout_height="wrap_content"
-                android:gravity="left"
-                android:layout_marginTop="15dp"
-                android:padding="2dp"
-                android:textColor="@color/white"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/crossvote_total_tv"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/rectangle_rounded_corners_white"/>
 
-            <TextView
-                android:id="@+id/crossvote_total_tv"
-                android:layout_width="170dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="2dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="5dp"
-                android:textColor="@color/dark_grey"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:background="@drawable/rectangle_rounded_corners_white"/>
+                    <TextView
+                        android:id="@+id/crossvote_total_detail_tv"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/crossvote_total_tv"
+                        android:padding="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
-            <TextView
-                android:id="@+id/crossvote_total_detail_tv"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:layout_alignRight="@id/crossvote_total_tv"
-                android:padding="2dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp"
-                android:textColor="@color/white"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/crossvote_no_tv"-->
+                <!--android:layout_width="146dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:padding="2dp"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:background="@drawable/rectangle_rounded_corners_white"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/crossvote_no_detail_tv"-->
+                <!--android:layout_width="56dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="right"-->
+                <!--android:layout_marginLeft="1dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:padding="2dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="22sp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/total_ballots"-->
+                <!--android:layout_width="78dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:padding="2dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="22sp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/crossvote_total_tv"-->
+                <!--android:layout_width="166dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:background="@drawable/rectangle_rounded_corners_white"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/crossvote_total_detail_tv"-->
+                <!--android:layout_width="86dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignRight="@id/crossvote_total_tv"-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="22sp"-->
+                <!--android:textStyle="bold" />-->
 
             <TextView
                 android:id="@+id/crossvote_marks_tv"
-                android:layout_width="100dp"
+                android:layout_width="96dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="2dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="5dp"
                 android:textColor="@color/dark_grey"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:text="MARCAS"
                 android:textStyle="bold"
                 android:background="@drawable/rectangle_rounded_corners_white"/>
 
             <TextView
                 android:id="@+id/entered_marcas"
-                android:layout_width="50dp"
+                android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
@@ -129,12 +203,12 @@
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:padding="2dp"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/crossvote_marks_detail_tv"
-                android:layout_width="50dp"
+                android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:layout_alignRight="@id/crossvote_marks_tv"
                 android:background="@drawable/rectangle_rounded_corners_white"
@@ -143,52 +217,97 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textAlignment="center"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
             <!--android:textColor="@color/white"-->
-            <Button
-                android:id="@+id/invalid_btn"
-                android:layout_width="130dp"
-                android:layout_height="75dp"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:textColor="@color/white"
-                android:visibility="visible"
-                />
-            <Button
-                android:id="@+id/descartar_btn"
-                android:layout_width="130dp"
-                android:layout_height="75dp"
-                android:textColor="@color/white"
-                android:layout_margin="5dp"
-                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/invalid_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:visibility="visible"
+                    />
+                <Button
+                    android:id="@+id/descartar_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:textColor="@color/white"
+                    />
 
-            <Button
-                android:id="@+id/aceptar_btn"
-                android:layout_width="130dp"
-                android:layout_height="75dp"
-                android:layout_margin="5dp"
-                android:textColor="@color/white"
-                android:text="Aceptar"
-                />
-            <!--android:layout_marginLeft="5dp"-->
-            <!--android:layout_marginRight="15dp"-->
-            <!--android:layout_marginTop="5dp"-->
+                <Button
+                    android:id="@+id/aceptar_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:textColor="@color/white"
+                    android:text="Aceptar"
+                    />
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
 
-            <Button
-                android:id="@+id/siguiente_btn"
-                android:layout_width="130dp"
-                android:layout_height="75dp"
-                android:textColor="@color/white"
-                android:nextFocusDown="@id/siguiente_btn"
-                android:nextFocusRight="@id/siguiente_btn"
-                android:nextFocusLeft="@id/siguiente_btn"
-                android:nextFocusUp="@id/siguiente_btn"
-                android:nextFocusForward="@id/siguiente_btn"
-                android:layout_margin="5dp"
-                android:text="Proxima\nPapeleta"
-                ><requestFocus/>
-            </Button>
+                <Button
+                    android:id="@+id/siguiente_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:textColor="@color/white"
+                    android:text="Proxima"
+                    android:nextFocusDown="@id/siguiente_btn"
+                    android:nextFocusRight="@id/siguiente_btn"
+                    android:nextFocusLeft="@id/siguiente_btn"
+                    android:nextFocusUp="@id/siguiente_btn"
+                    android:nextFocusForward="@id/siguiente_btn"
+                    ><requestFocus/>
+                </Button>
+
+            </LinearLayout>
+            <!--<Button-->
+                <!--android:id="@+id/invalid_btn"-->
+                <!--android:layout_width="128dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:visibility="visible"-->
+                <!--/>-->
+            <!--<Button-->
+                <!--android:id="@+id/descartar_btn"-->
+                <!--android:layout_width="128dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_margin="5dp"-->
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/aceptar_btn"-->
+                <!--android:layout_width="128dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:text="Aceptar"-->
+                <!--/>-->
+            <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="15dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
+
+            <!--<Button-->
+                <!--android:id="@+id/siguiente_btn"-->
+                <!--android:layout_width="128dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:nextFocusDown="@id/siguiente_btn"-->
+                <!--android:nextFocusRight="@id/siguiente_btn"-->
+                <!--android:nextFocusLeft="@id/siguiente_btn"-->
+                <!--android:nextFocusUp="@id/siguiente_btn"-->
+                <!--android:nextFocusForward="@id/siguiente_btn"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:text="Proxima\nPapeleta"-->
+                <!--&gt;<requestFocus/>-->
+            <!--</Button>-->
 
 
             <!--android:layout_marginLeft="5dp"-->

@@ -33,6 +33,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 
+import com.afilon.mayor.v11.utils.Hardware;
 import com.afilon.mayor.v11.webservice.WebServiceActaImageTask.SendImageResponseCallback;
 
 import com.afilon.mayor.v11.R;
@@ -96,6 +97,7 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 	private boolean validationCheck = false;
 
 	private boolean permissionC, permissionD, permissionP;
+	private boolean hasProperPermissions = false;
 
 	TelephonyManager tm;
 	WifiManager wm;
@@ -121,12 +123,17 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		ah = new Utilities(LoginActivity.this);
 		ah.tabletConfiguration(Build.MODEL,this);
 		Log.e("Built Model Number ", Build.MODEL);
+		Log.e("CLASS TAG:", CLASS_TAG);
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_login);
-		//Catch Unexpected Error:
+
+		/**
+		 * This handler is invoked in
+		 * case any Thread dies due to an unhandled exception.
+		 */
 		Thread.setDefaultUncaughtExceptionHandler(new UnCaughtException(
 				LoginActivity.this));
 
@@ -146,8 +153,16 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		db_adapter.deleteAllCandidateMarks();
 		db_adapter.deleteActaAttendees();
 		db_adapter.deleteConceptCount();
+<<<<<<< HEAD
 		db_adapter.reCreateLogTable();
 		db_adapter.deleteTempVotes();
+=======
+
+		db_adapter.reCreateLogTable();
+
+		if(db_adapter.hasTables(db_adapter.getAllTempVotesTableNames())) { db_adapter.deleteTempVotes(); 	}
+
+>>>>>>> 848959564d66df041022053cf91220008bb3771a
 		Log.e("LOGIN","---------------------------------------------------------------");
 //		String tstemp = db_adapter.testTemp();
 
@@ -275,20 +290,31 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		ah.buttonNextFocus(mTestNetworkOne,enterJrv.getId());
 		enterJrv.requestFocus();
 
-		permissionC = (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA)==PackageManager.PERMISSION_GRANTED);
-		permissionD = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_GRANTED);
-		permissionP = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)==PackageManager.PERMISSION_GRANTED);
-		if (!permissionC){
-			ah.createCustomToast("Camera Permissions Not Granted \n Please Enable Camera Permissions");
-		}
+		/**
+		 * Check hardware permissions first, in order to continue with the app
+		 */
+		hasProperPermissions = Hardware.hasPermissions(this, new String[] {
+				Manifest.permission.CAMERA,
+				Manifest.permission.READ_EXTERNAL_STORAGE,
+				Manifest.permission.READ_PHONE_STATE
+		});
 
-		if (!permissionD){
-			ah.createCustomToast("Storage Permissions Not Granted \n Please Enable Storage Permissions");
-		}
+		if (! hasProperPermissions) { ah.createCustomToast("Necesita activar los permisos de Camara, Storage y Telefono para contunuar."); }
 
-		if (!permissionP){
-			ah.createCustomToast("Phone Permissions Not Granted \n Please Enable Phone Permissions");
-		}
+//		permissionC = (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA)==PackageManager.PERMISSION_GRANTED);
+//		permissionD = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_GRANTED);
+//		permissionP = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)==PackageManager.PERMISSION_GRANTED);
+//		if (!permissionC){
+//			ah.createCustomToast("Camera Permissions Not Granted \n Please Enable Camera Permissions");
+//		}
+//
+//		if (!permissionD){
+//			ah.createCustomToast("Storage Permissions Not Granted \n Please Enable Storage Permissions");
+//		}
+//
+//		if (!permissionP){
+//			ah.createCustomToast("Phone Permissions Not Granted \n Please Enable Phone Permissions");
+//		}
 
 		abraKadabra();
 //		if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {

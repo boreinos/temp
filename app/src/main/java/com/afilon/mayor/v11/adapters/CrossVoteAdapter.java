@@ -178,8 +178,9 @@ public class CrossVoteAdapter extends RecyclerView.Adapter<CrossVoteAdapter.View
             String candidateId = mCandidateCrossVote.get(j).getCandidatePrefElecId();
             CandidateCrossVote candidate = withMarks.get(candidateId);
             if (candidate != null) {
-//                mCandidateCrossVote.get(j).setMismatch(true); //enable touch
-                mCandidateCrossVote.get(j).setMark(candidate.isMarked()); // remove mark
+//               mCandidateCrossVote.get(j).setMismatch(true); //enable touch
+//                mCandidateCrossVote.get(j).setMark(candidate.isMarked()); // remove mark
+                mCandidateCrossVote.get(j).setMark(true); // only selected candidates are here
             }
         }
         this.notifyDataSetChanged();

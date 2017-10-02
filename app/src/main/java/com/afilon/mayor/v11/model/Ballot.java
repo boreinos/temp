@@ -65,6 +65,7 @@ public class Ballot {
     public HashMap<String, Party> getpartiesFirstmarks(){
         return partySelection1;
     }
+
     public HashMap<String, Party> getPartySecondMarks(){
         return partySelection2;
     }
@@ -101,6 +102,16 @@ public class Ballot {
         }
         updatePartyList(firstEntry);
     }
+    public void checkBallot(){
+        //check if ballot is valid at this point:
+        if(firstEntry){
+            calcualteMultiplier();
+            List1 = updateCandidateVote(List1);
+        }else {
+            calcualteMultiplier();
+            List2 = updateCandidateVote(List2);
+        }
+    }
 
     public void removeCandidateES(CandidateCrossVote candidate) {
 
@@ -127,6 +138,7 @@ public class Ballot {
 
         updatePartyList(firstEntry);
     }
+
     public void removeCandidate(CandidateCrossVote candidate) {
         calcualteMultiplier();
         if (firstEntry) {
@@ -150,6 +162,7 @@ public class Ballot {
         calcualteMultiplier();
         // Todo: update vote assignments
     }
+
     public void removeParty(Party party){
         if(firstEntry){
             partySelection1.remove(party.getParty_preferential_election_id());
@@ -158,7 +171,6 @@ public class Ballot {
         }
         calcualteMultiplier();
     }
-
 
     public boolean isBallotFull() {
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
@@ -191,9 +203,12 @@ public class Ballot {
         }
         popMismatches();
         findMismatchParty();
+        findPartySelectionMismatches();// pop other type of mismatches
+
         return mismatch;
     }
-    public HashMap<String, Party> confirmPartySelection(){
+
+    private HashMap<String, Party> findPartySelectionMismatches(){
         initializePartyMatches();
 
         if (partyList1.size() < partyList2.size()) {
@@ -205,14 +220,44 @@ public class Ballot {
             compareParties(partySelection2, partySelection1);
             compareParties(partySelection1, matchParties);
         }
-        //popMismatches();
+        popMismatchCandidateByParty();
         //findMismatchParty();
-        int numberofmismatch = mismatchParties.size();
-        int partieslist1 = partySelection1.size();
-        int partieslist2 = partySelection2.size();
-        Log.e("MISMATCHES",String.valueOf(partieslist1)+" parties in list 1");
-        Log.e("MISMATCHES",String.valueOf(partieslist2)+" parties in list 2");
-        Log.e("MISMATCHES",String.valueOf(numberofmismatch)+" mismatched parties ");
+//        int numberofmismatch = mismatchParties.size();
+//        int partieslist1 = partySelection1.size();
+//        int partieslist2 = partySelection2.size();
+//        Log.e("MISMATCHES",String.valueOf(partieslist1)+" parties in list 1");
+//        Log.e("MISMATCHES",String.valueOf(partieslist2)+" parties in list 2");
+//        Log.e("MISMATCHES",String.valueOf(numberofmismatch)+" mismatched parties ");
+        return mismatchParties; //todo: does not need to return;
+    }
+
+    private void popMismatchCandidateByParty(){
+        ArrayList<String> removeCandidates = new ArrayList<>();
+        for(Map.Entry<String, Party> entry : mismatchParties.entrySet()){
+            for(Map.Entry<String, CandidateCrossVote> candidate : List1.entrySet()){
+                if(candidate.getValue().getPartyElectionId().equals(entry.getKey())){
+                    removeCandidates.add(candidate.getKey());// save id to remove candidate later.
+                    mismatch.put(candidate.getKey(),candidate.getValue()); //add candidate to list
+                }
+            }
+            for(Map.Entry<String,CandidateCrossVote> candidate: List2.entrySet()){
+                if(candidate.getValue().getPartyElectionId().equals(entry.getKey())){
+                    removeCandidates.add(candidate.getKey());
+                    mismatch.put(candidate.getKey(),candidate.getValue());
+                }
+            }
+            //remove party from list
+            partySelection1.remove(entry.getKey());
+            partySelection2.remove(entry.getKey());
+        }
+        // now pop them
+        for(String candidateId: removeCandidates){
+            List1.remove(candidateId);
+            List2.remove(candidateId);
+        }
+    }
+
+    public HashMap<String, Party> confirmPartySelection(){
         return mismatchParties;
     }
 
@@ -633,8 +678,6 @@ public class Ballot {
 
     }
 
-
-
     private void popMismatches() {
         for (Map.Entry<String, CandidateCrossVote> entry : mismatch.entrySet()) {
             String candidateId = entry.getKey();
@@ -664,6 +707,7 @@ public class Ballot {
         // otherwise it must be preferential
         return PREFERENTIAL;
     }
+
     public int getMarkTypeES(){
         int marktype;
         switch (voteType){
@@ -800,6 +844,9 @@ public class Ballot {
         }
         //todo:  assignVotesToParty();
     }
+
+
+
 
 
 }
