@@ -96,7 +96,6 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 	private boolean wasClosed = false;
 	private boolean validationCheck = false;
 
-	private boolean permissionC, permissionD, permissionP;
 	private boolean hasProperPermissions = false;
 
 	TelephonyManager tm;
@@ -294,23 +293,11 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 				Manifest.permission.READ_PHONE_STATE
 		});
 
-		if (! hasProperPermissions) { ah.createCustomToast("Necesita activar los permisos de Camara, Storage y Telefono para contunuar."); }
+		if (! hasProperPermissions) { ah.createCustomToast("Necesita activar los permisos de Camara, Storage y Telefono para continuar."); }
 
-//		permissionC = (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA)==PackageManager.PERMISSION_GRANTED);
-//		permissionD = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_GRANTED);
-//		permissionP = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)==PackageManager.PERMISSION_GRANTED);
-//		if (!permissionC){
-//			ah.createCustomToast("Camera Permissions Not Granted \n Please Enable Camera Permissions");
-//		}
-//
-//		if (!permissionD){
-//			ah.createCustomToast("Storage Permissions Not Granted \n Please Enable Storage Permissions");
-//		}
-//
-//		if (!permissionP){
-//			ah.createCustomToast("Phone Permissions Not Granted \n Please Enable Phone Permissions");
-//		}
-
+		/**
+		 * Hide DUIs textviews and buttons, network and text info views
+		 */
 		abraKadabra();
 //		if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
 //			//ask for authorisation
@@ -338,12 +325,16 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 	public void onResume(){
 		super.onResume();
 		if(wasClosed) {
-			ah.createCustomToast("Application Was Minimized \n Please Re-enter Information");
+			ah.createCustomToast("Aplicacion fue minimizada \n Por favor re-ingrese la informacion");
 		}
 		wasClosed = true;
-		permissionC = (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA)==PackageManager.PERMISSION_GRANTED);
-		permissionD = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_GRANTED);
-		permissionP = (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)==PackageManager.PERMISSION_GRANTED);
+
+		hasProperPermissions = Hardware.hasPermissions(this, new String[] {
+				Manifest.permission.CAMERA,
+				Manifest.permission.READ_EXTERNAL_STORAGE,
+				Manifest.permission.READ_PHONE_STATE
+		});
+
 		clearEntries();
 	}
 
@@ -473,9 +464,16 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 				Log.i(">>> DEBUG " + CLASS_TAG, "passThisJRV " + mPassThisJrv);
 
 				duiSwitchCase = 0;
-				if (!permissionC || !permissionD || !permissionP) {
-					ah.createCustomToast("Camera/Storage/Phone Permissions Not Granted \n Please Enable Camera/Storage/Phone Permissions");
-				} else {
+
+				hasProperPermissions = Hardware.hasPermissions(LoginActivity.this.getApplicationContext(), new String[] {
+						Manifest.permission.CAMERA,
+						Manifest.permission.READ_EXTERNAL_STORAGE,
+						Manifest.permission.READ_PHONE_STATE
+				});
+
+				if (! hasProperPermissions)
+						{ ah.createCustomToast("Necesita activar los permisos de Camara, Storage y Telefono para continuar.");
+					} else {
 					jrvInt = ah.parseInt(jrvNumber, 0);
 					jrvInt--;
 					if (jrvInt >= 0 && jrvInt <= 104249) {
@@ -661,6 +659,10 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 			clearEntries();
 		}
 	}
+
+	/**
+	 * Reset all input views
+	 */
 	private void clearEntries(){
 //		enterJrv.setText("");
 		mDuiOne.setText("");
@@ -783,6 +785,9 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		}
 	}
 
+	/**
+	 * Hide DUIs textviews and buttons, network and text info views
+	 */
 	private void abraKadabra(){
 		findViewById(R.id.duiOne).setVisibility(View.GONE);
 		findViewById(R.id.duiTwo).setVisibility(View.GONE);
@@ -794,6 +799,9 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		findViewById(R.id.textInfo).setVisibility(View.GONE);
 	}
 
+	/**
+	 * Show DUIs textviews and buttons, network and text info views
+	 */
 	private void alakazam(){
 		findViewById(R.id.duiOne).setVisibility(View.VISIBLE);
 		findViewById(R.id.duiTwo).setVisibility(View.VISIBLE);
