@@ -16,986 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5a8778-207d-4253-bd4c-25fdd4b34c1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000001012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000612.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000000712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000001012.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-release.aar" afterPath="$PROJECT_DIR$/app/build/outputs/aar/app-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1000000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000011222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070422.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000090122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000090522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000091122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000101022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000111022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000120122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000120522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130822.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130922.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000140122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000140122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/100000140522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/100000140522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1200000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1500000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1600000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1700000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1800000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/1900000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2000000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000011222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070422.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000090122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000090522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000091122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000101022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000111022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000120122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000120522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130822.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130922.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/200000140522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/200000140522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2200000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/2400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000011222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070422.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000090122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000090522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000091122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000100122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000100122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000100622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000101022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000111022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000120122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000120522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130822.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130922.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000140122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000140122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/300000140522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/300000140522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/400000111022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/400000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050222.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/500000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030322.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/600000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000020122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000020522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000021022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/700000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/700000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/800000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/800000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000011022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040122.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040522.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040622.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040722.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/drawable/900000041022.png" afterPath="$PROJECT_DIR$/app/src/main/assets/drawable/900000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" afterPath="$PROJECT_DIR$/app/src/main/assets/parlacen_dbv10.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1000000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000011222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070422.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000090122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000090522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000091122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000101022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000111022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000120122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000120522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130822.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130922.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000140122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000140122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000140522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic100000140522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1200000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1500000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1600000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1700000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1800000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic1900000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2000000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000011222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070422.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000090122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000090522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000091122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000100522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000100522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000100622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000101022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000111022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000120122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000120522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130822.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130922.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000140122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic200000140122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2100000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2200000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic2400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000011222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000011222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070422.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070422.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000070522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000090122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000090122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000090522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000090522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000091122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000091122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000100622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000101022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000101022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000111022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000120122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000120122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000120522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000120522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130822.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130822.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130922.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000130922.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000140122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000140122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000140522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic300000140522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000080722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000110722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000111022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic400000111022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050222.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000050622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic500000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000030622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060322.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060322.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic600000060722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000020122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000020122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000020522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000020522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000021022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000021022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic700000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010622.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000040722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000041022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic800000041022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000010522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000010522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000010722.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000010722.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000011022.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000011022.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040122.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040122.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040522.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040522.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040622.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pic900000040622.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/dataBinding/release/android/databinding/layouts/DataBindingInfo.java" afterPath="$PROJECT_DIR$/app/build/generated/source/dataBinding/release/android/databinding/layouts/DataBindingInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asamblea/asamblea.iml" afterPath="$PROJECT_DIR$/asamblea/asamblea.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" afterPath="$PROJECT_DIR$/hondurasasamblea/hondurasasamblea.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" afterPath="$PROJECT_DIR$/hondurasmayor/hondurasmayor.iml" />
@@ -1034,58 +60,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyTableActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/EmptyTableActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hardware.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/Hardware.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChallengeHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6970">
+              <caret line="418" column="13" selection-start-line="418" selection-start-column="13" selection-end-line="418" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#21576#21638#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseAdapterParlacen.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
+      <file leaf-file-name="drawSignature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/fragments/drawSignature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="1549" column="23" selection-start-line="1549" selection-start-column="23" selection-end-line="1549" selection-end-column="23" />
+            <state relative-caret-position="229">
+              <caret line="322" column="27" selection-start-line="322" selection-start-column="27" selection-end-line="322" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceActaImageTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/webservice/WebServiceActaImageTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="328" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogToConfirmDuiTwoBtns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/fragments/DialogToConfirmDuiTwoBtns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -11303,6 +10328,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -11357,7 +10383,29 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElSalvador_Honduras" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v11" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -11365,7 +10413,6 @@
       </pane>
       <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -12150,31 +11197,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/FinalTableLazyLoadingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28407">
-          <caret line="1679" column="0" selection-start-line="1679" selection-start-column="0" selection-end-line="1679" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/VerticalConceptoTableActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23800">
-          <caret line="1400" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/ParlacenVoteTableActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mermanager/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -12287,7 +11309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="669" column="40" selection-start-line="669" selection-start-column="40" selection-end-line="669" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -12311,7 +11332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -12330,18 +11350,6 @@
         <state relative-caret-position="201">
           <caret line="422" column="27" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="530" column="103" selection-start-line="530" selection-start-column="103" selection-end-line="530" selection-end-column="103" />
-          <folding>
-            <element signature="e#2173#2174#0" expanded="false" />
-            <element signature="e#2205#2206#0" expanded="false" />
-            <element signature="e#22643#22700#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -12383,7 +11391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="1559" column="30" selection-start-line="1559" selection-start-column="25" selection-end-line="1559" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -12422,7 +11429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="1065" column="116" selection-start-line="1065" selection-start-column="116" selection-end-line="1065" selection-end-column="116" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -12464,9 +11470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="1400" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1400" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -12474,19 +11477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -12525,13 +11516,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="6358">
           <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
           <folding />
         </state>
@@ -12539,7 +11529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/EmptyTableActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="1139">
           <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
           <folding />
         </state>
@@ -12555,11 +11545,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/data/DatabaseAdapterParlacen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="1549" column="23" selection-start-line="1549" selection-start-column="23" selection-end-line="1549" selection-end-column="23" />
+        <state relative-caret-position="756">
+          <caret line="1550" column="5" selection-start-line="1550" selection-start-column="5" selection-end-line="1550" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/activities/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/fragments/DialogToConfirmDuiTwoBtns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/utils/ChallengeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6970">
+          <caret line="418" column="13" selection-start-line="418" selection-start-column="13" selection-end-line="418" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#21576#21638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/fragments/drawSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="322" column="27" selection-start-line="322" selection-start-column="27" selection-end-line="322" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/afilon/mayor/v11/webservice/WebServiceActaImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="328" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
