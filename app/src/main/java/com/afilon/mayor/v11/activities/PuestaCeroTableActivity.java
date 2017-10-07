@@ -173,9 +173,15 @@ public class PuestaCeroTableActivity extends AfilonListActivity {
 //				b.putParcelable("com.afilon.assembly.applog", applog); //CARLOS: 2014-09-18
 //				b.putString("submitterOne", submitterOne);
 //				b.putString("escrudataMap", list);
+				Intent search;
+				if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+					search = new Intent(PuestaCeroTableActivity.this,
+							Consts.BALLOTCOUNTER_ES);
+				}else{
+					search = new Intent(PuestaCeroTableActivity.this,
+							Consts.CONCEPTOACT);
+				}
 
-				Intent search = new Intent(PuestaCeroTableActivity.this,
-						Consts.CONCEPTOACT);
 				search.putExtras(b);
 				startActivity(search);
 				finish();

@@ -173,10 +173,11 @@ public class LoginActivity extends AfilonActivity implements DataResponseCallbac
 		// ************** End of Cleaning Database *************************
 
 
-
+        // clear other flags:
 		ah.removePreferences("provisionalTriggered"); //This is created in WebViewJrvActivity
 		ah.removePreferences("sendDataBtnTriggered");
 		ah.removePreferences("sendImageBtnTriggered");
+		ah.removePreferences("ballotNumber");
 
 
 

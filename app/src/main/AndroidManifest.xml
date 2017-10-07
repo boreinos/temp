@@ -200,6 +200,7 @@
     <application>
         <activity android:name=".activities.DirectVoteCounter" />
         <activity android:name=".activities.VoteCounterActivity"></activity>
+        <activity android:name=".activities.VoteCounterActivityES"></activity>
     </application>
 
 </manifest>

@@ -19,6 +19,7 @@ import com.afilon.mayor.v11.adapters.PartyListAdapter;
 
 import com.afilon.mayor.v11.R;
 import com.afilon.mayor.v11.data.DatabaseAdapterParlacen;
+import com.afilon.mayor.v11.fragments.FourButtonFragment;
 import com.afilon.mayor.v11.fragments.ThreeButtonFragment;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogEditTextFragment4Boletas;
 import com.afilon.mayor.v11.model.DirectParty;
@@ -45,31 +46,38 @@ public class VoteCounterActivityES extends AfilonActivity {
     Utilities utilities;
     private LinkedHashMap valuesMap;
 
-    int ballotNumber = 0,
-            ballotTotal = 0;
-    private static final int ADD_BALLOT = 1,
-            DROP_BALLOT = 2;
+    private int ballotNumber = 0, ballotTotal = 0;
+    private static final int ADD_BALLOT       = 1,
+                             DROP_BALLOT      = 2,
+                             SELECT_NULO      = 3,
+                             SELECT_EMPTY     = 4,
+                             SELECT_IMPUGNADO = 5,
+                             SELECT_CRUZADO   = 6;
     VoteCounterActivityES.BallotBreakdown summary;
     private ChallengeHelper challengeHelper;
-    private static final String INVALID = "Papeleta\nInvalida",
-            DISCARD = "Descartar\nRestantes",
-            ADD = "Añadir\nPapeletas",
-            INGRESSO = "Ingresar",
-            SAVE = "Guardar",
-            REENTER = "Reingresar",
-            CONFIRM = "Confirmar",
-            CORREGIR = "Corregir",
-            ACCEPT = "Aceptar",
-            NEXT = "Proxima",
-            CANCEL="Cancelar",
-            NULO="Nulo",
-            EMPTY="En Blanco";
+    private static final String INVALID  = "Papeleta\nInvalida",
+                                DISCARD  = "Descartar\nRestantes",
+                                ADD      = "Añadir\nPapeletas",
+                                INGRESSO = "Ingresar",
+                                SAVE     = "Guardar",
+                                REENTER  = "Reingresar",
+                                CONFIRM  = "Confirmar",
+                                CORREGIR = "Corregir",
+                                ACCEPT   = "Aceptar",
+                                NEXT     = "Proxima",
+                                CANCEL   = "Cancelar",
+                                NULO     = "Nulo",
+                                EMPTY    = "Abstencion",
+                                RE_INVALID ="Re-invalido",
+                                IMPUGNADO= "Impugnado",
+                                CROSS    = "Cruzado";
+    private String currentBtnSelection;
     private Button invalidBtn,
-            discardBtn,
-            ingressoBtn,
-            acceptBtn,
-            nextBtn;
-
+                   discardBtn,
+                   ingressoBtn,
+                   acceptBtn,
+                   nextBtn,
+                   crossBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +85,7 @@ public class VoteCounterActivityES extends AfilonActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_vote_counter);
+        setContentView(R.layout.activity_vote_counter_es);
         utilities = new Utilities(this);
         db_adapter = new DatabaseAdapterParlacen(this);
         db_adapter.open();
@@ -87,6 +95,10 @@ public class VoteCounterActivityES extends AfilonActivity {
         // REGISTER ROUTINES TO CHALLENGE HELPER:
         challengeHelper.addRoutine(ADD_BALLOT, add_ballots);
         challengeHelper.addRoutine(DROP_BALLOT, drop_ballots);
+        challengeHelper.addRoutine(SELECT_NULO,select_nulo);
+        challengeHelper.addRoutine(SELECT_EMPTY,select_blank);
+        challengeHelper.addRoutine(SELECT_IMPUGNADO,select_impugnado);
+        challengeHelper.addRoutine(SELECT_CRUZADO,select_cruzado);
         challengeHelper.addCustomKeyBoard(R.id.keyboardview);
         challengeHelper.setTools(utilities, db_adapter);
         //-----------------------------------------------------------------------------------
@@ -101,18 +113,21 @@ public class VoteCounterActivityES extends AfilonActivity {
         valuesMap = gson.fromJson(map,LinkedHashMap.class);
         String votes = escrudata.getPartyVotes();
 
-        summary.setInitial(utilities.parseInt((String)valuesMap.get("VOTOS VALIDOS"),0),
-                utilities.parseInt((String)valuesMap.get("NULOS"),0),
-                utilities.parseInt((String)valuesMap.get("EN BLANCO"),0));
+        summary.setInitial( utilities.parseInt((String)valuesMap.get("VOTOS VALIDOS"),0),
+                           utilities.parseInt((String)valuesMap.get("NULOS"),0),
+                           utilities.parseInt((String)valuesMap.get("ABSTENCIONES"),0),
+                           utilities.parseInt((String)valuesMap.get("IMPUGNADOS"),0));
 
         ((TextView) findViewById(R.id.valid_votes)).setText(String.valueOf(summary.getValidBallots()));
         ((TextView) findViewById(R.id.null_votes)).setText(String.valueOf(summary.getNullBallots()));
         ((TextView) findViewById(R.id.enblanco_votes)).setText(String.valueOf(summary.getEmptyBallots()));
         ((TextView) findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
+        ((TextView) findViewById(R.id.cruzado_votes)).setText(String.valueOf(summary.getCruzadoBallots()));
+        ((TextView) findViewById(R.id.impugnado_votes)).setText(String.valueOf(summary.getImpugnados()));
         //-------------------------------------------------------------------------------------
         // set ballot Number:
         ballotNumber = utilities.loadPreferences("ballotNumber") + 1;
-        ballotTotal =  utilities.parseInt((String)valuesMap.get("UTILIZADAS"),0); //utilized ballots //todo: update utilizadas
+        ballotTotal =  utilities.parseInt(escrudata.getEntregadas(),0);  // utilities.parseInt((String)valuesMap.get("UTILIZADAS"),0); //utilized ballots //todo: update utilizadas
         ((TextView) findViewById(R.id.current_ballot)).setText(String.valueOf(ballotNumber));
         ((TextView) findViewById(R.id.total_ballots)).setText(String.valueOf(ballotTotal));
         //-------------------------------------------------------------------------------------
@@ -162,23 +177,21 @@ public class VoteCounterActivityES extends AfilonActivity {
         ingressoBtn = (Button) findViewById(R.id.ingreso_btn);
         acceptBtn = (Button) findViewById(R.id.accept_btn);
         nextBtn = (Button) findViewById(R.id.nextballot_btn);
+        crossBtn = (Button) findViewById(R.id.crossvote_btn);
+        if(getResources().getString(R.string.electionType).equals(Consts.ASAMBLEA)){
+            crossBtn.setVisibility(View.VISIBLE);
+            findViewById(R.id.cruzado_label).setVisibility(View.VISIBLE);
+            findViewById(R.id.cruzado_votes).setVisibility(View.VISIBLE);
+        }
         // set text and color:
-        invalidBtn.setText(INVALID);
-        discardBtn.setText(DISCARD);
-        ingressoBtn.setText(INGRESSO);
-        acceptBtn.setText(ACCEPT);
-        nextBtn.setText(NEXT);
-        utilities.setButtonColorGreen(invalidBtn);
-        utilities.setButtonColorRed(discardBtn);
-        utilities.setButtonColorGreen(ingressoBtn);
-        utilities.setButtonColorRed(acceptBtn);
-        utilities.setButtonColorRed(nextBtn);
+        setButtonsToStart();
         // set Listeners:
         ingressoBtn.setOnClickListener(getIngresoListener());
         acceptBtn.setOnClickListener(getAcceptListener());
         nextBtn.setOnClickListener(getNextListener());
         discardBtn.setOnClickListener(getDropListener());
         invalidBtn.setOnClickListener(getInvalidMenu());
+        crossBtn.setOnClickListener(getCrossvoteListener());
     }
 
     private View.OnClickListener getIngresoListener() {
@@ -193,6 +206,7 @@ public class VoteCounterActivityES extends AfilonActivity {
                         nextLabel = REENTER;
                         utilities.setButtonColorRed(btn);
                         utilities.setButtonColorRed(invalidBtn);
+                        utilities.setButtonColorRed(crossBtn);
                         break;
                     case SAVE:
                         // turn to save mode:
@@ -283,20 +297,43 @@ public class VoteCounterActivityES extends AfilonActivity {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                challengeHelper.createThreeButtonMenu(CANCEL,NULO,EMPTY,menuListener);
+                challengeHelper.createFourButtonMenu(CANCEL,NULO,EMPTY,IMPUGNADO,toastMenuListener);
+            }
+        };
+    }
+
+    private View.OnClickListener getCrossvoteListener(){
+        return new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+CROSS,SELECT_CRUZADO);
             }
         };
     }
 
     private void nextActivity() {
         //todo: persit ballot number and total ballots
+        calculateEscrutadasFaltantes();
         if(!db_adapter.isOpen())db_adapter.open();
         db_adapter.updateConceptsCount(valuesMap,vc.getJRV()); // Save Concepts to DB
         storeVotesInDB();
-        Intent search = new Intent(VoteCounterActivityES.this,  Consts.RECACT);
+        Intent search = new Intent(VoteCounterActivityES.this,  Consts.CONCEPTOACT);
         search.putExtras(prepareBundle());
         startActivity(search);
         finish();
+    }
+
+    private void calculateEscrutadasFaltantes(){
+        int escrutadas = utilities.parseInt(escrudata.getSobrantes(),0) + utilities.parseInt(escrudata.getInutilizadas(),0) + summary.getGranTotalBallots();
+        int faltantes = ballotTotal - summary.getGranTotalBallots(); //ballotTotal is entregadas
+        valuesMap.put("ESCRUTADAS",String.valueOf(escrutadas));
+        valuesMap.put("FALTANTES",String.valueOf(faltantes));
+        valuesMap.put("SOBRANTES",escrudata.getSobrantes());
+        valuesMap.put("INUTILIZADAS",escrudata.getInutilizadas());
+        valuesMap.remove("GRAN TOTAL");
+        Gson gson = new Gson();
+        String jsonValueMap = gson.toJson(valuesMap);
+        escrudata.setValuMap(jsonValueMap);
     }
 
     private boolean mismatches() {
@@ -329,9 +366,7 @@ public class VoteCounterActivityES extends AfilonActivity {
 
         view_adapter.correctMode(false);
         view_adapter.saveMode(true);
-        ingressoBtn.setText(INGRESSO);
-        utilities.setButtonColorGreen(ingressoBtn);
-        utilities.setButtonColorGreen(invalidBtn);
+        setButtonsToStart();
         ((TextView) findViewById(R.id.current_ballot)).setText(String.valueOf(++ballotNumber));
 
         //todo: persist data sqlite
@@ -359,6 +394,7 @@ public class VoteCounterActivityES extends AfilonActivity {
     }
 
     String nextLabel;
+
     PartyListAdapter.PartyListListener checkListener = new PartyListAdapter.PartyListListener() {
         @Override
         public void onItemSelected() {
@@ -388,6 +424,8 @@ public class VoteCounterActivityES extends AfilonActivity {
         private int validBallots = 0;
         private int nullBallots = 0;
         private int emptyBallots = 0;
+        private int impugnadoBallots = 0;
+        private int cruzadoBallots = 0;
         private int granTotalBallots;
 
         public int addValidBallot() {
@@ -402,8 +440,14 @@ public class VoteCounterActivityES extends AfilonActivity {
             return ++emptyBallots;
         }
 
+        public int addCruzadoBallot(){++validBallots; return ++cruzadoBallots;}
+
+        public int getCruzadoBallots(){
+            return cruzadoBallots;
+        }
+
         public int getGranTotalBallots() {
-            return validBallots + nullBallots + emptyBallots;
+            return validBallots + nullBallots + emptyBallots+impugnadoBallots;  // cruzados are part of valid votes
         }
 
         public int getValidBallots() {
@@ -417,8 +461,15 @@ public class VoteCounterActivityES extends AfilonActivity {
         public int getEmptyBallots() {
             return emptyBallots;
         }
-        public void setInitial(int valid, int nullb, int empty){
+
+        public int addImpugnados(){ return ++impugnadoBallots;}
+
+        public int getImpugnados() {return impugnadoBallots;}
+
+        public void setInitial( int valid, int nullb, int empty, int impugnados){
+
             validBallots=valid;
+            this.impugnadoBallots = impugnados;
             nullBallots=nullb;
             emptyBallots=empty;
         }
@@ -503,42 +554,178 @@ public class VoteCounterActivityES extends AfilonActivity {
                 }
             };
 
-    ThreeButtonFragment.ThreeButtonListener menuListener = new ThreeButtonFragment.ThreeButtonListener() {
-        @Override
-        public void onFirstButtonClicked() {
-            //cancel butn
-        }
 
-        @Override
-        public void onSecondButtonClicked() {
-            //todo: persist data
-            //NULOS BALLOTS:
-            utilities.setButtonColorRed(invalidBtn);
-            utilities.setButtonColorRed(ingressoBtn);
-            utilities.setButtonColorGreen(nextBtn);
-            int nullBallolts = summary.addNullBallot();
-            String nullCount = String.valueOf(nullBallolts);
-            valuesMap.put("NULOS",nullCount);
-            updatePersistBallotCount();
-            ((TextView)findViewById(R.id.null_votes)).setText(nullCount);
-            ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
-//            nextBallot();
-        }
+    private void markBallotImpugnado(){
+        //todo: persist data
+        //NULOS BALLOTS:
+        setBtnColorsEntryCompleted();
+        int impunadoBallots = summary.addImpugnados();
+        String impugnadoCount = String.valueOf(impunadoBallots);
+        valuesMap.put("IMPUGNADOS",impugnadoCount);
+        updatePersistBallotCount();
+        ((TextView)findViewById(R.id.impugnado_votes)).setText(impugnadoCount);
+        ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
 
+    }
+
+    private void markBallotNulo(){
+        //todo: persist data
+        //NULOS BALLOTS:
+        setBtnColorsEntryCompleted();
+        int nullBallolts = summary.addNullBallot();
+        String nullCount = String.valueOf(nullBallolts);
+        valuesMap.put("NULOS",nullCount);
+        updatePersistBallotCount();
+        ((TextView)findViewById(R.id.null_votes)).setText(nullCount);
+        ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
+    }
+
+    private void markBallotAbstained(){
+        //todo: persist data
+        // EMPTY BALLOTS:
+        setBtnColorsEntryCompleted();
+        int emptyBallots = summary.addEmptyBallot();
+        String emptyCount = String.valueOf(emptyBallots);
+        valuesMap.put("ABSTENCIONES",emptyCount);
+        updatePersistBallotCount();
+        ((TextView)findViewById(R.id.enblanco_votes)).setText(emptyCount);
+        ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
+
+    }
+
+    private void markBallotCruzado(){
+        //todo: have to display the cruzado counts
+        setBtnColorsEntryCompleted();
+        int cruzadoBallots = summary.addCruzadoBallot();
+        String cruzadoCount = String.valueOf(cruzadoBallots);
+        valuesMap.put("VOTOS CRUZADOS",cruzadoCount);
+        utilities.savePreferences(Consts.VOTO_CRUZADO,cruzadoBallots); // save on preferences
+        updatePersistBallotCount();
+        ((TextView)findViewById(R.id.cruzado_votes)).setText(cruzadoCount);
+        ((TextView)findViewById(R.id.valid_votes)).setText(String.valueOf(summary.getValidBallots()));
+        ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
+    }
+
+    private void setBtnColorsEntryCompleted(){
+        utilities.setButtonColorRed(invalidBtn);
+        utilities.setButtonColorRed(ingressoBtn);
+        utilities.setButtonColorRed(crossBtn);
+        utilities.setButtonColorGreen(nextBtn);
+    }
+
+    private ChallengeHelper.OnApprove select_nulo = new ChallengeHelper.OnApprove() {
         @Override
-        public void onThirdButtonClicked() {
-            //todo: persist data
-            // EMPTY BALLOTS:
-            utilities.setButtonColorRed(invalidBtn);
-            utilities.setButtonColorRed(ingressoBtn);
-            utilities.setButtonColorGreen(nextBtn);
-            int emptyBallots = summary.addEmptyBallot();
-            String emptyCount = String.valueOf(emptyBallots);
-            valuesMap.put("EN BLANCO",emptyCount);
-            updatePersistBallotCount();
-            ((TextView)findViewById(R.id.enblanco_votes)).setText(emptyCount);
-            ((TextView)findViewById(R.id.grantotal_votes)).setText(String.valueOf(summary.getGranTotalBallots()));
-//            nextBallot();
+        public void approved() {
+            markBallotNulo();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_blank = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {
+            markBallotAbstained();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_impugnado = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {markBallotImpugnado();
+        }
+    };
+
+    private ChallengeHelper.OnApprove select_cruzado = new ChallengeHelper.OnApprove() {
+        @Override
+        public void approved() {
+            markBallotCruzado();
+        }
+    };
+
+    private void rejectInvalidSelection(){
+        utilities.createCustomToast(getResources().getString(R.string.invalidEntryMismatch));
+        setButtonsToStart();
+    }
+
+    private void setButtonsToStart(){
+        invalidBtn.setText(INVALID);
+        discardBtn.setText(DISCARD);
+        ingressoBtn.setText(INGRESSO);
+        acceptBtn.setText(ACCEPT);
+        nextBtn.setText(NEXT);
+        crossBtn.setText(CROSS);
+        utilities.setButtonColorGreen(invalidBtn);
+        utilities.setButtonColorRed(discardBtn);
+        utilities.setButtonColorGreen(ingressoBtn);
+        utilities.setButtonColorRed(acceptBtn);
+        utilities.setButtonColorRed(nextBtn);
+        utilities.setButtonColorGreen(crossBtn);
+    }
+
+    private void setButtonsInvalidRentry(){
+        invalidBtn.setText(RE_INVALID);
+        utilities.setButtonColorRed(nextBtn);
+        utilities.setButtonColorRed(acceptBtn);
+        utilities.setButtonColorGreen(invalidBtn);
+    }
+
+    FourButtonFragment.ToastMenuListener toastMenuListener = new FourButtonFragment.ToastMenuListener(){
+        @Override
+        public void onFirstButtonClicked(){}
+        @Override
+        public void onSecondButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = NULO;
+                    setButtonsInvalidRentry();
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(NULO)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+NULO,SELECT_NULO);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+        @Override
+        public void onThirdButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = EMPTY;
+                    setButtonsInvalidRentry();
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(EMPTY)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+EMPTY,SELECT_EMPTY);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+        @Override
+        public void onFourthButtonClicked(){
+            String label = invalidBtn.getText().toString();
+            switch (label){
+                case INVALID:
+                    currentBtnSelection = IMPUGNADO;
+                    setButtonsInvalidRentry();
+                    break;
+                case RE_INVALID:
+                    if(currentBtnSelection.equals(IMPUGNADO)){
+                        challengeHelper.createDialog(getResources().getString(R.string.confirmInvalid)+IMPUGNADO,SELECT_IMPUGNADO);
+                    }else{
+                        rejectInvalidSelection();
+                    }
+                    break;
+                default:
+                    break;
+            }
         }
     };
 

@@ -580,6 +580,9 @@ public class PapeletasActivity extends AfilonActivity implements
                 totalPapeletasTxt.setVisibility(View.VISIBLE);
 
                 int entregadas = Integer.parseInt(totalPapeletasCalculado.getText().toString()) - Integer.parseInt(sobrantes) - Integer.parseInt(inutilizadas);
+                escrudata.setEntregadas(String.valueOf(entregadas));
+                escrudata.setSobrantes(sobrantes);
+                escrudata.setInutilizadas(inutilizadas);
 
                 ent1.setText(String.valueOf(entregadas));
                 ent2.setText(ent1.getText().toString());

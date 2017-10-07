@@ -25,6 +25,7 @@ import com.afilon.mayor.v11.activities.SummaryActivity;
 import com.afilon.mayor.v11.activities.SummaryActivityPreferential;
 import com.afilon.mayor.v11.activities.VerticalConceptoTableActivity;
 import com.afilon.mayor.v11.activities.VoteCounterActivity;
+import com.afilon.mayor.v11.activities.VoteCounterActivityES;
 import com.afilon.mayor.v11.activities.WebViewJrvActivity;
 import com.afilon.mayor.v11.fragments.DialogToConfirmDuiTwoBtns;
 
@@ -129,6 +130,7 @@ public final class Consts {
 	public static final Class EXITACT = ExitActivity.class;
 	public static final Class DIALOGTOCONFIRMDUITWOBTNS = DialogToConfirmDuiTwoBtns.class;
 	public static final Class VOTECOUNTER = VoteCounterActivity.class;
+	public static final Class BALLOTCOUNTER_ES = VoteCounterActivityES.class;
 
 
 	public static final String FLAGVOTE = "Bandera";
