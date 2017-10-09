@@ -36,6 +36,7 @@ import com.afilon.mayor.v11.fragments.TwoButtonDialogFragment;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogFragment.OnTwoButtonDialogFragmentListener;
 import com.afilon.mayor.v11.model.CandidateMarks;
 import com.afilon.mayor.v11.model.Escrudata;
+import com.afilon.mayor.v11.model.Party;
 import com.afilon.mayor.v11.model.PreferentialCandidateVotes;
 import com.afilon.mayor.v11.model.PreferentialPartyVotes;
 import com.afilon.mayor.v11.model.PreferentialVotoBanderas;
@@ -75,6 +76,7 @@ public class LastActivity extends AfilonActivity implements
     private ArrayList<String> logTest;
     private List<elsaLog> log;
     private String[] logElement = new String[7];
+    private ArrayList<Party> partyArrayList;
 
     @SuppressLint("LongLogTag")
     @Override
@@ -140,6 +142,7 @@ public class LastActivity extends AfilonActivity implements
                 createDialog("  \u00BFDESEA CERRAR?  ", 3);
             }
         });
+        partyArrayList = db_adapter.getParlacenPartiesArrayList(electionId);
 
         sendData_btn = (Button) findViewById(R.id.enviar_btn);
         ah.setButtonColorGreen(sendData_btn);
@@ -272,6 +275,7 @@ public class LastActivity extends AfilonActivity implements
     private void sendImagesTasks() {
 
         WebServiceActaImageTask uploadActaImageTaskOne;
+        boolean isES_ASAMBLEA = Consts.LOCALE.equals(Consts.ELSALVADOR) && getResources().getString(R.string.electionType).equals(Consts.ASAMBLEA);
 
         if (!webservice_confirmationTv.getText().toString().equals("TRANSMISION: POSITIVA")) {
 
@@ -287,11 +291,21 @@ public class LastActivity extends AfilonActivity implements
 
                     uploadActaImageTaskOne = new WebServiceActaImageTask();
                     if (j == totalNumberOfImagePics - 1) {
-                        uploadActaImageTaskOne
-                                .setResponseCallback(LastActivity.this);
+                        uploadActaImageTaskOne.setResponseCallback(LastActivity.this);
                     }
+                    String fileName;
+                    if(isES_ASAMBLEA && j>0){
+                           fileName = jrvNumber + getResources().getString(R.string.imageType)
+                                   + String.valueOf(alphabetArray[j])+"_"
+                                   + partyArrayList.get(j-1).getParty_preferential_election_id();
+                    }else{
+                        fileName =jrvNumber + getResources().getString(R.string.imageType) + alphabetArray[j];
+                    }
+                    Log.e("FileName",fileName);
 
-                    uploadActaImageTaskOne.postData(LastActivity.this, Consts.PREF_ELECTION_IMAGE_URL, jrvNumber + getResources().getString(R.string.imageType) + alphabetArray[j], electionId);
+                    uploadActaImageTaskOne.postData(LastActivity.this, Consts.PREF_ELECTION_IMAGE_URL, fileName, electionId);
+//                    uploadActaImageTaskOne.postData(LastActivity.this, Consts.PREF_ELECTION_IMAGE_URL, jrvNumber + getResources().getString(R.string.imageType) + alphabetArray[j], electionId);
+
 //                    ah.createCustomToast(Consts.PREF_ELECTION_IMAGE_URL, jrvNumber + getResources().getString(R.string.imageType)
 //                            + alphabetArray[j]);
                 }
@@ -500,6 +514,7 @@ public class LastActivity extends AfilonActivity implements
         }
         return inFiles;
     }
+
 
 
     private class log{

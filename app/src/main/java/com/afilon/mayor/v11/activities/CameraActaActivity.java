@@ -142,6 +142,7 @@ public class CameraActaActivity extends AfilonActivity implements
             db_adapter = new DatabaseAdapterParlacen(this);
             db_adapter.open();
             partyArrayList = db_adapter.getParlacenPartiesArrayList(vc.getPref_election_id());
+
             if (!isDirectVote) {
                 totalNumberOfImagePics = partyArrayList.size() + 1;
                 if (totalNumberOfImagePics > iNumbOfMaxPicturesAllowed) {
@@ -307,13 +308,24 @@ public class CameraActaActivity extends AfilonActivity implements
                 //descartar counter
                 iDescartar++;
                 if ((currentPictureNmb + 1) <= (totalNumberOfImagePics)) {
-                    pictureNmb_tv.setText("" + String.valueOf(alphabetArray[currentPictureNmb]));
+                    String pictureLabel = String.valueOf(alphabetArray[currentPictureNmb])+" "+partyArrayList.get(currentPictureNmb-1).getParty_name();
+                    pictureNmb_tv.setText( pictureLabel);
                     Log.d("TO TAKE LESS TOTAL",
                             String.valueOf(currentPictureNmb)
                                     + " ---"
                                     + String.valueOf(totalNumberOfImagePics));
 
-                    actaFileName = vc.getJrvString() + getResources().getString(R.string.imageType) + String.valueOf(alphabetArray[currentPictureNmb]);
+
+                    //actaFileName =  vc.getJrvString() + getResources().getString(R.string.imageType) + String.valueOf(alphabetArray[currentPictureNmb]);//
+                   // actaFileName = currentPictureNmb<2?  vc.getJrvString() + getResources().getString(R.string.imageType) + String.valueOf(alphabetArray[currentPictureNmb])+vc.getPref_election_id():
+                   //                                      vc.getJrvString() + getResources().getString(R.string.imageType) + String.valueOf(alphabetArray[currentPictureNmb])+partyArrayList.get(currentPictureNmb-2).getParty_preferential_election_id();
+                    String fileName =  vc.getJrvString() + getResources().getString(R.string.imageType)
+                                  + String.valueOf(alphabetArray[currentPictureNmb])+"_"
+                                  + partyArrayList.get(currentPictureNmb-1).getParty_preferential_election_id();
+                    Log.e("FileName",fileName);
+                    actaFileName = fileName;
+
+
                     camera.startPreview();
                     if (currentPictureNmb == totalNumberOfImagePics) {
                         ah.setButtonColorRed(takePicBtn);

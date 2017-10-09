@@ -331,6 +331,7 @@ public class VoteCounterActivityES extends AfilonActivity {
         valuesMap.put("SOBRANTES",escrudata.getSobrantes());
         valuesMap.put("INUTILIZADAS",escrudata.getInutilizadas());
         valuesMap.remove("GRAN TOTAL");
+        valuesMap.remove("VOTOS VALIDOS"); //todo: find out if maybe we should keep them.
         Gson gson = new Gson();
         String jsonValueMap = gson.toJson(valuesMap);
         escrudata.setValuMap(jsonValueMap);

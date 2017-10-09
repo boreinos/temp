@@ -57,7 +57,7 @@ public final class Consts {
 	public static final String enlacePassword = "Xerr0rD@t@2014Now";
 
 	public static final String PREF_ELECTION_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webApp)+"/rest/save";
-	public static final String PREF_ELECTION_IMAGE_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.imageApp)+"/rest/save/Image";
+	public static final String PREF_ELECTION_IMAGE_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.imageApp)+"/rest/save/ImageFolios";
 	public static final String PREF_ELECTION_SIG_URL = "https://four.afilon.com:8443/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webApp)+"/rest/save/Signatures";
     public static final String NEWMEMBERS = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/"+ ContextHandler.getElectionContext().getResources().getString(R.string.webUpdate)+"/";
 	public static final String GETMEMBERS = "https://four.afilon.com:8443/"+ContextHandler.getElectionContext().getResources().getString(R.string.staffApp) +"/rest/UserValidation/"+ContextHandler.getElectionContext().getResources().getString(R.string.webRequest)+"/";
