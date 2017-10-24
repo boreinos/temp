@@ -104,8 +104,8 @@ public final class Consts {
 	public static final String FOURTH_BTN="fourth_btn";
 
 	//TODO: debug only, remove
-//	public static final String LOCALE = "ELSA";
-	public static final String LOCALE = ContextHandler.getElectionContext().getResources().getString(R.string.locale);
+	public static final String LOCALE = ELSALVADOR;
+//	public static final String LOCALE = ContextHandler.getElectionContext().getResources().getString(R.string.locale);
 	public static final Class SPLASHACT = SplashActivity.class;
 	public static final Class LOGINACT = LoginActivity.class;
 	public static final Class JRVACT = JrvActivity.class;
