@@ -37,6 +37,7 @@ public class Ballot {
     public static final int CROS_MARK = 6;
     private int voteType = NULO;
     private float candidateVote = 0f;
+    private Notifications notifications;
 
 
     public Ballot(int maxBallotSize) {
@@ -102,6 +103,7 @@ public class Ballot {
         }
         updatePartyList(firstEntry);
     }
+
     public void checkBallot(){
         //check if ballot is valid at this point:
         if(firstEntry){
@@ -115,25 +117,27 @@ public class Ballot {
 
     public void removeCandidateES(CandidateCrossVote candidate) {
 
-
         if (firstEntry)
 
         {
             Party someparty = partySelection1.get(candidate.getPartyElectionId());
-            if (someparty == null) {
+
                 // the party is not selected.
                 List1.remove(candidate.getCandidatePrefElecId());
                 calcualteMultiplier();
+                if (someparty != null && List1.isEmpty()) {
+                    notifications.onlyFlagIsSelected(candidate.getPartyElectionId());
+                }
                 List1 = updateCandidateVote(List1);
-            }
 
         } else {
             Party someparty = partySelection1.get(candidate.getPartyElectionId());
-            if (someparty == null) {
                 List2.remove(candidate.getCandidatePrefElecId());
                 calcualteMultiplier();
+                if (someparty != null && List2.isEmpty()) {
+                    notifications.onlyFlagIsSelected(candidate.getPartyElectionId());
+                }
                 List2 = updateCandidateVote(List2);
-            }
         }
 
         updatePartyList(firstEntry);
@@ -166,8 +170,18 @@ public class Ballot {
     public void removeParty(Party party){
         if(firstEntry){
             partySelection1.remove(party.getParty_preferential_election_id());
+            if(partySelection1.size()==1){
+                //only one party left, notify that candidates should be selected:
+                for(Map.Entry<String, Party> entry : partySelection1.entrySet())
+                notifications.onlyFlagIsSelected(entry.getKey());
+            }
         }else{
             partySelection2.remove(party.getParty_preferential_election_id());
+            if(partySelection2.size()==1){
+                //only one party left, notify that candidates should be selected:
+                for(Map.Entry<String, Party> entry : partySelection2.entrySet())
+                    notifications.onlyFlagIsSelected(entry.getKey());
+            }
         }
         calcualteMultiplier();
     }
@@ -203,6 +217,7 @@ public class Ballot {
         popMismatches();
         findMismatchParty();
         findPartySelectionMismatches();// pop other type of mismatches
+
 
         return mismatch;
     }
@@ -318,7 +333,8 @@ public class Ballot {
         for (Map.Entry<String, CandidateCrossVote> entry : firstList.entrySet()) {
             String candidateId = entry.getKey();
             tempCandidate = secondList.get(candidateId);
-            if (tempCandidate != null) {
+            if (tempCandidate != null && (tempCandidate.isMarked() && entry.getValue().isMarked())) {
+                //TODO: LEFT HERE 10/24/17 SILL SINCE THE PARTY WAS A MATCH IT CAN'T BE FIXED, BUT NO ONE IS SELECTED!!!
                 matches.put(candidateId, tempCandidate);
             } else {
                 mismatch.put(candidateId, entry.getValue());
@@ -598,15 +614,6 @@ public class Ballot {
         float vote;
         if(firstEntry){
             float divider = (candidates.size()+List1.size());
-//            if(divider>maxBallotSize){
-//                Log.e("PARTY SELECTED", "NULL VOTE??");
-//                voteType=NULO;
-//            }
-//            if(voteType==NULO){
-//                vote = 0f;
-//            }else {
-//                vote = 1f/divider;
-//            }
             vote = 1f/divider;
             for(Candidate candidate:candidates){
                 CandidateCrossVote crossVote = new CandidateCrossVote(0, candidate.getCandidate_name(),
@@ -619,21 +626,10 @@ public class Ballot {
                     List1.put(ccv.getCandidatePrefElecId(),ccv);
                 }
             }
-//            if(List1.size()>maxBallotSize){
-//                voteType=NULO;
-//            }
             calcualteMultiplier();
             List1 = updateCandidateVote(List1);
         }else{
             float divider = (candidates.size()+List2.size());
-//            if(divider>maxBallotSize){
-//                voteType=NULO;
-//            }
-//            if(voteType==NULO){
-//                vote = 0f;
-//            }else {
-//                vote = 1f/divider;
-//            }
             vote = 1f/divider;
             for(Candidate candidate:candidates){
                 CandidateCrossVote crossVote = new CandidateCrossVote(0, candidate.getCandidate_name(),
@@ -641,16 +637,15 @@ public class Ballot {
                         candidate.getPartyName(), candidate.getCandidatePreferentialElectionID(),
                         false, vote);
                 crossVote.setPartyElectionId(candidate.getPartyPreferentialElectionID());
-                List2.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+                CandidateCrossVote ccv = List2.put(candidate.getCandidatePreferentialElectionID(), crossVote);
+                if(ccv!=null){
+                    List2.put(ccv.getCandidatePrefElecId(),ccv);
+                }
             }
-//            if(List2.size()>maxBallotSize){
-//                voteType=NULO;
-//            }
             calcualteMultiplier();
             List2 = updateCandidateVote(List2);
         }
         updatePartyList(firstEntry);
-
     }
 
     public void removeCandidatesFrom(ArrayList<Candidate> candidates){
@@ -667,7 +662,10 @@ public class Ballot {
 
         }else{
             for(Candidate candidate: candidates){
-                List2.remove(candidate.getCandidatePreferentialElectionID());
+                CandidateCrossVote ccv =   List2.remove(candidate.getCandidatePreferentialElectionID());
+                if(ccv != null && ccv.isMarked()){
+                    List2.put(ccv.getCandidatePrefElecId(),ccv);
+                }
             }
             calcualteMultiplier();
             List2 = updateCandidateVote(List2);
@@ -821,15 +819,15 @@ public class Ballot {
             if(!isPlanchaOrPreferential()){
                 // this is the case where at least one candidate on the list doesn't belong to the party
                 voteType = NULO;
-            }else if(){
+            }else if(hasMarks()){
                 //case where only plancha are selected:
-
-            }
-            else if(candidatelist.size() == maxBallotSize || candidatelist.size() ==0){
                 voteType = PREFERENTIAL;
                 // remove candidates that are not marked
                 removeUnmarkedCandidates();
-                //voteType = PLANCHA;
+            }
+            else if(candidatelist.size() == maxBallotSize || candidatelist.size() ==0){
+
+                voteType = PLANCHA;
                 // marks only when selected candidateMark = 0;
             }else if(candidatelist.size()<maxBallotSize){
                 voteType = PREFERENTIAL;
@@ -847,6 +845,7 @@ public class Ballot {
             }
         }
     }
+
     private void removeUnmarkedCandidates(){
         HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
         ArrayList<String> removeIds = new ArrayList<>();
@@ -858,6 +857,24 @@ public class Ballot {
         for(String id: removeIds){
             list.remove(id);
         }
+    }
+
+    private boolean hasMarks(){
+        HashMap<String, CandidateCrossVote> list = firstEntry ? List1 : List2;
+        for (Map.Entry<String, CandidateCrossVote> entry : list.entrySet()){
+            if(entry.getValue().isMarked()){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void setNotificatonVehicle(Notifications notificatonVehicle){
+        this.notifications = notificatonVehicle;
+    }
+
+    public interface Notifications{
+        void onlyFlagIsSelected(String partyId);
     }
 
 

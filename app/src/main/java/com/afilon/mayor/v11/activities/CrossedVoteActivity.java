@@ -270,6 +270,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         ballot = new Ballot(biggestPartyElements);
         ballot.setPartyArrayList(partyArrayList);
         ballot.setLocation(currentJrv, vc.getPref_election_id());
+        ballot.setNotificatonVehicle(ballotNotifications);
         //------------------------------------------------------------------------------------------
         Gson gson = new Gson();
         String map = escrudata.getValueMap();
@@ -1570,6 +1571,15 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         }
     };
 
+    Ballot.Notifications ballotNotifications = new Ballot.Notifications() {
+        @Override
+        public void onlyFlagIsSelected(String partyId) {
+           // ballot is notifying that only a flag vote remains:
+            selectedCandidatesFromES(partyId);
+
+        }
+    };
+
     private void rejectInvalidSelection(){
         util.createCustomToast(getResources().getString(R.string.invalidEntryMismatch));
         setButtonsToStart();
@@ -1673,6 +1683,10 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 (dialog.getActivity().findViewById(R.id.siguiente_btn)).performClick();
             }
         };
+    }
+
+    private void UpdateBallotData(){
+
     }
 
     //------------------------------------------------------------------------------------
