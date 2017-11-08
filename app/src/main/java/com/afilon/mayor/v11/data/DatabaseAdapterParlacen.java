@@ -601,6 +601,47 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return totalVotes;
     }
+    public float getBanderaVotes(String partyID){
+        float totalVotes = 0.0f;
+        String[] tableColumns = new String[]{"jrv",
+                "preferential_election_id", "bandera_preferential_election_id",
+                "party_preferential_election_id", "party_votes",
+                "party_boletas", "Party_Preferential_Votes", "party_cross_votes"};
+
+        Cursor cursor = database.query(PREFERENTIAL_ELECTION_BANDERA_VOTES,
+                tableColumns, "party_preferential_election_id=?", new String[]{partyID}, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+//            float cross = cursor.getFloat(7);
+//            float pref = cursor.getFloat(6);
+//            float band = cursor.getFloat(4);
+            totalVotes = cursor.getFloat(4);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return totalVotes;
+    }
+    public float getPreferentialVotes(String partyID){
+        float totalVotes = 0.0f;
+        String[] tableColumns = new String[]{"jrv",
+                "preferential_election_id", "bandera_preferential_election_id",
+                "party_preferential_election_id", "party_votes",
+                "party_boletas", "Party_Preferential_Votes", "party_cross_votes"};
+
+        Cursor cursor = database.query(PREFERENTIAL_ELECTION_BANDERA_VOTES,
+                tableColumns, "party_preferential_election_id=?", new String[]{partyID}, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+//            float cross = cursor.getFloat(7);
+//            float pref = cursor.getFloat(6);
+//            float band = cursor.getFloat(4);
+            totalVotes = cursor.getFloat(6);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return totalVotes;
+    }
+
 
     public void updateCandidateFinalVote(Candidate candidate) {
         String candidateEleID = candidate.getCandidatePreferentialElectionID();

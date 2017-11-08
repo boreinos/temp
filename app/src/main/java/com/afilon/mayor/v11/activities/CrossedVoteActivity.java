@@ -205,8 +205,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
 
         db_adapter.open();
         Bundle b = getIntent().getExtras();
-        vc = db_adapter.getNewJrv("406");   //  b.getParcelable("com.afilon.tse.votingcenter");
-        escrudata =  new Escrudata("406");  // b.getParcelable("com.afilon.tse.escrudata");
+        vc =   b.getParcelable("com.afilon.tse.votingcenter");//db_adapter.getNewJrv("9248");
+        escrudata =  b.getParcelable("com.afilon.tse.escrudata"); //new Escrudata("9248");  //
         currentJrv = vc.getJRV();
 
         util.saveCurrentScreen(this.getClass(),b);
@@ -218,8 +218,11 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         for (int i = 0; i < partyArrayList.size(); i++) {
             //Save Image Drawable Resource ID:
             String name = partyArrayList.get(i).getParty_name();
+            String partyID = partyArrayList.get(i).getParty_preferential_election_id();
             partyArrayList.get(i).createPartyVotes();
             partyArrayList.get(i).setPartyDrawableId(getResources().getIdentifier(name.toLowerCase(), "drawable", getApplicationContext().getPackageName()));
+            partyArrayList.get(i).addPlanchaVote(db_adapter.getBanderaVotes(partyID));
+            partyArrayList.get(i).addPreferentialVotes(db_adapter.getPreferentialVotes(partyID));
         }
         partiesQty = partyArrayList.size();
 
