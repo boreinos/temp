@@ -3,7 +3,7 @@
     <string name="app_name" translatable="false">Alcaldes</string>
     <!--               application settings    -->
     <string name="electionType">MAYOR</string>
-    <string name ="electype"></string>
+    <string name="electype"></string>
     <string name="webApp">ELSAMUNICIPAL_WS</string>
     <string name="webUpdate">updateMunicipality</string>
     <string name="webRequest">MesaMunicipal</string>
@@ -163,4 +163,8 @@
     <string name="impugnadoCount">Votos Impugnados:</string>
 
     <string name="ismesa">NO</string>
+
+    <string name="title_activity_papeleta_results">PapeletaResults</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

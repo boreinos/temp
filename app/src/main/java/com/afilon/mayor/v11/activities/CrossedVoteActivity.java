@@ -151,7 +151,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         //TODO: DEBUG ONLY
-        ContextHandler.setElectionContext(this.getApplicationContext());
+        //ContextHandler.setElectionContext(this.getApplicationContext());
 
         if (Consts.LOCALE.contains("ELSA")) {
             setContentView(R.layout.activity_cross_vote_es);
@@ -712,6 +712,7 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
                 case Ballot.CROS_MARK:
                     insertIntoCrossTable(mCrossVoteBundle);
                     includePartyVoteBreakDown(electionType);
+                    updateBallotData(ballot.getPartyArrayList());
                     break;
                 default:
                     markBallotNulo();
@@ -990,8 +991,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         flagsAdapter.attachListener(false);
         flagsAdapter.notifyDataSetChanged(); // just to update scroll
         //disable touch event after saving into db
-        disableChildsOnTouch(gridView);
-        disableChildsOnTouch(gridPartyFlags);
+        //disableChildsOnTouch(gridView);
+        //disableChildsOnTouch(gridPartyFlags);
         Log.i("CROSSVOTE", "RESULTS WERE ACCEPTED");
         //change the name
         seguienteBtn.setText(NEXT);
@@ -1031,8 +1032,8 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
             db_adapter.updatePlanchaPreferentialVotes();
         }
-
-        Intent search = new Intent(this, CrossVoteSummaryActivity.class);
+        Intent search = new Intent(this, PapeletaResults.class);
+        //Intent search = new Intent(this, CrossVoteSummaryActivity.class);
         Bundle b = prepareBundle();
         search.putExtras(b);
         startActivity(search);
@@ -1688,8 +1689,14 @@ public class CrossedVoteActivity extends AfilonActivity implements OnTwoButtonDi
         };
     }
 
-    private void UpdateBallotData(){
-
+    int crossBallotCount = 0;
+    private void updateBallotData(ArrayList<Party> partyArrayList){
+        crossBallotCount++;
+        for(Party party: partyArrayList){
+            db_adapter.insertBallotResult(currentBallotNumber,party.getPartyMarks(),
+                    party.getBallotVotes(),party.getParty_name(),vc.getJRV(),party.getPref_election_id(),
+                    party.getParty_preferential_election_id());
+        }
     }
 
     //------------------------------------------------------------------------------------

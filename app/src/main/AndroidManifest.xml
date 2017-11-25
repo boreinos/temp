@@ -199,8 +199,13 @@
     <!-- </application> -->
     <application>
         <activity android:name=".activities.DirectVoteCounter" />
-        <activity android:name=".activities.VoteCounterActivity"></activity>
-        <activity android:name=".activities.VoteCounterActivityES"></activity>
+        <activity android:name=".activities.VoteCounterActivity" />
+        <activity android:name=".activities.VoteCounterActivityES" />
+        <activity
+            android:name=".activities.PapeletaResults"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_papeleta_results"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>

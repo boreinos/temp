@@ -18,6 +18,10 @@
     <dimen name="smallEditText">80dp</dimen>
     <dimen name="btnSmallPadding">2dp</dimen>
     <dimen name="iniciarBtnMargin">380dp</dimen>
+    <dimen name="outcome">8sp</dimen>
+    <dimen name="outcome_head_width">100dp</dimen>
+    <dimen name="outcome_sub_width">50dp</dimen>
+    <dimen name="outcome_head">14sp</dimen>
 
 
 </resources>

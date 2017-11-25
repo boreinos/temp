@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+
+    tools:context="com.afilon.mayor.v11.activities.PapeletaResults">
+<LinearLayout
+    android:id="@+id/header"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</LinearLayout>
+<TableLayout
+    android:layout_below="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="80dp"
+    android:id="@+id/result_table">
+
+</TableLayout>
+<Button
+    android:id="@+id/continue_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:text="CONTINUAR"/>
+
+</RelativeLayout>

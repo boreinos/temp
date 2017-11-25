@@ -19,7 +19,7 @@ import com.afilon.mayor.v11.utils.ContextHandler;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-	private static final int VERSION = 25;
+	private static final int VERSION = 26;
 	private static final String DATABASE_NAME = "parlacen_dbv10.db";
 //	private static final String DATABASE_NAME = "parlacen_dbv32.db";
 	private static File DATABASE_FILE;

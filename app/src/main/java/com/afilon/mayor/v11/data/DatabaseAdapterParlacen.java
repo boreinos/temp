@@ -25,6 +25,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 import com.afilon.mayor.v11.R;
+import com.afilon.mayor.v11.model.BallotResults;
 import com.afilon.mayor.v11.model.Candidate;
 import com.afilon.mayor.v11.model.CandidateMarks;
 import com.afilon.mayor.v11.model.CrossVoteBundle;
@@ -601,6 +602,7 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return totalVotes;
     }
+
     public float getBanderaVotes(String partyID){
         float totalVotes = 0.0f;
         String[] tableColumns = new String[]{"jrv",
@@ -621,6 +623,7 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return totalVotes;
     }
+
     public float getPreferentialVotes(String partyID){
         float totalVotes = 0.0f;
         String[] tableColumns = new String[]{"jrv",
@@ -642,6 +645,43 @@ public class DatabaseAdapterParlacen {
         return totalVotes;
     }
 
+    public void insertBallotResult(int ballotCount,int marcas,float votes,String partyName,String jrv, String pref_election_ID, String party_election_id){
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("Papeleta", ballotCount);
+        contentValues.put("Marcas", marcas);
+        contentValues.put("Votos", votes);
+        contentValues.put("Partido",partyName);
+        contentValues.put("JRV", jrv);
+        contentValues.put("Preferential_Election_ID",pref_election_ID);
+        contentValues.put("Party_Preferential_Election_ID",party_election_id);
+
+        database.insert("Papeleta_Outcome", null, contentValues);
+    }
+
+    public ArrayList<BallotResults> getBallotResults(){
+        Log.e("Narrator","About to retrieve Ballot results");
+        ArrayList<BallotResults> ballotResults = new ArrayList<>();
+        String[] tableColumns = new String[]{"Papeleta","Marcas","Votos","Partido","JRV"};
+        Cursor cursor = database.query("Papeleta_Outcome",tableColumns,null,null,null,null,"Papeleta");
+        Log.e("Narrator","Query was performed sucessful");
+        cursor.moveToFirst();
+        while(!cursor.isAfterLast()){
+            int papeletaCount = cursor.getInt(0);
+            int marcas = cursor.getInt(1);
+            float votes = cursor.getFloat(2);
+            String partyName = cursor.getString(3);
+            String jrv = cursor.getString(4);
+            BallotResults result = new BallotResults(papeletaCount,marcas,votes,partyName,jrv);
+            ballotResults.add(result);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return ballotResults;
+    }
+    public void deleteBallotResults(){
+        database.delete("Papeleta_Outcome",null,null);
+    }
 
     public void updateCandidateFinalVote(Candidate candidate) {
         String candidateEleID = candidate.getCandidatePreferentialElectionID();
