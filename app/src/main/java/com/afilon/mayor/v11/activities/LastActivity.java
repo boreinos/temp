@@ -34,6 +34,7 @@ import com.afilon.mayor.v11.R;
 import com.afilon.mayor.v11.data.DatabaseAdapterParlacen;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogFragment;
 import com.afilon.mayor.v11.fragments.TwoButtonDialogFragment.OnTwoButtonDialogFragmentListener;
+import com.afilon.mayor.v11.model.BallotResults;
 import com.afilon.mayor.v11.model.CandidateMarks;
 import com.afilon.mayor.v11.model.Escrudata;
 import com.afilon.mayor.v11.model.Party;
@@ -162,6 +163,7 @@ public class LastActivity extends AfilonActivity implements
                 sendJsonTask(results.getChecklistUri(),results.getCheckList(),7);
                 sendJsonTask(results.getIsprocessableUri(),results.getCheckList(),34);
 
+
                 //Send JSON for logs
                 Gson jsonlog = new Gson();
                 sendJsonTask(Consts.ELSA_LOG,jsonlog.toJson(log), 7);
@@ -190,6 +192,8 @@ public class LastActivity extends AfilonActivity implements
                     sendJsonTask(results.getUriCandidates(),results.getCandidateVotes(),3);
                     sendJsonTask(results.getUriBanderas(),results.getBanderaVotes(),5);
                     sendJsonTask(results.getUriMarks(),results.getCandidateMarks(), 17);
+                    //send cross vote outcome
+                    sendJsonTask(results.getOutcomeUri(),results.getPapeletaOutcome(),37);
 
                 }
 
@@ -542,6 +546,7 @@ public class LastActivity extends AfilonActivity implements
         private String uriCandidates = Consts.PREF_ELECTION_URL + "/CandidateVotes";
         private String uriBanderas = Consts.PREF_ELECTION_URL + "/BanderaVotes";
         private String uriMarks = Consts.PREF_ELECTION_URL + "/CandidateMarcas";
+        private String uriOutcome = Consts.PREF_ELECTION_URL+"/PapeletaOutcome";
         private String checkList;
 
 
@@ -671,8 +676,19 @@ public class LastActivity extends AfilonActivity implements
         public String getIsprocessableUri(){
             return isprocessableUri;
         }
+        public String getOutcomeUri(){
+            return uriOutcome;
+        }
         public String getCheckList(){
             return checkList;
+        }
+
+        public String getPapeletaOutcome(){
+            ArrayList<BallotResults> papeletas = new ArrayList<>();
+            if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
+                papeletas =db_adapter.getBallotResults();
+            }
+            return gson.toJson(papeletas);
         }
 
         private String compileList(){
