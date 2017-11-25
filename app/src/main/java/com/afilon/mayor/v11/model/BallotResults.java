@@ -10,6 +10,8 @@ public class BallotResults{
     private float votes;
     private String partyName;
     private String Jrv;
+    private String Preferential_Election_ID;
+    private String Party_Preferential_Election_ID;
 
     public BallotResults(int count, int marks, float vote, String name, String jrv){
         this.ballotCount=count;
@@ -17,6 +19,12 @@ public class BallotResults{
         this.votes=vote;
         this.partyName=name;
         this.Jrv=jrv;
+    }
+    public void setPreferential_Election_ID(String election_id){
+        this.Preferential_Election_ID = election_id;
+    }
+    public void setParty_Preferential_Election_ID(String party_election_id){
+        this.Party_Preferential_Election_ID = party_election_id;
     }
     public int ballotNumber(){
         return this.ballotCount;

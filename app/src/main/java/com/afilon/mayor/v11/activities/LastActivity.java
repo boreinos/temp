@@ -686,7 +686,7 @@ public class LastActivity extends AfilonActivity implements
         public String getPapeletaOutcome(){
             ArrayList<BallotResults> papeletas = new ArrayList<>();
             if(Consts.LOCALE.equals(Consts.ELSALVADOR)){
-                papeletas =db_adapter.getBallotResults();
+                papeletas =db_adapter.getFinalBallotResults();
             }
             return gson.toJson(papeletas);
         }

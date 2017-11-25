@@ -679,6 +679,31 @@ public class DatabaseAdapterParlacen {
         cursor.close();
         return ballotResults;
     }
+    public ArrayList<BallotResults> getFinalBallotResults(){
+        Log.e("Narrator","About to retrieve Ballot results");
+        ArrayList<BallotResults> ballotResults = new ArrayList<>();
+        String[] tableColumns = new String[]{"Papeleta","Marcas","Votos","Partido","JRV","Preferential_Election_ID","Party_Preferential_Election_ID"};
+        Cursor cursor = database.query("Papeleta_Outcome",tableColumns,null,null,null,null,"Papeleta");
+        Log.e("Narrator","Query was performed sucessful");
+        cursor.moveToFirst();
+        while(!cursor.isAfterLast()){
+            int papeletaCount = cursor.getInt(0);
+            int marcas = cursor.getInt(1);
+            float votes = cursor.getFloat(2);
+            String partyName = cursor.getString(3);
+            String jrv = cursor.getString(4);
+            String electionId = cursor.getString(5);
+            String partyId = cursor.getString(6);
+            BallotResults result = new BallotResults(papeletaCount,marcas,votes,partyName,jrv);
+            result.setPreferential_Election_ID(electionId);
+            result.setParty_Preferential_Election_ID(partyId);
+            ballotResults.add(result);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return ballotResults;
+    }
+
     public void deleteBallotResults(){
         database.delete("Papeleta_Outcome",null,null);
     }
